@@ -136,16 +136,16 @@
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPitchValue" x="19.0" y="374.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0st"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerATuneValue" x="85.0" y="374.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0c"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPanValue" x="152.0" y="374.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="C"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAGainValue" x="219.0" y="374.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0.0db"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerA" x="86.0" y="45.0" max="30"
                    parentComponent="pnlSamplerA" height="26" width="128" items="Angelic A&#10;Angelic B&#10;Angelic C&#10;Croon A&#10;Croon B&#10;Croon C&#10;Ephemeral A&#10;Ephemeral B&#10;Ephemeral C&#10;Hybrid Strings A&#10;Hybrid Strings B&#10;Hybrid Strings C&#10;Mockingbird A&#10;Mockingbird B&#10;Mockingbird C&#10;Nexus A&#10;Nexus B&#10;Nexus C&#10;Nimbus A&#10;Nimbus B&#10;Nimbus C&#10;Oculus A&#10;Oculus B&#10;Oculus C&#10;Silk A&#10;Silk B&#10;Silk C&#10;Wisp A&#10;Wisp B&#10;Wisp C"
@@ -221,16 +221,16 @@
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBPitchValue" x="19.0" y="374.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0st"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBTuneValue" x="85.0" y="374.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0c"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBPanValue" x="152.0" y="374.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="36R"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBGainValue" x="219.0" y="374.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0.0db"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="32.0" width="300.0"
@@ -303,16 +303,16 @@
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCPitchValue" x="19.0" y="374.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0st"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCTuneValue" x="85.0" y="374.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0c"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCPanValue" x="152.0" y="374.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="C"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCGainValue" x="219.0" y="374.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0.0db"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
     </Component>

@@ -257,32 +257,105 @@ knbSamplerA[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
 
-inline function onSlider_SamplerAGainControl(component, value)
-{
-	SamplerA_Utility.setAttribute(SamplerA_Utility.Gain, value);
-	lblSamplerAGainValue.set("text", Math.round(value) + "dB");
-};
 
 //Pan
-inline function onSlider_SamplerAPanControl(component, value)
+
+inline function onknbSamplerPanControl(component, value)
 {
-	SamplerA_Utility.setAttribute(SamplerA_Utility.Balance, value);
-	if (value == 0)
-	    Label_SamplerAPanValue.set("text", "C");
-	else if (value < 0)
-	    Label_SamplerAPanValue.set("text", Math.round(value) + "L");
-	else
-	    Label_SamplerAPanValue.set("text", Math.round(value) + "R");
-};
+	switch(component)
+	{
+		case knbSamplerA[6]:
+		{
+			utilities[0].setAttribute(utilities[0].Balance, value);		
+			if (value == 0)
+			    lblSamplerAValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerAValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerAValue[6].set("text", Math.round(value) + "R");
+		}
+		case knbSamplerB[6]:
+		{
+			utilities[1].setAttribute(utilities[1].Balance, value);
+			if (value == 0)
+			    lblSamplerBValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerBValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerBValue[6].set("text", Math.round(value) + "R");
+		}
+		case knbSamplerC[6]:
+		{
+			utilities[2].setAttribute(utilities[2].Balance, value);
+			if (value == 0)
+			    lblSamplerCValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerCValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerCValue[6].set("text", Math.round(value) + "R");
+		}
+	}
+}
+
+knbSamplerA[6].setControlCallback(onknbSamplerPanControl);
+knbSamplerB[6].setControlCallback(onknbSamplerPanControl);
+knbSamplerC[6].setControlCallback(onknbSamplerPanControl);
 
 //Pitch
 
-
-inline function onSlider_SamplerAPitchCoarseControl(component, value)
+inline function onknbSamplerPitchControl(component, value)
 {
-    Label_SamplerAPitchCoarseValue.set("text", Math.round(value) + "st");
-    SamplerA_PitchMod.setIntensity(value);
-};
+	switch (component)
+	{
+		case knbSamplerA[4]:
+		{
+			pitchMods[0].setIntensity(value);
+			lblSamplerAValue[4].set("text", Math.round(value) + "st");
+		}
+		case knbSamplerB[4]:
+		{
+			pitchMods[1].setIntensity(value);
+			lblSamplerBValue[4].set("text", Math.round(value) + "st");
+		}
+		case knbSamplerC[4]:
+		{
+			pitchMods[2].setIntensity(value);
+			lblSamplerCValue[4].set("text", Math.round(value) + "st");
+		}
+	}
+}
+
+knbSamplerA[4].setControlCallback(onknbSamplerPitchControl);
+knbSamplerB[4].setControlCallback(onknbSamplerPitchControl);
+knbSamplerC[4].setControlCallback(onknbSamplerPitchControl);
+
+// Tune
+inline function onknbSamplerTuneControl(component, value)
+{
+	switch (component)
+	{
+		case knbSamplerA[5]:
+		{
+			tuneMods[0].setIntensity(value / 100);
+			lblSamplerAValue[5].set("text", Math.round(value) + "c");
+		}
+		case knbSamplerB[5]:
+		{
+			tuneMods[1].setIntensity(value / 100);
+			lblSamplerBValue[5].set("text", Math.round(value) + "c");
+		}
+		case knbSamplerC[5]:
+		{
+			tuneMods[2].setIntensity(value / 100);
+			lblSamplerCValue[5].set("text", Math.round(value) + "c");
+		}
+	}
+}
+
+knbSamplerA[5].setControlCallback(onknbSamplerTuneControl);
+knbSamplerB[5].setControlCallback(onknbSamplerTuneControl);
+knbSamplerC[5].setControlCallback(onknbSamplerTuneControl);
+
 
 inline function onSlider_SamplerAPitchFineControl(component, value)
 {

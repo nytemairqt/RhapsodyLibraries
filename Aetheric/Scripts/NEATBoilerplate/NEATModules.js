@@ -17,6 +17,16 @@
 
 // NEATBrain Modules
 
+const samplers = [Synth.getChildSynth("SamplerA"), Synth.getChildSynth("SamplerB"), Synth.getChildSynth("SamplerC")];
+const ahdsrs = [Synth.getModulator("SamplerA_AHDSR"), Synth.getModulator("SamplerB_AHDSR"), Synth.getModulator("SamplerC_AHDSR")];
+const velocities = [Synth.getModulator("SamplerA_Velocity"), Synth.getModulator("SamplerB_Velocity"), Synth.getModulator("SamplerC_Velocity")];
+const pitchWheels = [Synth.getModulator("SamplerA_PitchWheel"), Synth.getModulator("SamplerB_PitchWheel"), Synth.getModulator("SamplerC_PitchWheel")];
+const pitchMods = [Synth.getModulator("SamplerA_PitchMod"), Synth.getModulator("SamplerB_PitchMod"), Synth.getModulator("SamplerC_PitchMod")];
+const tuneMods = [Synth.getModulator("SamplerA_TuneMod"), Synth.getModulator("SamplerB_TuneMod"), Synth.getModulator("SamplerC_TuneMod")];
+const loopsPitchMods = [Synth.getModulator("SamplerA_LoopsPitchMod"), Synth.getModulator("SamplerB_LoopsPitchMod"), Synth.getModulator("SamplerC_LoopsPitchMod")];
+const utilities = [Synth.getEffect("SamplerA_Utility"), Synth.getEffect("SamplerB_Utility"), Synth.getEffect("SamplerC_Utility")];
+const sampleStarts = [Synth.getModulator("SamplerA_SampleStart"), Synth.getModulator("SamplerB_SampleStart"), Synth.getModulator("SamplerC_SampleStart")];
+
 // Sampler A
 const SamplerA = Synth.getChildSynth("SamplerA");
 const SamplerA_AHDSR = Synth.getModulator("SamplerA_AHDSR");

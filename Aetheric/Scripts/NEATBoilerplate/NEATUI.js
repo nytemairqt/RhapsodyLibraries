@@ -228,6 +228,126 @@ btnPages[2].setControlCallback(onbtnArpPageControl);
 btnPages[3].setControlCallback(onbtnMovePageControl);
 btnPages[4].setControlCallback(onbtnRandomPageControl);
 
+/* Sample Page */
+
+//Gain
+inline function onknbSamplerGainControl(component, value)
+{
+	switch(component)
+	{
+		case knbSamplerA[7]:
+		{
+			utilities[0].setAttribute(utilities[0].Gain, value);
+			lblSamplerAValue[7].set("text", Math.round(value) + "db");
+		}
+		case knbSamplerB[7]:
+		{
+			utilities[1].setAttribute(utilities[1].Gain, value);
+			lblSamplerBValue[7].set("text", Math.round(value) + "db");
+		}
+		case knbSamplerC[7]:
+		{
+			utilities[2].setAttribute(utilities[2].Gain, value);
+			lblSamplerCValue[7].set("text", Math.round(value) + "db");
+		}
+	}
+}
+
+knbSamplerA[7].setControlCallback(onknbSamplerGainControl);
+knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
+knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
+
+inline function onSlider_SamplerAGainControl(component, value)
+{
+	SamplerA_Utility.setAttribute(SamplerA_Utility.Gain, value);
+	lblSamplerAGainValue.set("text", Math.round(value) + "dB");
+};
+
+//Pan
+inline function onSlider_SamplerAPanControl(component, value)
+{
+	SamplerA_Utility.setAttribute(SamplerA_Utility.Balance, value);
+	if (value == 0)
+	    Label_SamplerAPanValue.set("text", "C");
+	else if (value < 0)
+	    Label_SamplerAPanValue.set("text", Math.round(value) + "L");
+	else
+	    Label_SamplerAPanValue.set("text", Math.round(value) + "R");
+};
+
+//Pitch
+
+
+inline function onSlider_SamplerAPitchCoarseControl(component, value)
+{
+    Label_SamplerAPitchCoarseValue.set("text", Math.round(value) + "st");
+    SamplerA_PitchMod.setIntensity(value);
+};
+
+inline function onSlider_SamplerAPitchFineControl(component, value)
+{
+	Label_SamplerAPitchFineValue.set("text", Math.round(value) + "c");
+	SamplerA_TuneMod.setIntensity(value / 100);
+};
+
+
+
+//Audio WaveForm
+
+//Sample Selection A
+
+
+inline function onComboBox_SamplerAControl(component, value)
+{
+    if (libraryHandler.currentExpansion == "Aetheric")
+    {
+        SamplerA.asSampler().loadSampleMap("{EXP::Aetheric}Aetheric_SampleMap" + Math.round(value));
+    } 
+};
+
+// Sample Start Offset A
+
+inline function onSlider_SampleOffsetAControl(component, value)
+{
+	SamplerA_SampleStart.setIntensity(1-value);
+};
+
+// ADSR 
+
+inline function onSlider_SamplerAAttackControl(component, value)
+{
+	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Attack, value);
+	Label_SamplerAAttackValue.set("text", Math.round(value) + "ms");
+};
+
+inline function onSlider_SamplerADecayControl(component, value)
+{
+	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Decay, value);
+	Label_SamplerADecayValue.set("text", Math.round(value) + "ms");
+};
+
+inline function onSlider_SamplerASustainControl(component, value)
+{
+	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Sustain, value);
+	Label_SamplerASustainValue.set("text", Math.round(value) + "dB");
+};
+
+inline function onSlider_SamplerAReleaseControl(component, value)
+{
+	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Release, value);
+	Label_SamplerAReleaseValue.set("text", Math.round(value) + "ms");
+};
+
+//Reverse Sample Switch
+
+
+inline function onButton_SamplerAReverseControl(component, value)
+{
+	SamplerA.setAttribute(SamplerA.Reversed, value);
+};
+
+//knbSamplerA.setControlCallback();
+
 /* Rhapsody Stuff */
 
 // Rhapsody Gain

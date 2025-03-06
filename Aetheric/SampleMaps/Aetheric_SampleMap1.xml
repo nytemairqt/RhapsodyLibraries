@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Aetheric_SampleMap1" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="1">
+           SaveMode="1" CrossfadeGamma="1.0">
   <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}B5_AngelicA.wav" Duplicate="0" LoopEnabled="1"
-          LoopStart="84955" LoopEnd="583132" LoopXFade="43330" SampleStartMod="705600"
+          LoopStart="206453" LoopEnd="583132" LoopXFade="0" SampleStartMod="499147"
           SampleEnd="705600" MonolithOffset="0" MonolithLength="708608"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStart="0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}A#5_AngelicA.wav" Duplicate="0" LoopEnabled="1"
           LoopStart="84955" LoopEnd="583132" LoopXFade="43330" SampleStartMod="705600"

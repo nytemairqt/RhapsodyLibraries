@@ -15,7 +15,7 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-const LAFSliderNEATBrain = Content.createLocalLookAndFeel();
+const LAFSliderNEAT = Content.createLocalLookAndFeel();
 const LAFButtonShowAdvancedPanel = Content.createLocalLookAndFeel();
 const LAFButtonStiffness = Content.createLocalLookAndFeel();
 const LAFButtonRandomRatios = Content.createLocalLookAndFeel();
@@ -23,7 +23,8 @@ const LAFButtonResetRatios = Content.createLocalLookAndFeel();
 const LAFButtonPrev = Content.createLocalLookAndFeel();
 const LAFButtonNext = Content.createLocalLookAndFeel();
 const LAFButtonCustomProfile = Content.createLocalLookAndFeel();
-const LAFButtonSwitchPage = Content.createLocalLookAndFeel();
+const LAFButtonChangePage = Content.createLocalLookAndFeel();
+const LAFComboBoxSampler = Content.createLocalLookAndFeel();
 
 const pnlBody = Content.getComponent("pnlBody");
 
@@ -35,6 +36,18 @@ const pnlBody = Content.getComponent("pnlBody");
 //const offWhite = 0xFFEDEDED;
 
 const clrRhapsodyBlue = 0xFF1D1D21;
+const clrOffWhite = 0xFFEDEDED;
+
+// Old NEAT Player Colours in case I need them...
+const clrBggrey = 0xFF121212;    
+const clrExtradarkgrey = 0xFF171717;
+const clrDarkgrey = 0xFF252525;   
+const clrMidgrey = 0xFF555555;
+const clrGrey = 0xFF808080;        
+const clrLightgrey = 0xFFD3D3D3;    
+const clrWhite = 0xFFFFFFFF;
+const clrLightblue = 0xFFADD8E6;
+const clrBlack = 0xFF000000;  
 
 include("NEATBoilerplate/NEATPathsAndImages.js");
 
@@ -46,7 +59,7 @@ inline function reduced(obj, amount)
 
 //Slider Main
 
-LAFSliderNEATBrain.registerFunction("drawRotarySlider", function(g, obj)
+LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
 {
     var ringWidth = obj.area[2] / 16;    
     
@@ -72,7 +85,7 @@ LAFSliderNEATBrain.registerFunction("drawRotarySlider", function(g, obj)
    	
    	
     //g.setColour(obj.hover ? 0xFFD0E6E6 : 0xFFB1C1C1);
-    g.setColour(obj.hover ? offWhite : Colours.lightgrey);
+    g.setColour(obj.hover ? clrOffWhite : Colours.lightgrey);
     g.drawPath(sliderRing3, reduced(obj, ringWidth), ringWidth * (1.6));
     
     g.rotate((1.0 - (obj.valueNormalized - 0.02)) * -1.5 * Math.PI, [obj.area[2] / 2, obj.area[3] / 2]);  
@@ -210,8 +223,8 @@ LAFButtonCustomProfile.registerFunction("drawToggleButton", function(g, obj)
 	
 });
 
-// Switch Page
-LAFButtonSwitchPage.registerFunction("drawToggleButton", function(g, obj)
+// Change Page
+LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 {
 	var w = obj.area[2];
 	var h = obj.area[3];
@@ -222,4 +235,20 @@ LAFButtonSwitchPage.registerFunction("drawToggleButton", function(g, obj)
 		g.setColour(0xFFE2E3F3);
 		
 	g.drawAlignedText(obj.text, [0, 0, w, h], "centred");
+});
+
+//ComboBoxes
+
+LAFComboBoxSampler.registerFunction("drawComboBox", function(g, obj)
+{
+    g.setColour(obj.hover ? Colours.withAlpha(clrWhite, .1) : Colours.withAlpha(clrWhite, .05));
+    g.fillRoundedRectangle(obj.area, 2.0);
+
+    g.setColour(Colours.withAlpha(clrWhite, .8));
+    g.setFont("Arial Bold", 13.0);
+    if (obj.text == "(no choices)")
+        g.drawAlignedText("Select", obj.area, "centred");
+    else
+        g.drawAlignedText(obj.text, obj.area, "centred");
+
 });

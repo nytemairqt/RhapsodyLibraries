@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="AethericAmbiances_SampleMap" RRGroupAmount="1" MicPositions=";"
+           SaveMode="1">
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience01_Rain.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="758931" LoopEnd="4259862" LoopXFade="365505" MonolithOffset="0"
+          MonolithLength="4780032" SampleRate="44100" SampleStartMod="4780032"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience02_Street.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="4780032" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience03_Quiet Night.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="5488640" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience04_TapeHiss1.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="6197248" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience05_TapeHiss2.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="6905856" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience06_TapeHiss3.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="7614464" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}Ambience07_VinylCrackle.wav" Duplicate="1"
+          LoopEnabled="1" LoopStart="705600" LoopEnd="705600" LoopXFade="0"
+          MonolithOffset="8323072" MonolithLength="708608" SampleRate="44100"
+          SampleStartMod="708608"/>
+</samplemap>

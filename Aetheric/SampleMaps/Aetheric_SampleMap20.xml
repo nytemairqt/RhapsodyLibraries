@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap ID="Aetheric_SampleMap20" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="1">
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="0" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F#5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="708608" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="1417216" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}E5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="2125824" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D#5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="2834432" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="3543040" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C#5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="4251648" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="4960256" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}B4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="5668864" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A#4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="6377472" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="7086080" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G#4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="7794688" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="8503296" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F#4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="9211904" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="9920512" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}E4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="10629120" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D#4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="11337728" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="12046336" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C#4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="12754944" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C4_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="13463552" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}B3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="14172160" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A#3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="14880768" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="15589376" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G#3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="16297984" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="17006592" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F#3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="17715200" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}F3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="18423808" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}E3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="19132416" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D#3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="19841024" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}D3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="20549632" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C#3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="21258240" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C3_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="21966848" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}C6_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="22675456" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}B5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="23384064" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A#5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="24092672" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}A5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="24801280" MonolithLength="708608"
+          SampleRate="44100.0"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}G#5_NimbusB.wav" Duplicate="0" LoopEnabled="1"
+          SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"
+          SampleEnd="705600" MonolithOffset="25509888" MonolithLength="708608"
+          SampleRate="44100.0"/>
+</samplemap>

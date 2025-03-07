@@ -15,6 +15,8 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
+include("NEATBoilerplate/includes/NEATPaths.js");
+
 const LAFSliderNEAT = Content.createLocalLookAndFeel();
 const LAFButtonShowAdvancedPanel = Content.createLocalLookAndFeel();
 const LAFButtonStiffness = Content.createLocalLookAndFeel();
@@ -48,9 +50,6 @@ const clrLightgrey = 0xFFD3D3D3;
 const clrWhite = 0xFFFFFFFF;
 const clrLightblue = 0xFFADD8E6;
 const clrBlack = 0xFF000000;  
-
-include("NEATBoilerplate/NEATPathsAndImages.js");
-
 
 inline function reduced(obj, amount)
 {

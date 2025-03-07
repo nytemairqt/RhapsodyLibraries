@@ -12,10 +12,11 @@ include("RhapsodyBoilerplate/includes/UserSettings.js");
 include("RhapsodyBoilerplate/includes/ZoomHandler.js");
 
 /* NEAT Includes */
-include("NEATBoilerplate/NEATRhapsodyRefs.js");
-include("NEATBoilerplate/NEATUI.js");
-include("NEATBoilerplate/NEATTooltip.js");
-include("NEATBoilerplate/NEATStoreButton.js");
+include("NEATBoilerplate/includes/NEATRhapsodyRefs.js");
+include("NEATBoilerplate/includes/NEATUi.js");
+include("NEATBoilerplate/includes/NEATTooltip.js");
+include("NEATBoilerplate/includes/NEATStoreButton.js");
+
 
 function onNoteOn()
 {

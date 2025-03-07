@@ -9,25 +9,27 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
+            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbSamplerADecay" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerASustain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerARelease" value="731.0"/>
+            <Control type="ScriptSlider" id="knbSamplerARelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerAPitch" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerATune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerB" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBAttack" value="0.3700000047683716"/>
+            <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.2099999934434891"/>
+            <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerBPitch" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBPan" value="36.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
@@ -37,7 +39,7 @@
             <Control type="ScriptSlider" id="knbSamplerCTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbMasterGain" value="-5.999998569488525"/>
+            <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
             <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbCoarseDetune" value="0.0"/>
             <Control type="ScriptSlider" id="knbFineDetune" value="0.0"/>
@@ -55,8 +57,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="SimpleGain" ID="masterGain" Bypassed="0" Gain="-5.999998569488525"
-                   Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+        <Processor Type="SimpleGain" ID="masterGain" Bypassed="0" Gain="-6.0" Delay="0.0"
+                   Width="100.0" Balance="0.0" InvertPolarity="0.0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
               <ChildProcessors/>
@@ -462,7 +464,7 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
                 <Processor Type="SimpleGain" ID="SamplerB_Utility" Bypassed="0" Gain="0.0"
-                           Delay="0.0" Width="100.0" Balance="36.0" InvertPolarity="0.0">
+                           Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>

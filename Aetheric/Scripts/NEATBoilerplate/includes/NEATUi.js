@@ -22,6 +22,83 @@ include("NEATBoilerplate/includes/NEATUiRefs.js");
 						 						  									
 /* UI Functionality */
 
+// Generic
+
+inline function onBtnCmbPrevControl(component, value)
+{
+	// will include all combobox increment functions
+	
+	if (value)	
+		switch (component)
+		{
+			case btnCmbPrev[0]:
+			{
+				if (cmbSampler[0].getValue() > cmbSampler[0].get("min"))
+					cmbSampler[0].setValue(cmbSampler[0].getValue() - 1);
+				else
+					cmbSampler[0].setValue(cmbSampler[0].get("max"));
+				cmbSampler[0].changed();
+			}
+			case btnCmbPrev[1]:
+			{
+				if (cmbSampler[1].getValue() > cmbSampler[1].get("min"))
+					cmbSampler[1].setValue(cmbSampler[1].getValue() - 1);
+				else
+					cmbSampler[1].setValue(cmbSampler[1].get("max"));
+				cmbSampler[1].changed();
+			}
+			case btnCmbPrev[2]:
+			{
+				if (cmbSampler[2].getValue() > cmbSampler[2].get("min"))
+					cmbSampler[2].setValue(cmbSampler[2].getValue() - 1);
+				else
+					cmbSampler[2].setValue(cmbSampler[2].get("max"));
+				cmbSampler[2].changed();
+			}
+		}
+}
+
+inline function onBtnCmbNextControl(component, value)
+{
+	// will include all combobox increment functions
+	
+	if (value)	
+		switch (component)
+		{
+			case btnCmbNext[0]:
+			{
+				if (cmbSampler[0].getValue() < cmbSampler[0].get("max"))
+					cmbSampler[0].setValue(cmbSampler[0].getValue() + 1);
+				else
+					cmbSampler[0].setValue(cmbSampler[0].get("min"));
+				cmbSampler[0].changed();
+			}
+			case btnCmbNext[1]:
+			{
+				if (cmbSampler[1].getValue() < cmbSampler[1].get("max"))
+					cmbSampler[1].setValue(cmbSampler[1].getValue() + 1);
+				else
+					cmbSampler[1].setValue(cmbSampler[1].get("min"));
+				cmbSampler[1].changed();
+			}
+			case btnCmbNext[2]:
+			{
+				if (cmbSampler[2].getValue() < cmbSampler[2].get("max"))
+					cmbSampler[2].setValue(cmbSampler[2].getValue() + 1);
+				else
+					cmbSampler[2].setValue(cmbSampler[2].get("min"));
+				cmbSampler[2].changed();
+			}			
+		}
+}
+
+for (b in btnCmbPrev)
+	b.setControlCallback(onBtnCmbPrevControl);
+	
+for (b in btnCmbNext)
+	b.setControlCallback(onBtnCmbNextControl);
+
+// Change Page
 inline function changePage(index)
 {
 	for (p in pnlSampler)
@@ -34,7 +111,6 @@ inline function changePage(index)
 			btnPage[i].setValue(0);
 }
 
-// Change Page
 inline function onbtnChangePageControl(component, value)
 {
 	switch(component)
@@ -68,6 +144,32 @@ for (b in btnPage)
 	b.setControlCallback(onbtnChangePageControl);
 
 /* Sample Page */
+
+// ComboBox
+
+inline function oncmbSamplerControl(component, value)
+{
+	switch (component)
+	{
+		case cmbSampler[0]:
+		{
+			samplers[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+		}
+		case cmbSampler[1]:
+		{
+			samplers[1].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+		}
+		case cmbSampler[2]:
+		{
+			samplers[2].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+		}
+	}
+}
+
+for (c in cmbSampler)
+	c.setControlCallback(oncmbSamplerControl);
+
+
 
 // Attack
 inline function onknbSamplerAttackControl(component, value)

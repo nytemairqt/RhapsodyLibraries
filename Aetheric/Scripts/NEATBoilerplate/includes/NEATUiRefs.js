@@ -31,6 +31,14 @@ const cmbSampler = [Content.getComponent("cmbSamplerA"),
 					Content.getComponent("cmbSamplerB"),
 					Content.getComponent("cmbSamplerC")];
 
+const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
+					Content.getComponent("btnCmbSamplerBPrev"),
+					Content.getComponent("btnCmbSamplerCPrev")];
+					
+const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
+					Content.getComponent("btnCmbSamplerBNext"),
+					Content.getComponent("btnCmbSamplerCNext")];
+
 const knbSamplerA = [Content.getComponent("knbSamplerAAttack"),
 					 Content.getComponent("knbSamplerADecay"),
 					 Content.getComponent("knbSamplerASustain"),
@@ -116,3 +124,9 @@ const lblSamplerCValue = [Content.getComponent("lblSamplerCAttackValue"),
 
 for (b in btnPage)
 	b.setLocalLookAndFeel(LAFButtonChangePage);	
+	
+for (b in btnCmbPrev)
+	b.setLocalLookAndFeel(LAFButtonPrev);	
+	
+for (b in btnCmbNext)
+	b.setLocalLookAndFeel(LAFButtonNext);

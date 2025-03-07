@@ -27,6 +27,7 @@ const LAFButtonNext = Content.createLocalLookAndFeel();
 const LAFButtonCustomProfile = Content.createLocalLookAndFeel();
 const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFComboBoxSampler = Content.createLocalLookAndFeel();
+const LAFButtonBypass = Content.createLocalLookAndFeel();
 
 const pnlBody = Content.getComponent("pnlBody");
 
@@ -185,41 +186,15 @@ pnlBody.setPaintRoutine(function(g)
 // Prev Profile
 LAFButtonPrev.registerFunction("drawToggleButton", function(g, obj)
 {	
-	var offset = obj.area[2] / 4;
-	var lineThickness = 5;
-	
-	g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-	
-	g.drawLine(obj.area[2], offset, obj.area[3] / 2, obj.area[3] / 2, lineThickness);
-	
-	g.fillTriangle([0, offset, offset * 2, offset * 2], Math.toRadians(270));
+	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
+    g.fillTriangle(obj.area, 0);  
 });
 
 // Next Profile
 LAFButtonNext.registerFunction("drawToggleButton", function(g, obj)
 {	
-	var offset = obj.area[2] / 4;
-	var lineThickness = 5;
-	
-	g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-	g.drawLine(obj.area[2] - offset, 0, obj.area[3] / 2, obj.area[3] / 2, lineThickness);
-	g.fillTriangle([obj.area[2] - (offset * 2), offset, offset * 2, offset * 2], Math.toRadians(90));
-});
-
-// Custom Profile
-LAFButtonCustomProfile.registerFunction("drawToggleButton", function(g, obj)
-{
-	var offset = obj.area[2] / 4;
-	var p = Content.createPath();
-	
-	g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-	if (obj.value)
-			g.setColour(0xFFE2E3F3);
-	
-	p.loadFromData(pathWrenchIcon);
-	
-	g.drawPath(p, obj.area, 1.2);
-	
+	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
+	g.fillTriangle(obj.area, Math.toRadians(180));   
 });
 
 // Change Page
@@ -234,6 +209,19 @@ LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 		g.setColour(0xFFE2E3F3);
 		
 	g.drawAlignedText(obj.text, [0, 0, w, h], "centred");
+});
+
+//Bypass Button
+
+LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
+{
+    g.setColour(Colours.grey);
+    g.fillEllipse(obj.area);     
+    if (obj.value)
+    	g.setColour(obj.over ? Colours.lightgrey : Colours.lightblue);
+    else 
+    	g.setColour(obj.over ? Colours.grey : Colours.darkgrey);
+    g.fillEllipse([obj.area[0]+1, obj.area[1]+1, obj.area[2]-2, obj.area[3]-2]);
 });
 
 //ComboBoxes

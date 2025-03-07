@@ -34,113 +34,148 @@ inline function changePage(index)
 			btnPage[i].setValue(0);
 }
 
-inline function onbtnSamplePageControl(component, value)
+// Change Page
+inline function onbtnChangePageControl(component, value)
 {
-	changePage(0);
-	
-	for (p in pnlSampler)
-		p.set("visible", value);
+	switch(component)
+	{
+		case btnPage[0]:
+		{
+			changePage(0);
+			for (p in pnlSampler)
+				p.set("visible", value);
+		}
+		case btnPage[1]:
+		{
+			changePage(1);
+		}
+		case btnPage[2]:
+		{
+			changePage(2);
+		}
+		case btnPage[3]:
+		{
+			changePage(3);
+		}
+		case btnPage[4]:
+		{
+			changePage(5);
+		}		
+	}
 }
 
-
-
-inline function onbtnFXPageControl(component, value)
-{
-	changePage(1);
-}
-
-inline function onbtnArpPageControl(component, value)
-{
-	changePage(2);
-}
-
-inline function onbtnMovePageControl(component, value)
-{
-	changePage(3);
-}
-
-inline function onbtnRandomPageControl(component, value)
-{
-	changePage(4);
-}
-
-btnPage[0].setControlCallback(onbtnSamplePageControl);
-btnPage[1].setControlCallback(onbtnFXPageControl);
-btnPage[2].setControlCallback(onbtnArpPageControl);
-btnPage[3].setControlCallback(onbtnMovePageControl);
-btnPage[4].setControlCallback(onbtnRandomPageControl);
+for (b in btnPage)
+	b.setControlCallback(onbtnChangePageControl);
 
 /* Sample Page */
 
-//Gain
-inline function onknbSamplerGainControl(component, value)
+// Attack
+inline function onknbSamplerAttackControl(component, value)
 {
-	switch(component)
+	switch (component)
 	{
-		case knbSamplerA[7]:
+		case knbSamplerA[0]:
 		{
-			utilities[0].setAttribute(utilities[0].Gain, value);
-			lblSamplerAValue[7].set("text", Math.round(value) + "db");
+			ahdsrs[0].setAttribute(ahdsrs[0].Attack, value);
+			lblSamplerAValue[0].set("text", Math.round(value) + "ms");
 		}
-		case knbSamplerB[7]:
+		case knbSamplerB[0]:
 		{
-			utilities[1].setAttribute(utilities[1].Gain, value);
-			lblSamplerBValue[7].set("text", Math.round(value) + "db");
+			ahdsrs[1].setAttribute(ahdsrs[1].Attack, value);
+			lblSamplerBValue[0].set("text", Math.round(value) + "ms");
 		}
-		case knbSamplerC[7]:
+		case knbSamplerC[0]:
 		{
-			utilities[2].setAttribute(utilities[2].Gain, value);
-			lblSamplerCValue[7].set("text", Math.round(value) + "db");
+			ahdsrs[2].setAttribute(ahdsrs[2].Attack, value);
+			lblSamplerCValue[0].set("text", Math.round(value) + "ms");
 		}
 	}
 }
 
-knbSamplerA[7].setControlCallback(onknbSamplerGainControl);
-knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
-knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
+knbSamplerA[0].setControlCallback(onknbSamplerAttackControl);
+knbSamplerB[0].setControlCallback(onknbSamplerAttackControl);
+knbSamplerC[0].setControlCallback(onknbSamplerAttackControl);
 
-
-//Pan
-inline function onknbSamplerPanControl(component, value)
+// Decay
+inline function onknbSamplerDecayControl(component, value)
 {
-	switch(component)
+	switch (component)
 	{
-		case knbSamplerA[6]:
+		case knbSamplerA[1]:
 		{
-			utilities[0].setAttribute(utilities[0].Balance, value);		
-			if (value == 0)
-			    lblSamplerAValue[6].set("text", "C");
-			else if (value < 0)
-			    lblSamplerAValue[6].set("text", Math.round(value) + "L");
-			else
-			    lblSamplerAValue[6].set("text", Math.round(value) + "R");
+			ahdsrs[0].setAttribute(ahdsrs[0].Decay, value);
+			lblSamplerAValue[1].set("text", Math.round(value) + "ms");
 		}
-		case knbSamplerB[6]:
+		case knbSamplerB[1]:
 		{
-			utilities[1].setAttribute(utilities[1].Balance, value);
-			if (value == 0)
-			    lblSamplerBValue[6].set("text", "C");
-			else if (value < 0)
-			    lblSamplerBValue[6].set("text", Math.round(value) + "L");
-			else
-			    lblSamplerBValue[6].set("text", Math.round(value) + "R");
+			ahdsrs[1].setAttribute(ahdsrs[1].Decay, value);
+			lblSamplerBValue[1].set("text", Math.round(value) + "ms");
 		}
-		case knbSamplerC[6]:
+		case knbSamplerC[1]:
 		{
-			utilities[2].setAttribute(utilities[2].Balance, value);
-			if (value == 0)
-			    lblSamplerCValue[6].set("text", "C");
-			else if (value < 0)
-			    lblSamplerCValue[6].set("text", Math.round(value) + "L");
-			else
-			    lblSamplerCValue[6].set("text", Math.round(value) + "R");
+			ahdsrs[2].setAttribute(ahdsrs[2].Decay, value);
+			lblSamplerCValue[1].set("text", Math.round(value) + "ms");
 		}
 	}
 }
 
-knbSamplerA[6].setControlCallback(onknbSamplerPanControl);
-knbSamplerB[6].setControlCallback(onknbSamplerPanControl);
-knbSamplerC[6].setControlCallback(onknbSamplerPanControl);
+knbSamplerA[1].setControlCallback(onknbSamplerDecayControl);
+knbSamplerB[1].setControlCallback(onknbSamplerDecayControl);
+knbSamplerC[1].setControlCallback(onknbSamplerDecayControl);
+
+// Sustain
+inline function onknbSamplerSustainControl(component, value)
+{
+	switch (component)
+	{
+		case knbSamplerA[2]:
+		{
+			ahdsrs[0].setAttribute(ahdsrs[0].Sustain, value);
+			lblSamplerAValue[2].set("text", Math.round(value) + "dB");
+		}
+		case knbSamplerB[2]:
+		{
+			ahdsrs[1].setAttribute(ahdsrs[1].Sustain, value);
+			lblSamplerBValue[2].set("text", Math.round(value) + "dB");
+		}
+		case knbSamplerC[2]:
+		{
+			ahdsrs[2].setAttribute(ahdsrs[2].Sustain, value);
+			lblSamplerCValue[2].set("text", Math.round(value) + "dB");
+		}
+	}
+}
+
+knbSamplerA[2].setControlCallback(onknbSamplerSustainControl);
+knbSamplerB[2].setControlCallback(onknbSamplerSustainControl);
+knbSamplerC[2].setControlCallback(onknbSamplerSustainControl);
+
+// Release
+inline function onknbSamplerReleaseControl(component, value)
+{
+	switch (component)
+	{
+		case knbSamplerA[3]:
+		{
+			ahdsrs[0].setAttribute(ahdsrs[0].Release, value);
+			lblSamplerAValue[3].set("text", Math.round(value) + "ms");
+		}
+		case knbSamplerB[3]:
+		{
+			ahdsrs[1].setAttribute(ahdsrs[1].Release, value);
+			lblSamplerBValue[3].set("text", Math.round(value) + "ms");
+		}
+		case knbSamplerC[3]:
+		{
+			ahdsrs[2].setAttribute(ahdsrs[2].Release, value);
+			lblSamplerCValue[3].set("text", Math.round(value) + "ms");
+		}
+	}
+}
+
+knbSamplerA[3].setControlCallback(onknbSamplerReleaseControl);
+knbSamplerB[3].setControlCallback(onknbSamplerReleaseControl);
+knbSamplerC[3].setControlCallback(onknbSamplerReleaseControl);
 
 //Pitch
 inline function onknbSamplerPitchControl(component, value)
@@ -195,6 +230,75 @@ inline function onknbSamplerTuneControl(component, value)
 knbSamplerA[5].setControlCallback(onknbSamplerTuneControl);
 knbSamplerB[5].setControlCallback(onknbSamplerTuneControl);
 knbSamplerC[5].setControlCallback(onknbSamplerTuneControl);
+
+//Pan
+inline function onknbSamplerPanControl(component, value)
+{
+	switch(component)
+	{
+		case knbSamplerA[6]:
+		{
+			utilities[0].setAttribute(utilities[0].Balance, value);		
+			if (value == 0)
+			    lblSamplerAValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerAValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerAValue[6].set("text", Math.round(value) + "R");
+		}
+		case knbSamplerB[6]:
+		{
+			utilities[1].setAttribute(utilities[1].Balance, value);
+			if (value == 0)
+			    lblSamplerBValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerBValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerBValue[6].set("text", Math.round(value) + "R");
+		}
+		case knbSamplerC[6]:
+		{
+			utilities[2].setAttribute(utilities[2].Balance, value);
+			if (value == 0)
+			    lblSamplerCValue[6].set("text", "C");
+			else if (value < 0)
+			    lblSamplerCValue[6].set("text", Math.round(value) + "L");
+			else
+			    lblSamplerCValue[6].set("text", Math.round(value) + "R");
+		}
+	}
+}
+
+knbSamplerA[6].setControlCallback(onknbSamplerPanControl);
+knbSamplerB[6].setControlCallback(onknbSamplerPanControl);
+knbSamplerC[6].setControlCallback(onknbSamplerPanControl);
+
+//Gain
+inline function onknbSamplerGainControl(component, value)
+{
+	switch(component)
+	{
+		case knbSamplerA[7]:
+		{
+			utilities[0].setAttribute(utilities[0].Gain, value);
+			lblSamplerAValue[7].set("text", Math.round(value) + "db");
+		}
+		case knbSamplerB[7]:
+		{
+			utilities[1].setAttribute(utilities[1].Gain, value);
+			lblSamplerBValue[7].set("text", Math.round(value) + "db");
+		}
+		case knbSamplerC[7]:
+		{
+			utilities[2].setAttribute(utilities[2].Gain, value);
+			lblSamplerCValue[7].set("text", Math.round(value) + "db");
+		}
+	}
+}
+
+knbSamplerA[7].setControlCallback(onknbSamplerGainControl);
+knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
+knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
 
 //Audio WaveForm
 

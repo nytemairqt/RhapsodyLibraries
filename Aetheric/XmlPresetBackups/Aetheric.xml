@@ -21,7 +21,7 @@
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerB" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBAttack" value="6.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBRelease" value="1000.0"/>
@@ -127,8 +127,8 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerA_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="20.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
-                           Release="20.0" EcoMode="1.0">
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -415,8 +415,8 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerB_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="20.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
-                           Release="20.0" EcoMode="1.0">
+                           Attack="6.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -515,8 +515,8 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerC_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="20.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
-                           Release="20.0" EcoMode="1.0">
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>

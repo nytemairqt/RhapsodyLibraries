@@ -983,7 +983,7 @@ namespace LookAndFeel
     const keyboard = Content.createLocalLookAndFeel();
     
 	keyboard.registerFunction("drawWhiteNote", function(g, obj)
-	{
+	{	
 		var a = [obj.area[0], obj.area[1], obj.area[2], 66];
 		var radius = 2;
 		var isDisabled = obj.keyColour == 0;
@@ -1017,9 +1017,11 @@ namespace LookAndFeel
 			g.drawAlignedText(noteName, [a[0], a[1], a[2], a[3] - 5], "centredBottom");
 		}
 	});
-	
+
 	keyboard.registerFunction("drawBlackNote", function(g, obj)
 	{
+	
+
 		var a = [obj.area[0] + 0.5, obj.area[1], obj.area[2] - 1, obj.area[3] - 11];
 		var radius = 2;
 		var isDisabled = obj.keyColour == 0;
@@ -1038,6 +1040,7 @@ namespace LookAndFeel
 			g.setColour(Colours.withAlpha(obj.keyColour, 0.5 - (0.1 * obj.hover)));
 
 		g.fillRoundedRectangle(a, {CornerSize: radius, Rounded:[0, 0, 1, 1]});
+		
 	});
     
     // Mpe

@@ -24,6 +24,7 @@ const LAFButtonNext = Content.createLocalLookAndFeel();
 const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFComboBoxSampler = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
+const LAFKeyboard = Content.createLocalLookAndFeel();
 
 
 const pnlBody = Content.getComponent("pnlBody");
@@ -48,6 +49,7 @@ const clrLightgrey = 0xFFD3D3D3;
 const clrWhite = 0xFFFFFFFF;
 const clrLightblue = 0xFFADD8E6;
 const clrBlack = 0xFF000000;  
+const clrKeyPurple = 0xFFCC96FF;
 
 inline function reduced(obj, amount)
 {
@@ -180,3 +182,21 @@ LAFSliderSampleOffset.registerFunction("drawRotarySlider", function(g, obj)
     g.setColour(Colours.withAlpha(clrDarkgrey, .7));
     g.fillRoundedRectangle([0, 0, obj.area[2] * obj.valueNormalized, obj.area[3]], 2.0);
 });
+
+
+// Keyboard & Key Colours
+Footer.fltKeyboard.setLocalLookAndFeel(LAFKeyboard);
+
+for (i=0; i<128; i++)
+{
+	// Clear Rhapsody Default
+	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+	// Main Keys
+	if (i < 60 || i > 96)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
+		
+	// Additional Keys
+	if (i >= 48 && i<=54)
+		Engine.setKeyColour(i, Colours.withAlpha(clrKeyPurple, 0.3));
+}

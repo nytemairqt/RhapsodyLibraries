@@ -67,7 +67,7 @@
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody" visible="0.0">
+                 height="400.0" parentComponent="pnlBody">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerA" x="86.0" y="6.0" parentComponent="pnlSamplerA"
@@ -86,9 +86,9 @@
                    parentComponent="pnlSamplerA" width="270.0" processorId="SamplerA"
                    bgColour="4278782217" itemColour="0" itemColour2="4292072403"
                    showFileName="0" enableRange="0"/>
-        <Component type="ScriptSlider" id="knbSamplerAOffset" x="15.0" y="88" width="270"
-                   height="100" dragDirection="Horizontal" enableMidiLearn="0" scrollWheel="0"
-                   parentComponent="pnlSamplerA"/>
+        <Component type="ScriptSlider" id="knbSamplerAOffset" x="15.0" y="88.0"
+                   width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
+                   scrollWheel="0" parentComponent="pnlSamplerA"/>
         <Component type="ScriptSlider" id="knbSamplerAAttack" x="30.0" y="217.0"
                    parentComponent="pnlSamplerA" width="40.0" height="40.0" min="5.0"
                    max="20000.0" stepSize="1.0" defaultValue="5.0" middlePosition="1000.0"/>
@@ -163,7 +163,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody" visible="0.0">
+                 height="400.0" parentComponent="pnlBody">
         <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerB" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerB" x="86.0" y="6.0" parentComponent="pnlSamplerB"
@@ -182,9 +182,9 @@
                    parentComponent="pnlSamplerB" width="270.0" processorId="SamplerB"
                    showFileName="0" bgColour="4278782217" enableRange="0" itemColour="0"
                    itemColour2="4292072403"/>
-        <Component type="ScriptSlider" id="knbSamplerBOffset" x="15" y="88.0" width="270"
-                   height="100" dragDirection="Horizontal" enableMidiLearn="0" scrollWheel="0"
-                   parentComponent="pnlSamplerB"/>
+        <Component type="ScriptSlider" id="knbSamplerBOffset" x="15.0" y="88.0"
+                   width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
+                   scrollWheel="0" parentComponent="pnlSamplerB"/>
         <Component type="ScriptSlider" id="knbSamplerBAttack" x="30.0" y="217.0"
                    parentComponent="pnlSamplerB" width="40.0" height="40.0" min="5.0"
                    max="20000.0" stepSize="1.0" defaultValue="5.0" middlePosition="1000.0"/>
@@ -259,7 +259,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody" visible="0.0">
+                 height="400.0" parentComponent="pnlBody">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerC" x="86.0" y="6.0" parentComponent="pnlSamplerC"
@@ -278,9 +278,9 @@
                    parentComponent="pnlSamplerC" width="270.0" processorId="SamplerC"
                    showFileName="0" enableRange="0" bgColour="4278782217" itemColour="0"
                    itemColour2="4292072403"/>
-        <Component type="ScriptSlider" id="knbSamplerCOffset" x="15" y="88.0" width="270"
-                   height="100" dragDirection="Horizontal" enableMidiLearn="0" scrollWheel="0"
-                   parentComponent="pnlSamplerC"/>
+        <Component type="ScriptSlider" id="knbSamplerCOffset" x="15.0" y="88.0"
+                   width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
+                   scrollWheel="0" parentComponent="pnlSamplerC"/>
         <Component type="ScriptSlider" id="knbSamplerCAttack" x="30.0" y="217.0"
                    parentComponent="pnlSamplerC" width="40.0" height="40.0" min="5.0"
                    max="20000.0" stepSize="1.0" defaultValue="5.0" middlePosition="1000.0"/>

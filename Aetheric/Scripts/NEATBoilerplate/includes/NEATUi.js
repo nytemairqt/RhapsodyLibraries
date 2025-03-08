@@ -556,11 +556,5 @@ for (k in knbSamplerC)
 
 for (c in cmbSampler)
 	c.setLocalLookAndFeel(LAFComboBoxSampler);
+	
 
-/* Key Colours */
-
-for (i = 24; i < 89; i++)
-   	Engine.setKeyColour(i, Colours.withAlpha(Colours.lightblue, 1.0));
-
-for (i=89; i<100; i++)   	
-	Engine.setKeyColour(i, Colours.withAlpha(Colours.lightgreen, 1.0));

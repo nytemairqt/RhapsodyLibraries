@@ -65,6 +65,7 @@ inline function onBtnCmbNextControl(component, value)
 	if (value)	
 		switch (component)
 		{
+			// Samplers
 			case btnCmbNext[0]:
 			{
 				if (cmbSampler[0].getValue() < cmbSampler[0].get("max"))
@@ -145,8 +146,31 @@ for (b in btnPage)
 
 /* Sample Page */
 
-// ComboBox
+// Sampler Bypass
 
+inline function onbtnSamplerBypassControl(component, value)
+{
+	switch (component)
+	{
+		case btnSamplerBypass[0]:
+		{
+			samplers[0].setBypassed(1-value);
+		}
+		case btnSamplerBypass[1]:
+		{
+			samplers[1].setBypassed(1-value);
+		}
+		case btnSamplerBypass[2]:
+		{
+			samplers[2].setBypassed(1-value);
+		}
+	}
+}
+
+for (b in btnSamplerBypass)
+	b.setControlCallback(onbtnSamplerBypassControl);
+
+// ComboBox
 inline function oncmbSamplerControl(component, value)
 {
 	switch (component)

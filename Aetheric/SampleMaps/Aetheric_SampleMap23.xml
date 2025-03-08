@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Aetheric_SampleMap23" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="1">
+           SaveMode="2" CrossfadeGamma="1.0">
   <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}A#5_OculusB.wav" Duplicate="0" LoopEnabled="1"
           SampleStartMod="705600" LoopStart="84955" LoopEnd="583132" LoopXFade="43330"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Aetheric_SampleMap7" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="1">
+           SaveMode="2" CrossfadeGamma="1.0">
   <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}G#5_EphemeralA.wav" Duplicate="0" SampleStartMod="705600"
           LoopStart="84955" LoopEnd="583132" LoopXFade="43330" LoopEnabled="1"

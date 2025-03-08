@@ -68,6 +68,8 @@
                  tooltip="Open the Randomization panel."/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="32.0" width="300.0"
                  height="400.0" parentComponent="pnlBody">
+        <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
+                   parentComponent="pnlSamplerA" width="16.0" height="16.0"/>
         <Component type="ScriptLabel" id="lblSamplerA" x="86.0" y="6.0" parentComponent="pnlSamplerA"
                    height="20.0" width="128.0" text="SAMPLER A" fontName="bold"
                    fontSize="14.0" editable="0"/>
@@ -159,6 +161,8 @@
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="32.0" width="300.0"
                  height="400.0" parentComponent="pnlBody">
+        <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
+                   parentComponent="pnlSamplerB" width="16.0" height="16.0"/>
         <Component type="ScriptLabel" id="lblSamplerB" x="86.0" y="6.0" parentComponent="pnlSamplerB"
                    height="20.0" width="128.0" text="SAMPLER B" fontSize="14.0"
                    fontName="bold" editable="0"/>
@@ -250,6 +254,8 @@
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="32.0" width="300.0"
                  height="400.0" parentComponent="pnlBody">
+        <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
+                   parentComponent="pnlSamplerC" width="16.0" height="16.0"/>
         <Component type="ScriptLabel" id="lblSamplerC" x="86.0" y="6.0" parentComponent="pnlSamplerC"
                    height="20.0" width="128.0" text="SAMPLER C" fontName="bold"
                    fontSize="14.0" editable="0"/>

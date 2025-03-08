@@ -153,34 +153,6 @@ pnlBody.setPaintRoutine(function(g)
 	this.loadImage("{PROJECT_FOLDER}background.jpg", "backgroundImage");
 	g.setOpacity(1.0);
 	g.drawImage("backgroundImage", [0, 0, this.getWidth(), this.getHeight()], 0, 0);	
-	
-	/*
-	// Fill Gradient	
-	var gradientData = [pnlBodyColourTop, 0, 0, pnlBodyColour, 0, this.getHeight(), false];
-	g.setGradientFill(gradientData);
-	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 1.0);
-	
-	// Right Side
-	
-	gradientData = [pnlBodyColour, 0, 0, pnlBodyColourTop, 0, this.getHeight(), false];	
-	g.setGradientFill(gradientData);
-	g.fillRoundedRectangle([this.getWidth() / 2, 9, (this.getWidth() / 2), this.getHeight() - 52], 1.0);
-	
-	var noiseData = {
-		"alpha" : .15,
-		"monochromatic" : false,
-		"scaleFactor" : 2,
-		"area" : [0, 0, this.getWidth(), this.getHeight()]		
-	};
-	
-	g.addNoise(noiseData);
-	
-	// Lines	
-	g.setColour(Colours.withAlpha(0xFFB1C1C1, .2));
-	g.drawLine(this.getWidth() / 2, this.getWidth(), 10, 10, 1.5);
-	g.drawLine(this.getWidth() / 2, this.getWidth() / 2, 10, this.getHeight() - 44, 1.5);
-	g.drawLine(this.getWidth() / 2, this.getWidth(), this.getHeight() - 44, this.getHeight() - 44, 1.5);
-	*/
 });
 
 // Prev Profile
@@ -215,13 +187,16 @@ LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 
 LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 {
-    g.setColour(Colours.grey);
-    g.fillEllipse(obj.area);     
+	var path = Content.createPath();
+
     if (obj.value)
-    	g.setColour(obj.over ? Colours.lightgrey : Colours.lightblue);
-    else 
-    	g.setColour(obj.over ? Colours.grey : Colours.darkgrey);
-    g.fillEllipse([obj.area[0]+1, obj.area[1]+1, obj.area[2]-2, obj.area[3]-2]);
+	    g.setColour(obj.over ? clrWhite : clrLightgrey);
+	else
+		g.setColour(obj.over ? clrGrey : clrMidgrey);
+	path.clear();
+	path.loadFromData(powerButtonData);
+	g.drawPath(path, [obj.area[0] + 2, obj.area[1] + 2, obj.area[2] - 4, obj.area[3] - 4], 2);
+	g.drawLine(obj.area[2] / 2, obj.area[2] / 2, 0, obj.area[3] / 2, 2.0);    
 });
 
 //ComboBoxes

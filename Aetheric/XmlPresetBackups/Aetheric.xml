@@ -12,6 +12,7 @@
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerASustain" value="0.0"/>
@@ -23,6 +24,7 @@
             <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerB" value="2.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBAttack" value="6.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.0"/>
@@ -34,6 +36,7 @@
             <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerCSustain" value="0.0"/>

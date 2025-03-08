@@ -18,16 +18,13 @@
 include("NEATBoilerplate/includes/NEATPaths.js");
 
 const LAFSliderNEAT = Content.createLocalLookAndFeel();
-const LAFButtonShowAdvancedPanel = Content.createLocalLookAndFeel();
-const LAFButtonStiffness = Content.createLocalLookAndFeel();
-const LAFButtonRandomRatios = Content.createLocalLookAndFeel();
-const LAFButtonResetRatios = Content.createLocalLookAndFeel();
+const LAFSliderSampleOffset = Content.createLocalLookAndFeel();
 const LAFButtonPrev = Content.createLocalLookAndFeel();
 const LAFButtonNext = Content.createLocalLookAndFeel();
-const LAFButtonCustomProfile = Content.createLocalLookAndFeel();
 const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFComboBoxSampler = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
+
 
 const pnlBody = Content.getComponent("pnlBody");
 
@@ -99,54 +96,6 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     g.drawLine(obj.area[2] * .65, obj.area[2] * .83, obj.area[3] * .65, obj.area[3] * .83, 3);     
 });
 
-
-const miscTextAdvanced = ["A", "d", "v", "a", "n", "c", "e", "d"];
-const miscTextAdvancedOffset = 10;
-
-// Button Show Advanced Panel
-LAFButtonShowAdvancedPanel.registerFunction("drawToggleButton", function(g, obj)
-{
-	g.setFont("bold", 22);
-
-	g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-	if (obj.value)
-		g.setColour(0xFFE2E3F3);
-	g.rotate(Math.toRadians(270), [obj.area[2] / 2, obj.area[3] / 2]);
-	for (i=0; i<miscTextAdvanced.length; i++)
-	{
-		g.drawAlignedText(miscTextAdvanced[i], [(miscTextAdvancedOffset * i) - 40, 0, obj.area[2], obj.area[3]], "right"); // lol
-	}  
-});
-
-// Stiffness Type
-LAFButtonStiffness.registerFunction("drawToggleButton", function(g, obj)
-{
-    g.setFont("bold", 16);
-    g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-    if (obj.value)
-        g.setColour(0xFFE2E3F3);
-    
-    g.drawAlignedText(obj.text, [0, 0, obj.area[2], obj.area[3]], "centred");
-});
-
-// Random Ratios
-LAFButtonRandomRatios.registerFunction("drawToggleButton", function(g, obj)
-{
-    g.setFont("bold", 16);
-    g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-    g.drawAlignedText("Random", [0, 0, obj.area[2], obj.area[3]], "centred");
-
-});
-
-// Reset Ratios
-LAFButtonResetRatios.registerFunction("drawToggleButton", function(g, obj)
-{    
-    g.setFont("bold", 16);
-    g.setColour(obj.over ? 0xFFE2E3F3 : Colours.grey);
-    g.drawAlignedText("Reset", [0, 0, obj.area[2], obj.area[3]], "centred");
-});
-
-
 // Panel Body
 pnlBody.setPaintRoutine(function(g)
 {
@@ -213,4 +162,21 @@ LAFComboBoxSampler.registerFunction("drawComboBox", function(g, obj)
     else
         g.drawAlignedText(obj.text, obj.area, "centred");
 
+});
+
+// Sample Start Offset
+
+LAFSliderSampleOffset.registerFunction("drawRotarySlider", function(g, obj)
+{
+    g.setColour(clrLightblue);
+    if (obj.hover)
+    {
+    	g.drawLine(obj.area[2] * obj.valueNormalized, obj.area[2] * obj.valueNormalized, 0, obj.area[3], 4.0);
+        g.setColour(Colours.withAlpha(clrLightgrey, 0.04));
+        g.fillRoundedRectangle(obj.area, 1.0);
+    }
+    else
+    	g.drawLine(obj.area[2] * obj.valueNormalized, obj.area[2] * obj.valueNormalized, 0, obj.area[3], 1.0);
+    g.setColour(Colours.withAlpha(clrDarkgrey, .7));
+    g.fillRoundedRectangle([0, 0, obj.area[2] * obj.valueNormalized, obj.area[3]], 2.0);
 });

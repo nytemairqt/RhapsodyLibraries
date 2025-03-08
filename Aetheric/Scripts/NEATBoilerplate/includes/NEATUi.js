@@ -193,7 +193,29 @@ inline function oncmbSamplerControl(component, value)
 for (c in cmbSampler)
 	c.setControlCallback(oncmbSamplerControl);
 
+// Sample Start Offset
 
+inline function onknbSamplerOffsetControl(component, value)
+{
+	switch (component)
+	{
+		case knbSamplerOffset[0]:
+		{			
+			SamplerA_SampleStart.setIntensity(1-value);
+		}
+		case knbSamplerOffset[1]:
+		{
+			SamplerB_SampleStart.setIntensity(1-value);
+		}
+		case knbSamplerOffset[2]:
+		{
+			SamplerC_SampleStart.setIntensity(1-value);
+		}
+	}
+}
+
+for (k in knbSamplerOffset)
+	k.setControlCallback(onknbSamplerOffsetControl);
 
 // Attack
 inline function onknbSamplerAttackControl(component, value)

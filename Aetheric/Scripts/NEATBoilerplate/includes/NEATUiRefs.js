@@ -41,7 +41,11 @@ const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 
 const btnSamplerBypass = [Content.getComponent("btnSamplerABypass"),
 						  Content.getComponent("btnSamplerBBypass"),
-						  Content.getComponent("btnSamplerCBypass")];
+						  Content.getComponent("btnSamplerCBypass")];	
+						  
+const knbSamplerOffset = [Content.getComponent("knbSamplerAOffset"),
+						  Content.getComponent("knbSamplerBOffset"),
+						  Content.getComponent("knbSamplerCOffset")];
 
 const knbSamplerA = [Content.getComponent("knbSamplerAAttack"),
 					 Content.getComponent("knbSamplerADecay"),
@@ -137,3 +141,6 @@ for (b in btnCmbNext)
 	
 for (b in btnSamplerBypass)
 	b.setLocalLookAndFeel(LAFButtonBypass);
+	
+for (k in knbSamplerOffset)
+	k.setLocalLookAndFeel(LAFSliderSampleOffset);

@@ -25,6 +25,7 @@ const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFComboBoxSampler = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
 const LAFKeyboard = Content.createLocalLookAndFeel();
+const LAFButtonSamplerExtra = Content.createLocalLookAndFeel();
 
 
 const pnlBody = Content.getComponent("pnlBody");
@@ -106,20 +107,6 @@ pnlBody.setPaintRoutine(function(g)
 	g.drawImage("backgroundImage", [0, 0, this.getWidth(), this.getHeight()], 0, 0);	
 });
 
-// Prev Profile
-LAFButtonPrev.registerFunction("drawToggleButton", function(g, obj)
-{	
-	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
-    g.fillTriangle(obj.area, 0);  
-});
-
-// Next Profile
-LAFButtonNext.registerFunction("drawToggleButton", function(g, obj)
-{	
-	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
-	g.fillTriangle(obj.area, Math.toRadians(180));   
-});
-
 // Change Page
 LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 {
@@ -134,8 +121,39 @@ LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 	g.drawAlignedText(obj.text, [0, 0, w, h], "centred");
 });
 
-//Bypass Button
+// Combobox Prev
+LAFButtonPrev.registerFunction("drawToggleButton", function(g, obj)
+{	
+	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
+    g.fillTriangle(obj.area, 0);  
+});
 
+// Combobox Next
+LAFButtonNext.registerFunction("drawToggleButton", function(g, obj)
+{	
+	g.setColour(obj.over ? Colours.white : Colours.lightgrey);
+	g.fillTriangle(obj.area, Math.toRadians(180));   
+});
+
+// Sampler Extra
+LAFButtonSamplerExtra.registerFunction("drawToggleButton", function(g, obj)
+{
+	var w = obj.area[2];
+	var h = obj.area[3];
+
+	//g.setColour(clrRhapsodyBlue);
+	
+	if (obj.value)
+	    g.setColour(obj.over ? clrWhite : clrLightgrey);
+	else
+		g.setColour(obj.over ? clrGrey : clrMidgrey);
+	
+	//g.fillRoundedRectangle(obj.area, 6.0);
+	
+	g.drawAlignedText("E", obj.area, "centred");
+});
+
+//Bypass Button
 LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 {
 	var path = Content.createPath();

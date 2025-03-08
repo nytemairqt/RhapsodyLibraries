@@ -25,27 +25,35 @@ const btnPage = [Content.getComponent("btnSamplePage"),
 
 const pnlSampler = [Content.getComponent("pnlSamplerA"),
 					 Content.getComponent("pnlSamplerB"),
-					 Content.getComponent("pnlSamplerC")]
+					 Content.getComponent("pnlSamplerC"),
+					 Content.getComponent("pnlSamplerExtra")];
 
 const cmbSampler = [Content.getComponent("cmbSamplerA"),
 					Content.getComponent("cmbSamplerB"),
-					Content.getComponent("cmbSamplerC")];
+					Content.getComponent("cmbSamplerC"),
+					Content.getComponent("cmbSamplerExtra")];
 
 const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
 					Content.getComponent("btnCmbSamplerBPrev"),
-					Content.getComponent("btnCmbSamplerCPrev")];
+					Content.getComponent("btnCmbSamplerCPrev"),
+					Content.getComponent("btnCmbSamplerExtraPrev")];
 					
 const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 					Content.getComponent("btnCmbSamplerBNext"),
-					Content.getComponent("btnCmbSamplerCNext")];
+					Content.getComponent("btnCmbSamplerCNext"),
+					Content.getComponent("btnCmbSamplerExtraNext")];
 
 const btnSamplerBypass = [Content.getComponent("btnSamplerABypass"),
 						  Content.getComponent("btnSamplerBBypass"),
-						  Content.getComponent("btnSamplerCBypass")];	
+						  Content.getComponent("btnSamplerCBypass"),
+						  Content.getComponent("btnSamplerExtraBypass")];
+						  
+const btnSamplerExtra = Content.getComponent("btnSamplerExtra");						  	
 						  
 const knbSamplerOffset = [Content.getComponent("knbSamplerAOffset"),
 						  Content.getComponent("knbSamplerBOffset"),
-						  Content.getComponent("knbSamplerCOffset")];
+						  Content.getComponent("knbSamplerCOffset"),
+						  Content.getComponent("knbSamplerExtraOffset")];						 
 
 const knbSamplerA = [Content.getComponent("knbSamplerAAttack"),
 					 Content.getComponent("knbSamplerADecay"),
@@ -127,8 +135,49 @@ const lblSamplerCValue = [Content.getComponent("lblSamplerCAttackValue"),
 						  Content.getComponent("lblSamplerCTuneValue"),
 						  Content.getComponent("lblSamplerCPanValue"),
 						  Content.getComponent("lblSamplerCGainValue")];	
+						  
+const knbSamplerExtra = [Content.getComponent("knbSamplerExtraAttack"),
+						 Content.getComponent("knbSamplerExtraDecay"),
+						 Content.getComponent("knbSamplerExtraSustain"),
+						 Content.getComponent("knbSamplerExtraRelease"),
+						 Content.getComponent("knbSamplerExtraPitch"),
+						 Content.getComponent("knbSamplerExtraTune"),
+						 Content.getComponent("knbSamplerExtraPan"),
+						 Content.getComponent("knbSamplerExtraGain")];
 
-// Assign LAF
+const lblSamplerExtra = [Content.getComponent("lblSamplerExtraAttack"),
+						 Content.getComponent("lblSamplerExtraDecay"),
+						 Content.getComponent("lblSamplerExtraSustain"),
+						 Content.getComponent("lblSamplerExtraRelease"),
+						 Content.getComponent("lblSamplerExtraPitch"),
+						 Content.getComponent("lblSamplerExtraTune"),
+						 Content.getComponent("lblSamplerExtraPan"),
+						 Content.getComponent("lblSamplerExtraGain")];
+
+const lblSamplerExtraValue = [Content.getComponent("lblSamplerExtraAttackValue"),
+							  Content.getComponent("lblSamplerExtraDecayValue"),
+							  Content.getComponent("lblSamplerExtraSustainValue"),
+							  Content.getComponent("lblSamplerExtraReleaseValue"),
+							  Content.getComponent("lblSamplerExtraPitchValue"),
+							  Content.getComponent("lblSamplerExtraTuneValue"),
+							  Content.getComponent("lblSamplerExtraPanValue"),
+							  Content.getComponent("lblSamplerExtraGainValue")];						  
+
+// Assign LAF;
+
+btnSamplerExtra.setLocalLookAndFeel(LAFButtonSamplerExtra);
+
+for (k in knbSamplerA)
+	k.setLocalLookAndFeel(LAFSliderNEAT);	
+for (k in knbSamplerB)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbSamplerC)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbSamplerExtra)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+
+for (c in cmbSampler)
+	c.setLocalLookAndFeel(LAFComboBoxSampler);
 
 for (b in btnPage)
 	b.setLocalLookAndFeel(LAFButtonChangePage);	

@@ -105,6 +105,11 @@ inline function changePage(index)
 	for (p in pnlSampler)
 		p.set("visible", false);
 		
+	// Hide & Reset Sampler Extra
+	btnSamplerExtra.setValue(0);
+	btnSamplerExtra.changed();
+	btnSamplerExtra.set("visible", false);
+		
 	// add other panels here
 		
 	for (i=0; i<btnPage.length; i++)
@@ -119,8 +124,13 @@ inline function onbtnChangePageControl(component, value)
 		case btnPage[0]:
 		{
 			changePage(0);
-			for (p in pnlSampler)
-				p.set("visible", value);
+			btnSamplerExtra.set("visible", value);
+			for (i=0; i<pnlSampler.length; i++)
+			{
+				if (i < 3)
+					pnlSampler[i].set("visible", value);
+			}
+				
 		}
 		case btnPage[1]:
 		{
@@ -147,7 +157,6 @@ for (b in btnPage)
 /* Sample Page */
 
 // Sampler Bypass
-
 inline function onbtnSamplerBypassControl(component, value)
 {
 	switch (component)
@@ -448,51 +457,13 @@ knbSamplerA[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
 
-//Audio WaveForm
-
-//Sample Selection A
-
-
-inline function onComboBox_SamplerAControl(component, value)
+// Sampler Extra
+inline function onbtnSamplerExtraControl(component, value)
 {
-    if (libraryHandler.currentExpansion == "Aetheric")
-    {
-        SamplerA.asSampler().loadSampleMap("{EXP::Aetheric}Aetheric_SampleMap" + Math.round(value));
-    } 
+	pnlSampler[3].set("visible", value);
 };
 
-// Sample Start Offset A
-
-inline function onSlider_SampleOffsetAControl(component, value)
-{
-	SamplerA_SampleStart.setIntensity(1-value);
-};
-
-// ADSR 
-
-inline function onSlider_SamplerAAttackControl(component, value)
-{
-	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Attack, value);
-	Label_SamplerAAttackValue.set("text", Math.round(value) + "ms");
-};
-
-inline function onSlider_SamplerADecayControl(component, value)
-{
-	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Decay, value);
-	Label_SamplerADecayValue.set("text", Math.round(value) + "ms");
-};
-
-inline function onSlider_SamplerASustainControl(component, value)
-{
-	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Sustain, value);
-	Label_SamplerASustainValue.set("text", Math.round(value) + "dB");
-};
-
-inline function onSlider_SamplerAReleaseControl(component, value)
-{
-	SamplerA_AHDSR.setAttribute(SamplerA_AHDSR.Release, value);
-	Label_SamplerAReleaseValue.set("text", Math.round(value) + "ms");
-};
+btnSamplerExtra.setControlCallback(onbtnSamplerExtraControl);
 
 //Reverse Sample Switch
 
@@ -540,21 +511,13 @@ for (p in pnlSampler)
 				"alpha" : .1,
 				"monochromatic" : false,
 				"scaleFactor" : 2,
-				"area" : [0, 13, this.getWidth(), this.getHeight() - 16]		
+				"area" : [0, 0, this.getWidth(), this.getHeight()]		
 			};
 			
 		g.addNoise(noiseData);
 	});
 }
 
-for (k in knbSamplerA)
-	k.setLocalLookAndFeel(LAFSliderNEAT);	
-for (k in knbSamplerB)
-	k.setLocalLookAndFeel(LAFSliderNEAT);
-for (k in knbSamplerC)
-	k.setLocalLookAndFeel(LAFSliderNEAT);
 
-for (c in cmbSampler)
-	c.setLocalLookAndFeel(LAFComboBoxSampler);
 	
 

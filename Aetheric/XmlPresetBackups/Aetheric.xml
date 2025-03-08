@@ -38,13 +38,26 @@
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbSamplerCDecay" value="1324.0"/>
             <Control type="ScriptSlider" id="knbSamplerCSustain" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPitch" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerExtraBypass" value="0.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerExtra" value="1.0"/>
+            <Control type="ScriptAudioWaveform" id="awfSamplerExtra" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraOffset" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraAttack" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraDecay" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraSustain" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraRelease" value="1000.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraPitch" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraTune" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraPan" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerExtraGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerExtra" value="0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
             <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbCoarseDetune" value="0.0"/>
@@ -333,7 +346,7 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerC_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1324.0" Sustain="0.0"
                            Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
@@ -424,7 +437,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="">
+                   Group7Table="" SampleMapID="AethericAmbiances_SampleMap">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -433,7 +446,7 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerOther_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="20.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
                            Release="20.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">

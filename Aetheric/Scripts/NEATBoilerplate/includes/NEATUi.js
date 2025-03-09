@@ -127,6 +127,8 @@ inline function changePage(index)
 	btnSamplerOther.set("visible", false);
 		
 	// add other panels here
+	
+	pnlFX.set("visible", false);
 		
 	for (i=0; i<btnPage.length; i++)
 		if (i != index)
@@ -150,6 +152,7 @@ inline function onbtnChangePageControl(component, value)
 		case btnPage[1]:
 		{
 			changePage(1);
+			pnlFX.set("visible", value);
 		}
 		case btnPage[2]:
 		{
@@ -629,11 +632,23 @@ for (p in pnlSampler)
 				
 			g.addNoise(noiseData);
 		});
-	}
-
-	
+	}	
 }
 
+pnlFX.setPaintRoutine(function(g)
+{
+	g.setColour(clrRhapsodyBlue);
+	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+	
+	var noiseData = {
+			"alpha" : .1,
+			"monochromatic" : false,
+			"scaleFactor" : 2,
+			"area" : [0, 0, this.getWidth(), this.getHeight()]		
+		};
+		
+	g.addNoise(noiseData);
+});
 
 	
 

@@ -17,11 +17,25 @@
 
 // Register UI Elements
 
+/* Generic */
+
 const btnPage = [Content.getComponent("btnSamplePage"),
 				  Content.getComponent("btnFXPage"),
 				  Content.getComponent("btnArpPage"),
 				  Content.getComponent("btnMovePage"),
 				  Content.getComponent("btnRandomPage")];
+				  
+const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
+					Content.getComponent("btnCmbSamplerBPrev"),
+					Content.getComponent("btnCmbSamplerCPrev"),
+					Content.getComponent("btnCmbSamplerOtherPrev")];
+					
+const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
+					Content.getComponent("btnCmbSamplerBNext"),
+					Content.getComponent("btnCmbSamplerCNext"),
+					Content.getComponent("btnCmbSamplerOtherNext")];				  
+
+/* Sampler */				  
 
 const pnlSampler = [Content.getComponent("pnlSamplerA"),
 					 Content.getComponent("pnlSamplerB"),
@@ -32,16 +46,6 @@ const cmbSampler = [Content.getComponent("cmbSamplerA"),
 					Content.getComponent("cmbSamplerB"),
 					Content.getComponent("cmbSamplerC"),
 					Content.getComponent("cmbSamplerOther")];
-
-const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
-					Content.getComponent("btnCmbSamplerBPrev"),
-					Content.getComponent("btnCmbSamplerCPrev"),
-					Content.getComponent("btnCmbSamplerOtherPrev")];
-					
-const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
-					Content.getComponent("btnCmbSamplerBNext"),
-					Content.getComponent("btnCmbSamplerCNext"),
-					Content.getComponent("btnCmbSamplerOtherNext")];
 
 const btnSamplerBypass = [Content.getComponent("btnSamplerABypass"),
 						  Content.getComponent("btnSamplerBBypass"),
@@ -166,7 +170,11 @@ const lblSamplerOtherValue = [Content.getComponent("lblSamplerOtherAttackValue")
 							  Content.getComponent("lblSamplerOtherPitchValue"),
 							  Content.getComponent("lblSamplerOtherTuneValue"),
 							  Content.getComponent("lblSamplerOtherPanValue"),
-							  Content.getComponent("lblSamplerOtherGainValue")];						  
+							  Content.getComponent("lblSamplerOtherGainValue")];		
+							  
+/* FX */
+
+const pnlFX = Content.getComponent("pnlFX");							  				  
 
 // Assign LAF;
 

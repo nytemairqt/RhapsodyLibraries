@@ -46,11 +46,6 @@
                height="565.0" bgColour="0" itemColour="4281282356" itemColour2="4281282356"
                textColour="0" parentComponent="pnlContainer" borderSize="0.0"
                borderRadius="12.0">
-      <Component type="ScriptPanel" id="pnlAdvanced" x="496.0" y="0.0" width="500.0"
-                 height="522.0" parentComponent="pnlBody" visible="0">
-        <Component type="ScriptPanel" id="lblAdvanced" x="-11.0" y="16.0" width="128.0"
-                   height="64.0" text="ADVANCED" parentComponent="pnlAdvanced"/>
-      </Component>
       <Component type="ScriptButton" id="btnSamplePage" x="245.0" y="480.0" width="80.0"
                  height="20.0" text="SAMPLE" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Sample panel." enableMidiLearn="0"/>
@@ -69,7 +64,8 @@
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="32.0" width="300.0"
                  height="400.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
-                   parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"/>
+                   parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"
+                   tooltip="Bypass this Sampler."/>
         <Component type="ScriptLabel" id="lblSamplerA" x="86.0" y="6.0" parentComponent="pnlSamplerA"
                    height="20.0" width="128.0" text="SAMPLER A" fontName="bold"
                    fontSize="14.0" editable="0"/>
@@ -488,6 +484,12 @@
       <Component type="ScriptButton" id="btnSamplerOther" x="314.0" y="42.0" parentComponent="pnlBody"
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
                  tooltip="Display Extra Sampler." visible="0.0"/>
+      <Component type="ScriptPanel" id="pnlFX" x="40.0" y="32.0" parentComponent="pnlBody"
+                 width="910.0" height="400.0" visible="0">
+        <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
+                   height="20.0" width="128.0" text="FX" fontSize="14.0" fontName="bold"
+                   editable="0"/>
+      </Component>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

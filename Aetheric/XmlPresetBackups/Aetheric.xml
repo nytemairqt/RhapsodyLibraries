@@ -61,7 +61,7 @@
             <Control type="ScriptSlider" id="knbSamplerOtherTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherGain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbFilterCutoff" value="0.0"/>
+            <Control type="ScriptSlider" id="knbFilterCutoff" value="0.5199999809265137"/>
             <Control type="ScriptSlider" id="knbFilterQ" value="0.0"/>
             <Control type="ScriptButton" id="btnFilterHPF" value="0.0"/>
             <Control type="ScriptButton" id="btnFilterLPF" value="0.0"/>

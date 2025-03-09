@@ -17,50 +17,42 @@
 
 // NEATBrain Modules
 
-const samplers = [Synth.getChildSynth("SamplerA"), Synth.getChildSynth("SamplerB"), Synth.getChildSynth("SamplerC")];
-const ahdsrs = [Synth.getModulator("SamplerA_AHDSR"), Synth.getModulator("SamplerB_AHDSR"), Synth.getModulator("SamplerC_AHDSR")];
-const velocities = [Synth.getModulator("SamplerA_Velocity"), Synth.getModulator("SamplerB_Velocity"), Synth.getModulator("SamplerC_Velocity")];
-const pitchWheels = [Synth.getModulator("SamplerA_PitchWheel"), Synth.getModulator("SamplerB_PitchWheel"), Synth.getModulator("SamplerC_PitchWheel")];
-const pitchMods = [Synth.getModulator("SamplerA_PitchMod"), Synth.getModulator("SamplerB_PitchMod"), Synth.getModulator("SamplerC_PitchMod")];
-const tuneMods = [Synth.getModulator("SamplerA_TuneMod"), Synth.getModulator("SamplerB_TuneMod"), Synth.getModulator("SamplerC_TuneMod")];
-const loopsPitchMods = [Synth.getModulator("SamplerA_LoopsPitchMod"), Synth.getModulator("SamplerB_LoopsPitchMod"), Synth.getModulator("SamplerC_LoopsPitchMod")];
-const utilities = [Synth.getEffect("SamplerA_Utility"), Synth.getEffect("SamplerB_Utility"), Synth.getEffect("SamplerC_Utility")];
-const sampleStarts = [Synth.getModulator("SamplerA_SampleStart"), Synth.getModulator("SamplerB_SampleStart"), Synth.getModulator("SamplerC_SampleStart")];
-
-// Sampler A
-const SamplerA = Synth.getChildSynth("SamplerA");
-const SamplerA_AHDSR = Synth.getModulator("SamplerA_AHDSR");
-const SamplerA_Velocity = Synth.getModulator("SamplerA_Velocity");
-const SamplerA_PitchWheel = Synth.getModulator("SamplerA_PitchWheel");
-const SamplerA_PitchMod = Synth.getModulator("SamplerA_PitchMod");
-const SamplerA_TuneMod = Synth.getModulator("SamplerA_TuneMod");
-const SamplerA_LoopsPitchMod = Synth.getModulator("SamplerA_LoopsPitchMod");
-const SamplerA_Utility = Synth.getEffect("SamplerA_Utility");
-const SamplerA_SampleStart = Synth.getModulator("SamplerA_SampleStart");
-
-// Sampler B
-const SamplerB = Synth.getChildSynth("SamplerB");
-const SamplerB_AHDSR = Synth.getModulator("SamplerB_AHDSR");
-const SamplerB_Velocity = Synth.getModulator("SamplerB_Velocity");
-const SamplerB_PitchWheel = Synth.getModulator("SamplerB_PitchWheel");
-const SamplerB_PitchMod = Synth.getModulator("SamplerB_PitchMod");
-const SamplerB_TuneMod = Synth.getModulator("SamplerB_TuneMod");
-const SamplerB_LoopsPitchMod = Synth.getModulator("SamplerB_LoopsPitchMod");
-const SamplerB_Utility = Synth.getEffect("SamplerB_Utility");
-const SamplerB_SampleStart = Synth.getModulator("SamplerB_SampleStart");
-
-// Sampler C
-const SamplerC = Synth.getChildSynth("SamplerC");
-const SamplerC_AHDSR = Synth.getModulator("SamplerC_AHDSR");
-const SamplerC_Velocity = Synth.getModulator("SamplerC_Velocity");
-const SamplerC_PitchWheel = Synth.getModulator("SamplerC_PitchWheel");
-const SamplerC_PitchMod = Synth.getModulator("SamplerC_PitchMod");
-const SamplerC_TuneMod = Synth.getModulator("SamplerC_TuneMod");
-const SamplerC_LoopsPitchMod = Synth.getModulator("SamplerC_LoopsPitchMod");
-const SamplerC_Utility = Synth.getEffect("SamplerC_Utility");
-const SamplerC_SampleStart = Synth.getModulator("SamplerC_SampleStart");
-
-// Sampler Other
-const SamplerOther = Synth.getChildSynth("SamplerOther");
-const SamplerOther_AHDSR = Synth.getModulator("SamplerOther_AHDSR");
-const SamplerOther_Velocity = Synth.getModulator("SamplerOther_Velocity");
+const samplerA = [Synth.getChildSynth("SamplerA"),
+				  Synth.getModulator("SamplerA_AHDSR"),
+				  Synth.getModulator("SamplerA_Velocity"),
+				  Synth.getModulator("SamplerA_PitchWheel"),
+				  Synth.getModulator("SamplerA_PitchMod"),
+				  Synth.getModulator("SamplerA_TuneMod"),
+				  Synth.getModulator("SamplerA_LoopsPitchMod"),
+				  Synth.getEffect("SamplerA_Utility"),
+				  Synth.getModulator("SamplerA_SampleStart")];
+				  
+const samplerB = [Synth.getChildSynth("SamplerB"),
+				  Synth.getModulator("SamplerB_AHDSR"),
+				  Synth.getModulator("SamplerB_Velocity"),
+				  Synth.getModulator("SamplerB_PitchWheel"),
+				  Synth.getModulator("SamplerB_PitchMod"),
+				  Synth.getModulator("SamplerB_TuneMod"),
+				  Synth.getModulator("SamplerB_LoopsPitchMod"),
+				  Synth.getEffect("SamplerB_Utility"),
+				  Synth.getModulator("SamplerB_SampleStart")];
+				  
+const samplerC = [Synth.getChildSynth("SamplerC"),
+				  Synth.getModulator("SamplerC_AHDSR"),
+				  Synth.getModulator("SamplerC_Velocity"),
+				  Synth.getModulator("SamplerC_PitchWheel"),
+				  Synth.getModulator("SamplerC_PitchMod"),
+				  Synth.getModulator("SamplerC_TuneMod"),
+				  Synth.getModulator("SamplerC_LoopsPitchMod"),
+				  Synth.getEffect("SamplerC_Utility"),
+				  Synth.getModulator("SamplerC_SampleStart")];
+				  
+const samplerOther = [Synth.getChildSynth("SamplerOther"),
+					  Synth.getModulator("SamplerOther_AHDSR"),
+					  Synth.getModulator("SamplerOther_Velocity"),
+					  Synth.getModulator("SamplerOther_PitchWheel"),
+					  Synth.getModulator("SamplerOther_PitchMod"),
+					  Synth.getModulator("SamplerOther_TuneMod"),
+					  Synth.getModulator("SamplerOther_LoopsPitchMod"),
+					  Synth.getEffect("SamplerOther_Utility"),
+					  Synth.getModulator("SamplerOther_SampleStart")];				  				  				  				

@@ -10,7 +10,7 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerA" value="7.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
@@ -23,11 +23,11 @@
             <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerB" value="2.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerB" value="9.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBAttack" value="6.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBRelease" value="1000.0"/>
@@ -36,12 +36,12 @@
             <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerC" value="11.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbSamplerCDecay" value="1324.0"/>
+            <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerCSustain" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPitch" value="0.0"/>
@@ -140,7 +140,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap1">
+                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap7">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -177,8 +177,8 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="SamplerA_PitchWheel" Bypassed="1" Intensity="0.1666666716337204"
-                           Bipolar="1">
+                <Processor Type="PitchWheel" ID="SamplerA_PitchWheel" Bypassed="0" Intensity="0.1666666716337204"
+                           Bipolar="1" UseTable="0.0" Inverted="0.0" SmoothTime="200.0">
                   <ChildProcessors/>
                 </Processor>
                 <Processor Type="Constant" ID="SamplerA_PitchMod" Bypassed="0" Intensity="0.0"
@@ -240,7 +240,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap2">
+                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap9">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -249,7 +249,7 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerB_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="6.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
                            Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
@@ -277,8 +277,8 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="SamplerB_PitchWheel" Bypassed="1" Intensity="0.1666666716337204"
-                           Bipolar="1">
+                <Processor Type="PitchWheel" ID="SamplerB_PitchWheel" Bypassed="0" Intensity="0.1666666716337204"
+                           Bipolar="1" UseTable="0.0" Inverted="0.0" SmoothTime="200.0">
                   <ChildProcessors/>
                 </Processor>
                 <Processor Type="Constant" ID="SamplerB_PitchMod" Bypassed="0" Intensity="0.0"
@@ -340,7 +340,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap3">
+                   Group7Table="" SampleMapID="{PROJECT_FOLDER}Aetheric_SampleMap11">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -349,7 +349,7 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerC_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1324.0" Sustain="0.0"
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
                            Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
@@ -377,8 +377,8 @@
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
               <ChildProcessors>
-                <Processor Type="Constant" ID="SamplerC_PitchWheel" Bypassed="1" Intensity="0.1666666716337204"
-                           Bipolar="1">
+                <Processor Type="PitchWheel" ID="SamplerC_PitchWheel" Bypassed="0" Intensity="0.1666666716337204"
+                           Bipolar="1" UseTable="0.0" Inverted="0.0" SmoothTime="200.0">
                   <ChildProcessors/>
                 </Processor>
                 <Processor Type="Constant" ID="SamplerC_PitchMod" Bypassed="0" Intensity="0.0"
@@ -440,7 +440,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="AethericAmbiances_SampleMap">
+                   Group7Table="" SampleMapID="{PROJECT_FOLDER}AethericAmbiances_SampleMap">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -449,8 +449,8 @@
               <ChildProcessors>
                 <Processor Type="AHDSR" ID="SamplerOther_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="300.0" Sustain="0.0"
-                           Release="20.0" EcoMode="1.0">
+                           Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -476,13 +476,53 @@
               </ChildProcessors>
             </Processor>
             <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
-              <ChildProcessors/>
+              <ChildProcessors>
+                <Processor Type="PitchWheel" ID="SamplerOther_PitchWheel" Bypassed="0" Intensity="0.1666666716337204"
+                           Bipolar="1" UseTable="0.0" Inverted="0.0" SmoothTime="200.0">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="Constant" ID="SamplerOther_PitchMod" Bypassed="0" Intensity="0.0"
+                           Bipolar="1">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="Constant" ID="SamplerOther_TuneMod" Bypassed="0" Intensity="0.0"
+                           Bipolar="1">
+                  <ChildProcessors/>
+                </Processor>
+                <Processor Type="Constant" ID="SamplerOther_LoopsPitchMod" Bypassed="0"
+                           Intensity="0.0" Bipolar="1">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
             </Processor>
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
-              <ChildProcessors/>
+              <ChildProcessors>
+                <Processor Type="SimpleGain" ID="SamplerOther_Utility" Bypassed="0" Gain="0.0"
+                           Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+                  <ChildProcessors>
+                    <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                    <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+                      <ChildProcessors/>
+                    </Processor>
+                  </ChildProcessors>
+                  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+                </Processor>
+              </ChildProcessors>
             </Processor>
             <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
-              <ChildProcessors/>
+              <ChildProcessors>
+                <Processor Type="Constant" ID="SamplerOther_SampleStart" Bypassed="0" Intensity="1.0">
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
             </Processor>
             <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
               <ChildProcessors/>

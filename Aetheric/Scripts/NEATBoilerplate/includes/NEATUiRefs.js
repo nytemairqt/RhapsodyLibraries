@@ -180,24 +180,17 @@ for (k in knbSamplerC)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 for (k in knbSamplerOther)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
-
 for (c in cmbSampler)
 	c.setLocalLookAndFeel(LAFComboBoxSampler);
-
 for (b in btnPage)
 	b.setLocalLookAndFeel(LAFButtonChangePage);	
-	
 for (b in btnCmbPrev)
 	b.setLocalLookAndFeel(LAFButtonPrev);	
-	
 for (b in btnCmbNext)
 	b.setLocalLookAndFeel(LAFButtonNext);
-	
 for (b in btnSamplerBypass)
 	b.setLocalLookAndFeel(LAFButtonBypass);
-	
 for (k in knbSamplerOffset)
 	k.setLocalLookAndFeel(LAFSliderSampleOffset);
-	
 for (b in btnSamplerReverse)
 	b.setLocalLookAndFeel(LAFButtonSamplerReverse);

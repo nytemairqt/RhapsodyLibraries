@@ -22,11 +22,12 @@ const LAFSliderSampleOffset = Content.createLocalLookAndFeel();
 const LAFButtonPrev = Content.createLocalLookAndFeel();
 const LAFButtonNext = Content.createLocalLookAndFeel();
 const LAFButtonChangePage = Content.createLocalLookAndFeel();
-const LAFComboBoxSampler = Content.createLocalLookAndFeel();
+const LAFComboBoxNEAT = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
 const LAFKeyboard = Content.createLocalLookAndFeel();
 const LAFButtonSamplerOther = Content.createLocalLookAndFeel();
 const LAFButtonSamplerReverse = Content.createLocalLookAndFeel();
+const LAFButtonNEAT = Content.createLocalLookAndFeel();
 
 
 const pnlBody = Content.getComponent("pnlBody");
@@ -123,6 +124,18 @@ LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
 	g.drawAlignedText(obj.text, [0, 0, w, h], "centred");
 });
 
+// Generic Button w/ Text
+LAFButtonNEAT.registerFunction("drawToggleButton", function(g, obj)
+{
+	if (obj.value)
+	    g.setColour(obj.over ? clrWhite : clrLightgrey);
+	else
+		g.setColour(obj.over ? clrGrey : clrMidgrey);
+	
+	g.setFont("bold", 14.0);
+	g.drawAlignedText(obj.text, obj.area, "centred");
+});
+
 // Combobox Prev
 LAFButtonPrev.registerFunction("drawToggleButton", function(g, obj)
 {	
@@ -185,7 +198,7 @@ LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 
 //ComboBoxes
 
-LAFComboBoxSampler.registerFunction("drawComboBox", function(g, obj)
+LAFComboBoxNEAT.registerFunction("drawComboBox", function(g, obj)
 {
     g.setColour(obj.hover ? Colours.withAlpha(clrWhite, .1) : Colours.withAlpha(clrWhite, .05));
     g.fillRoundedRectangle(obj.area, 2.0);

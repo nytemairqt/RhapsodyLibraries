@@ -174,12 +174,125 @@ const lblSamplerOtherValue = [Content.getComponent("lblSamplerOtherAttackValue")
 							  
 /* FX */
 
-const pnlFX = Content.getComponent("pnlFX");							  				  
+const pnlFX = Content.getComponent("pnlFX");		
+
+const pnlFXChildren = [Content.getComponent("pnlFilter"),
+					   Content.getComponent("pnlAmp"),
+					   Content.getComponent("pnlDrive"),
+					   Content.getComponent("pnlUtility"),
+					   Content.getComponent("pnlStutter"),
+					   Content.getComponent("pnlDegrade"),
+					   Content.getComponent("pnlPhaser"),
+					   Content.getComponent("pnlReverb"),
+					   Content.getComponent("pnlDelay")];
+
+// Filter
+const knbFilter = [Content.getComponent("knbFilterCutoff"),
+				   Content.getComponent("knbFilterQ")];
+				   
+const lblFilter = [Content.getComponent("lblFilterCutoffValue"),
+				   Content.getComponent("lblFilterQValue"),];
+				   
+const btnFilter = [Content.getComponent("btnFilterHPF"),
+				   Content.getComponent("btnFilterLPF")];
+
+// Amp & Cab
+const knbAmp = [Content.getComponent("knbAmpGain"),
+				Content.getComponent("knbAmpOutput"),
+				Content.getComponent("knbAmpLow"),
+				Content.getComponent("knbAmpMid"),
+				Content.getComponent("knbAmpHigh")];
+				
+const lblAmp = [Content.getComponent("lblAmpGainValue"),
+				Content.getComponent("lblAmpOutputValue"),
+				Content.getComponent("lblAmpLowValue"),
+				Content.getComponent("lblAmpMidValue"),
+				Content.getComponent("lblAmpHighValue")];
+				
+const btnAmp = [Content.getComponent("btnAmpCabBypass"),
+				Content.getComponent("btnAmpOversampling")];
+				
+const cmbAmp = [Content.getComponent("cmbAmpCabSelect")];
+
+// Drive
+const knbDrive = [Content.getComponent("knbDriveWaveshaper"),
+				  Content.getComponent("knbDriveTube")];
+				  
+const lblDrive = [Content.getComponent("lblDriveWaveshaper"),
+				  Content.getComponent("lblDriveTube")];
+				  
+const btnDrive = [Content.getComponent("btnDriveWaveshaperOversampling"),
+                  Content.getComponent("btnDriveTubeOversampling")];
+
+// Utility & Stutter
+const knbUtility = [Content.getComponent("knbUtilityWidth"),
+                    Content.getComponent("knbUtilityGain")];
+                    
+const lblUtility = [Content.getComponent("lblUtilityGainValue"),
+                    Content.getComponent("lblUtilityWidthValue")];
+                    
+const knbStutter = [Content.getComponent("knbStutterRate"),
+                    Content.getComponent("knbStutterAmount")];
+                    
+const lblStutter = [Content.getComponent("lblStutterRateValue"),
+                    Content.getComponent("lblStutterAmountValue")];
+                    
+const btnStutter = [Content.getComponent("btnStutterPreFX"),
+                    Content.getComponent("btnStutterTempoSync")];
+
+// Degrade
+const knbDegrade = [Content.getComponent("knbDegradeBitDepth"),
+                    Content.getComponent("knbDegradeSampleHold")];
+
+const lblDegrade = [Content.getComponent("lblDegradeSampleHoldValue"),
+                    Content.getComponent("lblDegradeBitDepthValue")];
+
+
+// Phaser
+const knbPhaser = [Content.getComponent("knbPhaserRateA"),
+                   Content.getComponent("knbPhaserRateB"),
+                   Content.getComponent("knbPhaserFeedback"),
+                   Content.getComponent("knbPhaserMix")];
+                   
+const lblPhaser = [Content.getComponent("lblPhaserRateAValue"),
+                   Content.getComponent("lblPhaserRateBValue"),
+                   Content.getComponent("lblPhaserFeedbackValue"),
+                   Content.getComponent("lblPhaserMixValue")];
+                   
+const btnPhaser = [Content.getComponent("btnPhaserLinkLR")];
+
+// Reverb
+const knbReverb = [Content.getComponent("knbReverbSize"),
+                   Content.getComponent("knbReverbDamping"),
+                   Content.getComponent("knbReverbWidth"),
+                   Content.getComponent("knbReverbMix")];
+                   
+const lblReverb = [Content.getComponent("lblReverbSizeValue"),
+                   Content.getComponent("lblReverbDampingValue"),
+                   Content.getComponent("lblReverbWidthValue"),
+                   Content.getComponent("lblReverbMixValue")];
+
+// Delay
+const knbDelay = [Content.getComponent("knbDelayTimeL"),
+                  Content.getComponent("knbDelayTimeR"),
+                  Content.getComponent("knbDelayFeedbackL"),
+                  Content.getComponent("knbDelayFeedbackR"),
+                  Content.getComponent("knbDelayMix")];
+                  
+const lblDelay = [Content.getComponent("lblDelayTimeLValue"),
+                  Content.getComponent("lblDelayTimeRValue"),
+                  Content.getComponent("lblDelayFeedbackLValue"),
+                  Content.getComponent("lblDelayFeedbackRValue"),
+                  Content.getComponent("lblDelayMixValue")];
+                  
+const btnDelay = [Content.getComponent("btnDelayLinkLR"),
+                  Content.getComponent("btnDelayTempoSync")];
 
 // Assign LAF;
 
 btnSamplerOther.setLocalLookAndFeel(LAFButtonSamplerOther);
 
+// Knobs
 for (k in knbSamplerA)
 	k.setLocalLookAndFeel(LAFSliderNEAT);	
 for (k in knbSamplerB)
@@ -188,8 +301,32 @@ for (k in knbSamplerC)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 for (k in knbSamplerOther)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbFilter)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbAmp)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbDrive)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbUtility)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbStutter)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbDegrade)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbPhaser)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbReverb)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+for (k in knbDelay)
+	k.setLocalLookAndFeel(LAFSliderNEAT);		
+
+// ComboBoxes
 for (c in cmbSampler)
-	c.setLocalLookAndFeel(LAFComboBoxSampler);
+	c.setLocalLookAndFeel(LAFComboBoxNEAT);
+for (c in cmbAmp)
+	c.setLocalLookAndFeel(LAFComboBoxNEAT);
+	
+// Buttons
 for (b in btnPage)
 	b.setLocalLookAndFeel(LAFButtonChangePage);	
 for (b in btnCmbPrev)
@@ -202,3 +339,16 @@ for (k in knbSamplerOffset)
 	k.setLocalLookAndFeel(LAFSliderSampleOffset);
 for (b in btnSamplerReverse)
 	b.setLocalLookAndFeel(LAFButtonSamplerReverse);
+	
+for (b in btnFilter)
+	b.setLocalLookAndFeel(LAFButtonNEAT);
+for (b in btnAmp)
+	b.setLocalLookAndFeel(LAFButtonNEAT);	
+for (b in btnDrive)
+	b.setLocalLookAndFeel(LAFButtonNEAT);
+for (b in btnStutter)
+	b.setLocalLookAndFeel(LAFButtonNEAT);	
+for (b in btnPhaser)
+	b.setLocalLookAndFeel(LAFButtonNEAT);	
+for (b in btnDelay)
+	b.setLocalLookAndFeel(LAFButtonNEAT);	

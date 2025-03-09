@@ -67,7 +67,7 @@
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody">
+                 height="400.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerA" x="86.0" y="6.0" parentComponent="pnlSamplerA"
@@ -86,6 +86,8 @@
                    parentComponent="pnlSamplerA" width="270.0" processorId="SamplerA"
                    bgColour="4278782217" itemColour="0" itemColour2="4292072403"
                    showFileName="0" enableRange="0"/>
+        <Component type="ScriptButton" id="btnSamplerAReverse" x="245" y="188" enableMidiLearn="0"
+                   width="40.0" height="18.0" parentComponent="pnlSamplerA"/>
         <Component type="ScriptSlider" id="knbSamplerAOffset" x="15.0" y="88.0"
                    width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
                    scrollWheel="0" parentComponent="pnlSamplerA"/>
@@ -163,7 +165,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody">
+                 height="400.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerB" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerB" x="86.0" y="6.0" parentComponent="pnlSamplerB"
@@ -182,6 +184,8 @@
                    parentComponent="pnlSamplerB" width="270.0" processorId="SamplerB"
                    showFileName="0" bgColour="4278782217" enableRange="0" itemColour="0"
                    itemColour2="4292072403"/>
+        <Component type="ScriptButton" id="btnSamplerBReverse" x="245.0" y="188"
+                   enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerB"/>
         <Component type="ScriptSlider" id="knbSamplerBOffset" x="15.0" y="88.0"
                    width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
                    scrollWheel="0" parentComponent="pnlSamplerB"/>
@@ -259,7 +263,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="32.0" width="300.0"
-                 height="400.0" parentComponent="pnlBody">
+                 height="400.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblSamplerC" x="86.0" y="6.0" parentComponent="pnlSamplerC"
@@ -278,6 +282,8 @@
                    parentComponent="pnlSamplerC" width="270.0" processorId="SamplerC"
                    showFileName="0" enableRange="0" bgColour="4278782217" itemColour="0"
                    itemColour2="4292072403"/>
+        <Component type="ScriptButton" id="btnSamplerCReverse" x="245.0" y="188"
+                   enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerC"/>
         <Component type="ScriptSlider" id="knbSamplerCOffset" x="15.0" y="88.0"
                    width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
                    scrollWheel="0" parentComponent="pnlSamplerC"/>
@@ -354,107 +360,110 @@
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
-      <Component type="ScriptPanel" id="pnlSamplerExtra" x="40.0" y="32.0" width="300.0"
+      <Component type="ScriptPanel" id="pnlSamplerOther" x="40.0" y="32.0" width="300.0"
                  height="400.0" parentComponent="pnlBody" visible="0">
-        <Component type="ScriptButton" id="btnSamplerExtraBypass" x="10.0" y="10.0"
-                   parentComponent="pnlSamplerExtra" width="16.0" height="16.0"
+        <Component type="ScriptButton" id="btnSamplerOtherBypass" x="10.0" y="10.0"
+                   parentComponent="pnlSamplerOther" width="16.0" height="16.0"
                    enableMidiLearn="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtra" x="86.0" y="6.0" parentComponent="pnlSamplerExtra"
+        <Component type="ScriptLabel" id="lblSamplerOther" x="86.0" y="6.0" parentComponent="pnlSamplerOther"
                    height="20.0" width="128.0" text="SAMPLER EXTRA" fontName="bold"
                    fontSize="14.0" editable="0"/>
-        <Component type="ScriptComboBox" id="cmbSamplerExtra" x="80.0" y="45.0"
-                   max="30" parentComponent="pnlSamplerExtra" height="26.0" width="140.0"
+        <Component type="ScriptComboBox" id="cmbSamplerOther" x="80.0" y="45.0"
+                   max="30" parentComponent="pnlSamplerOther" height="26.0" width="140.0"
                    items="Angelic A&#10;Angelic B&#10;Angelic C&#10;Croon A&#10;Croon B&#10;Croon C&#10;Ephemeral A&#10;Ephemeral B&#10;Ephemeral C&#10;Hybrid Strings A&#10;Hybrid Strings B&#10;Hybrid Strings C&#10;Mockingbird A&#10;Mockingbird B&#10;Mockingbird C&#10;Nexus A&#10;Nexus B&#10;Nexus C&#10;Nimbus A&#10;Nimbus B&#10;Nimbus C&#10;Oculus A&#10;Oculus B&#10;Oculus C&#10;Silk A&#10;Silk B&#10;Silk C&#10;Wisp A&#10;Wisp B&#10;Wisp C"
                    bgColour="0" itemColour2="4211081216" itemColour="1711276032"/>
-        <Component type="ScriptButton" id="btnCmbSamplerExtraPrev" x="200.0" y="50.0"
-                   width="10.0" height="6.0" parentComponent="pnlSamplerExtra" isMomentary="1"
+        <Component type="ScriptButton" id="btnCmbSamplerOtherPrev" x="200.0" y="50.0"
+                   width="10.0" height="6.0" parentComponent="pnlSamplerOther" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnCmbSamplerExtraNext" x="200.0" y="60.0"
-                   width="10.0" height="6.0" parentComponent="pnlSamplerExtra" enableMidiLearn="0"
+        <Component type="ScriptButton" id="btnCmbSamplerOtherNext" x="200.0" y="60.0"
+                   width="10.0" height="6.0" parentComponent="pnlSamplerOther" enableMidiLearn="0"
                    isMomentary="1" saveInPreset="0"/>
-        <Component type="ScriptAudioWaveform" id="awfSamplerExtra" x="15.0" y="88.0"
-                   parentComponent="pnlSamplerExtra" width="270.0" processorId="SamplerA"
+        <Component type="ScriptAudioWaveform" id="awfSamplerOther" x="15.0" y="88.0"
+                   parentComponent="pnlSamplerOther" width="270.0" processorId="SamplerA"
                    bgColour="4278782217" itemColour="0" itemColour2="4292072403"
                    showFileName="0" enableRange="0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraOffset" x="15.0" y="88.0"
+        <Component type="ScriptButton" id="btnSamplerOtherReverse" x="245.0" y="188"
+                   enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerOther"/>
+        <Component type="ScriptSlider" id="knbSamplerOtherOffset" x="15.0" y="88.0"
                    width="270.0" height="100.0" dragDirection="Horizontal" enableMidiLearn="0"
-                   scrollWheel="0" parentComponent="pnlSamplerExtra"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraAttack" x="30.0" y="217.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+                   scrollWheel="0" parentComponent="pnlSamplerOther"/>
+        <Component type="ScriptSlider" id="knbSamplerOtherAttack" x="30.0" y="217.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="5.0" max="20000.0" stepSize="1.0" defaultValue="5.0" middlePosition="1000.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraDecay" x="96.0" y="217.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherDecay" x="96.0" y="217.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="5.0" max="5000.0" stepSize="1.0" defaultValue="1500.0" middlePosition="2500.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraSustain" x="163.0" y="217.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherSustain" x="163.0" y="217.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="-100.0" max="0.0" stepSize="1.0" middlePosition="-12.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraRelease" x="230.0" y="217.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherRelease" x="230.0" y="217.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="5.0" max="20000.0" stepSize="1.0" defaultValue="1000.0"
                    middlePosition="1000.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraPitch" x="30.0" y="311.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherPitch" x="30.0" y="311.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="-12.0" max="12.0" stepSize="1.0" middlePosition="0.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraTune" x="96.0" y="311.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherTune" x="96.0" y="311.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="-100.0" max="100.0" stepSize="1.0" middlePosition="0.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraPan" x="163.0" y="311.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherPan" x="163.0" y="311.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="-100.0" max="100.0" stepSize="1.0" middlePosition="0.0"/>
-        <Component type="ScriptSlider" id="knbSamplerExtraGain" x="230.0" y="311.0"
-                   parentComponent="pnlSamplerExtra" width="40.0" height="40.0"
+        <Component type="ScriptSlider" id="knbSamplerOtherGain" x="230.0" y="311.0"
+                   parentComponent="pnlSamplerOther" width="40.0" height="40.0"
                    min="-100.0" max="12.0" stepSize="1.0" middlePosition="-12.0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraAttack" x="19.0" y="261.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherAttack" x="19.0" y="261.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Attack" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraDecay" x="85.0" y="261.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherDecay" x="85.0" y="261.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Decay" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraSustain" x="152.0" y="261.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherSustain" x="152.0" y="261.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Sustain" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraRelease" x="219.0" y="261.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherRelease" x="219.0" y="261.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Release" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraPitch" x="19.0" y="355.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherPitch" x="19.0" y="355.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Pitch" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraTune" x="85.0" y="355.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherTune" x="85.0" y="355.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Tune" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraPan" x="152.0" y="355.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherPan" x="152.0" y="355.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Pan" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraGain" x="219.0" y="355.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherGain" x="219.0" y="355.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="Gain" fontName="bold" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraAttackValue" x="19.0" y="280.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherAttackValue" x="19.0" y="280.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="5ms" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraDecayValue" x="85.0" y="280.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherDecayValue" x="85.0" y="280.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="1500ms" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraSustainValue" x="152.0"
-                   y="280.0" parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherSustainValue" x="152.0"
+                   y="280.0" parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0dB" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraReleaseValue" x="219.0"
-                   y="280.0" parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherReleaseValue" x="219.0"
+                   y="280.0" parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="1000ms" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraPitchValue" x="19.0" y="374.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherPitchValue" x="19.0" y="374.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0st" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraTuneValue" x="85.0" y="374.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherTuneValue" x="85.0" y="374.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0c" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraPanValue" x="152.0" y="374.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherPanValue" x="152.0" y="374.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="C" fontName="regular" fontSize="12.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblSamplerExtraGainValue" x="219.0" y="374.0"
-                   parentComponent="pnlSamplerExtra" height="20.0" width="60.0"
+        <Component type="ScriptLabel" id="lblSamplerOtherGainValue" x="219.0" y="374.0"
+                   parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0db" fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
-      <Component type="ScriptButton" id="btnSamplerExtra" x="314.0" y="42.0" parentComponent="pnlBody"
-                 width="16.0" height="16.0" enableMidiLearn="0"/>
+      <Component type="ScriptButton" id="btnSamplerOther" x="314.0" y="42.0" parentComponent="pnlBody"
+                 width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
+                 visible="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

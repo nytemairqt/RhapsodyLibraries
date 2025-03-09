@@ -12,6 +12,7 @@
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
@@ -24,6 +25,7 @@
             <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerB" value="2.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBAttack" value="6.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
@@ -36,6 +38,7 @@
             <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerCDecay" value="1324.0"/>
@@ -45,19 +48,19 @@
             <Control type="ScriptSlider" id="knbSamplerCTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerExtraBypass" value="0.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerExtra" value="1.0"/>
-            <Control type="ScriptAudioWaveform" id="awfSamplerExtra" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraOffset" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraAttack" value="5.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraDecay" value="1500.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraSustain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraRelease" value="1000.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraPitch" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraTune" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraPan" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerExtraGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerExtra" value="0"/>
+            <Control type="ScriptButton" id="btnSamplerOtherBypass" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerOther" value="1.0"/>
+            <Control type="ScriptAudioWaveform" id="awfSamplerOther" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerOtherReverse" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherOffset" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherAttack" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherDecay" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherSustain" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherRelease" value="1000.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherPitch" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherTune" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherPan" value="0.0"/>
+            <Control type="ScriptSlider" id="knbSamplerOtherGain" value="0.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
             <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbCoarseDetune" value="0.0"/>

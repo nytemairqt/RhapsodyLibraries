@@ -106,9 +106,9 @@ inline function changePage(index)
 		p.set("visible", false);
 		
 	// Hide & Reset Sampler Extra
-	btnSamplerExtra.setValue(0);
-	btnSamplerExtra.changed();
-	btnSamplerExtra.set("visible", false);
+	btnSamplerOther.setValue(0);
+	btnSamplerOther.changed();
+	btnSamplerOther.set("visible", false);
 		
 	// add other panels here
 		
@@ -124,7 +124,7 @@ inline function onbtnChangePageControl(component, value)
 		case btnPage[0]:
 		{
 			changePage(0);
-			btnSamplerExtra.set("visible", value);
+			btnSamplerOther.set("visible", value);
 			for (i=0; i<pnlSampler.length; i++)
 			{
 				if (i < 3)
@@ -178,6 +178,32 @@ inline function onbtnSamplerBypassControl(component, value)
 
 for (b in btnSamplerBypass)
 	b.setControlCallback(onbtnSamplerBypassControl);
+	
+inline function onbtnSamplerReverseControl(component, value)
+{
+	switch (component)
+	{
+		case btnSamplerReverse[0]:
+		{
+			samplers[0].setAttribute(samplers[0].Reversed, value);
+		}
+		case btnSamplerReverse[1]:
+		{
+			samplers[1].setAttribute(samplers[1].Reversed, value);
+		}
+		case btnSamplerReverse[2]:
+		{
+			samplers[2].setAttribute(samplers[2].Reversed, value);
+		}
+		case btnSamplerReverse[3]: // Other
+		{
+			SamplerOther.setAttribute(SamplerOther.Reversed, value);
+		}
+	}
+}
+
+for (b in btnSamplerReverse)
+	b.setControlCallback(onbtnSamplerReverseControl);
 
 // ComboBox
 inline function oncmbSamplerControl(component, value)
@@ -458,22 +484,12 @@ knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
 
 // Sampler Extra
-inline function onbtnSamplerExtraControl(component, value)
+inline function onbtnSamplerOtherControl(component, value)
 {
 	pnlSampler[3].set("visible", value);
 };
 
-btnSamplerExtra.setControlCallback(onbtnSamplerExtraControl);
-
-//Reverse Sample Switch
-
-
-inline function onButton_SamplerAReverseControl(component, value)
-{
-	SamplerA.setAttribute(SamplerA.Reversed, value);
-};
-
-//knbSamplerA.setControlCallback();
+btnSamplerOther.setControlCallback(onbtnSamplerOtherControl);
 
 /* Rhapsody Stuff */
 
@@ -499,23 +515,42 @@ Content.getComponent("knbMasterPan").setControlCallback(onknbMasterPanControl);
 // Paint Routines
 for (p in pnlSampler)
 {
-	p.setPaintRoutine(function(g)
+	if (p == pnlSampler[3])
 	{
-		var gradientData = [pnlBodyColourTop, 0, 0, pnlBodyColour, 0, this.getHeight(), false];
-		//g.setGradientFill(gradientData);
-		
-		g.setColour(clrRhapsodyBlue);
-		g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-		
-		var noiseData = {
-				"alpha" : .1,
-				"monochromatic" : false,
-				"scaleFactor" : 2,
-				"area" : [0, 0, this.getWidth(), this.getHeight()]		
-			};
+		p.setPaintRoutine(function(g)
+		{		
+			g.setColour(clrExtradarkblue);
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
 			
-		g.addNoise(noiseData);
-	});
+			var noiseData = {
+					"alpha" : .1,
+					"monochromatic" : false,
+					"scaleFactor" : 2,
+					"area" : [0, 0, this.getWidth(), this.getHeight()]		
+				};
+				
+			g.addNoise(noiseData);
+		});
+	}
+	else
+	{
+		p.setPaintRoutine(function(g)
+		{		
+			g.setColour(clrRhapsodyBlue);
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+			
+			var noiseData = {
+					"alpha" : .1,
+					"monochromatic" : false,
+					"scaleFactor" : 2,
+					"area" : [0, 0, this.getWidth(), this.getHeight()]		
+				};
+				
+			g.addNoise(noiseData);
+		});
+	}
+
+	
 }
 
 

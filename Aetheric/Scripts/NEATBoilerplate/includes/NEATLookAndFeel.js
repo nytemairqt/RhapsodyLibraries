@@ -25,7 +25,8 @@ const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFComboBoxSampler = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
 const LAFKeyboard = Content.createLocalLookAndFeel();
-const LAFButtonSamplerExtra = Content.createLocalLookAndFeel();
+const LAFButtonSamplerOther = Content.createLocalLookAndFeel();
+const LAFButtonSamplerReverse = Content.createLocalLookAndFeel();
 
 
 const pnlBody = Content.getComponent("pnlBody");
@@ -38,6 +39,7 @@ const pnlBody = Content.getComponent("pnlBody");
 //const offWhite = 0xFFEDEDED;
 
 const clrRhapsodyBlue = 0xFF1D1D21;
+const clrExtradarkblue = 0xFF191933;
 const clrOffWhite = 0xFFEDEDED;
 
 // Old NEAT Player Colours in case I need them...
@@ -136,7 +138,7 @@ LAFButtonNext.registerFunction("drawToggleButton", function(g, obj)
 });
 
 // Sampler Extra
-LAFButtonSamplerExtra.registerFunction("drawToggleButton", function(g, obj)
+LAFButtonSamplerOther.registerFunction("drawToggleButton", function(g, obj)
 {
 	var w = obj.area[2];
 	var h = obj.area[3];
@@ -150,7 +152,20 @@ LAFButtonSamplerExtra.registerFunction("drawToggleButton", function(g, obj)
 	
 	//g.fillRoundedRectangle(obj.area, 6.0);
 	
+	g.setFont("bold", 14.0);
 	g.drawAlignedText("E", obj.area, "centred");
+});
+
+// Sampler Reverse
+LAFButtonSamplerReverse.registerFunction("drawToggleButton", function(g, obj)
+{
+	if (obj.value)
+	    g.setColour(obj.over ? clrWhite : clrLightgrey);
+	else
+		g.setColour(obj.over ? clrGrey : clrMidgrey);
+		
+	g.setFont("bold", 14.0);
+	g.drawAlignedText("REV", obj.area, "centred");
 });
 
 //Bypass Button

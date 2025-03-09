@@ -26,34 +26,39 @@ const btnPage = [Content.getComponent("btnSamplePage"),
 const pnlSampler = [Content.getComponent("pnlSamplerA"),
 					 Content.getComponent("pnlSamplerB"),
 					 Content.getComponent("pnlSamplerC"),
-					 Content.getComponent("pnlSamplerExtra")];
+					 Content.getComponent("pnlSamplerOther")];
 
 const cmbSampler = [Content.getComponent("cmbSamplerA"),
 					Content.getComponent("cmbSamplerB"),
 					Content.getComponent("cmbSamplerC"),
-					Content.getComponent("cmbSamplerExtra")];
+					Content.getComponent("cmbSamplerOther")];
 
 const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
 					Content.getComponent("btnCmbSamplerBPrev"),
 					Content.getComponent("btnCmbSamplerCPrev"),
-					Content.getComponent("btnCmbSamplerExtraPrev")];
+					Content.getComponent("btnCmbSamplerOtherPrev")];
 					
 const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 					Content.getComponent("btnCmbSamplerBNext"),
 					Content.getComponent("btnCmbSamplerCNext"),
-					Content.getComponent("btnCmbSamplerExtraNext")];
+					Content.getComponent("btnCmbSamplerOtherNext")];
 
 const btnSamplerBypass = [Content.getComponent("btnSamplerABypass"),
 						  Content.getComponent("btnSamplerBBypass"),
 						  Content.getComponent("btnSamplerCBypass"),
-						  Content.getComponent("btnSamplerExtraBypass")];
+						  Content.getComponent("btnSamplerOtherBypass")];
 						  
-const btnSamplerExtra = Content.getComponent("btnSamplerExtra");						  	
+const btnSamplerReverse = [Content.getComponent("btnSamplerAReverse"),
+						   Content.getComponent("btnSamplerBReverse"),
+						   Content.getComponent("btnSamplerCReverse"),
+						   Content.getComponent("btnSamplerOtherReverse")];
+						  
+const btnSamplerOther = Content.getComponent("btnSamplerOther");						  	
 						  
 const knbSamplerOffset = [Content.getComponent("knbSamplerAOffset"),
 						  Content.getComponent("knbSamplerBOffset"),
 						  Content.getComponent("knbSamplerCOffset"),
-						  Content.getComponent("knbSamplerExtraOffset")];						 
+						  Content.getComponent("knbSamplerOtherOffset")];						 
 
 const knbSamplerA = [Content.getComponent("knbSamplerAAttack"),
 					 Content.getComponent("knbSamplerADecay"),
@@ -136,36 +141,36 @@ const lblSamplerCValue = [Content.getComponent("lblSamplerCAttackValue"),
 						  Content.getComponent("lblSamplerCPanValue"),
 						  Content.getComponent("lblSamplerCGainValue")];	
 						  
-const knbSamplerExtra = [Content.getComponent("knbSamplerExtraAttack"),
-						 Content.getComponent("knbSamplerExtraDecay"),
-						 Content.getComponent("knbSamplerExtraSustain"),
-						 Content.getComponent("knbSamplerExtraRelease"),
-						 Content.getComponent("knbSamplerExtraPitch"),
-						 Content.getComponent("knbSamplerExtraTune"),
-						 Content.getComponent("knbSamplerExtraPan"),
-						 Content.getComponent("knbSamplerExtraGain")];
+const knbSamplerOther = [Content.getComponent("knbSamplerOtherAttack"),
+						 Content.getComponent("knbSamplerOtherDecay"),
+						 Content.getComponent("knbSamplerOtherSustain"),
+						 Content.getComponent("knbSamplerOtherRelease"),
+						 Content.getComponent("knbSamplerOtherPitch"),
+						 Content.getComponent("knbSamplerOtherTune"),
+						 Content.getComponent("knbSamplerOtherPan"),
+						 Content.getComponent("knbSamplerOtherGain")];
 
-const lblSamplerExtra = [Content.getComponent("lblSamplerExtraAttack"),
-						 Content.getComponent("lblSamplerExtraDecay"),
-						 Content.getComponent("lblSamplerExtraSustain"),
-						 Content.getComponent("lblSamplerExtraRelease"),
-						 Content.getComponent("lblSamplerExtraPitch"),
-						 Content.getComponent("lblSamplerExtraTune"),
-						 Content.getComponent("lblSamplerExtraPan"),
-						 Content.getComponent("lblSamplerExtraGain")];
+const lblSamplerOther = [Content.getComponent("lblSamplerOtherAttack"),
+						 Content.getComponent("lblSamplerOtherDecay"),
+						 Content.getComponent("lblSamplerOtherSustain"),
+						 Content.getComponent("lblSamplerOtherRelease"),
+						 Content.getComponent("lblSamplerOtherPitch"),
+						 Content.getComponent("lblSamplerOtherTune"),
+						 Content.getComponent("lblSamplerOtherPan"),
+						 Content.getComponent("lblSamplerOtherGain")];
 
-const lblSamplerExtraValue = [Content.getComponent("lblSamplerExtraAttackValue"),
-							  Content.getComponent("lblSamplerExtraDecayValue"),
-							  Content.getComponent("lblSamplerExtraSustainValue"),
-							  Content.getComponent("lblSamplerExtraReleaseValue"),
-							  Content.getComponent("lblSamplerExtraPitchValue"),
-							  Content.getComponent("lblSamplerExtraTuneValue"),
-							  Content.getComponent("lblSamplerExtraPanValue"),
-							  Content.getComponent("lblSamplerExtraGainValue")];						  
+const lblSamplerOtherValue = [Content.getComponent("lblSamplerOtherAttackValue"),
+							  Content.getComponent("lblSamplerOtherDecayValue"),
+							  Content.getComponent("lblSamplerOtherSustainValue"),
+							  Content.getComponent("lblSamplerOtherReleaseValue"),
+							  Content.getComponent("lblSamplerOtherPitchValue"),
+							  Content.getComponent("lblSamplerOtherTuneValue"),
+							  Content.getComponent("lblSamplerOtherPanValue"),
+							  Content.getComponent("lblSamplerOtherGainValue")];						  
 
 // Assign LAF;
 
-btnSamplerExtra.setLocalLookAndFeel(LAFButtonSamplerExtra);
+btnSamplerOther.setLocalLookAndFeel(LAFButtonSamplerOther);
 
 for (k in knbSamplerA)
 	k.setLocalLookAndFeel(LAFSliderNEAT);	
@@ -173,7 +178,7 @@ for (k in knbSamplerB)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 for (k in knbSamplerC)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
-for (k in knbSamplerExtra)
+for (k in knbSamplerOther)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 
 for (c in cmbSampler)
@@ -193,3 +198,6 @@ for (b in btnSamplerBypass)
 	
 for (k in knbSamplerOffset)
 	k.setLocalLookAndFeel(LAFSliderSampleOffset);
+	
+for (b in btnSamplerReverse)
+	b.setLocalLookAndFeel(LAFButtonSamplerReverse);

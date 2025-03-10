@@ -575,6 +575,97 @@ inline function onbtnSamplerOtherControl(component, value)
 
 btnSamplerOther.setControlCallback(onbtnSamplerOtherControl);
 
+/* FX */
+
+
+// Filter
+inline function onknbFilterControl(component, value)
+{
+	switch (component)
+	{
+		case knbFilter[0]: // Freq
+		{
+			filter[0].setAttribute(filter[0].Frequency, value);
+			lblFilter[0].set("text", Math.round(value) + "hz");
+		}
+		case knbFilter[1]: // Q
+		{
+			filter[0].setAttribute(filter[0].Q, value);
+			lblFilter[1].set("text", Engine.doubleToString(value, 2));
+		}
+	}
+}
+
+for (k in knbFilter)
+	k.setControlCallback(onknbFilterControl);
+	
+inline function onbtnFilterControl(component, value)
+{
+	switch (component)
+	{
+		case btnFilter[0]:
+		{
+			if (value)
+				filter[0].setAttribute(filter[0].Mode, 7);
+		}
+		case btnFilter[1]:
+		{
+			if (value)
+				filter[0].setAttribute(filter[0].Mode, 6);
+		}
+	}
+}
+
+for (b in btnFilter)
+	b.setControlCallback(onbtnFilterControl);
+	
+// Amp
+
+inline function onknbAmpControl(component, value)
+{
+	switch (component)
+	{
+		case knbAmp[0]: // gain
+		{
+			amp[1].setAttribute(amp[0].Gain, value);
+			lblAmp[0].set("text", Math.round(value) + "dB");
+		}
+		case knbAmp[1]: // output
+		{
+			amp[1].setAttribute(amp[1].Output, value);			
+			lblAmp[1].set("text", Math.round(value) + "dB");
+		}
+		case knbAmp[2]: // tone
+		{
+			amp[0].setAttribute(2 * amp[0].BandOffset + amp[0].Gain, 1-value); // Low
+			amp[0].setAttribute(4 * amp[0].BandOffset + amp[0].Gain, 1-(value * .5)); // Mid
+			amp[0].setAttribute(3 * amp[0].BandOffset + amp[0].Gain, value); // High
+			lblAmp[2].set("text", Math.round(value) + "dB");
+		}
+	}
+}
+
+for (k in knbAmp)
+	k.setControlCallback(onknbAmpControl);
+	
+inline function onbtnAmpControl(component, value)
+{
+	switch (component)
+	{
+		case btnAmp[0]: // cab bypass
+		{
+			// need to add amp fx bypass to check logic 
+		}
+		case btnAmp[1]: // oversampling
+		{
+			amp[1].setAttribute(amp[1].Oversample, value);
+		}
+	}
+}
+
+for (b in btnAmp)
+	b.setControlCallback(onbtnAmpControl);
+
 /* Rhapsody Stuff */
 
 // Rhapsody Gain
@@ -596,59 +687,6 @@ inline function onknbMasterPanControl(component, value)
 Content.getComponent("knbMasterGain").setControlCallback(onknbMasterGainControl);
 Content.getComponent("knbMasterPan").setControlCallback(onknbMasterPanControl);	
 	
-// Paint Routines
-for (p in pnlSampler)
-{
-	if (p == pnlSampler[3])
-	{
-		p.setPaintRoutine(function(g)
-		{		
-			g.setColour(clrExtradarkblue);
-			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-			
-			var noiseData = {
-					"alpha" : .1,
-					"monochromatic" : false,
-					"scaleFactor" : 2,
-					"area" : [0, 0, this.getWidth(), this.getHeight()]		
-				};
-				
-			g.addNoise(noiseData);
-		});
-	}
-	else
-	{
-		p.setPaintRoutine(function(g)
-		{		
-			g.setColour(clrRhapsodyBlue);
-			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-			
-			var noiseData = {
-					"alpha" : .1,
-					"monochromatic" : false,
-					"scaleFactor" : 2,
-					"area" : [0, 0, this.getWidth(), this.getHeight()]		
-				};
-				
-			g.addNoise(noiseData);
-		});
-	}	
-}
-
-pnlFX.setPaintRoutine(function(g)
-{
-	g.setColour(clrRhapsodyBlue);
-	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-	
-	var noiseData = {
-			"alpha" : .1,
-			"monochromatic" : false,
-			"scaleFactor" : 2,
-			"area" : [0, 0, this.getWidth(), this.getHeight()]		
-		};
-		
-	g.addNoise(noiseData);
-});
 
 	
 

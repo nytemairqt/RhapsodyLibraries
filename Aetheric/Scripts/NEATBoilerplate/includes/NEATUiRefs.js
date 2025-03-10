@@ -199,15 +199,11 @@ const btnFilter = [Content.getComponent("btnFilterHPF"),
 // Amp & Cab
 const knbAmp = [Content.getComponent("knbAmpGain"),
 				Content.getComponent("knbAmpOutput"),
-				Content.getComponent("knbAmpLow"),
-				Content.getComponent("knbAmpMid"),
-				Content.getComponent("knbAmpHigh")];
+				Content.getComponent("knbAmpTone")];
 				
 const lblAmp = [Content.getComponent("lblAmpGainValue"),
 				Content.getComponent("lblAmpOutputValue"),
-				Content.getComponent("lblAmpLowValue"),
-				Content.getComponent("lblAmpMidValue"),
-				Content.getComponent("lblAmpHighValue")];
+				Content.getComponent("lblAmpToneValue")];
 				
 const btnAmp = [Content.getComponent("btnAmpCabBypass"),
 				Content.getComponent("btnAmpOversampling")];
@@ -352,3 +348,71 @@ for (b in btnPhaser)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
 for (b in btnDelay)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
+	
+// Panels
+
+// Paint Routines
+for (p in pnlSampler)
+{
+	if (p == pnlSampler[3])
+	{
+		p.setPaintRoutine(function(g)
+		{		
+			g.setColour(clrExtradarkblue);
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+			
+			var noiseData = {
+					"alpha" : .1,
+					"monochromatic" : false,
+					"scaleFactor" : 2,
+					"area" : [0, 0, this.getWidth(), this.getHeight()]		
+				};
+				
+			g.addNoise(noiseData);
+		});
+	}
+	else
+	{
+		p.setPaintRoutine(function(g)
+		{		
+			g.setColour(clrRhapsodyBlue);
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+			
+			var noiseData = {
+					"alpha" : .1,
+					"monochromatic" : false,
+					"scaleFactor" : 2,
+					"area" : [0, 0, this.getWidth(), this.getHeight()]		
+				};
+				
+			g.addNoise(noiseData);
+		});
+	}	
+}
+
+pnlFX.setPaintRoutine(function(g)
+{
+	g.setColour(clrRhapsodyBlue);
+	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+	
+	var noiseData = {
+			"alpha" : .1,
+			"monochromatic" : false,
+			"scaleFactor" : 2,
+			"area" : [0, 0, this.getWidth(), this.getHeight()]		
+		};
+		
+	g.addNoise(noiseData);
+});
+
+for (p in pnlFXChildren)
+{
+	p.setPaintRoutine(function(g)
+	{
+		var w = this.getWidth();
+		var h = this.getHeight();
+
+		g.setColour(Colours.withAlpha(clrLightgrey, 0.3));
+		g.drawRoundedRectangle([0, 0, w, h], 16.0, 1.0);
+	});
+}

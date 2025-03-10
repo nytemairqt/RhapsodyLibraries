@@ -55,4 +55,17 @@ const samplerOther = [Synth.getChildSynth("SamplerOther"),
 					  Synth.getModulator("SamplerOther_TuneMod"),
 					  Synth.getModulator("SamplerOther_LoopsPitchMod"),
 					  Synth.getEffect("SamplerOther_Utility"),
-					  Synth.getModulator("SamplerOther_SampleStart")];				  				  				  				
+					  Synth.getModulator("SamplerOther_SampleStart")];	
+					  
+/* FX */					  
+const filter = [Synth.getEffect("Filter")];		  	
+const amp = [Synth.getEffect("Amp_EQ"), Synth.getEffect("Amp"), Synth.getEffect("Amp_CorrectiveEQ"), Synth.getEffect("Amp_Cab")];
+const drive = [Synth.getEffect("Waveshaper"), Synth.getEffect("TubeDrive")];
+const utility = [Synth.getEffect("Utility")];
+const stutter = [Synth.getEffect("LFOGain"), Synth.getModulator("LFOGainMod")];
+const phaser = [Synth.getEffect("Phaser")];
+const degrade = [Synth.getEffect("Degrade")];
+const reverb = [Synth.getEffect("Reverb")];
+const delay = [Synth.getEffect("Delay")];
+
+  				

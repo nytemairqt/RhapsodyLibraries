@@ -185,6 +185,16 @@ const pnlFXChildren = [Content.getComponent("pnlFilter"),
 					   Content.getComponent("pnlPhaser"),
 					   Content.getComponent("pnlReverb"),
 					   Content.getComponent("pnlDelay")];
+					  
+const btnFXBypass = [Content.getComponent("btnFilterBypass"),
+					 Content.getComponent("btnAmpBypass"),
+					 Content.getComponent("btnDriveBypass"),
+					 Content.getComponent("btnDegradeBypass"),
+					 Content.getComponent("btnUtilityBypass"),
+					 Content.getComponent("btnStutterBypass"),
+					 Content.getComponent("btnPhaserBypass"),
+					 Content.getComponent("btnReverbBypass"),
+					 Content.getComponent("btnDelayBypass")];
 
 // Filter
 const knbFilter = [Content.getComponent("knbFilterCutoff"),
@@ -336,6 +346,8 @@ for (k in knbSamplerOffset)
 for (b in btnSamplerReverse)
 	b.setLocalLookAndFeel(LAFButtonSamplerReverse);
 	
+for (b in btnFXBypass)
+	b.setLocalLookAndFeel(LAFButtonBypass);
 for (b in btnFilter)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
 for (b in btnAmp)
@@ -392,8 +404,14 @@ for (p in pnlSampler)
 
 pnlFX.setPaintRoutine(function(g)
 {
+	var w = this.getWidth();
+	var h = this.getHeight();
+
 	g.setColour(clrRhapsodyBlue);
-	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+	//g.setColour(Colours.withAlpha(clrRhapsodyBlue, 0.0));
+	//g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
+	
+	g.drawRoundedRectangle([0, 0, w, h], 2.0, 1.0);
 	
 	var noiseData = {
 			"alpha" : .1,
@@ -402,7 +420,7 @@ pnlFX.setPaintRoutine(function(g)
 			"area" : [0, 0, this.getWidth(), this.getHeight()]		
 		};
 		
-	g.addNoise(noiseData);
+	//g.addNoise(noiseData);
 });
 
 for (p in pnlFXChildren)
@@ -411,8 +429,20 @@ for (p in pnlFXChildren)
 	{
 		var w = this.getWidth();
 		var h = this.getHeight();
+		
+		g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
+		g.fillRoundedRectangle([0, 0, w, h], 10.0);
 
-		g.setColour(Colours.withAlpha(clrLightgrey, 0.3));
-		g.drawRoundedRectangle([0, 0, w, h], 16.0, 1.0);
+		//g.setColour(Colours.withAlpha(clrLightgrey, 0.3));
+		//g.drawRoundedRectangle([0, 0, w, h], 16.0, 1.0);
+		
+		var noiseData = {
+					"alpha" : .1,
+					"monochromatic" : false,
+					"scaleFactor" : 2,
+					"area" : [0, 0, this.getWidth(), this.getHeight()]		
+				};
+				
+		g.addNoise(noiseData);
 	});
 }

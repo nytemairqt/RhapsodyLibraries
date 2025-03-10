@@ -577,6 +577,54 @@ btnSamplerOther.setControlCallback(onbtnSamplerOtherControl);
 
 /* FX */
 
+// Generic
+inline function onknbFXBypassControl(component, value)
+{
+	switch (component)
+	{
+		case btnFXBypass[0]: // Filter
+		{
+			filter[0].setBypassed(1-value);
+		}
+		case btnFXBypass[1]: // Amp
+		{
+			for (fx in amp)
+				fx.setBypassed(1-value);
+		}
+		case btnFXBypass[2]: // Drive
+		{
+			for (fx in drive)
+				fx.setBypassed(1-value);
+		}
+		case btnFXBypass[3]: // Degrade
+		{
+			degrade[0].setBypassed(1-value);
+		}
+		case btnFXBypass[4]: // Utility
+		{
+			utility[0].setBypassed(1-value);
+		}
+		case btnFXBypass[5]: // Stutter
+		{
+			stutter[0].setBypassed(1-value);
+		}				
+		case btnFXBypass[6]: // Phaser
+		{
+			phaser[0].setBypassed(1-value);
+		}
+		case btnFXBypass[7]: // Reverb
+		{
+			reverb[0].setBypassed(1-value);
+		}
+		case btnFXBypass[8]: // Delay
+		{
+			delay[0].setBypassed(1-value);
+		}
+	}
+}
+
+for (b in btnFXBypass)
+	b.setControlCallback(onknbFXBypassControl);
 
 // Filter
 inline function onknbFilterControl(component, value)

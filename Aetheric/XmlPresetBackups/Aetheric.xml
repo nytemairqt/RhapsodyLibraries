@@ -109,7 +109,7 @@
             <Control type="ScriptSlider" id="knbDelayMix" value="0.2000000029802322"/>
             <Control type="ScriptButton" id="btnDelayLinkLR" value="0.0"/>
             <Control type="ScriptButton" id="btnDelayTempoSync" value="0.0"/>
-            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="15" data="64....PAA...AD..............AD...RP...P.A..fCD........PAA...DD...NP...HAA..fBD........HAA"/>
+            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1.0" data="64......................................................................................."/>
             <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="-1" data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
             <Control type="ScriptSliderPack" id="sldrpckArpLength" value="-1" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
             <Control type="ScriptSlider" id="knbArpSteps" value="16.0"/>
@@ -148,7 +148,7 @@
             <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
             <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
             <Control type="ScriptButton" id="EnableTie" value="1"/>
-            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="15" data="64....PAA...AD..............AD...RP...P.A..fCD........PAA...DD...NP...HAA..fBD........HAA"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="-1" data="64......................................................................................."/>
             <Control type="ScriptSliderPack" id="VelocitySliderPack" value="-1" data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
             <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
             <Control type="ScriptComboBox" id="ChannelSelector" value="1"/>

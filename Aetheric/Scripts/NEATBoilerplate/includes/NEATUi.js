@@ -1227,22 +1227,6 @@ inline function onbtnArpControl(component, value)
 			}
 			case btnArp[3]: // Notes Invert
 			{
-				/*
-
-				if (value)
-					for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
-					{
-						arpNotes[s] = sldrpckArp[0].getSliderValueAt(s);
-					}
-				else
-					for (n=0; n<sldrpckArp[0].getNumSliders(); n++)
-					{
-						sldrpckArp[0].setSliderAtIndex(n, 0-arpNotes[n]);
-					}
-				for (a in arpNotes)
-					Console.print(a);
-				*/
-				
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 				{
 					sldrpckArp[0].setSliderAtIndex(s, 0-sldrpckArp[0].getSliderValueAt(s));

@@ -17,33 +17,37 @@
 
 include("NEATBoilerplate/includes/NEATPaths.js");
 
-const LAFSliderNEAT = Content.createLocalLookAndFeel();
-const LAFSliderSampleOffset = Content.createLocalLookAndFeel();
+/* Generic */
+const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFButtonPrev = Content.createLocalLookAndFeel();
 const LAFButtonNext = Content.createLocalLookAndFeel();
-const LAFButtonChangePage = Content.createLocalLookAndFeel();
+const LAFButtonNEAT = Content.createLocalLookAndFeel();
+const LAFSliderNEAT = Content.createLocalLookAndFeel();
 const LAFComboBoxNEAT = Content.createLocalLookAndFeel();
 const LAFButtonBypass = Content.createLocalLookAndFeel();
 const LAFKeyboard = Content.createLocalLookAndFeel();
+
+/* Sampler */
+const LAFSliderSampleOffset = Content.createLocalLookAndFeel();
 const LAFButtonSamplerOther = Content.createLocalLookAndFeel();
 const LAFButtonSamplerReverse = Content.createLocalLookAndFeel();
-const LAFButtonNEAT = Content.createLocalLookAndFeel();
 
+/* Arp */
+const LAFButtonArpReset = Content.createLocalLookAndFeel();
+const LAFButtonArpInvert = Content.createLocalLookAndFeel();
+const LAFButtonArpMinor = Content.createLocalLookAndFeel();
+const LAFButtonArpMajor = Content.createLocalLookAndFeel();
+const LAFSliderpackArpNotes = Content.createLocalLookAndFeel();
+const LAFSliderpackArpOther = Content.createLocalLookAndFeel();
 
-const pnlBody = Content.getComponent("pnlBody");
-
-//const pnlBodyColour = 0xff2f2f34;
-//const pnlBodyColour = 0xff141414;
-//const pnlBodyColourTop = 0xFF1D1F1F;
-//const pnlBodyColourTop = 0xFF37373C;
-//const pnlBodyColourDark = 0xFF2C2C30;
-//const offWhite = 0xFFEDEDED;
+/* Colours & Path */
+var path = Content.createPath();
 
 const clrRhapsodyBlue = 0xFF1D1D21;
 const clrExtradarkblue = 0xFF191933;
 const clrOffWhite = 0xFFEDEDED;
 
-// Old NEAT Player Colours in case I need them...
+// Old NEAT Player Colours
 const clrBggrey = 0xFF121212;    
 const clrExtradarkgrey = 0xFF171717;
 const clrDarkgrey = 0xFF252525;   
@@ -55,12 +59,15 @@ const clrLightblue = 0xFFADD8E6;
 const clrBlack = 0xFF000000;  
 const clrKeyPurple = 0xFFCC96FF;
 
+
+/* Utility Functions */
+
 inline function reduced(obj, amount)
 {
     return [amount, amount, obj.area[2] - 2*amount, obj.area[3] - 2* amount];
 }
 
-//Slider Main
+// Main Slider
 
 LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
 {
@@ -102,13 +109,7 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     g.drawLine(obj.area[2] * .65, obj.area[2] * .83, obj.area[3] * .65, obj.area[3] * .83, 3);     
 });
 
-// Panel Body
-pnlBody.setPaintRoutine(function(g)
-{
-	this.loadImage("{PROJECT_FOLDER}background.jpg", "backgroundImage");
-	g.setOpacity(1.0);
-	g.drawImage("backgroundImage", [0, 0, this.getWidth(), this.getHeight()], 0, 0);	
-});
+
 
 // Change Page
 LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)
@@ -181,22 +182,20 @@ LAFButtonSamplerReverse.registerFunction("drawToggleButton", function(g, obj)
 	g.drawAlignedText("REV", obj.area, "centred");
 });
 
-//Bypass Button
+// Bypass Button
 LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 {
-	var path = Content.createPath();
-
     if (obj.value)
 	    g.setColour(obj.over ? clrWhite : clrLightgrey);
 	else
 		g.setColour(obj.over ? clrGrey : clrMidgrey);
 	path.clear();
-	path.loadFromData(powerButtonData);
+	path.loadFromData(pathBypassButton);
 	g.drawPath(path, [obj.area[0] + 2, obj.area[1] + 2, obj.area[2] - 4, obj.area[3] - 4], 2);
 	g.drawLine(obj.area[2] / 2, obj.area[2] / 2, 0, obj.area[3] / 2, 2.0);    
 });
 
-//ComboBoxes
+// ComboBoxes
 
 LAFComboBoxNEAT.registerFunction("drawComboBox", function(g, obj)
 {
@@ -229,9 +228,78 @@ LAFSliderSampleOffset.registerFunction("drawRotarySlider", function(g, obj)
     g.fillRoundedRectangle([0, 0, obj.area[2] * obj.valueNormalized, obj.area[3]], 2.0);
 });
 
+// Arp Buttons & Sliderpacks
 
-// Keyboard & Key Colours
-Footer.fltKeyboard.setLocalLookAndFeel(LAFKeyboard);
+LAFButtonArpReset.registerFunction("drawToggleButton", function(g, obj)
+{
+    path.clear();
+    path.loadFromData(pathButtonArpResetStroke);    
+    g.setColour(obj.over ? clrWhite : clrLightgrey);
+    g.drawPath(path, reduced(obj, 6.0), 3);
+    path.clear();
+    path.loadFromData(pathButtonArpResetFill);        
+    g.fillPath(path, [obj.area[0] + 4, obj.area[1] + 4, obj.area[2] - 14, obj.area[3] - 14]);    
+});
+
+LAFButtonArpInvert.registerFunction("drawToggleButton", function(g, obj)
+{
+    var leftTrianglePosition = (obj.area[2] * 0.25) - (obj.area[2] * 0.2);
+    var triangleWidth = (obj.area[2] / 3) / 2;
+    var rightTrianglePosition = (obj.area[2] * 0.75) - (obj.area[2] * 0.2);
+    var triangleYOffset = (obj.area[3] * 0.33) / 2;
+	g.setColour(obj.over ? clrWhite : clrLightgrey);
+    g.fillTriangle([leftTrianglePosition, 0 + triangleYOffset, obj.area[2] * 0.33, obj.area[3] * 0.33], Math.toRadians(0));
+    g.drawLine(leftTrianglePosition + triangleWidth, leftTrianglePosition + triangleWidth, 10, obj.area[3] - 4, 2.0);
+    g.fillTriangle([rightTrianglePosition, obj.area[3] * 0.66 - triangleYOffset, obj.area[2] / 3, obj.area[3] * 0.33], Math.toRadians(180));
+    g.drawLine(rightTrianglePosition + triangleWidth, rightTrianglePosition + triangleWidth, triangleYOffset, obj.area[3] - 10, 2.0);    
+});
+
+LAFButtonArpMinor.registerFunction("drawToggleButton", function(g, obj)
+{
+    path.clear();
+    path.loadFromData(pathButtonArpMinor);    
+    g.setColour(obj.over ? clrWhite : clrLightgrey);
+    g.fillPath(path, obj.area);
+    g.setColour(clrDarkgrey);               
+    g.drawPath(path, obj.area, 1.0);    
+});
+
+LAFButtonArpMajor.registerFunction("drawToggleButton", function(g, obj)
+{
+    path.clear();
+    path.loadFromData(pathButtonArpMajor);    
+    g.setColour(obj.over ? clrWhite : clrLightgrey);
+    g.fillPath(path, obj.area);
+    g.setColour(clrDarkgrey);               
+    g.drawPath(path, obj.area, 1.0);        
+});
+
+LAFSliderpackArpNotes.registerFunction("drawLinearSlider", function(g, obj)
+{        
+    g.setColour(Colours.mix(clrGrey, clrLightgrey, .5));
+    g.drawHorizontalLine(obj.area[3] / 2, obj.area[0], obj.area[2]);    
+    if (obj.valueNormalized >= 0.5)
+    {
+        obj.area[1] = obj.area[1] + obj.area[3] * (1.0 - obj.valueNormalized);
+        obj.area[3] = obj.area[3] / 2 - obj.area[1];
+    }       
+    else
+    {
+        obj.area[1] = obj.area[3] / 2;
+        obj.area[3] = obj.area[3] / 2 - obj.area[3] / 2 * (2.0 * obj.valueNormalized);
+    }
+    g.setColour(Colours.withAlpha(clrWhite, .8));
+    g.fillRoundedRectangle(obj.area, 2);
+});
+
+LAFSliderpackArpOther.registerFunction("drawLinearSlider", function(g, obj)
+{
+    g.setColour(Colours.mix(Colours.withAlpha(clrBlack, .7), Colours.withAlpha(clrLightgrey, .4), obj.valueNormalized));
+    g.fillRoundedRectangle([0, obj.area[1] + obj.area[3] * (1.0 - obj.valueNormalized), obj.area[2], obj.area[3]], 2.0);
+    g.setColour(Colours.withAlpha(clrWhite, .8));
+    g.drawRoundedRectangle([0, obj.area[1] + obj.area[3] * (1.0 - obj.valueNormalized), obj.area[2], obj.area[3]], 2.0, 2.0);
+});
+
 
 for (i=0; i<128; i++)
 {

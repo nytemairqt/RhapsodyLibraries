@@ -19,6 +19,8 @@
 
 /* Generic */
 
+const pnlBody = Content.getComponent("pnlBody");
+
 const btnPage = [Content.getComponent("btnSamplePage"),
 				  Content.getComponent("btnFXPage"),
 				  Content.getComponent("btnArpPage"),
@@ -397,10 +399,32 @@ for (b in btnDelay)
 	
 for (b in btnArpBypass)
 	b.setLocalLookAndFeel(LAFButtonBypass);
+btnArp[0].setLocalLookAndFeel(LAFButtonArpMinor);
+btnArp[1].setLocalLookAndFeel(LAFButtonArpMajor);
+btnArp[2].setLocalLookAndFeel(LAFButtonArpReset);
+btnArp[3].setLocalLookAndFeel(LAFButtonArpInvert);
+btnArp[4].setLocalLookAndFeel(LAFButtonArpReset);
+btnArp[5].setLocalLookAndFeel(LAFButtonArpReset);
+
+sldrpckArp[0].setLocalLookAndFeel(LAFSliderpackArpNotes);
+sldrpckArp[1].setLocalLookAndFeel(LAFSliderpackArpOther);
+sldrpckArp[2].setLocalLookAndFeel(LAFSliderpackArpOther);
+	
+// Keyboard & Key Colours
+Footer.fltKeyboard.setLocalLookAndFeel(LAFKeyboard);
 	
 // Panels
 
 // Paint Routines
+
+// Panel Body
+pnlBody.setPaintRoutine(function(g)
+{
+	this.loadImage("{PROJECT_FOLDER}background.jpg", "backgroundImage");
+	g.setOpacity(1.0);
+	g.drawImage("backgroundImage", [0, 0, this.getWidth(), this.getHeight()], 0, 0);	
+});
+
 for (p in pnlSampler)
 {
 	if (p == pnlSampler[3])

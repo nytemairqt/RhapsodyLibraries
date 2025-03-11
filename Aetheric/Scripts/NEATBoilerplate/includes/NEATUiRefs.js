@@ -224,8 +224,8 @@ const cmbAmp = [Content.getComponent("cmbAmpCabSelect")];
 const knbDrive = [Content.getComponent("knbDriveWaveshaper"),
 				  Content.getComponent("knbDriveTube")];
 				  
-const lblDrive = [Content.getComponent("lblDriveWaveshaper"),
-				  Content.getComponent("lblDriveTube")];
+const lblDrive = [Content.getComponent("lblDriveWaveshaperValue"),
+				  Content.getComponent("lblDriveTubeValue")];
 				  
 const btnDrive = [Content.getComponent("btnDriveWaveshaperOversampling"),
                   Content.getComponent("btnDriveTubeOversampling")];
@@ -234,8 +234,8 @@ const btnDrive = [Content.getComponent("btnDriveWaveshaperOversampling"),
 const knbUtility = [Content.getComponent("knbUtilityWidth"),
                     Content.getComponent("knbUtilityGain")];
                     
-const lblUtility = [Content.getComponent("lblUtilityGainValue"),
-                    Content.getComponent("lblUtilityWidthValue")];
+const lblUtility = [Content.getComponent("lblUtilityWidthValue"),
+                    Content.getComponent("lblUtilityGainValue")];
                     
 const knbStutter = [Content.getComponent("knbStutterRate"),
                     Content.getComponent("knbStutterAmount")];
@@ -250,8 +250,8 @@ const btnStutter = [Content.getComponent("btnStutterPreFX"),
 const knbDegrade = [Content.getComponent("knbDegradeBitDepth"),
                     Content.getComponent("knbDegradeSampleHold")];
 
-const lblDegrade = [Content.getComponent("lblDegradeSampleHoldValue"),
-                    Content.getComponent("lblDegradeBitDepthValue")];
+const lblDegrade = [Content.getComponent("lblDegradeBitDepthValue"),
+					Content.getComponent("lblDegradeSampleHoldValue")];
 
 
 // Phaser
@@ -264,8 +264,6 @@ const lblPhaser = [Content.getComponent("lblPhaserRateAValue"),
                    Content.getComponent("lblPhaserRateBValue"),
                    Content.getComponent("lblPhaserFeedbackValue"),
                    Content.getComponent("lblPhaserMixValue")];
-                   
-const btnPhaser = [Content.getComponent("btnPhaserLinkLR")];
 
 // Reverb
 const knbReverb = [Content.getComponent("knbReverbSize"),
@@ -355,8 +353,6 @@ for (b in btnAmp)
 for (b in btnDrive)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
 for (b in btnStutter)
-	b.setLocalLookAndFeel(LAFButtonNEAT);	
-for (b in btnPhaser)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
 for (b in btnDelay)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	

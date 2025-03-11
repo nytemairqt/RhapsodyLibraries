@@ -503,7 +503,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblFilterCutoffValue" x="0.0" y="100.0"
                      parentComponent="pnlFilter" width="80.0" height="20.0" fontName="regular"
-                     text="4061hz" fontSize="12.0" editable="0"/>
+                     text="1607hz" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbFilterQ" x="80.0" y="40.0" parentComponent="pnlFilter"
                      width="40.0" height="40.0" min="0.300000011920929" max="8.0"
                      middlePosition="1.0" defaultValue="0.4000000059604645"/>
@@ -511,11 +511,11 @@
                      width="80.0" height="20.0" fontName="bold" text="Q" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblFilterQValue" x="60.0" y="100.0" parentComponent="pnlFilter"
-                     width="80.0" height="20.0" fontName="regular" text="0.40" fontSize="12.0"
+                     width="80.0" height="20.0" fontName="regular" text="0.69" fontSize="12.0"
                      editable="0"/>
-          <Component type="ScriptButton" id="btnFilterHPF" x="143.0" y="55.0" width="40.0"
+          <Component type="ScriptButton" id="btnFilterHPF" x="143.0" y="85.0" width="40.0"
                      height="20.0" parentComponent="pnlFilter" text="HPF" radioGroup="1.0"/>
-          <Component type="ScriptButton" id="btnFilterLPF" x="143.0" y="85.0" width="40.0"
+          <Component type="ScriptButton" id="btnFilterLPF" x="143.0" y="55.0" width="40.0"
                      height="20.0" parentComponent="pnlFilter" text="LPF" radioGroup="1.0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlAmp" x="230.0" y="0.0" parentComponent="pnlFX"
@@ -540,7 +540,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblAmpOutputValue" x="21.0" y="195.0"
                      parentComponent="pnlAmp" width="80.0" height="20.0" fontName="regular"
-                     text="-3dB" fontSize="12.0" editable="0"/>
+                     text="0dB" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbAmpTone" x="41.0" y="40.0" parentComponent="pnlAmp"
                      width="40.0" height="40.0" min="-8.0" max="8.0" stepSize="1.0"
                      middlePosition="0.0"/>
@@ -568,19 +568,19 @@
                      stepSize="1.0" middlePosition="8.0"/>
           <Component type="ScriptLabel" id="lblDriveWaveshaper" x="65.0" y="35.0"
                      parentComponent="pnlDrive" width="80.0" height="20.0" fontName="bold"
-                     text="Wave Fold" fontSize="12.0" editable="0"/>
+                     text="WS Gain" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblDriveWaveshaperValue" x="65.0" y="55.0"
                      parentComponent="pnlDrive" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="0dB" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDriveTube" x="20.0" y="90.0" parentComponent="pnlDrive"
                      width="40.0" height="40.0" middlePosition="8.0" stepSize="1.0"
                      max="16.0"/>
           <Component type="ScriptLabel" id="lblDriveTube" x="65.0" y="90.0" parentComponent="pnlDrive"
-                     width="80.0" height="20.0" fontName="bold" text="Tube Drive"
-                     fontSize="12.0" editable="0"/>
+                     width="80.0" height="20.0" fontName="bold" text="Tube Gain" fontSize="12.0"
+                     editable="0"/>
           <Component type="ScriptLabel" id="lblDriveTubeValue" x="65.0" y="110.0"
                      parentComponent="pnlDrive" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="0dB" fontSize="12.0" editable="0"/>
           <Component type="ScriptButton" id="btnDriveWaveshaperOversampling" x="145.0"
                      y="45.0" width="60.0" height="20.0" text="2x" parentComponent="pnlDrive"/>
           <Component type="ScriptButton" id="btnDriveTubeOversampling" x="145.0" y="100.0"
@@ -603,13 +603,13 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblUtilityGainValue" x="108.0" y="85.0"
                      parentComponent="pnlUtility" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="0dB" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblUtilityWidth" x="21.0" y="65.0" parentComponent="pnlUtility"
                      width="80.0" height="20.0" fontName="bold" text="Width" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblUtilityWidthValue" x="21.0" y="85.0"
                      parentComponent="pnlUtility" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="100%" fontSize="12.0" editable="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlStutter" x="0.0" y="290.0" parentComponent="pnlFX"
                    width="225.0" height="150.0">
@@ -618,14 +618,14 @@
           <Component type="ScriptButton" id="btnStutterBypass" x="5.0" y="5.0" parentComponent="pnlStutter"
                      width="15.0" height="15.0"/>
           <Component type="ScriptSlider" id="knbStutterRate" x="20.0" y="32.0" parentComponent="pnlStutter"
-                     width="40.0" height="40.0" min="0.5" max="40.0" stepSize="0.1000000014901161"
-                     middlePosition="10.0" defaultValue="3.0"/>
+                     width="40.0" height="40.0" max="40.0" stepSize="0.1" middlePosition="10.0"
+                     defaultValue="3.0" min="0.5"/>
           <Component type="ScriptLabel" id="lblStutterRate" x="0.0" y="72.0" parentComponent="pnlStutter"
                      width="80.0" height="20.0" fontName="bold" text="Rate" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblStutterRateValue" x="0.0" y="92.0"
                      parentComponent="pnlStutter" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="3.0Hz" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbStutterAmount" x="80.0" y="32.0" parentComponent="pnlStutter"
                      width="40.0" height="40.0" middlePosition="0.5"/>
           <Component type="ScriptLabel" id="lblStutterAmount" x="60.0" y="72.0" parentComponent="pnlStutter"
@@ -633,7 +633,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblStutterAmountValue" x="60.0" y="92.0"
                      parentComponent="pnlStutter" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="0%" fontSize="12.0" editable="0"/>
           <Component type="ScriptButton" id="btnStutterPreFX" x="130.0" y="47.0" width="60.0"
                      height="20.0" text="Pre-FX" parentComponent="pnlStutter"/>
           <Component type="ScriptButton" id="btnStutterTempoSync" x="130.0" y="77.0"
@@ -654,7 +654,7 @@
                      text="Bit Depth" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblDegradeBitDepthValue" x="22.0" y="87.0"
                      parentComponent="pnlDegrade" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="16" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDegradeSampleHold" x="133.0" y="27.0"
                      parentComponent="pnlDegrade" width="40.0" height="40.0" min="1.0"
                      max="64.0" stepSize="1.0" middlePosition="32.0" defaultValue="1.0"/>
@@ -663,7 +663,7 @@
                      text="Sample Hold" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblDegradeSampleHoldValue" x="113.0" y="87.0"
                      parentComponent="pnlDegrade" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="1.0" fontSize="12.0" editable="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlPhaser" x="690.0" y="0.0" parentComponent="pnlFX"
                    width="225.0" height="230.0">
@@ -679,7 +679,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblPhaserRateAValue" x="22.0" y="110.0"
                      parentComponent="pnlPhaser" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="616Hz" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbPhaserRateB" x="133.0" y="50.0" parentComponent="pnlPhaser"
                      width="40.0" height="40.0" text="Rate B" min="20.0" max="20000.0"
                      stepSize="1.0" middlePosition="1500.0" defaultValue="1500.0"/>
@@ -688,7 +688,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblPhaserRateBValue" x="113.0" y="110.0"
                      parentComponent="pnlPhaser" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="1804Hz" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbPhaserFeedback" x="42.0" y="145.0"
                      parentComponent="pnlPhaser" width="40.0" height="40.0" middlePosition="0.5"
                      defaultValue="0.2000000029802322"/>
@@ -697,7 +697,7 @@
                      text="Feedback" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblPhaserFeedbackValue" x="22.0" y="205.0"
                      parentComponent="pnlPhaser" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="61%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbPhaserMix" x="133.0" y="145.0" parentComponent="pnlPhaser"
                      width="40.0" height="40.0" middlePosition="0.5" defaultValue="0.2000000029802322"/>
           <Component type="ScriptLabel" id="lblPhaserMix" x="113.0" y="185.0" parentComponent="pnlPhaser"
@@ -705,9 +705,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblPhaserMixValue" x="113.0" y="205.0"
                      parentComponent="pnlPhaser" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
-          <Component type="ScriptButton" id="btnPhaserLinkLR" x="92.0" y="30.0" width="40.0"
-                     height="20.0" text="LINK" parentComponent="pnlPhaser"/>
+                     text="70%" fontSize="12.0" editable="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlReverb" x="690.0" y="233.0" parentComponent="pnlFX"
                    width="225.0" height="210.0">
@@ -722,7 +720,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblReverbSizeValue" x="22.0" y="80.0"
                      parentComponent="pnlReverb" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="70%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbReverbDamping" x="133.0" y="20.0"
                      parentComponent="pnlReverb" width="40.0" height="40.0" defaultValue="0.5"
                      middlePosition="0.5"/>
@@ -731,7 +729,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblReverbDampingValue" x="113.0" y="80.0"
                      parentComponent="pnlReverb" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="50%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbReverbWidth" x="42.0" y="115.0" parentComponent="pnlReverb"
                      width="40.0" height="40.0" defaultValue="0.800000011920929" middlePosition="0.5"/>
           <Component type="ScriptLabel" id="lblReverbWidth" x="22.0" y="155.0" parentComponent="pnlReverb"
@@ -739,7 +737,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblReverbWidthValue" x="22.0" y="175.0"
                      parentComponent="pnlReverb" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="80%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbReverbMix" x="133.0" y="117.0" parentComponent="pnlReverb"
                      width="40.0" height="40.0" middlePosition="0.5" defaultValue="0.2000000029802322"/>
           <Component type="ScriptLabel" id="lblReverbMix" x="113.0" y="155.0" parentComponent="pnlReverb"
@@ -747,7 +745,7 @@
                      editable="0"/>
           <Component type="ScriptLabel" id="lblReverbMixValue" x="113.0" y="175.0"
                      parentComponent="pnlReverb" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="20%" fontSize="12.0" editable="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlDelay" x="460.0" y="125.0" parentComponent="pnlFX"
                    width="225.0" height="280.0">
@@ -756,45 +754,47 @@
           <Component type="ScriptButton" id="btnDelayBypass" x="5.0" y="5.0" parentComponent="pnlDelay"
                      width="15.0" height="15.0"/>
           <Component type="ScriptSlider" id="knbDelayTimeL" x="21.0" y="45.0" parentComponent="pnlDelay"
-                     width="40.0" height="40.0"/>
+                     width="40.0" height="40.0" max="2000.0" stepSize="1.0" middlePosition="1000.0"
+                     defaultValue="200.0" min="5.0"/>
           <Component type="ScriptLabel" id="lblDelayTimeL" x="1.0" y="85.0" parentComponent="pnlDelay"
                      width="80.0" height="20.0" fontName="bold" text="Time L" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblDelayTimeLValue" x="1.0" y="105.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="200ms" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDelayTimeR" x="78.0" y="45.0" parentComponent="pnlDelay"
-                     width="40.0" height="40.0"/>
+                     width="40.0" height="40.0" max="2000.0" stepSize="1.0" middlePosition="1000.0"
+                     defaultValue="200.0" min="5.0"/>
           <Component type="ScriptLabel" id="lblDelayTimeR" x="58.0" y="85.0" parentComponent="pnlDelay"
                      width="80.0" height="20.0" fontName="bold" text="Time R" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblDelayTimeRValue" x="58.0" y="105.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="200ms" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDelayFeedbackL" x="21.0" y="148.0"
-                     parentComponent="pnlDelay" width="40.0" height="40.0"/>
+                     parentComponent="pnlDelay" width="40.0" height="40.0" defaultValue="0.2000000029802322"/>
           <Component type="ScriptLabel" id="lblDelayFeedbackL" x="1.0" y="198.0" parentComponent="pnlDelay"
                      width="80.0" height="20.0" fontName="bold" text="FDBK L" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblDelayFeedbackLValue" x="1.0" y="218.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="regular"
-                     text="100hz" fontSize="12.0" editable="0"/>
+                     text="20%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDelayFeedbackR" x="78.0" y="148.0"
-                     parentComponent="pnlDelay" width="40.0" height="40.0"/>
+                     parentComponent="pnlDelay" width="40.0" height="40.0" defaultValue="0.2000000029802322"/>
           <Component type="ScriptLabel" id="lblDelayFeedbackR" x="58.0" y="198.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="bold"
                      text="FDBK R" fontSize="12.0" editable="0"/>
           <Component type="ScriptLabel" id="lblDelayFeedbackRValue" x="58.0" y="218.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="20%" fontSize="12.0" editable="0"/>
           <Component type="ScriptSlider" id="knbDelayMix" x="150.0" y="148.0" parentComponent="pnlDelay"
-                     width="40.0" height="40.0"/>
+                     width="40.0" height="40.0" defaultValue="0.2000000029802322"/>
           <Component type="ScriptLabel" id="lblDelayMix" x="130.0" y="198.0" parentComponent="pnlDelay"
                      width="80.0" height="20.0" fontName="bold" text="Mix" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptLabel" id="lblDelayMixValue" x="130.0" y="218.0"
                      parentComponent="pnlDelay" width="80.0" height="20.0" fontName="regular"
-                     text="0.4" fontSize="12.0" editable="0"/>
+                     text="20%" fontSize="12.0" editable="0"/>
           <Component type="ScriptButton" id="btnDelayLinkLR" x="137.0" y="62.0" width="60.0"
                      height="20.0" text="Link LR" parentComponent="pnlDelay"/>
           <Component type="ScriptButton" id="btnDelayTempoSync" x="137.0" y="82.0"

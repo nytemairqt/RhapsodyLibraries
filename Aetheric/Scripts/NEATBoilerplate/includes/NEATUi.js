@@ -22,6 +22,8 @@ include("NEATBoilerplate/includes/NEATUiRefs.js");
 						 						  									
 /* UI Functionality */
 
+const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
+
 // Generic
 
 inline function onBtnCmbPrevControl(component, value)
@@ -590,6 +592,7 @@ inline function onknbFXBypassControl(component, value)
 		{
 			for (fx in amp)
 				fx.setBypassed(1-value);
+			btnAmp[0].setValue(value);
 		}
 		case btnFXBypass[2]: // Drive
 		{
@@ -606,7 +609,8 @@ inline function onknbFXBypassControl(component, value)
 		}
 		case btnFXBypass[5]: // Stutter
 		{
-			stutter[0].setBypassed(1-value);
+			stutter[0].setBypassed(1-value);	
+			stutter[2].setBypassed(1-value);
 		}				
 		case btnFXBypass[6]: // Phaser
 		{
@@ -702,7 +706,13 @@ inline function onbtnAmpControl(component, value)
 	{
 		case btnAmp[0]: // cab bypass
 		{
-			// need to add amp fx bypass to check logic 
+			if (btnFXBypass[1].getValue())
+				amp[3].setBypassed(1-value);
+			else
+			{
+				amp[3].setBypassed(1);
+				btnAmp[0].setValue(0);
+			}
 		}
 		case btnAmp[1]: // oversampling
 		{
@@ -713,6 +723,358 @@ inline function onbtnAmpControl(component, value)
 
 for (b in btnAmp)
 	b.setControlCallback(onbtnAmpControl);
+	
+// WS & Tube Drive
+inline function onknbDriveControl(component, value)
+{
+	switch (component)
+	{
+		case knbDrive[0]: // WS
+		{
+			drive[0].setAttribute(drive[0].Gain, value);
+			lblDrive[0].set("text", Math.round(value) + "dB");
+		}
+		case knbDrive[1]: // tube
+		{
+			drive[1].setAttribute(drive[1].Gain, value);
+			lblDrive[1].set("text", Math.round(value) + "dB");
+		}
+	}
+}
+
+for (k in knbDrive)
+	k.setControlCallback(onknbDriveControl);
+	
+inline function onbtnDriveControl(component, value)
+{
+	switch (component)
+	{
+		case btnDrive[0]: // WS oversampling
+		{
+			if (value)
+				drive[0].setAttribute(drive[0].Oversampling, 2);
+			else
+				drive[0].setAttribute(drive[0].Oversampling, 1);
+		}
+		case btnDrive[1]: // tube oversampling
+		{
+			drive[1].setAttribute(drive[1].Oversample, value);
+		}
+	}
+}
+
+for (b in btnDrive)
+	b.setControlCallback(onbtnDriveControl);
+	
+// Utility & Stutter
+
+inline function onknbUtilityControl(component, value)
+{
+	switch (component)
+	{
+		case knbUtility[0]: // width
+		{
+			utility[0].setAttribute(utility[0].Width, value);
+			lblUtility[0].set("text", Math.round(value) + "%");
+		}
+		case knbUtility[1]: // gain
+		{
+			utility[0].setAttribute(utility[0].Gain, value);
+			lblUtility[1].set("text", Math.round(value) + "dB");
+		}
+	}
+}
+
+for (k in knbUtility)
+	k.setControlCallback(onknbUtilityControl);
+
+inline function onknbStutterControl(component, value)
+{
+	switch (component)
+	{
+		case knbStutter[0]: // rate
+		{
+			stutter[1].setAttribute(stutter[1].Frequency, value);
+			stutter[3].setAttribute(stutter[3].Frequency, value);
+
+			if (btnStutter[1].getValue()) // sync switch
+				lblStutter[0].set("text", syncTimes[value]);
+			else
+				lblStutter[0].set("text", Engine.doubleToString(value, 1) + "Hz");
+		}
+		case knbStutter[1]: // amount
+		{
+			stutter[1].setIntensity(value);
+			stutter[3].setIntensity(value);
+			lblStutter[1].set("text", Math.round(value * 100) + "%");			
+		}
+	}
+}
+
+for (k in knbStutter)
+	k.setControlCallback(onknbStutterControl);
+	
+inline function onbtnStutterControl(component, value)
+{
+	switch (component)
+	{
+		case btnStutter[0]: // pre FX
+		{
+			stutter[1].setBypassed(1-value);
+			stutter[3].setBypassed(value);
+		}
+		case btnStutter[1]: // sync
+		{
+			// need to set the knb settings here			
+			if (value)
+			{
+				knbStutter[0].set("min", 0.0);
+				knbStutter[0].set("max", 18.0);
+				knbStutter[0].set("stepSize", 1.0);
+				knbStutter[0].set("middlePosition", 9.0);
+				knbStutter[0].set("defaultValue", 11.0);				
+			}
+			else
+			{
+				knbStutter[0].set("min", 0.5);
+				knbStutter[0].set("max", 40.0);
+				knbStutter[0].set("stepSize", 0.1);
+				knbStutter[0].set("middlePosition", 10.0);
+				knbStutter[0].set("defaultValue", 3.0);
+			}
+			knbStutter[0].setValue(knbStutter[0].get("defaultValue"));
+			stutter[1].setAttribute(stutter[1].TempoSync, value);
+			stutter[3].setAttribute(stutter[3].TempoSync, value);
+			knbStutter[0].changed();
+		}
+	}
+}
+
+for (b in btnStutter)
+	b.setControlCallback(onbtnStutterControl);
+	
+// Degrade
+
+inline function onknbDegradeControl(component, value)
+{
+	switch (component)
+	{
+		case knbDegrade[0]:
+		{
+			degrade[0].setAttribute(degrade[0].BitDepth, value);
+			lblDegrade[0].set("text", Math.round(value));
+		}
+		case knbDegrade[1]:
+		{
+			degrade[0].setAttribute(degrade[0].SampleHold, value);
+			lblDegrade[1].set("text", Engine.doubleToString(value, 1));
+		}
+	}
+}
+
+for (k in knbDegrade)
+	k.setControlCallback(onknbDegradeControl);
+	
+// Phaser
+
+inline function onknbPhaserControl(component, value)
+{
+	switch (component)
+	{
+		case knbPhaser[0]: // Rate A
+		{
+			phaser[0].setAttribute(phaser[0].Frequency1, value);
+			lblPhaser[0].set("text", Math.round(value) + "Hz");
+		}
+		case knbPhaser[1]: // Rate B
+		{
+			phaser[0].setAttribute(phaser[0].Frequency2, value);
+			lblPhaser[1].set("text", Math.round(value) + "Hz");
+		}
+		case knbPhaser[2]: // Feedback
+		{
+			phaser[0].setAttribute(phaser[0].Feedback, value);
+			lblPhaser[2].set("text", Math.round(value * 100) + "%");
+		}
+		case knbPhaser[3]: // Mix
+		{
+			phaser[0].setAttribute(phaser[0].Mix, value);
+			lblPhaser[3].set("text", Math.round(value * 100) + "%");
+		}		
+	}
+}
+
+for (k in knbPhaser)
+	k.setControlCallback(onknbPhaserControl);
+	
+// Reverb
+
+inline function onknbReverbControl(component, value)
+{
+	switch (component)
+	{
+		case knbReverb[0]: // Size
+		{
+			reverb[0].setAttribute(reverb[0].RoomSize, value);
+			lblReverb[0].set("text", Math.round(value * 100) + "%");
+		}
+		case knbReverb[1]: // Damping
+		{
+			reverb[0].setAttribute(reverb[0].Damping, value);
+			lblReverb[1].set("text", Math.round(value * 100) + "%");
+		}
+		case knbReverb[2]: // Width
+		{
+			reverb[0].setAttribute(reverb[0].Width, value);
+			lblReverb[2].set("text", Math.round(value * 100) + "%");
+		}
+		case knbReverb[3]: // Mix
+		{
+			reverb[0].setAttribute(reverb[0].WetLevel, value);
+			lblReverb[3].set("text", Math.round(value * 100) + "%");
+		}		
+	}
+}
+
+for (k in knbReverb)
+	k.setControlCallback(onknbReverbControl);
+	
+// Delay
+
+inline function onknbDelayControl(component, value)
+{	
+	local time = "";
+	switch (component)
+	{
+		case knbDelay[0]: // Time L
+		{			
+			// Detect Sync
+			if (btnDelay[1].getValue())
+				time = syncTimes[value];
+			else
+				time = Math.round(value) + "ms";
+						
+			// Now set attributes & check for knb link
+			delay[0].setAttribute(delay[0].DelayTimeLeft, value);
+			lblDelay[0].set("text", time);
+			
+			if (btnDelay[0].getValue()) // Link LR
+			{
+				delay[0].setAttribute(delay[0].DelayTimeRight, value);
+				knbDelay[1].setValue(value);
+				lblDelay[1].set("text", time);
+			}			
+		}
+		case knbDelay[1]: // Time R
+		{
+			// Detect Sync
+			if (btnDelay[1].getValue())
+				time = syncTimes[value];
+			else
+				time = Math.round(value) + "ms";	
+
+			// Now set attributes & check for knb link
+			delay[0].setAttribute(delay[0].DelayTimeRight, value);
+			lblDelay[1].set("text", time);
+			
+			if (btnDelay[0].getValue()) // Link LR
+			{
+				delay[0].setAttribute(delay[0].DelayTimeLeft, value);
+				knbDelay[0].setValue(value);
+				lblDelay[0].set("text", time);
+			}	
+		}
+		case knbDelay[2]: // Feedback L
+		{
+			delay[0].setAttribute(delay[0].FeedbackLeft, value);
+			lblDelay[2].set("text", Math.round(value * 100) + "%");
+			
+			if (btnDelay[0].getValue())
+			{
+				delay[0].setAttribute(delay[0].FeedbackRight, value);
+				knbDelay[3].setValue(value);
+				lblDelay[3].set("text", Math.round(value * 100) + "%");
+			}
+		}
+		case knbDelay[3]: // Feedback R
+		{
+			delay[0].setAttribute(delay[0].FeedbackRight, value);
+			lblDelay[3].set("text", Math.round(value * 100) + "%");
+			if (btnDelay[0].getValue())
+			{
+				delay[0].setAttribute(delay[0].FeedbackLeft, value);
+				knbDelay[2].setValue(value);
+				lblDelay[2].set("text", Math.round(value * 100) + "%");
+			}
+		}
+		case knbDelay[4]: // Mix
+		{
+			delay[0].setAttribute(delay[0].Mix, value);
+			lblDelay[4].set("text", Math.round(value * 100) + "%");
+		}
+	}
+}
+
+for (k in knbDelay)
+	k.setControlCallback(onknbDelayControl);
+	
+inline function onbtnDelayControl(component, value)
+{
+	switch (component)
+	{
+		case btnDelay[0]: // Link LR
+		{
+			if (value);
+			{
+				delay[0].setAttribute(delay[0].DelayTimeRight, knbDelay[0].getValue());
+				delay[0].setAttribute(delay[0].FeedbackRight, knbDelay[2].getValue());
+				knbDelay[1].setValue(knbDelay[0].getValue());
+				knbDelay[3].setValue(knbDelay[2].getValue()); 
+				if (btnDelay[1].getValue()) // Tempo Sync
+					lblDelay[1].set("text", syncTimes[knbDelay[0].getValue()]);
+				else
+					lblDelay[1].set("text", Math.round(knbDelay[0].getValue()) + "ms");
+				lblDelay[3].set("text", Math.round(knbDelay[2].getValue() * 100) + "%");
+				
+			}
+		}
+		case btnDelay[1]: // Sync
+		{	
+			delay[0].setAttribute(delay[0].TempoSync, value);							
+			for (i=0; i<2; i++)
+			{
+				if (value)
+				{
+					knbDelay[i].set("min", 0.0);
+					knbDelay[i].set("max", 18.0);
+					knbDelay[i].set("stepSize", 1.0);
+					knbDelay[i].set("middlePosition", 9.0);
+					knbDelay[i].set("defaultValue", 5.0);	
+				}
+				else
+				{
+					knbDelay[i].set("min", 5.0);
+					knbDelay[i].set("max", 2000.0);
+					knbDelay[i].set("stepSize", 1.0);
+					knbDelay[i].set("middlePosition", 1000.0);
+					knbDelay[i].set("defaultValue", 200.0);
+				}								
+				knbDelay[i].setValue(knbDelay[i].get("defaultValue"));				
+				
+				// Set Tooltips
+				if (value)
+					lblDelay[i].set("text", syncTimes[knbDelay[i].getValue()]);
+				else
+					lblDelay[i].set("text", Math.round(knbDelay[i].getValue()) + "ms");
+			}
+			delay[0].setAttribute(delay[0].DelayTimeLeft, knbDelay[0].getValue());
+			delay[0].setAttribute(delay[0].DelayTimeRight, knbDelay[1].getValue());				
+		}
+	}
+}
+
+for (b in btnDelay)
+	b.setControlCallback(onbtnDelayControl);
 
 /* Rhapsody Stuff */
 

@@ -15,10 +15,7 @@ include("RhapsodyBoilerplate/includes/ZoomHandler.js");
 include("NEATBoilerplate/includes/NEATRhapsodyRefs.js");
 include("NEATBoilerplate/includes/NEATUi.js");
 include("NEATBoilerplate/includes/NEATTooltip.js");
-include("NEATBoilerplate/includes/NEATStoreButton.js");
-
-
-function onNoteOn()
+include("NEATBoilerplate/includes/NEATStoreButton.js");function onNoteOn()
 {
 	
 }

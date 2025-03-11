@@ -550,12 +550,19 @@
           <Component type="ScriptLabel" id="lblAmpToneValue" x="21.0" y="100.0" parentComponent="pnlAmp"
                      width="80.0" height="20.0" fontName="regular" text="0dB" fontSize="12.0"
                      editable="0"/>
-          <Component type="ScriptComboBox" id="cmbAmpCabSelect" x="117.0" y="225.0"
-                     max="0" width="80.0" height="30.0" parentComponent="pnlAmp"/>
+          <Component type="ScriptComboBox" id="cmbAmpCabSelect" x="87.0" y="225.0"
+                     width="120.0" height="26.0" parentComponent="pnlAmp" items="&#10;DestroyerA&#10;DestroyerB&#10;RedPrinceA&#10;RedPrinceB&#10;RedPrinceC&#10;StormbirdA&#10;StormbirdB&#10;StormbirdC&#10;ThaumaturgyA&#10;ThaumaturgyB&#10;WaspA&#10;WaspB&#10;WishfulA&#10;WishfulB"
+                     max="14"/>
           <Component type="ScriptButton" id="btnAmpCabBypass" x="37.0" y="230.0" width="40.0"
                      height="20.0" parentComponent="pnlAmp" text="CAB"/>
           <Component type="ScriptButton" id="btnAmpOversampling" x="130.0" y="162.0"
                      width="40.0" height="20.0" parentComponent="pnlAmp" text="2X"/>
+          <Component type="ScriptButton" id="btnCmbAmpCabSelectPrev" x="190" y="230"
+                     width="10.0" height="6.0" isMomentary="1" enableMidiLearn="0"
+                     parentComponent="pnlAmp"/>
+          <Component type="ScriptButton" id="btnCmbAmpCabSelectNext" x="190" y="241"
+                     width="10.0" height="6.0" isMomentary="1" enableMidiLearn="0"
+                     parentComponent="pnlAmp"/>
         </Component>
         <Component type="ScriptPanel" id="pnlDrive" x="230.0" y="290.0" parentComponent="pnlFX"
                    width="225.0" height="150.0">

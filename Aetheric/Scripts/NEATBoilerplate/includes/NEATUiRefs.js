@@ -28,12 +28,14 @@ const btnPage = [Content.getComponent("btnSamplePage"),
 const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
 					Content.getComponent("btnCmbSamplerBPrev"),
 					Content.getComponent("btnCmbSamplerCPrev"),
-					Content.getComponent("btnCmbSamplerOtherPrev")];
+					Content.getComponent("btnCmbSamplerOtherPrev"),
+					Content.getComponent("btnCmbAmpCabSelectPrev")];
 					
 const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 					Content.getComponent("btnCmbSamplerBNext"),
 					Content.getComponent("btnCmbSamplerCNext"),
-					Content.getComponent("btnCmbSamplerOtherNext")];				  
+					Content.getComponent("btnCmbSamplerOtherNext"),
+					Content.getComponent("btnCmbAmpCabSelectNext")];				  
 
 /* Sampler */				  
 
@@ -216,7 +218,7 @@ const lblAmp = [Content.getComponent("lblAmpGainValue"),
 				Content.getComponent("lblAmpToneValue")];
 				
 const btnAmp = [Content.getComponent("btnAmpCabBypass"),
-				Content.getComponent("btnAmpOversampling")];
+				Content.getComponent("btnAmpOversampling")];										
 				
 const cmbAmp = [Content.getComponent("cmbAmpCabSelect")];
 
@@ -349,7 +351,7 @@ for (b in btnFXBypass)
 for (b in btnFilter)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
 for (b in btnAmp)
-	b.setLocalLookAndFeel(LAFButtonNEAT);	
+	b.setLocalLookAndFeel(LAFButtonNEAT);
 for (b in btnDrive)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
 for (b in btnStutter)

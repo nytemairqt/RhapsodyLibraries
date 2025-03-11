@@ -59,7 +59,7 @@ const samplerOther = [Synth.getChildSynth("SamplerOther"),
 					  
 /* FX */					  
 const filter = [Synth.getEffect("Filter")];		  	
-const amp = [Synth.getEffect("Amp_EQ"), Synth.getEffect("Amp"), Synth.getEffect("Amp_CorrectiveEQ"), Synth.getEffect("Amp_Cab")];
+const amp = [Synth.getEffect("Amp_EQ"), Synth.getEffect("Amp"), Synth.getEffect("Amp_CorrectiveEQ"), Synth.getAudioSampleProcessor("Amp_Cab")];
 const drive = [Synth.getEffect("Waveshaper"), Synth.getEffect("TubeDrive")];
 const utility = [Synth.getEffect("Utility")];
 const stutter = [Synth.getEffect("StutterPre"), Synth.getModulator("StutterPreLFO"), Synth.getEffect("StutterPost"), Synth.getModulator("StutterPostLFO")];

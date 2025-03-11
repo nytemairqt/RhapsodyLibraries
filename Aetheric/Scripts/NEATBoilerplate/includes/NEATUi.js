@@ -21,19 +21,20 @@ include("NEATBoilerplate/includes/NEATUiConstructors.js");
 include("NEATBoilerplate/includes/NEATUiRefs.js");
 						 						  									
 /* UI Functionality */
-
+Engine.loadAudioFilesIntoPool();
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
+const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
 
 // Generic
 
 inline function onBtnCmbPrevControl(component, value)
 {
-	// will include all combobox increment functions
-	
+	// Contains ALL prev buttons
+
 	if (value)	
 		switch (component)
 		{
-			case btnCmbPrev[0]:
+			case btnCmbPrev[0]: // Sampler A
 			{
 				if (cmbSampler[0].getValue() > cmbSampler[0].get("min"))
 					cmbSampler[0].setValue(cmbSampler[0].getValue() - 1);
@@ -41,7 +42,7 @@ inline function onBtnCmbPrevControl(component, value)
 					cmbSampler[0].setValue(cmbSampler[0].get("max"));
 				cmbSampler[0].changed();
 			}
-			case btnCmbPrev[1]:
+			case btnCmbPrev[1]: // Sampler B
 			{
 				if (cmbSampler[1].getValue() > cmbSampler[1].get("min"))
 					cmbSampler[1].setValue(cmbSampler[1].getValue() - 1);
@@ -49,7 +50,7 @@ inline function onBtnCmbPrevControl(component, value)
 					cmbSampler[1].setValue(cmbSampler[1].get("max"));
 				cmbSampler[1].changed();
 			}
-			case btnCmbPrev[2]:
+			case btnCmbPrev[2]: // Sampler C
 			{
 				if (cmbSampler[2].getValue() > cmbSampler[2].get("min"))
 					cmbSampler[2].setValue(cmbSampler[2].getValue() - 1);
@@ -57,7 +58,7 @@ inline function onBtnCmbPrevControl(component, value)
 					cmbSampler[2].setValue(cmbSampler[2].get("max"));
 				cmbSampler[2].changed();
 			}
-			case btnCmbPrev[3]:
+			case btnCmbPrev[3]: // Sampler Other
 			{
 				if (cmbSampler[3].getValue() > cmbSampler[3].get("min"))
 					cmbSampler[3].setValue(cmbSampler[3].getValue() - 1);
@@ -65,18 +66,25 @@ inline function onBtnCmbPrevControl(component, value)
 					cmbSampler[3].setValue(cmbSampler[3].get("max"));
 				cmbSampler[3].changed();
 			}
+			case btnCmbPrev[4]: // Amp Cab Select
+			{
+				if (cmbAmp[0].getValue() > cmbAmp[0].get("min"))
+					cmbAmp[0].setValue(cmbAmp[0].getValue() - 1);
+				else
+					cmbAmp[0].setValue(cmbAmp[0].get("max"));
+				cmbAmp[0].changed();
+			}
 		}
 }
 
 inline function onBtnCmbNextControl(component, value)
 {
-	// will include all combobox increment functions
+	// Contains ALL next buttons
 	
 	if (value)	
 		switch (component)
 		{
-			// Samplers
-			case btnCmbNext[0]:
+			case btnCmbNext[0]: // Sampler A
 			{
 				if (cmbSampler[0].getValue() < cmbSampler[0].get("max"))
 					cmbSampler[0].setValue(cmbSampler[0].getValue() + 1);
@@ -84,7 +92,7 @@ inline function onBtnCmbNextControl(component, value)
 					cmbSampler[0].setValue(cmbSampler[0].get("min"));
 				cmbSampler[0].changed();
 			}
-			case btnCmbNext[1]:
+			case btnCmbNext[1]: // Sampler B
 			{
 				if (cmbSampler[1].getValue() < cmbSampler[1].get("max"))
 					cmbSampler[1].setValue(cmbSampler[1].getValue() + 1);
@@ -92,7 +100,7 @@ inline function onBtnCmbNextControl(component, value)
 					cmbSampler[1].setValue(cmbSampler[1].get("min"));
 				cmbSampler[1].changed();
 			}
-			case btnCmbNext[2]:
+			case btnCmbNext[2]: // Sampler C
 			{
 				if (cmbSampler[2].getValue() < cmbSampler[2].get("max"))
 					cmbSampler[2].setValue(cmbSampler[2].getValue() + 1);
@@ -100,13 +108,21 @@ inline function onBtnCmbNextControl(component, value)
 					cmbSampler[2].setValue(cmbSampler[2].get("min"));
 				cmbSampler[2].changed();
 			}
-			case btnCmbNext[3]:
+			case btnCmbNext[3]: // Sampler Other
 			{
 				if (cmbSampler[3].getValue() < cmbSampler[3].get("max"))
 					cmbSampler[3].setValue(cmbSampler[3].getValue() + 1);
 				else
 					cmbSampler[3].setValue(cmbSampler[3].get("min"));
 				cmbSampler[3].changed();
+			}	
+			case btnCmbNext[4]: // Amp Cab Select
+			{
+				if (cmbAmp[0].getValue() < cmbAmp[0].get("max"))
+					cmbAmp[0].setValue(cmbAmp[0].getValue() + 1);
+				else
+					cmbAmp[0].setValue(cmbAmp[0].get("min"));
+				cmbAmp[0].changed();
 			}	
 		}
 }
@@ -718,11 +734,41 @@ inline function onbtnAmpControl(component, value)
 		{
 			amp[1].setAttribute(amp[1].Oversample, value);
 		}
+		case btnAmp[2]: // prev cab
+		{
+			
+		}
+		case btnAmp[3]: // next cab
+		{
+			
+		}
 	}
 }
 
 for (b in btnAmp)
 	b.setControlCallback(onbtnAmpControl);
+	
+// Populate cmbAmp
+
+var cabs = FileSystem.findFiles(audioFiles, "*.wav", false);
+cmbAmp[0].set("items", "");
+
+for (c in cabs)
+	cmbAmp[0].addItem(c.toString(1));	
+
+inline function oncmbAmpControl(component, value)
+{
+	switch (component)
+	{
+		case cmbAmp[0]:
+		{
+			amp[3].setFile(cabs[value-1].toString(0));
+		}
+	}
+}
+
+for (c in cmbAmp)
+	c.setControlCallback(oncmbAmpControl);
 	
 // WS & Tube Drive
 inline function onknbDriveControl(component, value)

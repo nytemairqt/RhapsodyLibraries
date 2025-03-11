@@ -68,4 +68,8 @@ const degrade = [Synth.getEffect("Degrade")];
 const reverb = [Synth.getEffect("Reverb")];
 const delay = [Synth.getEffect("Delay")];
 
+/* Arp */
+
+const arp = Synth.getMidiProcessor("Arpeggiator");
+
   				

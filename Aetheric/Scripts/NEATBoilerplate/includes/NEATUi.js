@@ -24,6 +24,8 @@ include("NEATBoilerplate/includes/NEATUiRefs.js");
 Engine.loadAudioFilesIntoPool();
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
 const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
+const majorNotes = [0, 2, 4, 5, 7, 9, 11, 12];
+const minorNotes = [0, 2, 3, 5, 7, 8, 10, 12];
 
 // Generic
 
@@ -74,6 +76,14 @@ inline function onBtnCmbPrevControl(component, value)
 					cmbAmp[0].setValue(cmbAmp[0].get("max"));
 				cmbAmp[0].changed();
 			}
+			case btnCmbPrev[5]: // Arp Mode
+			{
+				if (cmbArp[0].getValue() > cmbArp[0].get("min"))
+					cmbArp[0].setValue(cmbArp[0].getValue() - 1);
+				else
+					cmbArp[0].setValue(cmbArp[0].get("max"));
+				cmbArp[0].changed();
+			}
 		}
 }
 
@@ -123,6 +133,14 @@ inline function onBtnCmbNextControl(component, value)
 				else
 					cmbAmp[0].setValue(cmbAmp[0].get("min"));
 				cmbAmp[0].changed();
+			}
+			case btnCmbNext[5]: // Arp Mode
+			{
+				if (cmbArp[0].getValue() < cmbArp[0].get("max"))
+					cmbArp[0].setValue(cmbArp[0].getValue() + 1);
+				else
+					cmbArp[0].setValue(cmbArp[0].get("min"));
+				cmbArp[0].changed();
 			}	
 		}
 }
@@ -147,6 +165,7 @@ inline function changePage(index)
 	// add other panels here
 	
 	pnlFX.set("visible", false);
+	pnlArp.set("visible", false);
 		
 	for (i=0; i<btnPage.length; i++)
 		if (i != index)
@@ -157,7 +176,7 @@ inline function onbtnChangePageControl(component, value)
 {
 	switch(component)
 	{
-		case btnPage[0]:
+		case btnPage[0]: // Sampler
 		{
 			changePage(0);
 			btnSamplerOther.set("visible", value);
@@ -167,14 +186,15 @@ inline function onbtnChangePageControl(component, value)
 					pnlSampler[i].set("visible", value);
 			}				
 		}
-		case btnPage[1]:
+		case btnPage[1]: // FX
 		{
 			changePage(1);
 			pnlFX.set("visible", value);
 		}
-		case btnPage[2]:
+		case btnPage[2]: // Arp
 		{
 			changePage(2);
+			pnlArp.set("visible", value);
 		}
 		case btnPage[3]:
 		{
@@ -734,14 +754,6 @@ inline function onbtnAmpControl(component, value)
 		{
 			amp[1].setAttribute(amp[1].Oversample, value);
 		}
-		case btnAmp[2]: // prev cab
-		{
-			
-		}
-		case btnAmp[3]: // next cab
-		{
-			
-		}
 	}
 }
 
@@ -1121,6 +1133,137 @@ inline function onbtnDelayControl(component, value)
 
 for (b in btnDelay)
 	b.setControlCallback(onbtnDelayControl);
+	
+/* Arp */
+
+inline function onbtnArpBypassControl(component, value)
+{
+	switch (component)
+	{
+		case btnArpBypass[0]:
+		{
+			arp.setBypassed(1-value);
+		}
+	}
+}
+
+for (b in btnArpBypass)
+	b.setControlCallback(onbtnArpBypassControl);
+	
+inline function onknbArpControl(component, value)
+{
+	switch (component)
+	{
+		case knbArp[0]: // Steps
+		{
+			arp.setAttribute(arp.NumStepSlider, value);
+			lblArp[0].set("text", Math.round(value));
+		}
+		case knbArp[1]: // Speed
+		{
+			arp.setAttribute(arp.SpeedKnob, value);
+			lblArp[1].set("text", syncTimes[value]);
+		}
+		case knbArp[2]: // Octave
+		{
+			arp.setAttribute(arp.OctaveRange, value);
+			if (value > 0)
+				lblArp[2].set("text", "+" + Math.round(value));
+			else
+				lblArp[2].set("text", Math.round(value));
+		}
+		case knbArp[3]: // Swing
+		{
+			arp.setAttribute(arp.Shuffle, value);
+			lblArp[3].set("text", Math.round(value * 100) + "%");
+		}
+	}
+}
+
+for (k in knbArp)
+	k.setControlCallback(onknbArpControl);
+	
+inline function oncmbArpControl(component, value)
+{
+	switch (component)
+	{
+		case cmbArp[0]:
+		{
+			arp.setAttribute(arp.SequenceComboBox, value);
+		}
+	}
+}
+
+for (c in cmbArp)
+	c.setControlCallback(oncmbArpControl);
+	
+inline function onbtnArpControl(component, value)
+{
+	local arpNotes = [];
+
+	if (value)
+		switch (component)
+		{
+			case btnArp[0]: // Minor
+			{
+				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+				{
+					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);
+					sldrpckArp[0].changed();
+				}
+			}
+			case btnArp[1]: // Major
+			{
+				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+				{
+					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);
+					sldrpckArp[0].changed();
+				}
+			}
+			case btnArp[2]: // Notes Reset
+			{
+				sldrpckArp[0].setAllValues(0);
+				sldrpckArp[0].changed();			
+			}
+			case btnArp[3]: // Notes Invert
+			{
+				/*
+
+				if (value)
+					for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+					{
+						arpNotes[s] = sldrpckArp[0].getSliderValueAt(s);
+					}
+				else
+					for (n=0; n<sldrpckArp[0].getNumSliders(); n++)
+					{
+						sldrpckArp[0].setSliderAtIndex(n, 0-arpNotes[n]);
+					}
+				for (a in arpNotes)
+					Console.print(a);
+				*/
+				
+				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+				{
+					sldrpckArp[0].setSliderAtIndex(s, 0-sldrpckArp[0].getSliderValueAt(s));
+				}
+				sldrpckArp[0].changed();
+			}
+			case btnArp[4]: // Velocity Reset
+			{
+				sldrpckArp[1].setAllValues(110);
+				sldrpckArp[1].changed();
+			}
+			case btnArp[5]: // Length Reset
+			{
+				sldrpckArp[2].setAllValues(80);
+				sldrpckArp[2].changed();
+			}
+		}
+}
+
+for (b in btnArp)
+	b.setControlCallback(onbtnArpControl);
 
 /* Rhapsody Stuff */
 

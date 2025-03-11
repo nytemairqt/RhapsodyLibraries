@@ -29,13 +29,15 @@ const btnCmbPrev = [Content.getComponent("btnCmbSamplerAPrev"),
 					Content.getComponent("btnCmbSamplerBPrev"),
 					Content.getComponent("btnCmbSamplerCPrev"),
 					Content.getComponent("btnCmbSamplerOtherPrev"),
-					Content.getComponent("btnCmbAmpCabSelectPrev")];
+					Content.getComponent("btnCmbAmpCabSelectPrev"),
+					Content.getComponent("btnCmbArpPrev")];
 					
 const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 					Content.getComponent("btnCmbSamplerBNext"),
 					Content.getComponent("btnCmbSamplerCNext"),
 					Content.getComponent("btnCmbSamplerOtherNext"),
-					Content.getComponent("btnCmbAmpCabSelectNext")];				  
+					Content.getComponent("btnCmbAmpCabSelectNext"),
+					Content.getComponent("btnCmbArpNext")];				  
 
 /* Sampler */				  
 
@@ -294,6 +296,36 @@ const lblDelay = [Content.getComponent("lblDelayTimeLValue"),
 const btnDelay = [Content.getComponent("btnDelayLinkLR"),
                   Content.getComponent("btnDelayTempoSync")];
 
+/* Arp */
+
+const pnlArp = Content.getComponent("pnlArp");      
+
+const btnArpBypass = [Content.getComponent("btnArpBypass")];
+
+const cmbArp = [Content.getComponent("cmbArp")];
+
+const knbArp = [Content.getComponent("knbArpSteps"),
+				Content.getComponent("knbArpSpeed"),
+				Content.getComponent("knbArpOctave"),
+				Content.getComponent("knbArpSwing")];
+				
+const lblArp = [Content.getComponent("lblArpStepsValue"),
+				Content.getComponent("lblArpSpeedValue"),
+				Content.getComponent("lblArpOctaveValue"),
+				Content.getComponent("lblArpSwingValue")];
+				
+const btnArp = [Content.getComponent("btnArpMinor"),
+				Content.getComponent("btnArpMajor"),
+				Content.getComponent("btnArpNotesReset"),
+				Content.getComponent("btnArpNotesInvert"),
+				Content.getComponent("btnArpVelocityReset"),
+				Content.getComponent("btnArpLengthReset")];
+				
+const sldrpckArp = [Content.getComponent("sldrpckArpNotes"),
+					Content.getComponent("sldrpckArpVelocity"),
+					Content.getComponent("sldrpckArpLength")];
+
+
 // Assign LAF;
 
 btnSamplerOther.setLocalLookAndFeel(LAFButtonSamplerOther);
@@ -325,11 +357,15 @@ for (k in knbReverb)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 for (k in knbDelay)
 	k.setLocalLookAndFeel(LAFSliderNEAT);		
+for (k in knbArp)
+	k.setLocalLookAndFeel(LAFSliderNEAT);		
 
 // ComboBoxes
 for (c in cmbSampler)
 	c.setLocalLookAndFeel(LAFComboBoxNEAT);
 for (c in cmbAmp)
+	c.setLocalLookAndFeel(LAFComboBoxNEAT);
+for (c in cmbArp)
 	c.setLocalLookAndFeel(LAFComboBoxNEAT);
 	
 // Buttons
@@ -358,6 +394,9 @@ for (b in btnStutter)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
 for (b in btnDelay)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
+	
+for (b in btnArpBypass)
+	b.setLocalLookAndFeel(LAFButtonBypass);
 	
 // Panels
 
@@ -406,19 +445,7 @@ pnlFX.setPaintRoutine(function(g)
 	var h = this.getHeight();
 
 	g.setColour(clrRhapsodyBlue);
-	//g.setColour(Colours.withAlpha(clrRhapsodyBlue, 0.0));
-	//g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-	
-	g.drawRoundedRectangle([0, 0, w, h], 2.0, 1.0);
-	
-	var noiseData = {
-			"alpha" : .1,
-			"monochromatic" : false,
-			"scaleFactor" : 2,
-			"area" : [0, 0, this.getWidth(), this.getHeight()]		
-		};
-		
-	//g.addNoise(noiseData);
+	//g.drawRoundedRectangle([0, 0, w, h], 2.0, 1.0); // Temporary
 });
 
 for (p in pnlFXChildren)
@@ -430,9 +457,6 @@ for (p in pnlFXChildren)
 		
 		g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
 		g.fillRoundedRectangle([0, 0, w, h], 10.0);
-
-		//g.setColour(Colours.withAlpha(clrLightgrey, 0.3));
-		//g.drawRoundedRectangle([0, 0, w, h], 16.0, 1.0);
 		
 		var noiseData = {
 					"alpha" : .1,
@@ -444,3 +468,22 @@ for (p in pnlFXChildren)
 		g.addNoise(noiseData);
 	});
 }
+
+pnlArp.setPaintRoutine(function(g)
+{
+	var w = this.getWidth();
+	var h = this.getHeight();
+	
+	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);
+	
+	var noiseData = {
+				"alpha" : .1,
+				"monochromatic" : false,
+				"scaleFactor" : 2,
+				"area" : [0, 0, this.getWidth(), this.getHeight()]		
+			};
+			
+	g.addNoise(noiseData);
+	
+});

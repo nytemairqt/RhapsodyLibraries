@@ -166,6 +166,7 @@ inline function changePage(index)
 	
 	pnlFX.set("visible", false);
 	pnlArp.set("visible", false);
+	pnlMove.set("visible", false);
 		
 	for (i=0; i<btnPage.length; i++)
 		if (i != index)
@@ -199,6 +200,7 @@ inline function onbtnChangePageControl(component, value)
 		case btnPage[3]:
 		{
 			changePage(3);
+			pnlMove.set("visible", value);
 		}
 		case btnPage[4]:
 		{
@@ -1248,6 +1250,87 @@ inline function onbtnArpControl(component, value)
 
 for (b in btnArp)
 	b.setControlCallback(onbtnArpControl);
+	
+/* Move */
+
+inline function onknbMoveXYControl(component, value)
+{
+	switch (component)
+	{
+		case knbMoveX:
+		{
+			Synth.setMacroControl(1, knbMoveX.getValue() * 1.27);
+			Synth.setMacroControl(2, 127-(knbMoveX.getValue() * 1.27));
+		}
+		case knbMoveY:
+		{
+			Synth.setMacroControl(3, knbMoveY.getValue() * 1.27);
+			Synth.setMacroControl(4, 127-(knbMoveY.getValue() * 1.27));
+		}
+	}
+	pnlMoveXYPad.repaint();
+}
+
+knbMoveX.setControlCallback(onknbMoveXYControl);
+knbMoveY.setControlCallback(onknbMoveXYControl);
+
+inline function onknbMoveControl(component, value)
+{
+	switch (component)
+	{
+		case knbMove[0]: // AHDSR A Attack
+		{
+			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Attack, value);
+			lblMove[0].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[1]: // AHDSR A Decay
+		{
+			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Decay, value);
+			lblMove[1].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[2]: // AHDSR A Sustain
+		{
+			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Sustain, value);
+			lblMove[2].set("text", Math.round(value) + "dB");
+		}
+		case knbMove[3]: // AHDSR A Release
+		{
+			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Release, value);
+			lblMove[3].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[4]: // AHDSR B Attack
+		{
+			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Attack, value);
+			lblMove[4].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[5]: // AHDSR B Decay
+		{
+			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Decay, value);
+			lblMove[5].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[6]: // AHDSR B Sustain
+		{
+			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Sustain, value);
+			lblMove[6].set("text", Math.round(value) + "dB");
+		}
+		case knbMove[7]: // AHDSR B Release
+		{
+			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Release, value);
+			lblMove[7].set("text", Math.round(value) + "ms");
+		}
+		case knbMove[8]: // Chaos Rate
+		{
+			
+		}
+		case knbMove[9]: // Chaos Intensity
+		{
+			
+		}
+	}
+}
+
+for (k in knbMove)
+	k.setControlCallback(onknbMoveControl);
 
 /* Rhapsody Stuff */
 

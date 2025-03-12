@@ -72,4 +72,9 @@ const delay = [Synth.getEffect("Delay")];
 
 const arp = Synth.getMidiProcessor("Arpeggiator");
 
-  				
+/* Move */
+
+const Macro5_AHDSR = Synth.getModulator("Macro5_AHDSR");
+const Macro6_AHDSR = Synth.getModulator("Macro6_AHDSR");
+const Macro7_Velocity = Synth.getModulator("Macro7_Velocity");
+const Macro8_Random = Synth.getModulator("Macro8_Random");

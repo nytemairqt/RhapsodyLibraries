@@ -326,6 +326,37 @@ const btnArp = [Content.getComponent("btnArpMinor"),
 const sldrpckArp = [Content.getComponent("sldrpckArpNotes"),
 					Content.getComponent("sldrpckArpVelocity"),
 					Content.getComponent("sldrpckArpLength")];
+					
+/* Move */
+
+const pnlMove = Content.getComponent("pnlMove");
+
+const knbMove = [Content.getComponent("knbMoveAHDSRAAttack"),
+				 Content.getComponent("knbMoveAHDSRADecay"),
+				 Content.getComponent("knbMoveAHDSRASustain"),
+				 Content.getComponent("knbMoveAHDSRARelease"),
+				 Content.getComponent("knbMoveAHDSRBAttack"),
+				 Content.getComponent("knbMoveAHDSRBDecay"),
+				 Content.getComponent("knbMoveAHDSRBSustain"),
+				 Content.getComponent("knbMoveAHDSRBRelease"),
+				 Content.getComponent("knbMoveChaosRate"),
+				 Content.getComponent("knbMoveChaosIntensity")];
+				 
+const pnlMoveXYPad = Content.getComponent("pnlMoveXYPad");
+
+const knbMoveX = Content.getComponent("knbMoveX");
+const knbMoveY = Content.getComponent("knbMoveY");
+				 
+const lblMove = [Content.getComponent("lblMoveAHDSRAAttackValue"),
+				 Content.getComponent("lblMoveAHDSRADecayValue"),
+				 Content.getComponent("lblMoveAHDSRASustainValue"),
+				 Content.getComponent("lblMoveAHDSRAReleaseValue"),
+				 Content.getComponent("lblMoveAHDSRBAttackValue"),
+				 Content.getComponent("lblMoveAHDSRBDecayValue"),
+				 Content.getComponent("lblMoveAHDSRBSustainValue"),
+				 Content.getComponent("lblMoveAHDSRBReleaseValue"),
+				 Content.getComponent("lblMoveChaosRateValue"),
+				 Content.getComponent("lblMoveChaosIntensityValue")];
 
 
 // Assign LAF;
@@ -361,6 +392,11 @@ for (k in knbDelay)
 	k.setLocalLookAndFeel(LAFSliderNEAT);		
 for (k in knbArp)
 	k.setLocalLookAndFeel(LAFSliderNEAT);		
+for (k in knbMove)
+	k.setLocalLookAndFeel(LAFSliderNEAT);
+knbMoveX.setLocalLookAndFeel(LAFSliderMoveX);
+knbMoveY.setLocalLookAndFeel(LAFSliderMoveY);
+
 
 // ComboBoxes
 for (c in cmbSampler)
@@ -508,6 +544,23 @@ pnlArp.setPaintRoutine(function(g)
 				"area" : [0, 0, this.getWidth(), this.getHeight()]		
 			};
 			
-	g.addNoise(noiseData);
+	g.addNoise(noiseData);	
+});
+
+pnlMove.setPaintRoutine(function(g)
+{
+	var w = this.getWidth();
+	var h = this.getHeight();
 	
+	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);
+	
+	var noiseData = {
+				"alpha" : .1,
+				"monochromatic" : false,
+				"scaleFactor" : 2,
+				"area" : [0, 0, this.getWidth(), this.getHeight()]		
+			};
+			
+	g.addNoise(noiseData);
 });

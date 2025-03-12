@@ -40,6 +40,11 @@ const LAFButtonArpMajor = Content.createLocalLookAndFeel();
 const LAFSliderpackArpNotes = Content.createLocalLookAndFeel();
 const LAFSliderpackArpOther = Content.createLocalLookAndFeel();
 
+/* Move */
+
+const LAFSliderMoveX = Content.createLocalLookAndFeel();
+const LAFSliderMoveY = Content.createLocalLookAndFeel();
+
 /* Colours & Path */
 var path = Content.createPath();
 
@@ -298,6 +303,26 @@ LAFSliderpackArpOther.registerFunction("drawLinearSlider", function(g, obj)
     g.fillRoundedRectangle([0, obj.area[1] + obj.area[3] * (1.0 - obj.valueNormalized), obj.area[2], obj.area[3]], 2.0);
     g.setColour(Colours.withAlpha(clrWhite, .8));
     g.drawRoundedRectangle([0, obj.area[1] + obj.area[3] * (1.0 - obj.valueNormalized), obj.area[2], obj.area[3]], 2.0, 2.0);
+});
+
+// Move Sliders & Buttons
+
+LAFSliderMoveX.registerFunction("drawRotarySlider", function(g, obj)
+{
+    var w = obj.area[2];
+    var h = obj.area[3];
+    var val = obj.valueNormalized;
+    g.setColour(clrGrey);
+    g.drawRoundedRectangle([Math.range(w * val, 3, w - 6), h / 2 - 2, 6, 4], 1.0, 1.0);          
+});
+
+LAFSliderMoveY.registerFunction("drawRotarySlider", function(g, obj)
+{
+	var w = obj.area[2];
+	var h = obj.area[3];
+	var val = obj.valueNormalized;
+	g.setColour(clrGrey);
+	g.drawRoundedRectangle([w / 2 - 2, Math.range(h - (h * val), 3, h - 6), 4, 6], 1.0, 1.0);       
 });
 
 

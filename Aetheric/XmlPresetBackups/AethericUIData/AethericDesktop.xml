@@ -39,8 +39,9 @@
                  width="18.0" height="18.0" bgColour="0" itemColour="4291809231"
                  itemColour2="4293321983" textColour="0" saveInPreset="0" parentComponent="pnlHeader"
                  isMomentary="1" enableMidiLearn="0" tooltip="Unload this instrument."/>
-      <Component type="ScriptPanel" id="pnlStore" x="516" y="21" width="18" height="18"
-                 parentComponent="pnlHeader" tooltip="Browse Instruments." allowCallbacks="Clicks &amp; Hover"/>
+      <Component type="ScriptPanel" id="pnlStore" x="516.0" y="21.0" width="18.0"
+                 height="18.0" parentComponent="pnlHeader" tooltip="Browse Instruments."
+                 allowCallbacks="Clicks &amp; Hover"/>
     </Component>
     <Component type="ScriptPanel" id="pnlBody" x="5.0" y="60.0" text="" width="990.0"
                height="565.0" bgColour="0" itemColour="4281282356" itemColour2="4281282356"
@@ -625,8 +626,8 @@
           <Component type="ScriptButton" id="btnStutterBypass" x="5.0" y="5.0" parentComponent="pnlStutter"
                      width="15.0" height="15.0"/>
           <Component type="ScriptSlider" id="knbStutterRate" x="30.0" y="52.0" parentComponent="pnlStutter"
-                     width="40.0" height="40.0" max="40.0" stepSize="0.1" middlePosition="10.0"
-                     defaultValue="3.0" min="0.5"/>
+                     width="40.0" height="40.0" max="40.0" stepSize="0.1000000014901161"
+                     middlePosition="10.0" defaultValue="3.0" min="0.5"/>
           <Component type="ScriptLabel" id="lblStutterRate" x="10.0" y="92.0" parentComponent="pnlStutter"
                      width="80.0" height="20.0" fontName="bold" text="Rate" fontSize="12.0"
                      editable="0"/>
@@ -876,113 +877,116 @@
       </Component>
       <Component type="ScriptPanel" id="pnlMove" x="38.0" y="15.0" parentComponent="pnlBody"
                  width="915.0" height="440.0">
-        <Component type="ScriptFloatingTile" id="fltMacroAHDSRA" x="6.0" y="17.0"
+        <Component type="ScriptLabel" id="lblMove" x="427.0" y="6.0" parentComponent="pnlMove"
+                   text="MOVE" fontName="bold" fontSize="14.0" width="60.0"/>
+        <Component type="ScriptFloatingTile" id="fltMacroAHDSRA" x="32.0" y="55.0"
                    parentComponent="pnlMove" ContentType="AHDSRGraph" bgColour="0"
                    itemColour="452984831" itemColour2="2164260863" textColour="0"
-                   Data="{&#10;  &quot;ProcessorId&quot;: &quot;&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
-                   width="230.0"/>
-        <Component type="ScriptFloatingTile" id="fltMacroAHDSRB" x="6.0" y="185.0"
+                   Data="{&#10;  &quot;ProcessorId&quot;: &quot;Macro5_AHDSR&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+                   width="210.0" height="90.0"/>
+        <Component type="ScriptFloatingTile" id="fltMacroAHDSRB" x="32.0" y="245.0"
                    parentComponent="pnlMove" ContentType="AHDSRGraph" bgColour="0"
                    itemColour="452984831" itemColour2="2164260863" textColour="0"
-                   Data="{&#10;  &quot;ProcessorId&quot;: &quot;&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
-                   width="230.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRAAttack" x="27.0" y="115.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+                   Data="{&#10;  &quot;ProcessorId&quot;: &quot;Macro6_AHDSR&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+                   width="210.0" height="90.0"/>
+        <Component type="ScriptSlider" id="knbMoveAHDSRAAttack" x="37.0" y="153.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="20000.0" stepSize="1.0" middlePosition="10000.0" defaultValue="5.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRADecay" x="77.0" y="115.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRADecay" x="87.0" y="153.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="5000.0" stepSize="1.0" middlePosition="2500.0" defaultValue="1500.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRASustain" x="127.0" y="115.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="-100.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRASustain" x="137.0" y="153.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="-100.0"
                    max="0.0" middlePosition="-12.0" stepSize="1.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRARelease" x="177.0" y="115.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRARelease" x="187.0" y="153.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRBAttack" x="27.0" y="295.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRBAttack" x="37.0" y="345.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="20000.0" middlePosition="10000.0" stepSize="1.0" defaultValue="5.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRBDecay" x="77.0" y="295.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRBDecay" x="87.0" y="345.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="5000.0" middlePosition="2500.0" stepSize="1.0" defaultValue="1500.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRBSustain" x="127.0" y="295.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="-100.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRBSustain" x="137.0" y="345.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="-100.0"
                    max="0.0" stepSize="1.0" middlePosition="-12.0"/>
-        <Component type="ScriptSlider" id="knbMoveAHDSRBRelease" x="177.0" y="295.0"
-                   parentComponent="pnlMove" width="40.0" height="40.0" min="5.0"
+        <Component type="ScriptSlider" id="knbMoveAHDSRBRelease" x="187.0" y="345.0"
+                   parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
                    max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRAAttack" x="17.0" y="155.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRAAttack" x="23.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Attack"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRAAttackValue" x="17.0" y="175.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRAAttackValue" x="23.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="5ms"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRADecay" x="67.0" y="155.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRADecay" x="73.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Decay"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRADecayValue" x="67.0" y="175.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRADecayValue" x="73.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="1500ms"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRASustain" x="117.0" y="155.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRASustain" x="123.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Sustain"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRASustainValue" x="117.0" y="175.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRASustainValue" x="123.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="0dB"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRARelease" x="167.0" y="155.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRARelease" x="173.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Release"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRAReleaseValue" x="167.0" y="175.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRAReleaseValue" x="173.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="1000ms"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBAttack" x="17.0" y="345.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBAttack" x="23.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Attack"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBAttackValue" x="17.0" y="365.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBAttackValue" x="23.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="5ms"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBDecay" x="67.0" y="345.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBDecay" x="73.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Decay"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBDecayValue" x="67.0" y="365.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBDecayValue" x="73.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="1500ms"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBSustain" x="117.0" y="345.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBSustain" x="123.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Sustain"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBSustainValue" x="117.0" y="365.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBSustainValue" x="123.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="0dB"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBRelease" x="167.0" y="345.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBRelease" x="173.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Release"/>
-        <Component type="ScriptLabel" id="lblMoveAHDSRBReleaseValue" x="167.0" y="365.0"
+        <Component type="ScriptLabel" id="lblMoveAHDSRBReleaseValue" x="173.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="regular" text="1000ms"/>
         <Component type="ScriptPanel" id="pnlMoveXYPad" x="276.0" y="60.0" parentComponent="pnlMove"
                    width="397.0" height="298.0" allowCallbacks="Clicks, Hover &amp; Dragging"/>
         <Component type="ScriptSlider" id="knbMoveX" x="276.0" y="364.0" parentComponent="pnlMove"
                    width="397.0" height="6.0" max="100.0" middlePosition="50.0"
-                   stepSize="1.0" defaultValue="50.0" mouseSensitivity="1.6"/>
+                   stepSize="1.0" defaultValue="50.0" mouseSensitivity="1.600000023841858"/>
         <Component type="ScriptSlider" id="knbMoveY" x="679.0" y="60.0" parentComponent="pnlMove"
                    width="6.0" height="298.0" max="100.0" stepSize="1.0" middlePosition="50.0"
-                   defaultValue="50.0" mouseSensitivity="1.6"/>
+                   defaultValue="50.0" mouseSensitivity="1.600000023841858"/>
         <Component type="ScriptButton" id="btnMoveConnectionSettings" x="277.0"
-                   y="395.0" width="160.0" height="30.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosBypass" x="707.0" y="5.0"
+                   y="395.0" width="160.0" height="30.0" parentComponent="pnlMove"
+                   text="Connection Settings"/>
+        <Component type="ScriptButton" id="btnMoveChaosBypass" x="702.0" y="52.0"
                    width="15.0" height="15.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeA" x="767.0" y="16.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeA" x="767.0" y="60.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeB" x="737.0" y="75.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeB" x="735.0" y="110.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeC" x="797.0" y="75.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeC" x="799.0" y="110.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeD" x="767.0" y="135.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeD" x="767.0" y="160.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeE" x="737.0" y="195.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeE" x="735.0" y="210.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeF" x="797.0" y="195.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeF" x="799.0" y="210.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
-        <Component type="ScriptButton" id="btnMoveChaosTypeG" x="767.0" y="255.0"
+        <Component type="ScriptButton" id="btnMoveChaosTypeG" x="767.0" y="260.0"
                    width="60.0" height="60.0" parentComponent="pnlMove"/>
         <Component type="ScriptSlider" id="knbMoveChaosRate" x="727.0" y="335.0"
                    parentComponent="pnlMove" width="40.0" height="40.0"/>
@@ -1000,6 +1004,20 @@
         <Component type="ScriptLabel" id="lblMoveChaosIntensityValue" x="807.0"
                    y="405.0" parentComponent="pnlMove" width="60.0" height="20.0"
                    fontSize="12.0" fontName="regular" text="500ms"/>
+        <Component type="ScriptPanel" id="pnlMoveConnectionSettings" x="60.0" y="40.0"
+                   parentComponent="pnlMove" width="795.0" height="350.0" visible="0.0">
+          <Component type="ScriptFloatingTile" id="fltMacroControl" x="10.0" y="30.0"
+                     parentComponent="pnlMoveConnectionSettings" ContentType="FrontendMacroPanel"
+                     bgColour="0" itemColour="2164260863" itemColour2="2164260863"
+                     textColour="2164260863" width="775.0" height="290.0"/>
+          <Component type="ScriptLabel" id="lblMoveConnectionSettings" x="0.0" y="0.0"
+                     parentComponent="pnlMoveConnectionSettings" fontSize="14.0" fontName="bold"
+                     text="CONNECTION SETTINGS" width="795.0"/>
+        </Component>
+        <Component type="ScriptLabel" id="lblMoveEnv" x="110.0" y="6.0" parentComponent="pnlMove"
+                   text="ENV" fontName="bold" fontSize="14.0" width="45.0"/>
+        <Component type="ScriptLabel" id="lblMoveChaos" x="767.0" y="6.0" parentComponent="pnlMove"
+                   text="CHAOS" fontName="bold" fontSize="14.0" width="60.0"/>
       </Component>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
@@ -1033,8 +1051,8 @@
                  itemColour2="4292664540" isPluginParameter="1" pluginParameterName="Master Pan"
                  parentComponent="pnlStatusBar" processorId="masterGain" parameterId="Balance"
                  dragDirection="Horizontal" showValuePopup="Below" showTextBox="0"/>
-      <Component type="ScriptPanel" id="pnlTooltip" x="300" y="10" width="350"
-                 height="20" parentComponent="pnlStatusBar"/>
+      <Component type="ScriptPanel" id="pnlTooltip" x="300.0" y="10.0" width="350.0"
+                 height="20.0" parentComponent="pnlStatusBar"/>
     </Component>
     <Component type="ScriptPanel" id="pnlFooter" x="0.0" y="625.0" text="" width="1000.0"
                height="85.0" bgColour="0" itemColour="0" itemColour2="0" textColour="0"

@@ -357,6 +357,19 @@ const lblMove = [Content.getComponent("lblMoveAHDSRAAttackValue"),
 				 Content.getComponent("lblMoveAHDSRBReleaseValue"),
 				 Content.getComponent("lblMoveChaosRateValue"),
 				 Content.getComponent("lblMoveChaosIntensityValue")];
+				 
+const btnMove = [Content.getComponent("btnMoveConnectionSettings"),
+				 Content.getComponent("btnMoveChaosBypass"),
+				 Content.getComponent("btnMoveChaosTypeA"),
+				 Content.getComponent("btnMoveChaosTypeB"),
+				 Content.getComponent("btnMoveChaosTypeC"),
+				 Content.getComponent("btnMoveChaosTypeD"),
+				 Content.getComponent("btnMoveChaosTypeE"),
+				 Content.getComponent("btnMoveChaosTypeF"),
+				 Content.getComponent("btnMoveChaosTypeG")];
+				 
+const pnlMoveConnectionSettings = Content.getComponent("pnlMoveConnectionSettings");
+const fltMacroControl = Content.getComponent("fltMacroControl");				 
 
 
 // Assign LAF;
@@ -396,7 +409,14 @@ for (k in knbMove)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 knbMoveX.setLocalLookAndFeel(LAFSliderMoveX);
 knbMoveY.setLocalLookAndFeel(LAFSliderMoveY);
-
+btnMove[1].setLocalLookAndFeel(LAFButtonBypass);
+btnMove[2].setLocalLookAndFeel(LAFButtonChaosA);
+btnMove[3].setLocalLookAndFeel(LAFButtonChaosB);
+btnMove[4].setLocalLookAndFeel(LAFButtonChaosC);
+btnMove[5].setLocalLookAndFeel(LAFButtonChaosD);
+btnMove[6].setLocalLookAndFeel(LAFButtonChaosE);
+btnMove[7].setLocalLookAndFeel(LAFButtonChaosF);
+btnMove[8].setLocalLookAndFeel(LAFButtonChaosG);
 
 // ComboBoxes
 for (c in cmbSampler)
@@ -441,6 +461,10 @@ btnArp[2].setLocalLookAndFeel(LAFButtonArpReset);
 btnArp[3].setLocalLookAndFeel(LAFButtonArpInvert);
 btnArp[4].setLocalLookAndFeel(LAFButtonArpReset);
 btnArp[5].setLocalLookAndFeel(LAFButtonArpReset);
+
+btnMove[0].setLocalLookAndFeel(LAFButtonNEAT);
+
+// Sliderpacks
 
 sldrpckArp[0].setLocalLookAndFeel(LAFSliderpackArpNotes);
 sldrpckArp[1].setLocalLookAndFeel(LAFSliderpackArpOther);
@@ -554,6 +578,44 @@ pnlMove.setPaintRoutine(function(g)
 	
 	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
 	g.fillRoundedRectangle([0, 0, w, h], 10.0);
+	
+	var noiseData = {
+				"alpha" : .1,
+				"monochromatic" : false,
+				"scaleFactor" : 2,
+				"area" : [0, 0, this.getWidth(), this.getHeight()]		
+			};
+			
+	g.addNoise(noiseData);
+});
+
+pnlMoveXYPad.setPaintRoutine(function(g)
+{
+	xPos = Math.range(knbMoveX.getValue() / 100, 0.03, 0.97); 
+	yPos = Math.range(1-knbMoveY.getValue() / 100, 0.03, 0.97);
+	
+	//g.setColour(0xFB111111); // ????
+	g.setColour(Colours.withAlpha(clrExtradarkgrey, .35));
+	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0);
+   	g.setColour(Colours.withAlpha(clrGrey, .2));
+   	g.drawRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0, 1.0);
+	    	
+   	//Cursor	
+	g.setColour(clrDarkgrey);
+	g.fillEllipse([this.getWidth() * xPos -5, this.getHeight() * yPos - 5, 10, 10]);
+	g.setColour(clrGrey);
+	g.drawEllipse([this.getWidth() * xPos -5, this.getHeight() * yPos - 5, 10, 10], 1.0); 	
+});
+
+pnlMoveConnectionSettings.setPaintRoutine(function(g)
+{
+	var w = this.getWidth();
+	var h = this.getHeight();
+	
+	g.setColour(Colours.withAlpha(clrExtradarkgrey, 1.0));
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);
+	g.setColour(Colours.withAlpha(clrLightgrey, .2));
+	g.drawRoundedRectangle([0, 0, w, h], 10.0, 1.0);
 	
 	var noiseData = {
 				"alpha" : .1,

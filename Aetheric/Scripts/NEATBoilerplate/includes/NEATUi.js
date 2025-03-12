@@ -15,18 +15,21 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
+/* UI Functionality */
+Engine.loadAudioFilesIntoPool();
+Engine.setFrontendMacros(["X Pos", "X Neg", "Y Pos", "Y Neg", "Env A", "Env B", "Velocity", "Random"]);
+const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
+const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
+const majorNotes = [0, 2, 4, 5, 7, 9, 11, 12];
+const minorNotes = [0, 2, 3, 5, 7, 8, 10, 12];
+reg xPos;
+reg yPos;
+
 include("NEATBoilerplate/includes/NEATLookAndFeel.js");
 include("NEATBoilerplate/includes/NEATModules.js");
 include("NEATBoilerplate/includes/NEATUiConstructors.js");
 include("NEATBoilerplate/includes/NEATUiRefs.js");
 						 						  									
-/* UI Functionality */
-Engine.loadAudioFilesIntoPool();
-const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
-const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
-const majorNotes = [0, 2, 4, 5, 7, 9, 11, 12];
-const minorNotes = [0, 2, 3, 5, 7, 8, 10, 12];
-
 // Generic
 
 inline function onBtnCmbPrevControl(component, value)
@@ -1331,6 +1334,64 @@ inline function onknbMoveControl(component, value)
 
 for (k in knbMove)
 	k.setControlCallback(onknbMoveControl);
+	
+inline function onbtnMoveControl(component, value)
+{
+	switch (component)
+	{
+		case btnMove[0]: // Movement Connection Settings
+		{
+			pnlMoveConnectionSettings.set("visible", value);
+		}
+		case btnMove[1]: // Chaos Bypass
+		{
+			
+		}
+		case btnMove[2]: // Chaos A
+		{
+			
+		}
+		case btnMove[3]: // Chaos B
+		{
+			
+		}
+		case btnMove[4]: // Chaos C
+		{
+			
+		}
+		case btnMove[5]: // Chaos D
+		{
+			
+		}
+		case btnMove[6]: // Chaos E
+		{
+			
+		}
+		case btnMove[7]: // Chaos F
+		{
+			
+		}
+		case btnMove[8]: // Chaos G
+		{
+			
+		}
+	}
+}
+
+for (b in btnMove)
+	b.setControlCallback(onbtnMoveControl);
+	
+pnlMoveXYPad.setMouseCallback(function(event)
+{
+	if (event.clicked || event.drag)
+	{
+		knbMoveX.setValue(event.x / this.getWidth() * 100);
+		knbMoveX.changed();
+		knbMoveY.setValue(100-event.y / this.getHeight() * 100);
+		knbMoveY.changed();
+		this.repaint(); 
+	}
+});
 
 /* Rhapsody Stuff */
 

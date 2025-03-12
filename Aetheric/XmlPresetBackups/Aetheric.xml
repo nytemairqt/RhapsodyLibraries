@@ -9,10 +9,10 @@
         <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0">
           <ChildProcessors/>
           <Content>
-            <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
+            <Control type="ScriptButton" id="btnSamplerABypass" value="0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerA" value="1"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerAReverse" value="0"/>
             <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
@@ -22,10 +22,10 @@
             <Control type="ScriptSlider" id="knbSamplerATune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerB" value="2.0"/>
+            <Control type="ScriptButton" id="btnSamplerBBypass" value="0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerB" value="1"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerBReverse" value="0"/>
             <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
@@ -35,10 +35,10 @@
             <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
+            <Control type="ScriptButton" id="btnSamplerCBypass" value="0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerC" value="1"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerCReverse" value="0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
@@ -48,10 +48,10 @@
             <Control type="ScriptSlider" id="knbSamplerCTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerOtherBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerOther" value="1.0"/>
+            <Control type="ScriptButton" id="btnSamplerOtherBypass" value="0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerOther" value="1"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerOther" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerOtherReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnSamplerOtherReverse" value="0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherDecay" value="1500.0"/>
@@ -61,72 +61,71 @@
             <Control type="ScriptSlider" id="knbSamplerOtherTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnFilterBypass" value="0.0"/>
-            <Control type="ScriptSlider" id="knbFilterCutoff" value="1607.0"/>
-            <Control type="ScriptSlider" id="knbFilterQ" value="0.5099999904632568"/>
+            <Control type="ScriptButton" id="btnFilterBypass" value="0"/>
+            <Control type="ScriptSlider" id="knbFilterCutoff" value="20000.0"/>
+            <Control type="ScriptSlider" id="knbFilterQ" value="0.4000000059604645"/>
             <Control type="ScriptButton" id="btnFilterHPF" value="0"/>
-            <Control type="ScriptButton" id="btnFilterLPF" value="1.0"/>
-            <Control type="ScriptButton" id="btnAmpBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnFilterLPF" value="0"/>
+            <Control type="ScriptButton" id="btnAmpBypass" value="0"/>
             <Control type="ScriptSlider" id="knbAmpGain" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpTone" value="0.0"/>
-            <Control type="ScriptComboBox" id="cmbAmpCabSelect" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbAmpCabSelect" value="1"/>
             <Control type="ScriptButton" id="btnAmpCabBypass" value="0"/>
-            <Control type="ScriptButton" id="btnAmpOversampling" value="0.0"/>
-            <Control type="ScriptButton" id="btnCmbAmpCabSelectPrev" value="0.0"/>
-            <Control type="ScriptButton" id="btnCmbAmpCabSelectNext" value="0.0"/>
-            <Control type="ScriptButton" id="btnDriveBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnAmpOversampling" value="0"/>
+            <Control type="ScriptButton" id="btnCmbAmpCabSelectPrev" value="0"/>
+            <Control type="ScriptButton" id="btnCmbAmpCabSelectNext" value="0"/>
+            <Control type="ScriptButton" id="btnDriveBypass" value="0"/>
             <Control type="ScriptSlider" id="knbDriveWaveshaper" value="0.0"/>
             <Control type="ScriptSlider" id="knbDriveTube" value="0.0"/>
-            <Control type="ScriptButton" id="btnDriveWaveshaperOversampling" value="0.0"/>
-            <Control type="ScriptButton" id="btnDriveTubeOversampling" value="0.0"/>
-            <Control type="ScriptButton" id="btnUtilityBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnDriveWaveshaperOversampling" value="0"/>
+            <Control type="ScriptButton" id="btnDriveTubeOversampling" value="0"/>
+            <Control type="ScriptButton" id="btnUtilityBypass" value="0"/>
             <Control type="ScriptSlider" id="knbUtilityWidth" value="100.0"/>
             <Control type="ScriptSlider" id="knbUtilityGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnStutterBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnStutterBypass" value="0"/>
             <Control type="ScriptSlider" id="knbStutterRate" value="3.0"/>
             <Control type="ScriptSlider" id="knbStutterAmount" value="0.0"/>
-            <Control type="ScriptButton" id="btnStutterPreFX" value="0.0"/>
-            <Control type="ScriptButton" id="btnStutterTempoSync" value="0.0"/>
-            <Control type="ScriptButton" id="btnDegradeBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnStutterPreFX" value="0"/>
+            <Control type="ScriptButton" id="btnStutterTempoSync" value="0"/>
+            <Control type="ScriptButton" id="btnDegradeBypass" value="0"/>
             <Control type="ScriptSlider" id="knbDegradeBitDepth" value="16.0"/>
             <Control type="ScriptSlider" id="knbDegradeSampleHold" value="1.0"/>
-            <Control type="ScriptButton" id="btnPhaserBypass" value="0.0"/>
-            <Control type="ScriptSlider" id="knbPhaserRateA" value="304.0"/>
-            <Control type="ScriptSlider" id="knbPhaserRateB" value="1804.0"/>
-            <Control type="ScriptSlider" id="knbPhaserFeedback" value="0.6100000143051147"/>
-            <Control type="ScriptSlider" id="knbPhaserMix" value="0.699999988079071"/>
-            <Control type="ScriptButton" id="btnReverbBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnPhaserBypass" value="0"/>
+            <Control type="ScriptSlider" id="knbPhaserRateA" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbPhaserRateB" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbPhaserFeedback" value="0.2000000029802322"/>
+            <Control type="ScriptSlider" id="knbPhaserMix" value="0.2000000029802322"/>
+            <Control type="ScriptButton" id="btnReverbBypass" value="0"/>
             <Control type="ScriptSlider" id="knbReverbSize" value="0.699999988079071"/>
             <Control type="ScriptSlider" id="knbReverbDamping" value="0.5"/>
             <Control type="ScriptSlider" id="knbReverbWidth" value="0.800000011920929"/>
             <Control type="ScriptSlider" id="knbReverbMix" value="0.2000000029802322"/>
-            <Control type="ScriptButton" id="btnDelayBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnDelayBypass" value="0"/>
             <Control type="ScriptSlider" id="knbDelayTimeL" value="200.0"/>
             <Control type="ScriptSlider" id="knbDelayTimeR" value="200.0"/>
             <Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.2000000029802322"/>
             <Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.2000000029802322"/>
             <Control type="ScriptSlider" id="knbDelayMix" value="0.2000000029802322"/>
-            <Control type="ScriptButton" id="btnDelayLinkLR" value="0.0"/>
-            <Control type="ScriptButton" id="btnDelayTempoSync" value="0.0"/>
-            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1.0" data="64......................................................................................."/>
-            <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="-1.0"
-                     data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
-            <Control type="ScriptSliderPack" id="sldrpckArpLength" value="-1.0" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
+            <Control type="ScriptButton" id="btnDelayLinkLR" value="0"/>
+            <Control type="ScriptButton" id="btnDelayTempoSync" value="0"/>
+            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <Control type="ScriptSliderPack" id="sldrpckArpLength" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
             <Control type="ScriptSlider" id="knbArpSteps" value="16.0"/>
             <Control type="ScriptSlider" id="knbArpSpeed" value="11.0"/>
             <Control type="ScriptSlider" id="knbArpOctave" value="0.0"/>
             <Control type="ScriptSlider" id="knbArpSwing" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpBypass" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpMinor" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpMajor" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpNotesReset" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpNotesInvert" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpVelocityReset" value="0.0"/>
-            <Control type="ScriptButton" id="btnArpLengthReset" value="0.0"/>
-            <Control type="ScriptComboBox" id="cmbArp" value="4.0"/>
-            <Control type="ScriptButton" id="btnCmbArpPrev" value="0.0"/>
-            <Control type="ScriptButton" id="btnCmbArpNext" value="0.0"/>
+            <Control type="ScriptButton" id="btnArpBypass" value="0"/>
+            <Control type="ScriptButton" id="btnArpMinor" value="0"/>
+            <Control type="ScriptButton" id="btnArpMajor" value="0"/>
+            <Control type="ScriptButton" id="btnArpNotesReset" value="0"/>
+            <Control type="ScriptButton" id="btnArpNotesInvert" value="0"/>
+            <Control type="ScriptButton" id="btnArpVelocityReset" value="0"/>
+            <Control type="ScriptButton" id="btnArpLengthReset" value="0"/>
+            <Control type="ScriptComboBox" id="cmbArp" value="1"/>
+            <Control type="ScriptButton" id="btnCmbArpPrev" value="0"/>
+            <Control type="ScriptButton" id="btnCmbArpNext" value="0"/>
             <Control type="ScriptSlider" id="knbMoveAHDSRAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbMoveAHDSRADecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbMoveAHDSRASustain" value="0.0"/>
@@ -137,15 +136,15 @@
             <Control type="ScriptSlider" id="knbMoveAHDSRBRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbMoveX" value="50.0"/>
             <Control type="ScriptSlider" id="knbMoveY" value="50.0"/>
-            <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosBypass" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeA" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosBypass" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeA" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0"/>
             <Control type="ScriptSlider" id="knbMoveChaosRate" value="0.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="0.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
@@ -170,9 +169,9 @@
             <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
             <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
             <Control type="ScriptButton" id="EnableTie" value="1.0"/>
-            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="-1" data="64......................................................................................."/>
-            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="-1" data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
-            <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
+            <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1" data="64....f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+....9C...3O...f+."/>
             <Control type="ScriptComboBox" id="ChannelSelector" value="1.0"/>
             <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
             <Control type="ScriptComboBox" id="MPEStartChannel" value="2.0"/>

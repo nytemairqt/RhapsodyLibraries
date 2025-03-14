@@ -61,5 +61,36 @@ namespace Random
 		}
 	}
 
-
+	inline function resetComponentList(list)
+	{
+		for (c in list)
+		{
+			c.setValue(c.get("defaultValue"));
+			c.changed();
+		}						
+	}
+	
+	inline function randomizeAHDSRStaccato(list)
+	{
+		randomizeComponentWithinRange(list[0], 5, 150); // Attack
+		randomizeComponentWithinRange(list[1], 5, 5000); // Decay
+		randomizeComponentWithinRange(list[2], -100, 0); // Sustain
+		randomizeComponentWithinRange(list[3], 5, 2000); // Release
+	}
+	
+	inline function randomizeAHDSRSustain(list)
+	{
+		randomizeComponentWithinRange(list[0], 5, 150); // Attack
+		randomizeComponentWithinRange(list[1], 5, 5000); // Decay
+		randomizeComponentWithinRange(list[2], -8, 0); // Sustain
+		randomizeComponentWithinRange(list[3], 5, 2000); // Release
+	}
+	
+	inline function randomizeAHDSRPad(list)
+	{
+		randomizeComponentWithinRange(list[0], 5, 20000); // Attack
+		randomizeComponentWithinRange(list[1], 5, 5000); // Decay
+		randomizeComponentWithinRange(list[2], 0, 0); // Sustain
+		randomizeComponentWithinRange(list[3], 5, 20000); // Release
+	}
 }

@@ -62,7 +62,7 @@
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -141,16 +141,16 @@
                    height="20.0" width="60.0" text="Gain" fontName="bold" fontSize="12.0"
                    editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAAttackValue" x="19.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="5ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="54ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerADecayValue" x="85.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1500ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="2434ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerASustainValue" x="152.0" y="290.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1000ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1004ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0st"
@@ -166,7 +166,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerB" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -245,16 +245,16 @@
                    height="20.0" width="60.0" text="Gain" fontName="bold" fontSize="12.0"
                    editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBAttackValue" x="19.0" y="290.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="5ms"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="52ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBDecayValue" x="85.0" y="290.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="1500ms"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="3240ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBSustainValue" x="152.0" y="290.0"
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="1000ms"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="987ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0st"
@@ -270,7 +270,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -349,16 +349,16 @@
                    height="20.0" width="60.0" text="Gain" fontName="bold" fontSize="12.0"
                    editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCAttackValue" x="19.0" y="290.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="5ms"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="54ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCDecayValue" x="85.0" y="290.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="1500ms"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="3792ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCSustainValue" x="152.0" y="290.0"
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="1000ms"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="529ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0st"
@@ -458,16 +458,16 @@
                    text="Gain" fontName="bold" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerOtherAttackValue" x="19.0" y="290.0"
                    parentComponent="pnlSamplerOther" height="20.0" width="60.0"
-                   text="5ms" fontName="regular" fontSize="12.0" editable="0"/>
+                   text="39ms" fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerOtherDecayValue" x="85.0" y="290.0"
                    parentComponent="pnlSamplerOther" height="20.0" width="60.0"
-                   text="1500ms" fontName="regular" fontSize="12.0" editable="0"/>
+                   text="2612ms" fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerOtherSustainValue" x="152.0"
                    y="290.0" parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0dB" fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerOtherReleaseValue" x="219.0"
                    y="290.0" parentComponent="pnlSamplerOther" height="20.0" width="60.0"
-                   text="1000ms" fontName="regular" fontSize="12.0" editable="0"/>
+                   text="817ms" fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerOtherPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerOther" height="20.0" width="60.0"
                    text="0st" fontName="regular" fontSize="12.0" editable="0"/>
@@ -483,7 +483,7 @@
       </Component>
       <Component type="ScriptButton" id="btnSamplerOther" x="314.0" y="22.0" parentComponent="pnlBody"
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
-                 tooltip="Display Extra Sampler." visible="0"/>
+                 tooltip="Display Extra Sampler." visible="0.0"/>
       <Component type="ScriptPanel" id="pnlFX" x="38.0" y="15.0" parentComponent="pnlBody"
                  width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
@@ -1021,308 +1021,354 @@
                    text="CHAOS" fontName="bold" fontSize="14.0" width="60.0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlRandom" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblRandomSampler" x="117.0" y="35.0" parentComponent="pnlRandom"
                    text="SAMPLE" editable="0"/>
         <Component type="ScriptLabel" id="lblRandomSampler2" x="487.0" y="35.0"
                    parentComponent="pnlRandom" text="FX" width="78.0" editable="0"/>
         <Component type="ScriptLabel" id="lblRandomSampler3" x="582.0" y="35.0"
                    parentComponent="pnlRandom" text="ARP" width="78.0" editable="0"/>
-        <Component type="ScriptLabel" id="lblRandomSampler4" x="677.0" y="35" parentComponent="pnlRandom"
-                   text="MOVE" width="78.0" editable="0"/>
+        <Component type="ScriptLabel" id="lblRandomSampler4" x="677.0" y="35.0"
+                   parentComponent="pnlRandom" text="MOVE" width="78.0" editable="0"/>
         <Component type="ScriptLabel" id="lblRandomSampler5" x="807.0" y="175.0"
                    parentComponent="pnlRandom" text="GLOBAL" width="78.0" editable="0"/>
         <Component type="ScriptButton" id="btnRandomizeAll" x="797.0" y="205.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeResetAll" x="797.0" y="235.0"
-                   parentComponent="pnlRandom" text="RESET" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="RESET" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersAll" x="7.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersSamplemap" x="7.0"
                    y="95.0" parentComponent="pnlRandom" text="SAMPLEMAP" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersOffset" x="7.0"
                    y="125.0" parentComponent="pnlRandom" text="OFFSET" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersReverse" x="7.0"
                    y="155.0" parentComponent="pnlRandom" text="REVERSE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersAHDSR" x="7.0"
                    y="185.0" parentComponent="pnlRandom" text="AHDSR" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersAHDSRStaccato"
                    x="7.0" y="215.0" parentComponent="pnlRandom" text="STACCATO"
-                   width="90.0" height="24.0"/>
+                   width="90.0" height="24.0" enableMidiLearn="0" isMomentary="1"
+                   saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersAHDSRSustain"
                    x="7.0" y="245.0" parentComponent="pnlRandom" text="SUSTAIN"
-                   width="90.0" height="24.0"/>
+                   width="90.0" height="24.0" enableMidiLearn="0" isMomentary="1"
+                   saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersAHDSRPad" x="7.0"
                    y="275.0" parentComponent="pnlRandom" text="PAD" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersPitchOctave" x="7.0"
                    y="305.0" parentComponent="pnlRandom" text="OCT." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersPitch" x="52.0"
                    y="305.0" parentComponent="pnlRandom" text="PITCH" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersTuneUnisono" x="7.0"
                    y="335.0" parentComponent="pnlRandom" text="UNI." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersTune" x="52.0"
                    y="335.0" parentComponent="pnlRandom" text="TUNE" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersPanNarrow" x="7.0"
-                   y="365" parentComponent="pnlRandom" text="WIDEN" width="45.0"
-                   height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="WIDEN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersPan" x="52.0"
-                   y="365" parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="PAN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersGainLevel" x="7.0"
-                   y="395" parentComponent="pnlRandom" text="LEVEL" width="45.0"
-                   height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="LEVEL" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeAllSamplersGain" x="52.0"
-                   y="395" parentComponent="pnlRandom" text="GAIN" width="45.0"
-                   height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="GAIN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAAll" x="102.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerASamplemap" x="102.0"
                    y="95.0" parentComponent="pnlRandom" text="SAMPLEMAP" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAOffset" x="102.0"
                    y="125.0" parentComponent="pnlRandom" text="OFFSET" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAReverse" x="102.0"
                    y="155.0" parentComponent="pnlRandom" text="REVERSE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAAHDSR" x="102.0"
                    y="185.0" parentComponent="pnlRandom" text="AHDSR" width="90.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerAAHDSRStaccato" x="102"
-                   y="215" text="STACCATO" width="90.0" height="24.0" parentComponent="pnlRandom"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerAAHDSRStaccato" x="102.0"
+                   y="215.0" text="STACCATO" width="90.0" height="24.0" parentComponent="pnlRandom"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAAHDSRSustain" x="102.0"
                    y="245.0" parentComponent="pnlRandom" text="SUSTAIN" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAAHDSRPad" x="102.0"
                    y="275.0" parentComponent="pnlRandom" text="PAD" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAPitchOctave" x="102.0"
                    y="305.0" parentComponent="pnlRandom" text="OCT." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAPitch" x="147.0"
                    y="305.0" parentComponent="pnlRandom" text="PITCH" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerATuneUnisono" x="102.0"
                    y="335.0" parentComponent="pnlRandom" text="UNI." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerATune" x="147.0" y="335.0"
-                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAPanNarrow" x="102.0"
-                   y="365" parentComponent="pnlRandom" text="WIDEN" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerAPan" x="147.0" y="365"
-                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="WIDEN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerAPan" x="147.0" y="365.0"
+                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerAGainLevel" x="102.0"
-                   y="395" parentComponent="pnlRandom" text="LEVEL" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerAGain" x="147.0" y="395"
-                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="LEVEL" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerAGain" x="147.0" y="395.0"
+                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBAll" x="197.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBSamplemap" x="197.0"
                    y="95.0" parentComponent="pnlRandom" text="SAMPLEMAP" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBOffset" x="197.0"
                    y="125.0" parentComponent="pnlRandom" text="OFFSET" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBReverse" x="197.0"
                    y="155.0" parentComponent="pnlRandom" text="REVERSE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBAHDSR" x="197.0"
                    y="185.0" parentComponent="pnlRandom" text="AHDSR" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBAHDSRStaccato" x="197.0"
                    y="215.0" parentComponent="pnlRandom" text="STACCATO" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBAHDSRSustain" x="197.0"
                    y="245.0" parentComponent="pnlRandom" text="SUSTAIN" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBAHDSRPad" x="197.0"
                    y="275.0" parentComponent="pnlRandom" text="PAD" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBPitchOctave" x="197.0"
                    y="305.0" parentComponent="pnlRandom" text="OCT." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBPitch" x="242.0"
                    y="305.0" parentComponent="pnlRandom" text="PITCH" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBTuneUnisono" x="197.0"
                    y="335.0" parentComponent="pnlRandom" text="UNI." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBTune" x="242.0" y="335.0"
-                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBPanNarrow" x="197.0"
-                   y="365" parentComponent="pnlRandom" text="WIDEN" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerBPan" x="242.0" y="365"
-                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="WIDEN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerBPan" x="242.0" y="365.0"
+                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerBGainLevel" x="197.0"
-                   y="395" parentComponent="pnlRandom" text="LEVEL" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerBGain" x="242.0" y="395"
-                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="LEVEL" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerBGain" x="242.0" y="395.0"
+                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCAll" x="292.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCSamplemap" x="292.0"
                    y="95.0" parentComponent="pnlRandom" text="SAMPLEMAP" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCOffset" x="292.0"
                    y="125.0" parentComponent="pnlRandom" text="OFFSET" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCReverse" x="292.0"
                    y="155.0" parentComponent="pnlRandom" text="REVERSE" width="90.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerCAHDSR" x="292" y="185"
-                   parentComponent="pnlRandom" text="AHDSR" width="90.0" height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerCAHDSR" x="292.0"
+                   y="185.0" parentComponent="pnlRandom" text="AHDSR" width="90.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCAHDSRStaccato" x="292.0"
                    y="215.0" parentComponent="pnlRandom" text="STACCATO" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCAHDSRSustain" x="292.0"
                    y="245.0" parentComponent="pnlRandom" text="SUSTAIN" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCAHDSRPad" x="292.0"
                    y="275.0" parentComponent="pnlRandom" text="PAD" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCPitchOctave" x="292.0"
                    y="305.0" parentComponent="pnlRandom" text="OCT." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCPitch" x="337.0"
                    y="305.0" parentComponent="pnlRandom" text="PITCH" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCTuneUnisono" x="292.0"
                    y="335.0" parentComponent="pnlRandom" text="UNI." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCTune" x="337.0" y="335.0"
-                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="TUNE" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCPanNarrow" x="292.0"
-                   y="365" parentComponent="pnlRandom" text="WIDEN" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerCPan" x="337.0" y="365"
-                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="WIDEN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerCPan" x="337.0" y="365.0"
+                   parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerCGainLevel" x="292.0"
-                   y="395" parentComponent="pnlRandom" text="LEVEL" width="45.0"
-                   height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeSamplerCGain" x="337.0" y="395"
-                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="LEVEL" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeSamplerCGain" x="337.0" y="395.0"
+                   parentComponent="pnlRandom" text="GAIN" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherAll" x="387.0"
                    y="65.0" parentComponent="pnlRandom" text="ALL" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherSamplemap" x="387.0"
                    y="95.0" parentComponent="pnlRandom" text="SAMPLEMAP" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherOffset" x="387.0"
                    y="125.0" parentComponent="pnlRandom" text="OFFSET" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherReverse" x="387.0"
                    y="155.0" parentComponent="pnlRandom" text="REVERSE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherAHDSR" x="387.0"
                    y="185.0" parentComponent="pnlRandom" text="AHDSR" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRStaccato"
                    x="387.0" y="215.0" parentComponent="pnlRandom" text="STACCATO"
-                   width="90.0" height="24.0"/>
+                   width="90.0" height="24.0" enableMidiLearn="0" isMomentary="1"
+                   saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRSustain"
                    x="387.0" y="245.0" parentComponent="pnlRandom" text="SUSTAIN"
-                   width="90.0" height="24.0"/>
+                   width="90.0" height="24.0" enableMidiLearn="0" isMomentary="1"
+                   saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRPad" x="387.0"
                    y="275.0" parentComponent="pnlRandom" text="PAD" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherPitchOctave"
                    x="387.0" y="305.0" parentComponent="pnlRandom" text="OCT." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherPitch" x="432.0"
                    y="305.0" parentComponent="pnlRandom" text="PITCH" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherTuneUnisono"
                    x="387.0" y="335.0" parentComponent="pnlRandom" text="UNI." width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherTune" x="432.0"
                    y="335.0" parentComponent="pnlRandom" text="TUNE" width="45.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherPanNarrow" x="387.0"
-                   y="365" parentComponent="pnlRandom" text="WIDEN" width="45.0"
-                   height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="WIDEN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherPan" x="432.0"
-                   y="365" parentComponent="pnlRandom" text="PAN" width="45.0" height="24.0"/>
+                   y="365.0" parentComponent="pnlRandom" text="PAN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherGainLevel" x="387.0"
-                   y="395" parentComponent="pnlRandom" text="LEVEL" width="45.0"
-                   height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="LEVEL" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeSamplerOtherGain" x="432.0"
-                   y="395" parentComponent="pnlRandom" text="GAIN" width="45.0"
-                   height="24.0"/>
+                   y="395.0" parentComponent="pnlRandom" text="GAIN" width="45.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXAll" x="482.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXFilter" x="482.0" y="95.0"
-                   parentComponent="pnlRandom" text="FILTER" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="FILTER" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXUtility" x="482.0" y="125.0"
-                   parentComponent="pnlRandom" text="UTILITY" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="UTILITY" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXStutter" x="482.0" y="155.0"
-                   parentComponent="pnlRandom" text="STUTTER" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="STUTTER" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXAmp" x="482.0" y="185.0"
-                   parentComponent="pnlRandom" text="AMP" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="AMP" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXDrive" x="482.0" y="215.0"
-                   parentComponent="pnlRandom" text="DRIVE" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="DRIVE" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXDegrade" x="482.0" y="245.0"
-                   parentComponent="pnlRandom" text="DEGRADE" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="DEGRADE" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXPhaser" x="482.0" y="275.0"
-                   parentComponent="pnlRandom" text="PHASER" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="PHASER" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXReverb" x="482.0" y="305.0"
-                   parentComponent="pnlRandom" text="REVERB" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="REVERB" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeFXDelay" x="482.0" y="335.0"
-                   parentComponent="pnlRandom" text="DELAY" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="DELAY" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpAll" x="577.0" y="65.0"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpSteps" x="577.0" y="95.0"
-                   parentComponent="pnlRandom" text="STEPS" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="STEPS" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpSpeed" x="577.0" y="125.0"
-                   parentComponent="pnlRandom" text="SPEED" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="SPEED" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpOctave" x="577.0" y="155.0"
-                   parentComponent="pnlRandom" text="OCTAVE" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="OCTAVE" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpSwing" x="577.0" y="185.0"
-                   parentComponent="pnlRandom" text="SWING" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="SWING" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpMode" x="577.0" y="215.0"
-                   parentComponent="pnlRandom" text="MODE" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="MODE" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpNotes" x="577.0" y="245.0"
-                   parentComponent="pnlRandom" text="NOTES" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="NOTES" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpMinor" x="577.0" y="275.0"
-                   parentComponent="pnlRandom" text="MINOR" width="45.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="MINOR" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpMajor" x="622.0" y="275.0"
-                   parentComponent="pnlRandom" text="MAJOR" width="45.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="MAJOR" width="45.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpVelocities" x="577.0"
                    y="305.0" parentComponent="pnlRandom" text="VELOCITIES" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeArpLengths" x="577.0" y="335.0"
-                   parentComponent="pnlRandom" text="LENGTHS" width="90.0" height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeMoveAll" x="672.0" y="65"
-                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"/>
-        <Component type="ScriptButton" id="btnRandomizeMoveAHDSRA" x="672.0" y="95"
-                   parentComponent="pnlRandom" text="AHDSR A" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="LENGTHS" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeMoveAll" x="672.0" y="65.0"
+                   parentComponent="pnlRandom" text="ALL" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeMoveAHDSRA" x="672.0" y="95.0"
+                   parentComponent="pnlRandom" text="AHDSR A" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveAHDSRB" x="672.0" y="125.0"
-                   parentComponent="pnlRandom" text="AHDSR B" width="90.0" height="24.0"/>
+                   parentComponent="pnlRandom" text="AHDSR B" width="90.0" height="24.0"
+                   enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveChaosType" x="672.0"
                    y="155.0" parentComponent="pnlRandom" text="CHAOS TYPE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveChaosIntensity" x="672.0"
                    y="185.0" parentComponent="pnlRandom" text="INTENSITY" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveChaosRate" x="672.0"
                    y="215.0" parentComponent="pnlRandom" text="CHAOS RATE" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveConnections" x="672.0"
                    y="245.0" parentComponent="pnlRandom" text="CONNECTIONS" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveConnectionSettings" x="672.0"
                    y="275.0" parentComponent="pnlRandom" text="RANGES" width="90.0"
-                   height="24.0"/>
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
       </Component>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""

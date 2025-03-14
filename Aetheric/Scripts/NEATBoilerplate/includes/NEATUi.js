@@ -1345,38 +1345,6 @@ inline function onbtnMoveControl(component, value)
 		{
 			pnlMoveConnectionSettings.set("visible", value);
 		}
-		case btnMove[1]: // Chaos Bypass
-		{
-			
-		}
-		case btnMove[2]: // Chaos A
-		{
-			
-		}
-		case btnMove[3]: // Chaos B
-		{
-			
-		}
-		case btnMove[4]: // Chaos C
-		{
-			
-		}
-		case btnMove[5]: // Chaos D
-		{
-			
-		}
-		case btnMove[6]: // Chaos E
-		{
-			
-		}
-		case btnMove[7]: // Chaos F
-		{
-			
-		}
-		case btnMove[8]: // Chaos G
-		{
-			
-		}
 	}
 }
 
@@ -1394,6 +1362,97 @@ pnlMoveXYPad.setMouseCallback(function(event)
 		this.repaint(); 
 	}
 });
+
+/* Randomize */
+
+inline function onbtnRandomizeControl(component, value)
+{
+	// this one's gonna hurt
+	// remember its a namespace lol
+	if (value)
+		switch (component)
+		{	
+			case btnRandomizeAll: // Randomize All Modules & Parameters
+				Random.randomizeComponentList(knbSamplerA);
+				Random.randomizeComponentList(knbSamplerB);
+				Random.randomizeComponentList(knbSamplerC);
+				Random.randomizeComponentList(knbSamplerOther);				
+				break;
+			
+			case btnRandomizeResetAll: // Reset All
+				Random.resetComponentList(cmbSampler);
+				Random.resetComponentList(knbSamplerOffset);
+				Random.resetComponentList(btnSamplerReverse);
+				Random.resetComponentList(knbSamplerA);
+				Random.resetComponentList(knbSamplerB);
+				Random.resetComponentList(knbSamplerC);
+				Random.resetComponentList(knbSamplerOther);				
+								
+				// add fx, arp, move
+				break;	
+				
+			case btnRandomizeAllSamplers[0]: // All Parameters
+				Random.randomizeComponentList(cmbSampler);
+				Random.randomizeComponentList(knbSamplerOffset);
+				Random.randomizeComponentList(btnSamplerReverse);
+				Random.randomizeComponentList(knbSamplerA);
+				Random.randomizeComponentList(knbSamplerB);
+				Random.randomizeComponentList(knbSamplerC);
+				Random.randomizeComponentList(knbSamplerOther);					
+				break;
+				
+			case btnRandomizeAllSamplers[1]: // Samplemap
+				Random.randomizeComponentList(cmbSampler);
+				break;
+				
+			case btnRandomizeAllSamplers[2]: // Offset
+				Random.randomizeComponentList(knbSamplerOffset);
+				break;
+				
+			case btnRandomizeAllSamplers[3]: // Reverse
+				Random.randomizeComponentList(btnSamplerReverse);
+				break;
+				
+			case btnRandomizeAllSamplers[4]: // AHDSR
+				for (i=0; i<4; i++)
+				{
+					Random.randomizeComponent(knbSamplerA[i]);
+					Random.randomizeComponent(knbSamplerB[i]);
+					Random.randomizeComponent(knbSamplerC[i]);
+					Random.randomizeComponent(knbSamplerOther[i]);
+				}					
+				break;
+				
+			case btnRandomizeAllSamplers[5]: // AHDSR Staccato
+				Random.randomizeAHDSRStaccato(knbSamplerA);
+				Random.randomizeAHDSRStaccato(knbSamplerB);
+				Random.randomizeAHDSRStaccato(knbSamplerC);
+				Random.randomizeAHDSRStaccato(knbSamplerOther);
+				break;
+				
+			case btnRandomizeAllSamplers[6]: // AHDSR Sustain
+				Random.randomizeAHDSRSustain(knbSamplerA);
+				Random.randomizeAHDSRSustain(knbSamplerB);
+				Random.randomizeAHDSRSustain(knbSamplerC);
+				Random.randomizeAHDSRSustain(knbSamplerOther);
+				break;
+				
+			case btnRandomizeAllSamplers[7]: // AHDSR Pad
+				Random.randomizeAHDSRPad(knbSamplerA);
+				Random.randomizeAHDSRPad(knbSamplerB);
+				Random.randomizeAHDSRPad(knbSamplerC);
+				Random.randomizeAHDSRPad(knbSamplerOther);
+				break;
+				
+			
+				
+		}
+}
+
+btnRandomizeAll.setControlCallback(onbtnRandomizeControl);
+btnRandomizeResetAll.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeAllSamplers)
+	b.setControlCallback(onbtnRandomizeControl);
 
 /* Rhapsody Stuff */
 

@@ -375,6 +375,125 @@ const fltMacroControl = Content.getComponent("fltMacroControl");
 
 const pnlRandom = Content.getComponent("pnlRandom");	 
 
+const btnRandomizeAll = Content.getComponent("btnRandomizeAll");
+const btnRandomizeResetAll = Content.getComponent("btnRandomizeResetAll");
+
+const btnRandomizeAllSamplers = [Content.getComponent("btnRandomizeAllSamplersAll"),
+								 Content.getComponent("btnRandomizeAllSamplersSamplemap"),
+								 Content.getComponent("btnRandomizeAllSamplersOffset"),
+								 Content.getComponent("btnRandomizeAllSamplersReverse"),
+								 Content.getComponent("btnRandomizeAllSamplersAHDSR"),
+								 Content.getComponent("btnRandomizeAllSamplersAHDSRStaccato"),
+								 Content.getComponent("btnRandomizeAllSamplersAHDSRSustain"),
+								 Content.getComponent("btnRandomizeAllSamplersAHDSRPad"),
+								 Content.getComponent("btnRandomizeAllSamplersPitchOctave"),
+								 Content.getComponent("btnRandomizeAllSamplersPitch"),
+								 Content.getComponent("btnRandomizeAllSamplersTuneUnisono"),
+								 Content.getComponent("btnRandomizeAllSamplersTune"),
+								 Content.getComponent("btnRandomizeAllSamplersPanNarrow"),
+								 Content.getComponent("btnRandomizeAllSamplersPan"),
+								 Content.getComponent("btnRandomizeAllSamplersGainLevel"),
+								 Content.getComponent("btnRandomizeAllSamplersGain")];
+                                
+const btnRandomizeSamplerA = [Content.getComponent("btnRandomizeSamplerAAll"),
+							  Content.getComponent("btnRandomizeSamplerASamplemap"),
+							  Content.getComponent("btnRandomizeSamplerAOffset"),
+							  Content.getComponent("btnRandomizeSamplerAReverse"),
+							  Content.getComponent("btnRandomizeSamplerAAHDSR"),
+							  Content.getComponent("btnRandomizeSamplerAAHDSRStaccato"),
+							  Content.getComponent("btnRandomizeSamplerAAHDSRSustain"),
+							  Content.getComponent("btnRandomizeSamplerAAHDSRPad"),
+							  Content.getComponent("btnRandomizeSamplerAPitchOctave"),
+							  Content.getComponent("btnRandomizeSamplerAPitch"),
+							  Content.getComponent("btnRandomizeSamplerATuneUnisono"),
+							  Content.getComponent("btnRandomizeSamplerATune"),
+							  Content.getComponent("btnRandomizeSamplerAPanNarrow"),
+							  Content.getComponent("btnRandomizeSamplerAPan"),
+							  Content.getComponent("btnRandomizeSamplerAGainLevel"),
+							  Content.getComponent("btnRandomizeSamplerAGain")];
+
+const btnRandomizeSamplerB = [Content.getComponent("btnRandomizeSamplerBAll"),
+							  Content.getComponent("btnRandomizeSamplerBSamplemap"),
+							  Content.getComponent("btnRandomizeSamplerBOffset"),
+							  Content.getComponent("btnRandomizeSamplerBReverse"),
+							  Content.getComponent("btnRandomizeSamplerBAHDSR"),
+							  Content.getComponent("btnRandomizeSamplerBAHDSRStaccato"),
+							  Content.getComponent("btnRandomizeSamplerBAHDSRSustain"),
+							  Content.getComponent("btnRandomizeSamplerBAHDSRPad"),
+							  Content.getComponent("btnRandomizeSamplerBPitchOctave"),
+							  Content.getComponent("btnRandomizeSamplerBPitch"),
+							  Content.getComponent("btnRandomizeSamplerBTuneUnisono"),
+							  Content.getComponent("btnRandomizeSamplerBTune"),
+							  Content.getComponent("btnRandomizeSamplerBPanNarrow"),
+							  Content.getComponent("btnRandomizeSamplerBPan"),
+							  Content.getComponent("btnRandomizeSamplerBGainLevel"),
+							  Content.getComponent("btnRandomizeSamplerBGain")];
+
+const btnRandomizeSamplerC = [Content.getComponent("btnRandomizeSamplerCAll"),
+							  Content.getComponent("btnRandomizeSamplerCSamplemap"),
+							  Content.getComponent("btnRandomizeSamplerCOffset"),
+							  Content.getComponent("btnRandomizeSamplerCReverse"),
+							  Content.getComponent("btnRandomizeSamplerCAHDSR"),
+							  Content.getComponent("btnRandomizeSamplerCAHDSRStaccato"),
+							  Content.getComponent("btnRandomizeSamplerCAHDSRSustain"),
+							  Content.getComponent("btnRandomizeSamplerCAHDSRPad"),
+							  Content.getComponent("btnRandomizeSamplerCPitchOctave"),
+							  Content.getComponent("btnRandomizeSamplerCPitch"),
+							  Content.getComponent("btnRandomizeSamplerCTuneUnisono"),
+							  Content.getComponent("btnRandomizeSamplerCTune"),
+							  Content.getComponent("btnRandomizeSamplerCPanNarrow"),
+							  Content.getComponent("btnRandomizeSamplerCPan"),
+							  Content.getComponent("btnRandomizeSamplerCGainLevel"),
+							  Content.getComponent("btnRandomizeSamplerCGain")];
+                                  
+const btnRandomizeSamplerOther = [Content.getComponent("btnRandomizeSamplerOtherAll"),
+								  Content.getComponent("btnRandomizeSamplerOtherSamplemap"),
+								  Content.getComponent("btnRandomizeSamplerOtherOffset"),
+								  Content.getComponent("btnRandomizeSamplerOtherReverse"),
+								  Content.getComponent("btnRandomizeSamplerOtherAHDSR"),
+								  Content.getComponent("btnRandomizeSamplerOtherAHDSRStaccato"),
+								  Content.getComponent("btnRandomizeSamplerOtherAHDSRSustain"),
+								  Content.getComponent("btnRandomizeSamplerOtherAHDSRPad"),
+								  Content.getComponent("btnRandomizeSamplerOtherPitchOctave"),
+								  Content.getComponent("btnRandomizeSamplerOtherPitch"),
+								  Content.getComponent("btnRandomizeSamplerOtherTuneUnisono"),
+								  Content.getComponent("btnRandomizeSamplerOtherTune"),
+								  Content.getComponent("btnRandomizeSamplerOtherPanNarrow"),
+								  Content.getComponent("btnRandomizeSamplerOtherPan"),
+								  Content.getComponent("btnRandomizeSamplerOtherGainLevel"),
+								  Content.getComponent("btnRandomizeSamplerOtherGain")];
+                                  
+const btnRandomizeFX = [Content.getComponent("btnRandomizeFXAll"),
+						Content.getComponent("btnRandomizeFXFilter"),
+						Content.getComponent("btnRandomizeFXUtility"),
+						Content.getComponent("btnRandomizeFXStutter"),
+						Content.getComponent("btnRandomizeFXAmp"),
+						Content.getComponent("btnRandomizeFXDrive"),
+						Content.getComponent("btnRandomizeFXDegrade"),
+						Content.getComponent("btnRandomizeFXPhaser"),
+						Content.getComponent("btnRandomizeFXReverb"),
+						Content.getComponent("btnRandomizeFXDelay")];
+
+const btnRandomizeArp = [Content.getComponent("btnRandomizeArpAll"),
+						 Content.getComponent("btnRandomizeArpSteps"),
+						 Content.getComponent("btnRandomizeArpSpeed"),
+						 Content.getComponent("btnRandomizeArpOctave"),
+						 Content.getComponent("btnRandomizeArpSwing"),
+						 Content.getComponent("btnRandomizeArpMode"),
+						 Content.getComponent("btnRandomizeArpNotes"),
+						 Content.getComponent("btnRandomizeArpMinor"),
+						 Content.getComponent("btnRandomizeArpMajor"),
+						 Content.getComponent("btnRandomizeArpVelocities"),
+						 Content.getComponent("btnRandomizeArpLengths")];
+                                  
+const btnRandomizeMove = [Content.getComponent("btnRandomizeMoveAll"),
+						  Content.getComponent("btnRandomizeMoveAHDSRA"),
+						  Content.getComponent("btnRandomizeMoveAHDSRB"),
+						  Content.getComponent("btnRandomizeMoveChaosType"),
+						  Content.getComponent("btnRandomizeMoveChaosIntensity"),
+						  Content.getComponent("btnRandomizeMoveChaosRate"),
+						  Content.getComponent("btnRandomizeMoveConnections"),
+						  Content.getComponent("btnRandomizeMoveConnectionSettings")];                                  
 
 // Assign LAF;
 
@@ -467,6 +586,34 @@ btnArp[4].setLocalLookAndFeel(LAFButtonArpReset);
 btnArp[5].setLocalLookAndFeel(LAFButtonArpReset);
 
 btnMove[0].setLocalLookAndFeel(LAFButtonNEAT);
+
+btnRandomizeAll.setLocalLookAndFeel(LAFButtonNEAT);
+btnRandomizeResetAll.setLocalLookAndFeel(LAFButtonNEAT);
+
+for (b in btnRandomizeAllSamplers)
+	b.setLocalLookAndFeel(LAFButtonNEAT);
+	
+for (b in btnRandomizeSamplerA)
+	b.setLocalLookAndFeel(LAFButtonNEAT);	
+	
+for (b in btnRandomizeSamplerB)
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
+	
+for (b in btnRandomizeSamplerC)
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
+	
+for (b in btnRandomizeSamplerOther)
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
+	
+for (b in btnRandomizeFX)
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
+	
+for (b in btnRandomizeArp)
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
+	
+for (b in btnRandomizeMove)
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
+	
 
 // Sliderpacks
 

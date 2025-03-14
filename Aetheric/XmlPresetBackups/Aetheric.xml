@@ -71,7 +71,7 @@
             <Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpTone" value="0.0"/>
             <Control type="ScriptComboBox" id="cmbAmpCabSelect" value="1.0"/>
-            <Control type="ScriptButton" id="btnAmpCabBypass" value="0"/>
+            <Control type="ScriptButton" id="btnAmpCabBypass" value="0.0"/>
             <Control type="ScriptButton" id="btnAmpOversampling" value="0.0"/>
             <Control type="ScriptButton" id="btnCmbAmpCabSelectPrev" value="0.0"/>
             <Control type="ScriptButton" id="btnCmbAmpCabSelectNext" value="0.0"/>
@@ -140,14 +140,134 @@
             <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosBypass" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosTypeA" value="1.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosRate" value="10.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="25.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersSamplemap" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersOffset" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersAHDSRAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersAHDSRStaccato"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersAHDSRSustain"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersAHDSRPad" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRPad5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRStaccato5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSR5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerReverse5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSampleStartOffset5"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSampler5" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRPad6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersPitchOctave" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersPitch" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersTune" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersTuneUnisono" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersPanNarrow" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersPan" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersGainLevel" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeAllSamplersGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAGainLevel" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAPan" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAPanNarrow" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerATuneUnisono" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerATune" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAPitch" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAPitchOctave" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAAHDSRPad" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAAHDSRSustain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAAHDSRStaccato" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAAHDSRAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAOffset" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerASamplemap" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBGainLevel" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBPan" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBPanNarrow" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBTuneUnisono" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBTune" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBPitch" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBPitchOctave" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBAHDSRPad" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBAHDSRSustain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBAHDSRStaccato" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBAHDSRAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBOffset" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap2" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerBAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCGain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCGainLevel" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCPan" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCPanNarrow" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCTuneUnisono" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCTune" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCPitch" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCPitchOctave" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCAHDSRPad" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCAHDSRSustain" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCAHDSRStaccato" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCAHDSRAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCOffset" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap3" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerCAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRPad38" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSampler6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSampleStartOffset6"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerReverse6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSR6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRStaccato6" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain8" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRPad39" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRPad40" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap4" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherOffset" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherReverse" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRAll" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRStaccato"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRSustain"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherAHDSRPad" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherPitchOctave"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherPitch" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherTune" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherTuneUnisono"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherPanNarrow" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherPan" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherGainLevel" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerOtherGain" value="0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain9" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRStaccato7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSR7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerReverse7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSampleStartOffset7"
+                     value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSampler7" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerAHDSRSustain10" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSampler9" value="0.0"/>
+            <Control type="ScriptButton" id="btnRandomizeSamplerSamplemap9" value="0.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
             <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbCoarseDetune" value="0.0"/>

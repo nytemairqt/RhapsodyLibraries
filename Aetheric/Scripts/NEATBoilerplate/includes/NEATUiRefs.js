@@ -369,7 +369,11 @@ const btnMove = [Content.getComponent("btnMoveConnectionSettings"),
 				 Content.getComponent("btnMoveChaosTypeG")];
 				 
 const pnlMoveConnectionSettings = Content.getComponent("pnlMoveConnectionSettings");
-const fltMacroControl = Content.getComponent("fltMacroControl");				 
+const fltMacroControl = Content.getComponent("fltMacroControl");			
+
+/* Random */
+
+const pnlRandom = Content.getComponent("pnlRandom");	 
 
 
 // Assign LAF;
@@ -477,7 +481,7 @@ Footer.fltKeyboard.setLocalLookAndFeel(LAFKeyboard);
 
 // Paint Routines
 
-// Panel Body
+// Main Body Panel
 pnlBody.setPaintRoutine(function(g)
 {
 	this.loadImage("{PROJECT_FOLDER}background.jpg", "backgroundImage");
@@ -485,6 +489,7 @@ pnlBody.setPaintRoutine(function(g)
 	g.drawImage("backgroundImage", [0, 0, this.getWidth(), this.getHeight()], 0, 0);	
 });
 
+// Sampler
 for (p in pnlSampler)
 {
 	if (p == pnlSampler[3])
@@ -523,13 +528,13 @@ for (p in pnlSampler)
 	}	
 }
 
+// FX
 pnlFX.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
 	var h = this.getHeight();
 
 	g.setColour(clrRhapsodyBlue);
-	//g.drawRoundedRectangle([0, 0, w, h], 2.0, 1.0); // Temporary
 });
 
 for (p in pnlFXChildren)
@@ -553,6 +558,7 @@ for (p in pnlFXChildren)
 	});
 }
 
+// Arp
 pnlArp.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
@@ -571,6 +577,7 @@ pnlArp.setPaintRoutine(function(g)
 	g.addNoise(noiseData);	
 });
 
+// Move
 pnlMove.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
@@ -594,7 +601,6 @@ pnlMoveXYPad.setPaintRoutine(function(g)
 	xPos = Math.range(knbMoveX.getValue() / 100, 0.03, 0.97); 
 	yPos = Math.range(1-knbMoveY.getValue() / 100, 0.03, 0.97);
 	
-	//g.setColour(0xFB111111); // ????
 	g.setColour(Colours.withAlpha(clrExtradarkgrey, .35));
 	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0);
    	g.setColour(Colours.withAlpha(clrGrey, .2));
@@ -616,6 +622,26 @@ pnlMoveConnectionSettings.setPaintRoutine(function(g)
 	g.fillRoundedRectangle([0, 0, w, h], 10.0);
 	g.setColour(Colours.withAlpha(clrLightgrey, .2));
 	g.drawRoundedRectangle([0, 0, w, h], 10.0, 1.0);
+	
+	var noiseData = {
+				"alpha" : .1,
+				"monochromatic" : false,
+				"scaleFactor" : 2,
+				"area" : [0, 0, this.getWidth(), this.getHeight()]		
+			};
+			
+	g.addNoise(noiseData);
+});
+
+
+// Random
+pnlRandom.setPaintRoutine(function(g)
+{
+	var w = this.getWidth();
+	var h = this.getHeight();
+	
+	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);
 	
 	var noiseData = {
 				"alpha" : .1,

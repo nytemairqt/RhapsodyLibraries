@@ -170,6 +170,7 @@ inline function changePage(index)
 	pnlFX.set("visible", false);
 	pnlArp.set("visible", false);
 	pnlMove.set("visible", false);
+	pnlRandom.set("visible", false);
 		
 	for (i=0; i<btnPage.length; i++)
 		if (i != index)
@@ -200,14 +201,15 @@ inline function onbtnChangePageControl(component, value)
 			changePage(2);
 			pnlArp.set("visible", value);
 		}
-		case btnPage[3]:
+		case btnPage[3]: // Move
 		{
 			changePage(3);
 			pnlMove.set("visible", value);
 		}
-		case btnPage[4]:
+		case btnPage[4]: // Random
 		{
-			changePage(5);
+			changePage(4);
+			pnlRandom.set("visible", value);
 		}		
 	}
 }

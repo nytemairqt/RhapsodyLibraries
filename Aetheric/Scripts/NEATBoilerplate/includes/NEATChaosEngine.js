@@ -17,26 +17,6 @@
 
 namespace chaosEngine
 {
-    // GUI Elements
-
-    /*
-
-    const btnMove[2] = Content.getComponent("btnMove[2]");
-    const btnMove[3] = Content.getComponent("btnMove[3]");
-    const btnMove[4] = Content.getComponent("btnMove[4]");
-    const btnMove[5] = Content.getComponent("btnMove[5]");
-    const btnMove[6] = Content.getComponent("btnMove[6]");
-    const btnMove[7] = Content.getComponent("btnMove[7]");
-    const btnMove[8] = Content.getComponent("btnMove[8]");
-
-    const knbMove[9] = Content.getComponent("knbMove[9]");
-    const knbMove[8] = Content.getComponent("knbMove[8]");
-
-    const Label_ChaosRateValue = Content.getComponent("Label_ChaosRateValue");
-    const Label_ChaosIntensityValue = Content.getComponent("Label_ChaosIntensityValue");
-
-    */
-
     const chaosTimer = Engine.createTimerObject();
 
     reg chaosType = 1;
@@ -48,16 +28,19 @@ namespace chaosEngine
     reg chaosStageTwister = 1;
 
     reg chaosRate;
+    reg chaosIntensity;
 
-    reg chaosXRemainder;
-    reg chaosYRemainder;
+    reg chaosXDistance;
+    reg chaosYDistance;
 
     // Functions
 
-    //X Drift Function
-
+    //X Drift 
     inline function chaosXDrift()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
+
         switch (chaosStage)
         {
             case 1: //Sets middle position
@@ -66,18 +49,17 @@ namespace chaosEngine
             break;
             
             case 2: //Travelling Right
-                chaosXTarget = 50 + knbMove[9].getValue();
-                chaosXRemainder = chaosXTarget - knbMoveX.getValue();
-                
-                if (knbMoveX.getValue() < chaosXTarget)
+                chaosXTarget = 50 + chaosIntensity;
+                chaosXDistance = chaosXTarget - x;                
+                if (x < chaosXTarget)
                 {
-                    if (chaosXRemainder < chaosRate)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveX.setValue(knbMoveX.getValue() + chaosXRemainder);
+                        knbMoveX.setValue(x + chaosXDistance);
                         chaosStage = 3;
                     }
                     else
-                        knbMoveX.setValue(knbMoveX.getValue() + chaosRate);
+                        knbMoveX.setValue(x + chaosRate);
                 }
                     
                 else
@@ -85,17 +67,17 @@ namespace chaosEngine
             break;
             
             case 3: //Travelling Left
-                chaosXTarget = 50 - knbMove[9].getValue();
-                chaosXRemainder = knbMoveX.getValue() - chaosXTarget;
+                chaosXTarget = 50 - chaosIntensity;
+                chaosXDistance = x - chaosXTarget;
                 
-                if (knbMoveX.getValue() > chaosXTarget)
-                    if (chaosXRemainder < chaosRate)
+                if (x > chaosXTarget)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveX.setValue(knbMoveX.getValue() - chaosXRemainder);
+                        knbMoveX.setValue(x - chaosXDistance);
                         chaosStage = 2;
                     }
                     else 
-                        knbMoveX.setValue(knbMoveX.getValue() - chaosRate);
+                        knbMoveX.setValue(x - chaosRate);
 
                 else
                     chaosStage = 2;
@@ -105,10 +87,12 @@ namespace chaosEngine
         knbMoveX.changed();
     }
 
-    //Y Drift Function
-
+    //Y Drift 
     inline function chaosYDrift()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
+
         switch (chaosStage)
         {
             case 1: //Sets middle position
@@ -117,18 +101,18 @@ namespace chaosEngine
             break;
             
             case 2: //Travelling Up
-                chaosYTarget = 50 + knbMove[9].getValue();
-                chaosXRemainder = chaosYTarget - knbMoveY.getValue();
+                chaosYTarget = 50 + chaosIntensity;
+                chaosXDistance = chaosYTarget - y;
                 
-                if (knbMoveY.getValue() < chaosYTarget)
+                if (y < chaosYTarget)
                 {
-                    if (chaosXRemainder < chaosRate)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveY.setValue(knbMoveY.getValue() + chaosXRemainder);
+                        knbMoveY.setValue(y + chaosXDistance);
                         chaosStage = 3;
                     }
                     else
-                        knbMoveY.setValue(knbMoveY.getValue() + chaosRate);
+                        knbMoveY.setValue(y + chaosRate);
                 }
                     
                 else
@@ -136,17 +120,17 @@ namespace chaosEngine
             break;
             
             case 3: //Travelling Down
-                chaosYTarget = 50 - knbMove[9].getValue();
-                chaosXRemainder = knbMoveY.getValue() - chaosYTarget;
+                chaosYTarget = 50 - chaosIntensity;
+                chaosXDistance = y - chaosYTarget;
                 
-                if (knbMoveY.getValue() > chaosYTarget)
-                    if (chaosXRemainder < chaosRate)
+                if (y > chaosYTarget)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveY.setValue(knbMoveY.getValue() - chaosXRemainder);
+                        knbMoveY.setValue(y - chaosXDistance);
                         chaosStage = 2;
                     }
                     else 
-                        knbMoveY.setValue(knbMoveY.getValue() - chaosRate);
+                        knbMoveY.setValue(y - chaosRate);
 
                 else
                     chaosStage = 2;
@@ -156,76 +140,79 @@ namespace chaosEngine
         knbMoveY.changed();
     }
 
-    //Orbit Function
-
+    //Orbit 
     inline function chaosOrbit()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
+
         switch (chaosStage)
         {
             //Top Left to Top Right
             case 1:
-                if (knbMoveX.getValue() >= chaosXTarget)
+                if (x >= chaosXTarget)
                 {
                     chaosStage = 2;
-                    chaosYTarget = 50 - knbMove[9].getValue();
+                    chaosYTarget = 50 - chaosIntensity;
                 }
             
-                if (knbMoveX.getValue() < chaosXTarget)
-                    knbMoveX.setValue(Math.round(knbMoveX.getValue() + chaosRate));
+                if (x < chaosXTarget)
+                    knbMoveX.setValue(Math.round(x + chaosRate));
                     
                 knbMoveX.changed();
             break; 
             
             //Top Right to Bottom Right
             case 2:
-                if (knbMoveY.getValue() <= chaosYTarget)
+                if (y <= chaosYTarget)
                 {
                     chaosStage = 3;
-                    chaosXTarget = 50 - knbMove[9].getValue();
+                    chaosXTarget = 50 - chaosIntensity;
                 }
             
-                if (knbMoveY.getValue() > chaosYTarget)
-                    knbMoveY.setValue(Math.round(knbMoveY.getValue() - chaosRate));
+                if (y > chaosYTarget)
+                    knbMoveY.setValue(Math.round(y - chaosRate));
                     
                 knbMoveY.changed();
             break; 
             
             //Bottom Right to Bottom Left
             case 3:
-                if (knbMoveX.getValue() <= chaosXTarget)
+                if (x <= chaosXTarget)
                 {
                     chaosStage = 4;
-                    chaosYTarget = 50 + knbMove[9].getValue();
+                    chaosYTarget = 50 + chaosIntensity;
                 }
             
-                if (knbMoveX.getValue() > chaosXTarget)
-                    knbMoveX.setValue(Math.round(knbMoveX.getValue() - chaosRate));
+                if (x > chaosXTarget)
+                    knbMoveX.setValue(Math.round(x - chaosRate));
                     
                 knbMoveX.changed();
             break; 
             
             //Bottom Left to Top Left
             case 4:
-                if (knbMoveY.getValue() >= chaosYTarget)
+                if (y >= chaosYTarget)
                 {
                     chaosStage = 1;
-                    chaosXTarget = 50 + knbMove[9].getValue();
+                    chaosXTarget = 50 + chaosIntensity;
                 }
             
-                if (knbMoveY.getValue() < chaosYTarget)
-                    knbMoveY.setValue(Math.round(knbMoveY.getValue() + chaosRate));
+                if (y < chaosYTarget)
+                    knbMoveY.setValue(Math.round(y + chaosRate));
                     
                 knbMoveY.changed();
             break; 
         }
     }
 
-    //Circular Function
-
+    //Circular
     inline function chaosCircular()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
         local angle = Math.toRadians(360 - chaosStage);
-        local radius = knbMove[9].getValue();
+        local radius = chaosIntensity;
         
         knbMoveX.setValue(50 + radius * Math.cos(angle));
         knbMoveY.setValue(50 + radius * Math.sin(angle));
@@ -241,6 +228,8 @@ namespace chaosEngine
 
     inline function chaosTwister()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
         switch (chaosStage)
         {
             case 1: //Sets middle position
@@ -249,18 +238,18 @@ namespace chaosEngine
             break;
             
             case 2: //Travelling Right
-                chaosXTarget = 50 + knbMove[9].getValue();
-                chaosXRemainder = chaosXTarget - knbMoveX.getValue();
+                chaosXTarget = 50 + chaosIntensity;
+                chaosXDistance = chaosXTarget - x;
                 
-                if (knbMoveX.getValue() < chaosXTarget)
+                if (x < chaosXTarget)
                 {
-                    if (chaosXRemainder < chaosRate)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveX.setValue(knbMoveX.getValue() + chaosXRemainder);
+                        knbMoveX.setValue(x + chaosXDistance);
                         chaosStage = 3;
                     }
                     else
-                        knbMoveX.setValue(knbMoveX.getValue() + chaosRate);
+                        knbMoveX.setValue(x + chaosRate);
                 }
                     
                 else
@@ -268,17 +257,17 @@ namespace chaosEngine
             break;
             
             case 3: //Travelling Left
-                chaosXTarget = 50 - knbMove[9].getValue();
-                chaosXRemainder = knbMoveX.getValue() - chaosXTarget;
+                chaosXTarget = 50 - chaosIntensity;
+                chaosXDistance = x - chaosXTarget;
                 
-                if (knbMoveX.getValue() > chaosXTarget)
-                    if (chaosXRemainder < chaosRate)
+                if (x > chaosXTarget)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveX.setValue(knbMoveX.getValue() - chaosXRemainder);
+                        knbMoveX.setValue(x - chaosXDistance);
                         chaosStage = 2;
                     }
                     else 
-                        knbMoveX.setValue(knbMoveX.getValue() - chaosRate);
+                        knbMoveX.setValue(x - chaosRate);
 
                 else
                     chaosStage = 2;
@@ -289,23 +278,23 @@ namespace chaosEngine
         {
             case 1: //Sets middle position
                 
-                knbMoveY.setValue(50 + knbMove[9].getValue());
+                knbMoveY.setValue(50 + chaosIntensity);
                 chaosStageTwister = 2;
             break;
             
             case 2: //Travelling Up
-                chaosYTarget = 50 + knbMove[9].getValue();
-                chaosXRemainder = chaosYTarget - knbMoveY.getValue();
+                chaosYTarget = 50 + chaosIntensity;
+                chaosXDistance = chaosYTarget - y;
                 
-                if (knbMoveY.getValue() < chaosYTarget)
+                if (y < chaosYTarget)
                 {
-                    if (chaosXRemainder < chaosRate)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveY.setValue(knbMoveY.getValue() + chaosXRemainder);
+                        knbMoveY.setValue(y + chaosXDistance);
                         chaosStage = 3;
                     }
                     else
-                        knbMoveY.setValue(knbMoveY.getValue() + chaosRate / 8);
+                        knbMoveY.setValue(y + chaosRate / 8);
                 }
                     
                 else
@@ -313,17 +302,17 @@ namespace chaosEngine
             break;
             
             case 3: //Travelling Down
-                chaosYTarget = 50 - knbMove[9].getValue();
-                chaosXRemainder = knbMoveY.getValue() - chaosYTarget;
+                chaosYTarget = 50 - chaosIntensity;
+                chaosXDistance = y - chaosYTarget;
                 
-                if (knbMoveY.getValue() > chaosYTarget)
-                    if (chaosXRemainder < chaosRate)
+                if (y > chaosYTarget)
+                    if (chaosXDistance < chaosRate)
                     {
-                        knbMoveY.setValue(knbMoveY.getValue() - chaosXRemainder);
+                        knbMoveY.setValue(y - chaosXDistance);
                         chaosStage = 2;
                     }
                     else 
-                        knbMoveY.setValue(knbMoveY.getValue() - chaosRate / 8);
+                        knbMoveY.setValue(y - chaosRate / 8);
 
                 else
                     chaosStageTwister = 2;
@@ -334,103 +323,100 @@ namespace chaosEngine
         knbMoveY.changed();
     }
 
-    //Random Drift Function
-
+    //Random Drift
     inline function chaosRandomDrift()
     {   
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
         
         //Reroll Targets on Counter
         if (chaosStage > 20 - chaosRate)
         {
-            chaosXTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;
-            chaosYTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;    
+            chaosXTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;
+            chaosYTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;    
             chaosStage = 1;
         }
         
-        //Travelling Right
-        
-        if (knbMoveX.getValue() < chaosXTarget)
+        //Travelling Right        
+        if (x < chaosXTarget)
         {
             //Check if the remainder is less than chaosRate
-            chaosXRemainder = chaosXTarget - knbMoveX.getValue();
+            chaosXDistance = chaosXTarget - x;
             
-            if (chaosXRemainder > chaosRate)
+            if (chaosXDistance > chaosRate)
             {
                 //Iterates the slider and incremenets chaosStage
-                knbMoveX.setValue(knbMoveX.getValue() + chaosRate * .3);
+                knbMoveX.setValue(x + chaosRate * .3);
                 chaosStage += 1;
             }
             else
             {
                 //Calls new target and refreshes stage counter
-                knbMoveX.setValue(knbMoveX.getValue() + chaosXRemainder);
-                chaosXTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;
+                knbMoveX.setValue(x + chaosXDistance);
+                chaosXTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;
                 chaosStage = 1;
             }
         }
         
-        //Travelling Left
-        
+        //Travelling Left        
         else
         {
             //Check if the remainder is less than chaosRate
-            chaosXRemainder = knbMoveX.getValue() - chaosRate;
+            chaosXDistance = x - chaosRate;
             
-            if (chaosXRemainder > chaosRate)
+            if (chaosXDistance > chaosRate)
             {
                 //Iterates the slider and incremenets chaosStage
-                knbMoveX.setValue(knbMoveX.getValue() - chaosRate * .3);
+                knbMoveX.setValue(x - chaosRate * .3);
                 chaosStage += 1;
             }
             else
             {
                 //Calls new target and refreshes stage counter
-                knbMoveX.setValue(knbMoveX.getValue() - chaosXRemainder);
-                chaosXTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;
+                knbMoveX.setValue(x - chaosXDistance);
+                chaosXTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;
                 chaosStage = 1;
             }
         }
         
-        //Travelling Up
-        
-        if (knbMoveY.getValue() < chaosYTarget)
+        //Travelling Up        
+        if (y < chaosYTarget)
         {
             //Check if the remainder is less than chaosRate
-            chaosYRemainder = chaosYTarget - knbMoveY.getValue();
+            chaosYDistance = chaosYTarget - y;
             
-            if (chaosYRemainder > chaosRate)
+            if (chaosYDistance > chaosRate)
             {
                 //Iterates the slider and incremenets chaosStage
-                knbMoveY.setValue(knbMoveY.getValue() + chaosRate * .3);
+                knbMoveY.setValue(y + chaosRate * .3);
                 chaosStage += 1;
             }
             else
             {
                 //Calls new target and refreshes stage counter
-                knbMoveY.setValue(knbMoveY.getValue() + chaosYRemainder);
-                chaosYTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;
+                knbMoveY.setValue(y + chaosYDistance);
+                chaosYTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;
                 chaosStage = 1;
             }
         }
         
-        //Travelling Down
-        
+        //Travelling Down        
         else
         {
             //Check if the remainder is less than chaosRate
-            chaosYRemainder = knbMoveY.getValue() - chaosRate;
+            chaosYDistance = y - chaosRate;
             
-            if (chaosYRemainder > chaosRate)
+            if (chaosYDistance > chaosRate)
             {
                 //Iterates the slider and incremenets chaosStage
-                knbMoveY.setValue(knbMoveY.getValue() - chaosRate * .3);
+                knbMoveY.setValue(y - chaosRate * .3);
                 chaosStage += 1;
             }
             else
             {
                 //Calls new target and refreshes stage counter
-                knbMoveY.setValue(knbMoveY.getValue() - chaosYRemainder);
-                chaosYTarget = 50 + Math.randInt(-50, 50) * knbMove[9].getValue() / 100;
+                knbMoveY.setValue(y - chaosYDistance);
+                chaosYTarget = 50 + Math.randInt(-50, 50) * chaosIntensity / 100;
                 chaosStage = 1;
             }
         }
@@ -440,13 +426,15 @@ namespace chaosEngine
     }
 
     //Random Jump Function
-
     inline function chaosRandomJump()
     {
+        local x = knbMoveX.getValue();
+        local y = knbMoveY.getValue();
+
         if (chaosStage > 20 - knbMove[8].getValue())
         {
-            local posX = Math.randInt(-100, 100) * knbMove[9].getValue() / 100;
-            local posY = Math.randInt(-100, 100) * knbMove[9].getValue() / 100;
+            local posX = Math.randInt(-100, 100) * chaosIntensity / 100;
+            local posY = Math.randInt(-100, 100) * chaosIntensity / 100;
         
             knbMoveX.setValue(50 + posX);
             knbMoveY.setValue(50 + posY);
@@ -461,8 +449,7 @@ namespace chaosEngine
             chaosStage += 1;
     }
 
-    //X Drift
-
+    // Assign Timer Callback
     chaosTimer.setTimerCallback(function()
     {   
         switch (chaosType)
@@ -495,260 +482,167 @@ namespace chaosEngine
                 chaosRandomJump();
             break;
         }    
-            MovementSettings.Panel_MovementXYPad.repaint();    
+            pnlMoveXYPad.repaint();
     });
 
-    //Bypass
+// Bypass
+inline function onbtnChaosBypassControl(component, value)
+{
+	if (value)
+	{
+		switch (chaosType)
+		{
+			case 1: // X Drift
+				chaosStage = 1;
+				chaosXTarget = 50 + chaosIntensity;
+				break;			
+			case 2: // Y Drift
+				chaosStage = 1;
+				chaosYTarget = 50 + chaosIntensity;
+				break;			    
+			case 3: // Orbit
+				chaosStage = 1;
+				chaosXTarget = 50 + chaosIntensity;
+				knbMoveX.setValue(50 - chaosIntensity);
+				knbMoveY.setValue(50 + chaosIntensity);
+				break;			
+			case 4: // Circular
+				chaosStage = 1;
+				break;
+			case 5: // Twister
+				chaosStage = 1;
+				chaosStageTwister = 1;
+				break;			
+			case 6: // Random Drift
+				chaosStage = 1 ;
+				break;
+			case 7: // Random Jump
+				chaosStage = 1;
+		}
+		chaosTimer.startTimer(33.3333);            
+	}
+	else
+		chaosTimer.stopTimer();
+};    
+    btnMove[1].setControlCallback(onbtnChaosBypassControl);
 
-    //const var Button_ChaosBypass = Content.getComponent("Button_ChaosBypass");
-
-    inline function onButton_ChaosBypassControl(component, value)
-    {
-        if (value)
-        {
-            switch (chaosType)
-                {
-                    //X Drift
-                    case 1:
-                        chaosStage = 1;
-                        chaosXTarget = 50 + knbMove[9].getValue();
-                    break;
-                
-                    //Y Drift
-                    case 2:
-                        chaosStage = 1;
-                        chaosYTarget = 50 + knbMove[9].getValue();
-                    break;
-                
-                    //Orbit
-                    case 3:
-                        chaosStage = 1;
-                        chaosXTarget = 50 + knbMove[9].getValue();
-                        knbMoveX.setValue(50 - knbMove[9].getValue());
-                        knbMoveY.setValue(50 + knbMove[9].getValue());
-                    break;
-                
-                    case 5:
-                        chaosStage = 1;
-                        chaosStageTwister = 1;
-                    break;
-                
-                    case 6:
-                        chaosStage = 1;
-                
-                    case 7:
-                        chaosStage = 1;
-                }
-                chaosTimer.startTimer(33.3333);            
-        }
-            else
-                chaosTimer.stopTimer();
-    };
-
-    //Content.getComponent("Button_ChaosBypass").setControlCallback(onButton_ChaosBypassControl);
-
-
-    //Slider Rate
-
-
-
-    inline function onknbRateControl(component, value)
+    // Rate
+    inline function onknbChaosRateControl(component, value)
     {
         chaosRate = value;
-        if (Button_ChaosBypass.getValue())
+        if (btnMove[1].getValue())
             chaosTimer.startTimer(33.3333);
-            
-            if (value < 5)
-                Label_ChaosRateValue.set("text", "Slow");
-            else if (value >= 5 && value < 11)
-                Label_ChaosRateValue.set("text", "Medium");
-            else if (value >= 11 && value < 15)
-                Label_ChaosRateValue.set("text", "Fast");
-            else 
-                Label_ChaosRateValue.set("text", "Very Fast");
+
+        if (value < 5)
+            lblMove[8].set("text", "Slow");
+        else if (value >=5 && value < 11)
+            lblMove[8].set("text", "Medium");
+        else if (value >= 11 && value < 15)
+            lblMove[8].set("text", "Fast");
+        else
+            lblMove[8].set("text", "Very Fast");
             
     };
 
-    //Content.getComponent("knbMove[8]").setControlCallback(onknbMove[8]Control);
-
+    knbMove[8].setControlCallback(onknbChaosRateControl);
 
     //Slider Intensity
-
-
-    inline function onknbIntensity(component, value)
+    inline function onknbChaosIntensityControl(component, value)
     {	
-    	if (Button_ChaosBypass.getValue())
+        chaosIntensity = value;
+        if (btnMove[1].getValue())
         {
             switch (chaosType)
             {
-                //X Drift
-                case 1:
+                case 1: // X Drift
                     chaosStage = 1;
-                    chaosXTarget = 50 + knbMove[9].getValue();
-                break;
-                
-                //Y Drift
-                case 2:
+                    chaosXTarget = 50 + chaosIntensity;
+                    break;                
+                case 2: // Y Drift
                     chaosStage = 1;
-                    chaosYTarget = 50 + knbMove[9].getValue();
-                break;
-                
-                //Orbit
-                case 3:
+                    chaosYTarget = 50 + chaosIntensity;
+                    break;                
+                case 3: // Orbit
                     chaosStage = 1;
-                    chaosXTarget = 50 + knbMove[9].getValue();
-                    knbMoveX.setValue(50 - knbMove[9].getValue());
-                    knbMoveY.setValue(50 + knbMove[9].getValue());
-                break;
-                
-                //Circular
-                
-                case 4:
+                    chaosXTarget = 50 + chaosIntensity;
+                    knbMoveX.setValue(50 - chaosIntensity);
+                    knbMoveY.setValue(50 + chaosIntensity);
+                    break;                            
+                case 4: // Circular
                     chaosStage = 1;
-                break;
-                
-                //Twister
-                
-                case 5:
+                    break;
+                case 5: // Twister
                     chaosStage = 1;
                     chaosStageTwister = 1;
-                break;
-                
-                //Random Drift
-                
-                case 6:
+                    break;
+                case 6: // Random Drift
                     chaosStage = 1;
-                break;
-                
-                //Random Jump
-                
-                case 7:
+                    break;
+                case 7: // Random Jump
                     chaosStage = 1;
-                break;
+                    break;
                     
-            }
-            
-    	    chaosTimer.startTimer(33.3333);
-    	    
+            }            
+    	    chaosTimer.startTimer(33.3333);    	    
         }
-
-    	Label_ChaosIntensityValue.set("text", Math.round(value) * 2 + "%");
+        lblMove[9].set("text", Math.round(value) * 2 + "%");
     };
 
-    //Content.getComponent("knbMove[9]").setControlCallback(onknbMove[9]Control);
+    knbMove[9].setControlCallback(onknbChaosIntensityControl);
 
     //Buttons
 
-
-    inline function chaosA(component, value)
-    { 
-        //X Drift
+    inline function onbtnChaosTypeControl(component, value)
+    {
         if (value)
         {
-            chaosType = 1;
+            switch (component)
+            {
+                case btnMove[2]: // Chaos A
+                {
+                    chaosType = 1;
+                    chaosXTarget = 50 + chaosIntensity;
+                }
+                case btnMove[3]: // Chaos B
+                {
+                    chaosType = 2;
+                    chaosYTarget = 50 + chaosIntensity; 
+                }
+                case btnMove[4]: // Chaos C
+                {
+                    chaosType = 3;
+                    chaosXTarget = 50 + chaosIntensity;
+                    knbMoveX.setValue(50 - chaosIntensity);
+                    knbMoveY.setValue(50 + chaosIntensity);
+                }
+                case btnMove[5]: // Chaos D
+                {
+                    chaosType = 4;
+                }
+                case btnMove[6]: // Chaos E
+                {
+                    chaosType = 5;
+                    chaosStageTwister = 1;                    
+                }   
+                case btnMove[7]: // Chaos F
+                {
+                    chaosType = 6;
+                }
+                case btnMove[8]: // Chaos G
+                {
+                    chaosType = 7;
+                }
+            }
             chaosStage = 1;
-            chaosXTarget = 50 + knbMove[9].getValue();
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
+            if (btnMove[1].getValue())
+                chaosTimer.startTimer(33.3333);  
         }
-    };
+    }
 
-    //Content.getComponent("btnMove[2]").setControlCallback(onbtnMove[2]Control);
-
-    inline function chaosB(component, value)
+    // Assign Control Callback
+    for (i=2; i<btnMove.length; i++)
     {
-        //Y Drift
-        if (value)
-        {    
-            chaosType = 2;
-            chaosStage = 1;
-            chaosYTarget = 50 + knbMove[9].getValue();
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
-        }
-    };
-
-    //Content.getComponent("btnMove[3]").setControlCallback(onbtnMove[3]Control);
-
-    inline function chaosC(component, value)
-    {
-        //Orbit
-        if (value)
-        {
-            chaosType = 3;
-            chaosStage = 1;
-            chaosXTarget = 50 + knbMove[9].getValue();
-            knbMoveX.setValue(50 - knbMove[9].getValue());
-            knbMoveY.setValue(50 + knbMove[9].getValue());
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333); 
-        }  
-    };
-
-   // Content.getComponent("btnMove[4]").setControlCallback(onbtnMove[4]Control);
-
-    inline function chaosD(component, value)
-    {
-        //Circular
-        if (value)
-        {
-            chaosType = 4;
-            chaosStage = 1;
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
-        }
-    };
-
-    //Content.getComponent("btnMove[5]").setControlCallback(onbtnMove[5]Control);
-
-    inline function chaosE(component, value)
-    {
-        //Twister
-        if (value)
-        {
-            chaosType = 5;
-            chaosStage = 1;
-            chaosStageTwister = 1;
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
-        }
-    };
-
-    //Content.getComponent("btnMove[6]").setControlCallback(onbtnMove[6]Control);
-
-    inline function chaosF(component, value)
-    {
-        //Random Drift
-        if (value)
-        {    
-            chaosType = 6;
-            chaosStage = 1;
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
-        }
-    };
-
-   // Content.getComponent("btnMove[7]").setControlCallback(onbtnMove[7]Control);
-
-    inline function chaosG(component, value)
-    {
-        //Random Jump
-        if (value)
-        {    
-            chaosType = 7;
-            chaosStage = 1;
-
-            if (Button_ChaosBypass.getValue())
-                chaosTimer.startTimer(33.3333);   
-        }
-    };
-
-    //Content.getComponent("btnMove[8]").setControlCallback(onbtnMove[8]Control);
-
+        btnMove[i].setControlCallback(onbtnChaosTypeControl);
+    }    
 }
+

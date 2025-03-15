@@ -1368,7 +1368,6 @@ pnlMoveXYPad.setMouseCallback(function(event)
 inline function onbtnRandomizeControl(component, value)
 {
 	// this one's gonna hurt
-	// remember its a namespace lol
 	if (value)
 		switch (component)
 		{	
@@ -1391,6 +1390,8 @@ inline function onbtnRandomizeControl(component, value)
 				// add fx, arp, move
 				break;	
 				
+			/* ALL SAMPLERS */
+				
 			case btnRandomizeAllSamplers[0]: // All Parameters
 				Random.randomizeComponentList(cmbSampler);
 				Random.randomizeComponentList(knbSamplerOffset);
@@ -1400,19 +1401,15 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentList(knbSamplerC);
 				Random.randomizeComponentList(knbSamplerOther);					
 				break;
-				
 			case btnRandomizeAllSamplers[1]: // Samplemap
 				Random.randomizeComponentList(cmbSampler);
 				break;
-				
 			case btnRandomizeAllSamplers[2]: // Offset
 				Random.randomizeComponentList(knbSamplerOffset);
 				break;
-				
 			case btnRandomizeAllSamplers[3]: // Reverse
 				Random.randomizeComponentList(btnSamplerReverse);
 				break;
-				
 			case btnRandomizeAllSamplers[4]: // AHDSR
 				for (i=0; i<4; i++)
 				{
@@ -1422,14 +1419,12 @@ inline function onbtnRandomizeControl(component, value)
 					Random.randomizeComponent(knbSamplerOther[i]);
 				}					
 				break;
-				
 			case btnRandomizeAllSamplers[5]: // AHDSR Staccato
 				Random.randomizeAHDSRStaccato(knbSamplerA);
 				Random.randomizeAHDSRStaccato(knbSamplerB);
 				Random.randomizeAHDSRStaccato(knbSamplerC);
 				Random.randomizeAHDSRStaccato(knbSamplerOther);
 				break;
-				
 			case btnRandomizeAllSamplers[6]: // AHDSR Sustain
 				Random.randomizeAHDSRSustain(knbSamplerA);
 				Random.randomizeAHDSRSustain(knbSamplerB);
@@ -1443,15 +1438,293 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeAHDSRPad(knbSamplerC);
 				Random.randomizeAHDSRPad(knbSamplerOther);
 				break;
+			case btnRandomizeAllSamplers[8]: // Pitch Octave
+				Random.randomizePitchOctave(knbSamplerA[4]);
+				Random.randomizePitchOctave(knbSamplerB[4]);
+				Random.randomizePitchOctave(knbSamplerC[4]);
+				Random.randomizePitchOctave(knbSamplerOther[4]);
+				break;
+			case btnRandomizeAllSamplers[9]: // Pitch
+				Random.randomizeComponent(knbSamplerA[4]);
+				Random.randomizeComponent(knbSamplerB[4]);
+				Random.randomizeComponent(knbSamplerC[4]);
+				Random.randomizeComponent(knbSamplerOther[4]);
+				break;
+			case btnRandomizeAllSamplers[10]: // Tune Unisono
+				Random.randomizeComponentWithinRange(knbSamplerA[5], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerB[5], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerC[5], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerOther[5], -20, 20);
+				break;
+			case btnRandomizeAllSamplers[11]: // Tune
+				Random.randomizeComponent(knbSamplerA[5]);
+				Random.randomizeComponent(knbSamplerB[5]);
+				Random.randomizeComponent(knbSamplerC[5]);
+				Random.randomizeComponent(knbSamplerOther[5]);
+				break;
+			case btnRandomizeAllSamplers[12]: // Widen
+				Random.randomizeComponentWithinRange(knbSamplerA[6], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerB[6], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerC[6], -20, 20);
+				Random.randomizeComponentWithinRange(knbSamplerOther[6], -20, 20);
+				break;
+			case btnRandomizeAllSamplers[13]: // Pan
+				Random.randomizeComponent(knbSamplerA[6]);
+				Random.randomizeComponent(knbSamplerB[6]);
+				Random.randomizeComponent(knbSamplerC[6]);
+				Random.randomizeComponent(knbSamplerOther[6]);
+				break;
+			case btnRandomizeAllSamplers[14]: // Gain Level
+				Random.randomizeComponentWithinRange(knbSamplerA[7], -6, 0);
+				Random.randomizeComponentWithinRange(knbSamplerB[7], -6, 0);
+				Random.randomizeComponentWithinRange(knbSamplerC[7], -6, 0);
+				Random.randomizeComponentWithinRange(knbSamplerOther[7], -6, 0);
+				break;
+			case btnRandomizeAllSamplers[15]: // Gain
+				// Has built in safety of 0dB
+				Random.randomizeComponentWithinRange(knbSamplerA[7], -100, 0);
+				Random.randomizeComponentWithinRange(knbSamplerB[7], -100, 0);
+				Random.randomizeComponentWithinRange(knbSamplerC[7], -100, 0);
+				Random.randomizeComponentWithinRange(knbSamplerOther[7], -100, 0);				
+				break;				;
 				
-			
+			/* SAMPLER A */
 				
+			case btnRandomizeSamplerA[0]: // All Parameters
+				Random.randomizeComponent(cmbSampler[0]);
+				Random.randomizeComponent(knbSamplerOffset[0]);
+				Random.randomizeComponent(btnSamplerReverse[0]);
+				Random.randomizeComponentList(knbSamplerA);
+				break;
+			case btnRandomizeSamplerA[1]: // Samplemap
+				Random.randomizeComponent(cmbSampler[0]);
+				break;
+			case btnRandomizeSamplerA[2]: // Offset
+				Random.randomizeComponent(knbSamplerOffset[0]);
+				break;
+			case btnRandomizeSamplerA[3]: // Reverse
+				Random.randomizeComponent(btnSamplerReverse[0]);
+				break;
+			case btnRandomizeSamplerA[4]: // AHDSR
+				for (i=0; i<4; i++)
+					Random.randomizeComponent(knbSamplerA[i]);
+				break;				
+			case btnRandomizeSamplerA[5]: // AHDSR Staccato
+				Random.randomizeAHDSRStaccato(knbSamplerA);
+				break;				
+			case btnRandomizeSamplerA[6]: // AHDSR Sustain
+				Random.randomizeAHDSRSustain(knbSamplerA);
+				break;				
+			case btnRandomizeSamplerA[7]: // AHDSR Pad
+				Random.randomizeAHDSRPad(knbSamplerA);
+				break;
+			case btnRandomizeSamplerA[8]: // Pitch Octave
+				Random.randomizePitchOctave(knbSamplerA[4]);
+				break;
+			case btnRandomizeSamplerA[9]: // Pitch
+				Random.randomizeComponent(knbSamplerA[4]);
+				break;
+			case btnRandomizeSamplerA[10]: // Tune Unisono
+				Random.randomizeComponentWithinRange(knbSamplerA[5], -20, 20);
+				break;
+			case btnRandomizeSamplerA[11]: // Tune
+				Random.randomizeComponent(knbSamplerA[5]);
+				break;
+			case btnRandomizeSamplerA[12]: // Widen
+				Random.randomizeComponentWithinRange(knbSamplerA[6], -20, 20);
+				break;
+			case btnRandomizeSamplerA[13]: // Pan
+				Random.randomizeComponent(knbSamplerA[6]);
+				break;
+			case btnRandomizeSamplerA[14]: // Gain Level
+				Random.randomizeComponentWithinRange(knbSamplerA[7], -6, 0);
+				break;
+			case btnRandomizeSamplerA[15]: // Gain
+				// Has built in safety of 0dB
+				Random.randomizeComponentWithinRange(knbSamplerA[7], -100, 0);				
+				break;	
+				
+			/* SAMPLER B */
+				
+			case btnRandomizeSamplerB[0]: // All Parameters
+				Random.randomizeComponent(cmbSampler[1]);
+				Random.randomizeComponent(knbSamplerOffset[1]);
+				Random.randomizeComponent(btnSamplerReverse[1]);
+				Random.randomizeComponentList(knbSamplerB);
+				break;
+			case btnRandomizeSamplerB[1]: // Samplemap
+				Random.randomizeComponent(cmbSampler[1]);
+				break;
+			case btnRandomizeSamplerB[2]: // Offset
+				Random.randomizeComponent(knbSamplerOffset[1]);
+				break;
+			case btnRandomizeSamplerB[3]: // Reverse
+				Random.randomizeComponent(btnSamplerReverse[1]);
+				break;
+			case btnRandomizeSamplerB[4]: // AHDSR
+				for (i=0; i<4; i++)
+					Random.randomizeComponent(knbSamplerB[i]);
+				break;				
+			case btnRandomizeSamplerB[5]: // AHDSR Staccato
+				Random.randomizeAHDSRStaccato(knbSamplerB);
+				break;				
+			case btnRandomizeSamplerB[6]: // AHDSR Sustain
+				Random.randomizeAHDSRSustain(knbSamplerB);
+				break;				
+			case btnRandomizeSamplerB[7]: // AHDSR Pad
+				Random.randomizeAHDSRPad(knbSamplerB);
+				break;
+			case btnRandomizeSamplerB[8]: // Pitch Octave
+				Random.randomizePitchOctave(knbSamplerB[4]);
+				break;
+			case btnRandomizeSamplerB[9]: // Pitch
+				Random.randomizeComponent(knbSamplerB[4]);
+				break;
+			case btnRandomizeSamplerB[10]: // Tune Unisono
+				Random.randomizeComponentWithinRange(knbSamplerB[5], -20, 20);
+				break;
+			case btnRandomizeSamplerB[11]: // Tune
+				Random.randomizeComponent(knbSamplerB[5]);
+				break;
+			case btnRandomizeSamplerB[12]: // Widen
+				Random.randomizeComponentWithinRange(knbSamplerB[6], -20, 20);
+				break;
+			case btnRandomizeSamplerB[13]: // Pan
+				Random.randomizeComponent(knbSamplerB[6]);
+				break;
+			case btnRandomizeSamplerB[14]: // Gain Level
+				Random.randomizeComponentWithinRange(knbSamplerB[7], -6, 0);
+				break;
+			case btnRandomizeSamplerB[15]: // Gain
+				// Has built in safety of 0dB
+				Random.randomizeComponentWithinRange(knbSamplerB[7], -100, 0);				
+				break;		
+				
+			/* SAMPLER C */
+				
+			case btnRandomizeSamplerC[0]: // All Parameters
+				Random.randomizeComponent(cmbSampler[2]);
+				Random.randomizeComponent(knbSamplerOffset[2]);
+				Random.randomizeComponent(btnSamplerReverse[2]);
+				Random.randomizeComponentList(knbSamplerC);
+				break;
+			case btnRandomizeSamplerC[1]: // Samplemap
+				Random.randomizeComponent(cmbSampler[2]);
+				break;
+			case btnRandomizeSamplerC[2]: // Offset
+				Random.randomizeComponent(knbSamplerOffset[2]);
+				break;
+			case btnRandomizeSamplerC[3]: // Reverse
+				Random.randomizeComponent(btnSamplerReverse[2]);
+				break;
+			case btnRandomizeSamplerC[4]: // AHDSR
+				for (i=0; i<4; i++)
+					Random.randomizeComponent(knbSamplerC[i]);
+				break;				
+			case btnRandomizeSamplerC[5]: // AHDSR Staccato
+				Random.randomizeAHDSRStaccato(knbSamplerC);
+				break;				
+			case btnRandomizeSamplerC[6]: // AHDSR Sustain
+				Random.randomizeAHDSRSustain(knbSamplerC);
+				break;				
+			case btnRandomizeSamplerC[7]: // AHDSR Pad
+				Random.randomizeAHDSRPad(knbSamplerC);
+				break;
+			case btnRandomizeSamplerC[8]: // Pitch Octave
+				Random.randomizePitchOctave(knbSamplerC[4]);
+				break;
+			case btnRandomizeSamplerC[9]: // Pitch
+				Random.randomizeComponent(knbSamplerC[4]);
+				break;
+			case btnRandomizeSamplerC[10]: // Tune Unisono
+				Random.randomizeComponentWithinRange(knbSamplerC[5], -20, 20);
+				break;
+			case btnRandomizeSamplerC[11]: // Tune
+				Random.randomizeComponent(knbSamplerC[5]);
+				break;
+			case btnRandomizeSamplerC[12]: // Widen
+				Random.randomizeComponentWithinRange(knbSamplerC[6], -20, 20);
+				break;
+			case btnRandomizeSamplerC[13]: // Pan
+				Random.randomizeComponent(knbSamplerC[6]);
+				break;
+			case btnRandomizeSamplerC[14]: // Gain Level
+				Random.randomizeComponentWithinRange(knbSamplerC[7], -6, 0);
+				break;
+			case btnRandomizeSamplerC[15]: // Gain
+				// Has built in safety of 0dB
+				Random.randomizeComponentWithinRange(knbSamplerC[7], -100, 0);				
+				break;	
+				
+			/* SAMPLER OTHER */
+				
+			case btnRandomizeSamplerOther[0]: // All Parameters
+				Random.randomizeComponent(cmbSampler[3]);
+				Random.randomizeComponent(knbSamplerOffset[3]);
+				Random.randomizeComponent(btnSamplerReverse[3]);
+				Random.randomizeComponentList(knbSamplerOther);
+				break;
+			case btnRandomizeSamplerOther[1]: // Samplemap
+				Random.randomizeComponent(cmbSampler[3]);
+				break;
+			case btnRandomizeSamplerOther[2]: // Offset
+				Random.randomizeComponent(knbSamplerOffset[3]);
+				break;
+			case btnRandomizeSamplerOther[3]: // Reverse
+				Random.randomizeComponent(btnSamplerReverse[3]);
+				break;
+			case btnRandomizeSamplerOther[4]: // AHDSR
+				for (i=0; i<4; i++)
+					Random.randomizeComponent(knbSamplerOther[i]);
+				break;				
+			case btnRandomizeSamplerOther[5]: // AHDSR Staccato
+				Random.randomizeAHDSRStaccato(knbSamplerOther);
+				break;				
+			case btnRandomizeSamplerOther[6]: // AHDSR Sustain
+				Random.randomizeAHDSRSustain(knbSamplerOther);
+				break;				
+			case btnRandomizeSamplerOther[7]: // AHDSR Pad
+				Random.randomizeAHDSRPad(knbSamplerOther);
+				break;
+			case btnRandomizeSamplerOther[8]: // Pitch Octave
+				Random.randomizePitchOctave(knbSamplerOther[4]);
+				break;
+			case btnRandomizeSamplerOther[9]: // Pitch
+				Random.randomizeComponent(knbSamplerOther[4]);
+				break;
+			case btnRandomizeSamplerOther[10]: // Tune Unisono
+				Random.randomizeComponentWithinRange(knbSamplerOther[5], -20, 20);
+				break;
+			case btnRandomizeSamplerOther[11]: // Tune
+				Random.randomizeComponent(knbSamplerOther[5]);
+				break;
+			case btnRandomizeSamplerOther[12]: // Widen
+				Random.randomizeComponentWithinRange(knbSamplerOther[6], -20, 20);
+				break;
+			case btnRandomizeSamplerOther[13]: // Pan
+				Random.randomizeComponent(knbSamplerOther[6]);
+				break;
+			case btnRandomizeSamplerOther[14]: // Gain Level
+				Random.randomizeComponentWithinRange(knbSamplerOther[7], -6, 0);
+				break;
+			case btnRandomizeSamplerOther[15]: // Gain
+				// Has built in safety of 0dB
+				Random.randomizeComponentWithinRange(knbSamplerOther[7], -100, 0);				
+				break;						
 		}
 }
 
 btnRandomizeAll.setControlCallback(onbtnRandomizeControl);
 btnRandomizeResetAll.setControlCallback(onbtnRandomizeControl);
 for (b in btnRandomizeAllSamplers)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeSamplerA)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeSamplerB)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeSamplerC)
+	b.setControlCallback(onbtnRandomizeControl);		
+for (b in btnRandomizeSamplerOther)
 	b.setControlCallback(onbtnRandomizeControl);
 
 /* Rhapsody Stuff */

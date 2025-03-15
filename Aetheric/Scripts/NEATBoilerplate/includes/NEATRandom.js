@@ -93,4 +93,19 @@ namespace Random
 		randomizeComponentWithinRange(list[2], 0, 0); // Sustain
 		randomizeComponentWithinRange(list[3], 5, 20000); // Release
 	}
+	
+	inline function randomizePitchOctave(component)
+	{
+		local roll = Math.randInt(1, 4);
+		switch (roll)
+		{
+			case 1:
+				component.setValue(-12);
+			case 2:
+				component.setValue(0);
+			case 3:
+				component.setValue(12);
+		}
+		component.changed();
+	}
 }

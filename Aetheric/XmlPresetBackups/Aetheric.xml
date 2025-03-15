@@ -101,18 +101,18 @@
             <Control type="ScriptSlider" id="knbReverbDamping" value="0.9336276054382324"/>
             <Control type="ScriptSlider" id="knbReverbWidth" value="0.03753919899463654"/>
             <Control type="ScriptSlider" id="knbReverbMix" value="0.4876081943511963"/>
-            <Control type="ScriptButton" id="btnDelayBypass" value="1"/>
+            <Control type="ScriptButton" id="btnDelayBypass" value="1.0"/>
             <Control type="ScriptSlider" id="knbDelayTimeL" value="200.0"/>
             <Control type="ScriptSlider" id="knbDelayTimeR" value="200.0"/>
-            <Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.7218728137668222"/>
-            <Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.7218728137668222"/>
-            <Control type="ScriptSlider" id="knbDelayMix" value="0.9567910532932729"/>
-            <Control type="ScriptButton" id="btnDelayLinkLR" value="0"/>
-            <Control type="ScriptButton" id="btnDelayTempoSync" value="0"/>
-            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1.0" data="64......................................................................................."/>
-            <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="-1.0"
-                     data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
-            <Control type="ScriptSliderPack" id="sldrpckArpLength" value="-1.0" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
+            <Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.7218728065490723"/>
+            <Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.7218728065490723"/>
+            <Control type="ScriptSlider" id="knbDelayMix" value="0.9567910432815552"/>
+            <Control type="ScriptButton" id="btnDelayLinkLR" value="0.0"/>
+            <Control type="ScriptButton" id="btnDelayTempoSync" value="0.0"/>
+            <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="15.0" data="64.be7gA+maSFrN95ZvewvpA4IkHDzSXvYvIpvO.wj7FFb2OmaPy7Om.CCAnFLoj9WPpXUh.ChvOC76gzSvip7VAA"/>
+            <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="15.0"
+                     data="64.JqB4BopOnJz+.+nPCKtbAIaneKzG1BGPhv+oAEHxiHjS0skPlt33BY1f3KjF5nGPYW5GBwxePFTWaEpP.uMIBA"/>
+            <Control type="ScriptSliderPack" id="sldrpckArpLength" value="15.0" data="64.QDje.MgCEJDTKNnPN5fjBwQOLEjPuooPYE3OBUIGQDzilnnPTOvABE1z6JjZkCiPBYugBEsM1JT8ncfPcwciBA"/>
             <Control type="ScriptSlider" id="knbArpSteps" value="16.0"/>
             <Control type="ScriptSlider" id="knbArpSpeed" value="11.0"/>
             <Control type="ScriptSlider" id="knbArpOctave" value="0.0"/>
@@ -170,9 +170,9 @@
             <Control type="ScriptSlider" id="OctaveRange" value="0.0"/>
             <Control type="ScriptSlider" id="Shuffle" value="0.0"/>
             <Control type="ScriptButton" id="EnableTie" value="1.0"/>
-            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="-1" data="64......................................................................................."/>
-            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="-1" data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
-            <Control type="ScriptSliderPack" id="LengthSliderPack" value="-1" data="64....nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA..fJD...pP...nBA"/>
+            <Control type="ScriptSliderPack" id="SemiToneSliderPack" value="15" data="64.be7gA+maSFrN95ZvewvpA4IkHDzSXvYvIpvO.wj7FFb2OmaPy7Om.CCAnFLoj9WPpXUh.ChvOC76gzSvip7VAA"/>
+            <Control type="ScriptSliderPack" id="VelocitySliderPack" value="15" data="64.JqB4BopOnJz+.+nPCKtbAIaneKzG1BGPhv+oAEHxiHjS0skPlt33BY1f3KjF5nGPYW5GBwxePFTWaEpP.uMIBA"/>
+            <Control type="ScriptSliderPack" id="LengthSliderPack" value="15" data="64.QDje.MgCEJDTKNnPN5fjBwQOLEjPuooPYE3OBUIGQDzilnnPTOvABE1z6JjZkCiPBYugBEsM1JT8ncfPcwciBA"/>
             <Control type="ScriptComboBox" id="ChannelSelector" value="1.0"/>
             <Control type="ScriptComboBox" id="OutputChannelSelector" value="1.0"/>
             <Control type="ScriptComboBox" id="MPEStartChannel" value="2.0"/>

@@ -1214,18 +1214,14 @@ inline function onbtnArpControl(component, value)
 			case btnArp[0]: // Minor
 			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
-				{
-					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);
-					sldrpckArp[0].changed();
-				}
+					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);					
+				sldrpckArp[0].changed();
 			}
 			case btnArp[1]: // Major
 			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
-				{
-					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);
-					sldrpckArp[0].changed();
-				}
+					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);					
+				sldrpckArp[0].changed();
 			}
 			case btnArp[2]: // Notes Reset
 			{
@@ -1235,9 +1231,7 @@ inline function onbtnArpControl(component, value)
 			case btnArp[3]: // Notes Invert
 			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
-				{
 					sldrpckArp[0].setSliderAtIndex(s, 0-sldrpckArp[0].getSliderValueAt(s));
-				}
 				sldrpckArp[0].changed();
 			}
 			case btnArp[4]: // Velocity Reset
@@ -1849,9 +1843,51 @@ inline function onbtnRandomizeControl(component, value)
 				btnFXBypass[8].changed();
 				Random.randomizeComponentList(knbDelay);
 				Random.randomizeButtonList(btnDelay);
+				break;		
+			
+			/* Arp */					
+			
+			case btnRandomizeArp[0]: // All Parameters
+				Random.randomizeComponentList(knbArp);
+				Random.randomizeComponentList(cmbArp);
+				Random.randomizeSliderpack(sldrpckArp[0], -24, 24);
+				Random.randomizeSliderpack(sldrpckArp[1], 1, 127);
+				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);				
+				break;			
+			case btnRandomizeArp[1]: // Num Steps				
+				Random.randomizeComponent(knbArp[0]);
 				break;
-			
-			
+			case btnRandomizeArp[2]: // Speed
+				Random.randomizeComponent(knbArp[1]);
+				break;
+			case btnRandomizeArp[3]: // Octave
+				Random.randomizeComponent(knbArp[2]);
+			break;
+			case btnRandomizeArp[4]: // Swing
+				Random.randomizeComponent(knbArp[3]);
+				break;
+			case btnRandomizeArp[5]: // Mode
+				Random.randomizeComponent(cmbArp[0]);
+				break;
+			case btnRandomizeArp[6]: // Notes
+				Random.randomizeSliderpack(sldrpckArp[0], -24, 24);
+				break;
+			case btnRandomizeArp[7]: // Notes (Minor)
+				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);					
+				sldrpckArp[0].changed();
+				break;
+			case btnRandomizeArp[8]: // Notes (Major)
+				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
+					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);					
+				sldrpckArp[0].changed();			
+				break;
+			case btnRandomizeArp[9]: // Velocities
+				Random.randomizeSliderpack(sldrpckArp[1], 1, 127);
+				break;
+			case btnRandomizeArp[10]: // Lengths
+				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);
+				break;						
 		}
 }
 
@@ -1868,6 +1904,8 @@ for (b in btnRandomizeSamplerC)
 for (b in btnRandomizeSamplerOther)
 	b.setControlCallback(onbtnRandomizeControl);
 for (b in btnRandomizeFX)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeArp)
 	b.setControlCallback(onbtnRandomizeControl);
 
 /* Rhapsody Stuff */

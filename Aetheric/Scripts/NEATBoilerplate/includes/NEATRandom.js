@@ -124,4 +124,14 @@ namespace Random
 		}
 		component.changed();
 	}
+	
+	inline function randomizeSliderpack(component, min, max)
+	{
+		for (s=0; s<component.getNumSliders(); s++)
+		{
+			local value = min + (Math.random() * (max - min));
+			component.setSliderAtIndex(s, value);			
+		}
+		component.changed();
+	}
 }

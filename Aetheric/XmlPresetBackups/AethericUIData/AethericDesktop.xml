@@ -141,10 +141,10 @@
                    height="20.0" width="60.0" text="Gain" fontName="bold" fontSize="12.0"
                    editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAAttackValue" x="19.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="5ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="2275ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerADecayValue" x="85.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1500ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1966ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerASustainValue" x="152.0" y="290.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0dB"
@@ -153,7 +153,7 @@
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1000ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPitchValue" x="19.0" y="394.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0st"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="5st"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerATuneValue" x="85.0" y="394.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0c"
@@ -850,20 +850,20 @@
         <Component type="ScriptLabel" id="lblArpSteps" x="89.0" y="55.0" parentComponent="pnlArp"
                    text="Steps" fontName="bold" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpStepsValue" x="89.0" y="75.0" parentComponent="pnlArp"
-                   text="16" fontName="regular" fontSize="12.0" width="64.0"/>
+                   text="19" fontName="regular" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpSteps1" x="89.0" y="128.0" parentComponent="pnlArp"
                    text="Speed" fontName="bold" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpSpeedValue" x="89.0" y="148.0" parentComponent="pnlArp"
-                   text="1/16" fontName="regular" fontSize="12.0" width="64.0"/>
+                   text="1/4T" fontName="regular" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpOctave" x="89.0" y="201.0" parentComponent="pnlArp"
                    text="Octave" fontName="bold" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpOctaveValue" x="89.0" y="221.0"
-                   parentComponent="pnlArp" text="0" fontName="regular" fontSize="12.0"
+                   parentComponent="pnlArp" text="+4" fontName="regular" fontSize="12.0"
                    width="64.0"/>
         <Component type="ScriptLabel" id="lblArpSwing" x="89.0" y="275.0" parentComponent="pnlArp"
                    text="Swing" fontName="bold" fontSize="12.0" width="64.0"/>
         <Component type="ScriptLabel" id="lblArpSwingValue" x="89.0" y="295.0" parentComponent="pnlArp"
-                   text="0%" fontName="regular" fontSize="12.0" width="64.0"/>
+                   text="63%" fontName="regular" fontSize="12.0" width="64.0"/>
         <Component type="ScriptComboBox" id="cmbArp" x="29.0" y="355.0" max="6"
                    parentComponent="pnlArp" items="Up&#10;Down&#10;Up-Down&#10;Down-Up&#10;Random&#10;Chords"
                    text="Mode"/>
@@ -890,121 +890,135 @@
                    width="210.0" height="90.0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRAAttack" x="37.0" y="153.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="20000.0" stepSize="1.0" middlePosition="10000.0" defaultValue="5.0"/>
+                   max="20000.0" stepSize="1.0" middlePosition="10000.0" defaultValue="5.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRADecay" x="87.0" y="153.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="5000.0" stepSize="1.0" middlePosition="2500.0" defaultValue="1500.0"/>
+                   max="5000.0" stepSize="1.0" middlePosition="2500.0" defaultValue="1500.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRASustain" x="137.0" y="153.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="-100.0"
-                   max="0.0" middlePosition="-12.0" stepSize="1.0"/>
+                   max="0.0" middlePosition="-12.0" stepSize="1.0" enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRARelease" x="187.0" y="153.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"/>
+                   max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRBAttack" x="37.0" y="345.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="20000.0" middlePosition="10000.0" stepSize="1.0" defaultValue="5.0"/>
+                   max="20000.0" middlePosition="10000.0" stepSize="1.0" defaultValue="5.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRBDecay" x="87.0" y="345.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="5000.0" middlePosition="2500.0" stepSize="1.0" defaultValue="1500.0"/>
+                   max="5000.0" middlePosition="2500.0" stepSize="1.0" defaultValue="1500.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRBSustain" x="137.0" y="345.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="-100.0"
-                   max="0.0" stepSize="1.0" middlePosition="-12.0"/>
+                   max="0.0" stepSize="1.0" middlePosition="-12.0" enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveAHDSRBRelease" x="187.0" y="345.0"
                    parentComponent="pnlMove" width="32.0" height="32.0" min="5.0"
-                   max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"/>
+                   max="20000.0" stepSize="1.0" middlePosition="5000.0" defaultValue="1000.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAAttack" x="23.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Attack"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAAttackValue" x="23.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="5ms"/>
+                   fontName="regular" text="19503ms"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRADecay" x="73.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Decay"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRADecayValue" x="73.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1500ms"/>
+                   fontName="regular" text="99ms"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRASustain" x="123.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Sustain"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRASustainValue" x="123.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="0dB"/>
+                   fontName="regular" text="-60dB"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRARelease" x="173.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Release"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAReleaseValue" x="173.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1000ms"/>
+                   fontName="regular" text="2913ms"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBAttack" x="23.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Attack"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBAttackValue" x="23.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="5ms"/>
+                   fontName="regular" text="7756ms"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBDecay" x="73.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Decay"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBDecayValue" x="73.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1500ms"/>
+                   fontName="regular" text="3681ms"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBSustain" x="123.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Sustain"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBSustainValue" x="123.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="0dB"/>
+                   fontName="regular" text="-9dB"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBRelease" x="173.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Release"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBReleaseValue" x="173.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1000ms"/>
+                   fontName="regular" text="18835ms"/>
         <Component type="ScriptPanel" id="pnlMoveXYPad" x="276.0" y="60.0" parentComponent="pnlMove"
                    width="397.0" height="298.0" allowCallbacks="Clicks, Hover &amp; Dragging"/>
         <Component type="ScriptSlider" id="knbMoveX" x="276.0" y="364.0" parentComponent="pnlMove"
                    width="397.0" height="6.0" max="100.0" middlePosition="50.0"
-                   stepSize="1.0" defaultValue="50.0" mouseSensitivity="1.600000023841858"/>
+                   stepSize="1.0" defaultValue="50.0" mouseSensitivity="1.600000023841858"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveY" x="679.0" y="60.0" parentComponent="pnlMove"
                    width="6.0" height="298.0" max="100.0" stepSize="1.0" middlePosition="50.0"
-                   defaultValue="50.0" mouseSensitivity="1.600000023841858"/>
+                   defaultValue="50.0" mouseSensitivity="1.600000023841858" enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveConnectionSettings" x="277.0"
                    y="395.0" width="160.0" height="30.0" parentComponent="pnlMove"
-                   text="Connection Settings"/>
+                   text="Connection Settings" enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosBypass" x="702.0" y="52.0"
-                   width="15.0" height="15.0" parentComponent="pnlMove"/>
+                   width="15.0" height="15.0" parentComponent="pnlMove" enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeA" x="767.0" y="60.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeB" x="735.0" y="110.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeC" x="799.0" y="110.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeD" x="767.0" y="160.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeE" x="735.0" y="210.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeF" x="799.0" y="210.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptButton" id="btnMoveChaosTypeG" x="767.0" y="260.0"
-                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"/>
+                   width="60.0" height="60.0" parentComponent="pnlMove" radioGroup="3.0"
+                   enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveChaosRate" x="727.0" y="335.0"
                    parentComponent="pnlMove" width="40.0" height="40.0" min="0.1000000014901161"
-                   max="20.0" middlePosition="10.0" defaultValue="10.0"/>
+                   max="20.0" middlePosition="10.0" defaultValue="10.0" enableMidiLearn="0"/>
         <Component type="ScriptSlider" id="knbMoveChaosIntensity" x="817.0" y="335.0"
                    parentComponent="pnlMove" width="40.0" height="40.0" max="50.0"
-                   middlePosition="25.0" stepSize="1.0" defaultValue="25.0"/>
+                   middlePosition="25.0" stepSize="1.0" defaultValue="25.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblMoveChaosRate" x="717.0" y="385.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Rate"/>
         <Component type="ScriptLabel" id="lblMoveChaosRateValue" x="717.0" y="405.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="Medium"/>
+                   fontName="regular" text="Slow"/>
         <Component type="ScriptLabel" id="lblMoveChaosIntensity" x="807.0" y="385.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Intensity"/>
         <Component type="ScriptLabel" id="lblMoveChaosIntensityValue" x="807.0"
                    y="405.0" parentComponent="pnlMove" width="60.0" height="20.0"
-                   fontSize="12.0" fontName="regular" text="50%"/>
+                   fontSize="12.0" fontName="regular" text="58%"/>
         <Component type="ScriptPanel" id="pnlMoveConnectionSettings" x="60.0" y="40.0"
                    parentComponent="pnlMove" width="795.0" height="350.0" visible="0.0">
           <Component type="ScriptFloatingTile" id="fltMacroControl" x="10.0" y="30.0"
@@ -1361,13 +1375,16 @@
                    y="185.0" parentComponent="pnlRandom" text="INTENSITY" width="90.0"
                    height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveChaosRate" x="672.0"
-                   y="215.0" parentComponent="pnlRandom" text="CHAOS RATE" width="90.0"
+                   y="215.0" parentComponent="pnlRandom" text="RATE" width="90.0"
                    height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnRandomizeMoveConnections" x="672.0"
                    y="245.0" parentComponent="pnlRandom" text="CONNECTIONS" width="90.0"
                    height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnRandomizeMoveConnectionSettings" x="672.0"
+        <Component type="ScriptButton" id="btnRandomizeMoveConnectionRanges" x="672.0"
                    y="275.0" parentComponent="pnlRandom" text="RANGES" width="90.0"
+                   height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
+        <Component type="ScriptButton" id="btnRandomizeMoveConnectionReset" x="672.0"
+                   y="305.0" parentComponent="pnlRandom" text="RESET" width="90.0"
                    height="24.0" enableMidiLearn="0" isMomentary="1" saveInPreset="0"/>
       </Component>
     </Component>

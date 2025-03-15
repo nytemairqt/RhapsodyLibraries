@@ -17,6 +17,7 @@
 
 /* UI Functionality */
 Engine.loadAudioFilesIntoPool();
+const macroHandler = Engine.createMacroHandler();
 Engine.setFrontendMacros(["X Pos", "X Neg", "Y Pos", "Y Neg", "Env A", "Env B", "Velocity", "Random"]);
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
 const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
@@ -1887,7 +1888,47 @@ inline function onbtnRandomizeControl(component, value)
 				break;
 			case btnRandomizeArp[10]: // Lengths
 				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);
-				break;						
+				break;				
+				
+			/* Move */
+			case btnRandomizeMove[0]: // All Parameters
+				Random.randomizeComponentList(knbMove);
+				local chaosTypeRoll = Math.randInt(2, 9);
+				btnMove[chaosTypeRoll].setValue(1);				
+				btnMove[chaosTypeRoll].changed();
+				break;
+			case btnRandomizeMove[1]: // AHDSR A	
+				Random.randomizeComponent(knbMove[0]);
+				Random.randomizeComponent(knbMove[1]);
+				Random.randomizeComponent(knbMove[2]);
+				Random.randomizeComponent(knbMove[3]);
+				break;
+			case btnRandomizeMove[2]: // AHDSR B
+				Random.randomizeComponent(knbMove[4]);
+				Random.randomizeComponent(knbMove[5]);
+				Random.randomizeComponent(knbMove[6]);
+				Random.randomizeComponent(knbMove[7]);				
+				break;
+			case btnRandomizeMove[3]: // Chaos Type
+				local chaosTypeRoll = Math.randInt(2, 9);
+				btnMove[chaosTypeRoll].setValue(1);
+				btnMove[chaosTypeRoll].changed();
+				break;
+			case btnRandomizeMove[4]: // Chaos Intensity
+				Random.randomizeComponent(knbMove[9]);				
+				break;
+			case btnRandomizeMove[5]: // Chaos Rate
+				Random.randomizeComponent(knbMove[8]);				
+				break;
+			case btnRandomizeMove[6]: // Connections
+				Random.randomizeMacroConnectionList(knbSamplerA);
+				break;
+			case btnRandomizeMove[7]: // Connection Ranges
+				Random.randomizeMacroConnectionValues();
+				break;			
+			case btnRandomizeMove[8]: // Reset Macros
+				Random.resetMacroConnections();
+				break;							
 		}
 }
 
@@ -1906,6 +1947,8 @@ for (b in btnRandomizeSamplerOther)
 for (b in btnRandomizeFX)
 	b.setControlCallback(onbtnRandomizeControl);
 for (b in btnRandomizeArp)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeMove)
 	b.setControlCallback(onbtnRandomizeControl);
 
 /* Rhapsody Stuff */

@@ -19,6 +19,9 @@ namespace Random
 {
 	// after ui refs
 	// after ui control
+	
+	reg macroObject;
+	reg randomMacroObject;
 
 	// Generic
 	inline function randomizeComponent(component)
@@ -133,5 +136,89 @@ namespace Random
 			component.setSliderAtIndex(s, value);			
 		}
 		component.changed();
+	}
+	
+	inline function randomizeMacroConnection(component)
+	{
+		/*
+
+		local roll = Math.random();
+		local index = Math.randInt(0, 8);
+		if (roll > .5)
+			component.addToMacroControl(index);
+		else
+			Console.print("...");
+		*/
+		
+		component.addToMacroControl(0);
+	}
+	
+	inline function randomizeMacroConnectionList(list)
+	{
+	// {MacroIndex, Processor (interface), Attribute, FullStart, FullEnd, Start, End}
+		
+		local json = [];
+		
+		/*
+			get all of the ui lists
+			increment through each & append to json object w/ random indexes
+			do the macro function thing macroHandler.setMacroDataFromObject(macroData);
+		*/
+		
+		/*
+		{
+		    "MacroIndex": 0,
+		    "Processor": "Interface",
+		    "Attribute": "knbFilterCutoff",
+		    "FullStart": 20.0,
+		    "FullEnd": 20000.0,
+		    "Inverted": false,
+		    "Interval": 0.01,
+		    "Skew": 1.0,
+		    "Start": 14439.65177033562,
+		    "End": 17821.57886909464
+		  }
+		*/
+		
+		macroHandler.setMacroDataFromObject(macroData);
+	}
+	
+	inline function randomizeMacroConnectionValues()
+	{
+		macroObject = macroHandler.getMacroDataObject();
+		local min = 0.0;
+		local max = 0.0;
+		local start = 0.0;
+		local end = 0.0;
+		
+		local before = FileSystem.getFolder(FileSystem.Documents).getChildFile("before.json");		
+		before.writeObject(macroObject);
+		
+		
+		for (o in macroObject)
+		{
+			local component = Content.getComponent(o["Attribute"]);
+			min = component.get("min");
+			max = component.get("max");
+						
+			start = min + (Math.random() * (max - min));
+			end = start + (Math.random() * (max - start));
+			
+			o["FullStart"] = min;
+			o["FullEnd"] = max;
+			o["Start"] = start;
+			o["End"] = end;
+		}
+						
+		macroHandler.setMacroDataFromObject(macroObject);
+		
+		local after = FileSystem.getFolder(FileSystem.Documents).getChildFile("after.json");		
+		after.writeObject(macroObject);				
+	}
+	
+	inline function resetMacroConnections()
+	{
+		randomMacroObject = [{}];
+		macroHandler.setMacroDataFromObject(randomMacroObject);
 	}
 }

@@ -493,7 +493,8 @@ const btnRandomizeMove = [Content.getComponent("btnRandomizeMoveAll"),
 						  Content.getComponent("btnRandomizeMoveChaosIntensity"),
 						  Content.getComponent("btnRandomizeMoveChaosRate"),
 						  Content.getComponent("btnRandomizeMoveConnections"),
-						  Content.getComponent("btnRandomizeMoveConnectionSettings")];                                  
+						  Content.getComponent("btnRandomizeMoveConnectionRanges"),
+						  Content.getComponent("btnRandomizeMoveConnectionReset")];                                  
 
 // Assign LAF;
 

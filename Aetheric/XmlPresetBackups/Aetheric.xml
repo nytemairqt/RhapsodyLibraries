@@ -10,9 +10,9 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerA" value="1"/>
+            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerAReverse" value="0"/>
+            <Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
@@ -23,9 +23,9 @@
             <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerB" value="1"/>
+            <Control type="ScriptComboBox" id="cmbSamplerB" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerBReverse" value="0"/>
+            <Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
@@ -36,9 +36,9 @@
             <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerC" value="1"/>
+            <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerCReverse" value="0"/>
+            <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerCDecay" value="1500.0"/>
@@ -49,9 +49,9 @@
             <Control type="ScriptSlider" id="knbSamplerCPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerOtherBypass" value="0.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerOther" value="1"/>
+            <Control type="ScriptComboBox" id="cmbSamplerOther" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerOther" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerOtherReverse" value="0"/>
+            <Control type="ScriptButton" id="btnSamplerOtherReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherOffset" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherDecay" value="1500.0"/>
@@ -96,19 +96,19 @@
             <Control type="ScriptSlider" id="knbPhaserRateB" value="1500.0"/>
             <Control type="ScriptSlider" id="knbPhaserFeedback" value="0.2000000029802322"/>
             <Control type="ScriptSlider" id="knbPhaserMix" value="0.2000000029802322"/>
-            <Control type="ScriptButton" id="btnReverbBypass" value="0.0"/>
-            <Control type="ScriptSlider" id="knbReverbSize" value="0.699999988079071"/>
-            <Control type="ScriptSlider" id="knbReverbDamping" value="0.5"/>
-            <Control type="ScriptSlider" id="knbReverbWidth" value="0.800000011920929"/>
-            <Control type="ScriptSlider" id="knbReverbMix" value="0.2000000029802322"/>
-            <Control type="ScriptButton" id="btnDelayBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnReverbBypass" value="1.0"/>
+            <Control type="ScriptSlider" id="knbReverbSize" value="0.1600288897752762"/>
+            <Control type="ScriptSlider" id="knbReverbDamping" value="0.9336276054382324"/>
+            <Control type="ScriptSlider" id="knbReverbWidth" value="0.03753919899463654"/>
+            <Control type="ScriptSlider" id="knbReverbMix" value="0.4876081943511963"/>
+            <Control type="ScriptButton" id="btnDelayBypass" value="1"/>
             <Control type="ScriptSlider" id="knbDelayTimeL" value="200.0"/>
             <Control type="ScriptSlider" id="knbDelayTimeR" value="200.0"/>
-            <Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.2000000029802322"/>
-            <Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.2000000029802322"/>
-            <Control type="ScriptSlider" id="knbDelayMix" value="0.2000000029802322"/>
-            <Control type="ScriptButton" id="btnDelayLinkLR" value="0.0"/>
-            <Control type="ScriptButton" id="btnDelayTempoSync" value="0.0"/>
+            <Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.7218728137668222"/>
+            <Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.7218728137668222"/>
+            <Control type="ScriptSlider" id="knbDelayMix" value="0.9567910532932729"/>
+            <Control type="ScriptButton" id="btnDelayLinkLR" value="0"/>
+            <Control type="ScriptButton" id="btnDelayTempoSync" value="0"/>
             <Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1.0" data="64......................................................................................."/>
             <Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="-1.0"
                      data="64....2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA..bKD..vsP...2BA"/>
@@ -191,7 +191,7 @@
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
         <Processor Type="PolyphonicFilter" ID="Filter" Bypassed="1" Gain="0.0" Frequency="20000.0"
-                   Q="0.4000000059604645" Mode="6.0" Quality="1.0" BipolarIntensity="0.0">
+                   Q="0.4000000059604645" Mode="7.0" Quality="1.0" BipolarIntensity="0.0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                        Intensity="1.0">
@@ -344,15 +344,15 @@
             <ContentProperties DeviceType="Desktop"/>
           </UIData>
         </Processor>
-        <Processor Type="SimpleReverb" ID="Reverb" Bypassed="1" RoomSize="0.699999988079071"
-                   Damping="0.5" WetLevel="0.2000000029802322" DryLevel="0.800000011920929"
-                   Width="0.800000011920929" FreezeMode="0.1000000014901161">
+        <Processor Type="SimpleReverb" ID="Reverb" Bypassed="0" RoomSize="0.1600288897752762"
+                   Damping="0.9336276054382324" WetLevel="0.4876081943511963" DryLevel="0.5123918056488037"
+                   Width="0.03753919899463654" FreezeMode="0.1000000014901161">
           <ChildProcessors/>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
         </Processor>
-        <Processor Type="Delay" ID="Delay" Bypassed="1" DelayTimeLeft="200.0" DelayTimeRight="200.0"
-                   FeedbackLeft="0.2000000029802322" FeedbackRight="0.2000000029802322"
-                   LowPassFreq="20000.0" HiPassFreq="40.0" Mix="0.2000000029802322"
+        <Processor Type="Delay" ID="Delay" Bypassed="0" DelayTimeLeft="200.0" DelayTimeRight="200.0"
+                   FeedbackLeft="0.7218728065490723" FeedbackRight="0.7218728065490723"
+                   LowPassFreq="20000.0" HiPassFreq="40.0" Mix="0.9567910432815552"
                    TempoSync="0.0">
           <ChildProcessors/>
           <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
@@ -952,10 +952,10 @@
     <macro name="X Neg" value="57.15000152587891" midi_cc="-1"/>
     <macro name="Y Pos" value="63.5" midi_cc="-1"/>
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
-    <macro name="Env A" value="127.0" midi_cc="-1"/>
-    <macro name="Env B" value="127.0" midi_cc="-1"/>
-    <macro name="Velocity" value="127.0" midi_cc="-1"/>
-    <macro name="Random" value="127.0" midi_cc="-1"/>
+    <macro name="Env A" value="0.0" midi_cc="-1"/>
+    <macro name="Env B" value="0.0" midi_cc="-1"/>
+    <macro name="Velocity" value="81.0" midi_cc="-1"/>
+    <macro name="Random" value="48.63788223266602" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation>
     <Controller Controller="7" Processor="Interface" MacroIndex="-1" Start="-100.0"

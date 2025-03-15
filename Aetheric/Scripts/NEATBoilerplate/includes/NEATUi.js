@@ -1372,13 +1372,49 @@ inline function onbtnRandomizeControl(component, value)
 		switch (component)
 		{	
 			case btnRandomizeAll: // Randomize All Modules & Parameters
+				// Samplers
 				Random.randomizeComponentList(knbSamplerA);
 				Random.randomizeComponentList(knbSamplerB);
 				Random.randomizeComponentList(knbSamplerC);
-				Random.randomizeComponentList(knbSamplerOther);				
+				Random.randomizeComponentList(knbSamplerOther);			
+				
+				// FX
+				Random.randomizeButtonList(btnFXBypass);
+				Random.randomizeComponentList(knbFilter);
+				Random.randomizeButtonList(btnFilter);	
+				Random.randomizeComponentList(cmbAmp);
+				Random.randomizeComponentList(knbDrive);
+				Random.randomizeComponentList(knbStutter);
+				Random.randomizeButtonList(btnStutter);
+				Random.randomizeComponentList(knbDegrade);
+				Random.randomizeComponentList(knbPhaser);
+				Random.randomizeComponentList(knbReverb);
+				Random.randomizeComponentList(knbDelay);
+				Random.randomizeButtonList(btnDelay);				
+				Random.randomizeComponent(knbUtility[0]);
+				// Amp Done Seperately for safety reasons
+				Random.randomizeComponentWithinRange(knbAmp[0], 10, 40); // Gain
+				Random.randomizeComponent(knbAmp[2]); // Tone
+				knbAmp[1].setValue(1-(knbAmp[0].getValue() * .7));
+				knbAmp[1].changed();
+				// Utility Makeup Gain for Drive
+				knbUtility[1].setValue(0.0);
+				if (btnFXBypass[2].getValue())
+				{	
+					btnFXBypass[4].setValue(1);
+					btnFXBypass[4].changed();
+					knbUtility[1].setValue((1-(knbDrive[0].getValue() + knbDrive[1].getValue()) / 2));					
+				}					
+				knbUtility[1].changed();
+				// Stutter Bug Fix
+				if (btnStutter[0].getValue())
+					stutter[1].setBypassed(0);
+				else
+					stutter[3].setBypassed(0);	
 				break;
 			
 			case btnRandomizeResetAll: // Reset All
+				// Samplers
 				Random.resetComponentList(cmbSampler);
 				Random.resetComponentList(knbSamplerOffset);
 				Random.resetComponentList(btnSamplerReverse);
@@ -1386,8 +1422,23 @@ inline function onbtnRandomizeControl(component, value)
 				Random.resetComponentList(knbSamplerB);
 				Random.resetComponentList(knbSamplerC);
 				Random.resetComponentList(knbSamplerOther);				
-								
-				// add fx, arp, move
+				
+				// FX
+				Random.resetComponentList(btnFXBypass);
+				Random.resetComponentList(knbFilter);
+				Random.resetComponentList(btnFilter);	
+				Random.resetComponentList(cmbAmp);
+				Random.resetComponentList(knbAmp);
+				Random.resetComponentList(knbDrive);
+				Random.resetComponentList(knbUtility);
+				Random.resetComponentList(knbStutter);
+				Random.resetComponentList(btnStutter);
+				Random.resetComponentList(knbDegrade);
+				Random.resetComponentList(knbPhaser);
+				Random.resetComponentList(knbReverb);
+				Random.resetComponentList(knbDelay);
+				Random.resetComponentList(btnDelay);												
+				// add arp, move
 				break;	
 				
 			/* ALL SAMPLERS */
@@ -1710,7 +1761,97 @@ inline function onbtnRandomizeControl(component, value)
 			case btnRandomizeSamplerOther[15]: // Gain
 				// Has built in safety of 0dB
 				Random.randomizeComponentWithinRange(knbSamplerOther[7], -100, 0);				
-				break;						
+				break;		
+				
+			/* FX */
+			
+			case btnRandomizeFX[0]: // All Parameters
+				Random.randomizeButtonList(btnFXBypass);
+				Random.randomizeComponentList(knbFilter);
+				Random.randomizeButtonList(btnFilter);	
+				Random.randomizeComponentList(cmbAmp);
+				Random.randomizeComponentList(knbDrive);
+				Random.randomizeComponentList(knbStutter);
+				Random.randomizeButtonList(btnStutter);
+				Random.randomizeComponentList(knbDegrade);
+				Random.randomizeComponentList(knbPhaser);
+				Random.randomizeComponentList(knbReverb);
+				Random.randomizeComponentList(knbDelay);
+				Random.randomizeButtonList(btnDelay);				
+				Random.randomizeComponent(knbUtility[0]);
+				// Amp Done Seperately for safety reasons
+				Random.randomizeComponentWithinRange(knbAmp[0], 10, 40); // Gain
+				Random.randomizeComponent(knbAmp[2]); // Tone
+				knbAmp[1].setValue(1-(knbAmp[0].getValue() * .7));
+				knbAmp[1].changed();
+				// Utility Makeup Gain for Drive
+				knbUtility[1].setValue(0.0);
+				if (btnFXBypass[2].getValue())
+				{	
+					btnFXBypass[4].setValue(1);
+					btnFXBypass[4].changed();
+					knbUtility[1].setValue((1-(knbDrive[0].getValue() + knbDrive[1].getValue()) / 2));					
+				}					
+				knbUtility[1].changed();
+				// Stutter Bug Fix
+				stutter[1].setBypassed(btnStutter[0].getValue());
+				stutter[3].setBypassed(1-btnStutter[0].getValue());
+				break;
+			case btnRandomizeFX[1]: // Filter
+				btnFXBypass[0].setValue(1);
+				btnFXBypass[0].changed();
+				Random.randomizeComponentList(knbFilter);
+				Random.randomizeButtonList(btnFilter);
+			case btnRandomizeFX[2]: // Utility
+				btnFXBypass[4].setValue(1);
+				btnFXBypass[4].changed();
+				Random.randomizeComponent(knbUtility[0]);
+				break;
+			case btnRandomizeFX[3]: // Stutter
+				btnFXBypass[5].setValue(1);
+				btnFXBypass[5].changed();
+				Random.randomizeComponentList(knbStutter);
+				Random.randomizeButtonList(btnStutter);
+				stutter[1].setBypassed(btnStutter[0].getValue());
+				stutter[3].setBypassed(1-btnStutter[0].getValue());
+				break;
+			case btnRandomizeFX[4]: // Amp
+				btnFXBypass[1].setValue(1);
+				btnFXBypass[1].changed();
+				Random.randomizeComponentList(cmbAmp);
+				Random.randomizeComponentWithinRange(knbAmp[0], 10, 40); // Gain
+				Random.randomizeComponent(knbAmp[2]); // Tone
+				knbAmp[1].setValue(1-(knbAmp[0].getValue() * .7));
+				knbAmp[1].changed();
+				break;
+			case btnRandomizeFX[5]: // Drive
+				btnFXBypass[2].setValue(1);
+				btnFXBypass[2].changed();
+				Random.randomizeComponentList(knbDrive);
+				break;
+			case btnRandomizeFX[6]: // Degrade
+				btnFXBypass[3].setValue(1);
+				btnFXBypass[3].changed();
+				Random.randomizeComponentList(knbDegrade);
+				break;
+			case btnRandomizeFX[7]: // Phaser
+				btnFXBypass[6].setValue(1);
+				btnFXBypass[6].changed();	
+				Random.randomizeComponentList(knbPhaser);		
+				break;
+			case btnRandomizeFX[8]: // Reverb
+				btnFXBypass[7].setValue(1);
+				btnFXBypass[7].changed();	
+				Random.randomizeComponentList(knbReverb);
+				break;
+			case btnRandomizeFX[9]: // Delay
+				btnFXBypass[8].setValue(1);
+				btnFXBypass[8].changed();
+				Random.randomizeComponentList(knbDelay);
+				Random.randomizeButtonList(btnDelay);
+				break;
+			
+			
 		}
 }
 
@@ -1725,6 +1866,8 @@ for (b in btnRandomizeSamplerB)
 for (b in btnRandomizeSamplerC)
 	b.setControlCallback(onbtnRandomizeControl);		
 for (b in btnRandomizeSamplerOther)
+	b.setControlCallback(onbtnRandomizeControl);
+for (b in btnRandomizeFX)
 	b.setControlCallback(onbtnRandomizeControl);
 
 /* Rhapsody Stuff */

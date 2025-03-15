@@ -29,18 +29,34 @@ namespace Random
 		component.setValue(newValue);
 		component.changed();
 	}
-
+	
 	inline function randomizeComponentWithinRange(component, min, max)
 	{
 		local newValue = min + (Math.random() * (max - min));
 		component.setValue(newValue);
 		component.changed();
 	}
+	
+	inline function randomizeButton(component)
+	{
+		local roll = Math.random();
+		if (roll <= 0.5)
+			component.setValue(0);
+		else
+			component.setValue(1);
+		component.changed();
+	}	
 
 	inline function randomizeComponentList(componentList)
 	{
 		for (c in componentList)
 			randomizeComponent(c);
+	}
+	
+	inline function randomizeButtonList(componentList)
+	{
+		for (c in componentList)
+			randomizeButton(c);
 	}
 
 	inline function randomizeComponentListWithinRange(jsonObject)

@@ -1921,7 +1921,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponent(knbMove[8]);				
 				break;
 			case btnRandomizeMove[6]: // Connections
-				Random.randomizeMacroConnectionList(knbSamplerA);
+				Random.randomizeMacroConnectionList();
 				break;
 			case btnRandomizeMove[7]: // Connection Ranges
 				Random.randomizeMacroConnectionValues();

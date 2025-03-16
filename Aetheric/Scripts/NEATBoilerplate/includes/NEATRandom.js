@@ -15,6 +15,8 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
+include("NEATBoilerplate/includes/NEATMacroAttributes.js");
+
 namespace Random
 {
 	// after ui refs
@@ -22,6 +24,7 @@ namespace Random
 	
 	reg macroObject;
 	reg randomMacroObject;
+	reg json = [];
 
 	// Generic
 	inline function randomizeComponent(component)
@@ -60,24 +63,6 @@ namespace Random
 	{
 		for (c in componentList)
 			randomizeButton(c);
-	}
-
-	inline function randomizeComponentListWithinRange(jsonObject)
-	{
-		/*
-			takes a json object
-			eg:
-
-			{
-				components: [knbA, knbB, knbC],
-				ranges: [[0, 1], [0, 1], [-100, 0]]
-			}
-		*/
-
-		for (i=0; i<jsonObject["components"].length; i++)
-		{
-			randomizeComponentsListWithinRange(jsonObject["components"][i], jsonObject["ranges"][i]); // maybe???
-		}
 	}
 
 	inline function resetComponentList(list)
@@ -136,51 +121,55 @@ namespace Random
 			component.setSliderAtIndex(s, value);			
 		}
 		component.changed();
-	}
+	}		
 	
-	inline function randomizeMacroConnection(component)
-	{
-		/*
-
-		local roll = Math.random();
-		local index = Math.randInt(0, 8);
-		if (roll > .5)
-			component.addToMacroControl(index);
-		else
-			Console.print("...");
-		*/
+	inline function randomizeMacroConnectionList()
+	{		
+		local obj = {};
+		local index = 0;
+		local min = 0.0;
+		local max = 0.0;
+		local start = 0.0;
+		local end = 0.0;
+		local roll = 0.0;
+		local component = 0;
+		local interval = 0.0;
 		
-		component.addToMacroControl(0);
-	}
-	
-	inline function randomizeMacroConnectionList(list)
-	{
-	// {MacroIndex, Processor (interface), Attribute, FullStart, FullEnd, Start, End}
+		json.clear();
 		
-		local json = [];
-		
-		/*
-			get all of the ui lists
-			increment through each & append to json object w/ random indexes
-			do the macro function thing macroHandler.setMacroDataFromObject(macroData);
-		*/
-		
-		/*
+		for (a in macroAttributes)
 		{
-		    "MacroIndex": 0,
-		    "Processor": "Interface",
-		    "Attribute": "knbFilterCutoff",
-		    "FullStart": 20.0,
-		    "FullEnd": 20000.0,
-		    "Inverted": false,
-		    "Interval": 0.01,
-		    "Skew": 1.0,
-		    "Start": 14439.65177033562,
-		    "End": 17821.57886909464
-		  }
-		*/
+			roll = Math.random();
+			if (roll > .5)
+				continue;
+				
+			component = Content.getComponent(a);
+
+			index = Math.randInt(0, 8);
+			min = component.get("min");
+			max = component.get("max");
+			interval = component.get("stepSize");
+			
+			start = min + (Math.random() * (max - min));
+			end = start + (Math.random() * (max- start));
+						
+			obj = {
+				"MacroIndex" : index,
+				"Processor" : "Interface",
+				"Attribute" : a,	
+				"FullStart" : min,
+				"FullEnd" : max,
+				"Inverted" : false,
+				"Interval" : interval,
+				"Skew" : 1.0,
+				"Start" : start,
+				"End" : end			
+			};
+			
+			json.push(obj);
+		}
 		
-		macroHandler.setMacroDataFromObject(macroData);
+		macroHandler.setMacroDataFromObject(json);				
 	}
 	
 	inline function randomizeMacroConnectionValues()
@@ -189,11 +178,7 @@ namespace Random
 		local min = 0.0;
 		local max = 0.0;
 		local start = 0.0;
-		local end = 0.0;
-		
-		local before = FileSystem.getFolder(FileSystem.Documents).getChildFile("before.json");		
-		before.writeObject(macroObject);
-		
+		local end = 0.0;			
 		
 		for (o in macroObject)
 		{
@@ -211,9 +196,6 @@ namespace Random
 		}
 						
 		macroHandler.setMacroDataFromObject(macroObject);
-		
-		local after = FileSystem.getFolder(FileSystem.Documents).getChildFile("after.json");		
-		after.writeObject(macroObject);				
 	}
 	
 	inline function resetMacroConnections()

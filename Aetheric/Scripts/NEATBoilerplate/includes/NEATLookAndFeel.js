@@ -1,5 +1,5 @@
 /*
-    Copyright 2023, 2024 iamlamprey
+    Copyright 2023, 2024, 2025 iamlamprey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -93,24 +93,18 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     // Arc
     var sliderRing2 = Content.createPath();
     var sliderRing3 = Content.createPath();
-
     sliderRing2.startNewSubPath(0.5, 1.0);
     sliderRing2.addArc([0.0, 0.0, 1.0, 1.0], -Math.PI*0.75, Math.PI * 0.75);
     sliderRing3.startNewSubPath(0.0, 0.0);
     sliderRing3.startNewSubPath(1.0, 1.0);  
-
     var start = -Math.PI*0.75;
 
     // Unfilled ring
     sliderRing3.addArc([0.0, 0.0, 1.0, 1.0], start, Math.max(start, start + Math.PI * 1.5 * obj.valueNormalized));
     g.setColour(obj.hover ? 0xFF292929 : 0xFF262626);
     g.drawPath(sliderRing2, reduced(obj, ringWidth), ringWidth * 2);
-   	
-   	
-    //g.setColour(obj.hover ? 0xFFD0E6E6 : 0xFFB1C1C1);
     g.setColour(obj.hover ? clrOffWhite : Colours.lightgrey);
     g.drawPath(sliderRing3, reduced(obj, ringWidth), ringWidth * (1.6));
-    
     g.rotate((1.0 - (obj.valueNormalized - 0.02)) * -1.5 * Math.PI, [obj.area[2] / 2, obj.area[3] / 2]);  
     
     // Center Ellipse        
@@ -169,16 +163,10 @@ LAFButtonSamplerOther.registerFunction("drawToggleButton", function(g, obj)
 {
 	var w = obj.area[2];
 	var h = obj.area[3];
-
-	//g.setColour(clrRhapsodyBlue);
-	
 	if (obj.value)
 	    g.setColour(obj.over ? clrWhite : clrLightgrey);
 	else
 		g.setColour(obj.over ? clrGrey : clrMidgrey);
-	
-	//g.fillRoundedRectangle(obj.area, 6.0);
-	
 	g.setFont("bold", 14.0);
 	g.drawAlignedText("E", obj.area, "centred");
 });
@@ -190,7 +178,6 @@ LAFButtonSamplerReverse.registerFunction("drawToggleButton", function(g, obj)
 	    g.setColour(obj.over ? clrWhite : clrLightgrey);
 	else
 		g.setColour(obj.over ? clrGrey : clrMidgrey);
-		
 	g.setFont("bold", 14.0);
 	g.drawAlignedText("REV", obj.area, "centred");
 });
@@ -214,7 +201,6 @@ LAFComboBoxNEAT.registerFunction("drawComboBox", function(g, obj)
 {
     g.setColour(obj.hover ? Colours.withAlpha(clrWhite, .1) : Colours.withAlpha(clrWhite, .05));
     g.fillRoundedRectangle(obj.area, 2.0);
-
     g.setColour(Colours.withAlpha(clrWhite, .8));
     g.setFont("Arial Bold", 13.0);
     if (obj.text == "(no choices)")
@@ -336,14 +322,11 @@ LAFSliderMoveY.registerFunction("drawRotarySlider", function(g, obj)
 LAFButtonChaosA.registerFunction("drawToggleButton", function(g, obj)
 {
     g.setColour(obj.over ? Colours.withAlpha(clrWhite, 0.08) : Colours.withAlpha(clrWhite, 0.05));
-
     if (obj.value)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     path.loadFromData(pathButtonChaosTypeA);
     g.drawPath(path, [8, 16, obj.area[2] - 16, obj.area[3] - 32], 2.0);
 });
@@ -355,9 +338,7 @@ LAFButtonChaosB.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     path.loadFromData(pathButtonChaosTypeB);
     g.drawPath(path, [12, 12, obj.area[2] - 24, obj.area[3] - 24], 2.0);
 });
@@ -369,9 +350,7 @@ LAFButtonChaosC.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     g.drawLine(20, 20, obj.area[3] - 26, 20, 2.0);
     g.drawLine(20, obj.area[2] - 20, 20, 20, 2.0);
     g.drawLine(obj.area[2] - 20, obj.area[2] - 20, 20, obj.area[3] - 20, 2.0);
@@ -386,7 +365,6 @@ LAFButtonChaosD.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
     path.loadFromData(pathButtonChaosTypeD);
     g.drawPath(path, [19, 19, obj.area[2] - 38, obj.area[3] - 38], 2.0);
@@ -400,9 +378,7 @@ LAFButtonChaosE.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     path.loadFromData(pathButtonChaosTypeE);
     g.drawPath(path, [15, 15, obj.area[2] - 30, obj.area[3] - 30], 2.0);
 });
@@ -414,11 +390,8 @@ LAFButtonChaosF.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     path.loadFromData(pathButtonChaosTypeF);
-
     g.drawPath(path, [17, 17, obj.area[2] - 34, obj.area[3] - 34], 2.0);
     g.fillTriangle([12, 12, 8, 8], Math.toRadians(277));
     g.fillTriangle([36, 38, 8, 8], Math.toRadians(100));
@@ -432,11 +405,8 @@ LAFButtonChaosG.registerFunction("drawToggleButton", function(g, obj)
         g.setColour(Colours.withAlpha(clrWhite, 0.15));
     path.loadFromData(pathButtonChaosPolygon);
     g.fillPath(path, obj.area);
-
     g.setColour(obj.over ? clrWhite : clrLightgrey);
-
     path.loadFromData(pathButtonChaosTypeG);
-
     g.drawPath(path, [17, 17, obj.area[2] - 34, obj.area[3] - 34], 2.0);
     g.fillTriangle([12, 12, 8, 8], Math.toRadians(277));
     g.fillTriangle([36, 38, 8, 8], Math.toRadians(100));

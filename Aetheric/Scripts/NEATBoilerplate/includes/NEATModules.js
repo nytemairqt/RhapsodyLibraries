@@ -1,5 +1,5 @@
 /*
-    Copyright 2023, 2024 iamlamprey
+    Copyright 2023, 2024, 2025 iamlamprey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-// NEATBrain Modules
+/* Samplers */
 
 const samplerA = [Synth.getChildSynth("SamplerA"),
 				  Synth.getModulator("SamplerA_AHDSR"),
@@ -69,11 +69,9 @@ const reverb = [Synth.getEffect("Reverb")];
 const delay = [Synth.getEffect("Delay")];
 
 /* Arp */
-
 const arp = Synth.getMidiProcessor("Arpeggiator");
 
 /* Move */
-
 const Macro5_AHDSR = Synth.getModulator("Macro5_AHDSR");
 const Macro6_AHDSR = Synth.getModulator("Macro6_AHDSR");
 const Macro7_Velocity = Synth.getModulator("Macro7_Velocity");

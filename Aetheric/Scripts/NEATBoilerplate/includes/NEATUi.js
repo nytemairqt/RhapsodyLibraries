@@ -1,5 +1,5 @@
 /*
-    Copyright 2023, 2024 iamlamprey
+    Copyright 2023, 2024, 2025 iamlamprey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -26,6 +26,7 @@ const minorNotes = [0, 2, 3, 5, 7, 8, 10, 12];
 reg xPos;
 reg yPos;
 
+// Includes
 include("NEATBoilerplate/includes/NEATLookAndFeel.js");
 include("NEATBoilerplate/includes/NEATModules.js");
 include("NEATBoilerplate/includes/NEATUiConstructors.js");
@@ -93,8 +94,7 @@ inline function onBtnCmbPrevControl(component, value)
 
 inline function onBtnCmbNextControl(component, value)
 {
-	// Contains ALL next buttons
-	
+	// Contains ALL next buttons	
 	if (value)	
 		switch (component)
 		{
@@ -166,8 +166,7 @@ inline function changePage(index)
 	btnSamplerOther.changed();
 	btnSamplerOther.set("visible", false);
 		
-	// add other panels here
-	
+	// Other Panels
 	pnlFX.set("visible", false);
 	pnlArp.set("visible", false);
 	pnlMove.set("visible", false);
@@ -183,35 +182,30 @@ inline function onbtnChangePageControl(component, value)
 	switch(component)
 	{
 		case btnPage[0]: // Sampler
-		{
 			changePage(0);
 			btnSamplerOther.set("visible", value);
 			for (i=0; i<pnlSampler.length; i++)
 			{
 				if (i < 3)
 					pnlSampler[i].set("visible", value);
-			}				
-		}
+			}	
+			break;			
 		case btnPage[1]: // FX
-		{
 			changePage(1);
 			pnlFX.set("visible", value);
-		}
+			break;
 		case btnPage[2]: // Arp
-		{
 			changePage(2);
 			pnlArp.set("visible", value);
-		}
+			break;
 		case btnPage[3]: // Move
-		{
 			changePage(3);
 			pnlMove.set("visible", value);
-		}
+			break;
 		case btnPage[4]: // Random
-		{
 			changePage(4);
 			pnlRandom.set("visible", value);
-		}		
+			break;
 	}
 }
 
@@ -225,22 +219,18 @@ inline function onbtnSamplerBypassControl(component, value)
 {
 	switch (component)
 	{
-		case btnSamplerBypass[0]:
-		{
+		case btnSamplerBypass[0]: // Sampler A
 			samplerA[0].setBypassed(1-value);
-		}
-		case btnSamplerBypass[1]:
-		{
+			break;
+		case btnSamplerBypass[1]: // Sampler B
 			samplerB[0].setBypassed(1-value);
-		}
-		case btnSamplerBypass[2]:
-		{
+			break;
+		case btnSamplerBypass[2]: // Sampler C
 			samplerC[0].setBypassed(1-value);
-		}
-		case btnSamplerBypass[3]: // Other
-		{
+			break;
+		case btnSamplerBypass[3]: // Sampler Other
 			samplerOther[0].setBypassed(1-value);
-		}
+			break;
 	}
 }
 
@@ -251,22 +241,18 @@ inline function onbtnSamplerReverseControl(component, value)
 {
 	switch (component)
 	{
-		case btnSamplerReverse[0]:
-		{
+		case btnSamplerReverse[0]: // Sampler A
 			samplerA[0].setAttribute(samplerA[0].Reversed, value);
-		}
-		case btnSamplerReverse[1]:
-		{
+			break;
+		case btnSamplerReverse[1]: // Sampler B
 			samplerB[0].setAttribute(samplerB[0].Reversed, value);
-		}
-		case btnSamplerReverse[2]:
-		{
+			break;
+		case btnSamplerReverse[2]: // Sampler C
 			samplerC[0].setAttribute(samplerC[0].Reversed, value);
-		}
-		case btnSamplerReverse[3]: // Other
-		{
+			break;
+		case btnSamplerReverse[3]: // Sampler Other
 			samplerOther[0].setAttribute(samplerOther[0].Reversed, value);
-		}
+			break;
 	}
 }
 
@@ -278,23 +264,19 @@ inline function oncmbSamplerControl(component, value)
 {
 	switch (component)
 	{
-		case cmbSampler[0]:
-		{
+		case cmbSampler[0]: // Sampler A
 			samplerA[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
-		}
-		case cmbSampler[1]:
-		{
+			break;
+		case cmbSampler[1]: // Sampler B
 			samplerB[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
-		}
-		case cmbSampler[2]:
-		{
+			break;
+		case cmbSampler[2]: // Sampler C
 			samplerC[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
-		}
-		case cmbSampler[3]:
-		{
+			break;
+		case cmbSampler[3]: // Sampler Other
 			// Put other sampleMaps here if they exist
 			samplerOther[0].asSampler().loadSampleMap("{PROJECT_FOLDER}AethericAmbiances_SampleMap");
-		}
+			break;
 	}
 }
 
@@ -307,22 +289,18 @@ inline function onknbSamplerOffsetControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerOffset[0]:
-		{			
+		case knbSamplerOffset[0]: // Sampler A
 			samplerA[8].setIntensity(1-value);
-		}
-		case knbSamplerOffset[1]:
-		{
+			break;
+		case knbSamplerOffset[1]: // Sampler B
 			samplerB[8].setIntensity(1-value);
-		}
-		case knbSamplerOffset[2]:
-		{
+			break;
+		case knbSamplerOffset[2]: // Sampler C
 			samplerC[8].setIntensity(1-value);
-		}
-		case knbSamplerOffset[3]:
-		{
+			break;
+		case knbSamplerOffset[3]: // Sampler Other
 			samplerOther[8].setIntensity(1-value);
-		}
+			break;
 	}
 }
 
@@ -334,26 +312,22 @@ inline function onknbSamplerAttackControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[0]:
-		{
+		case knbSamplerA[0]: // Sampler A
 			samplerA[1].setAttribute(samplerA[1].Attack, value);
 			lblSamplerAValue[0].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerB[0]:
-		{
+			break;
+		case knbSamplerB[0]: // Sampler B
 			samplerB[1].setAttribute(samplerB[1].Attack, value);
 			lblSamplerBValue[0].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerC[0]:
-		{
+			break;
+		case knbSamplerC[0]: // Sampler C
 			samplerC[1].setAttribute(samplerC[1].Attack, value);
 			lblSamplerCValue[0].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerOther[0]:
-		{
+			break;
+		case knbSamplerOther[0]: // Sampler Other
 			samplerOther[1].setAttribute(samplerOther[1].Attack, value);
 			lblSamplerOtherValue[0].set("text", Math.round(value) + "ms");
-		}
+			break;
 	}
 }
 
@@ -367,26 +341,22 @@ inline function onknbSamplerDecayControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[1]:
-		{
+		case knbSamplerA[1]: // Sampler A
 			samplerA[1].setAttribute(samplerA[1].Decay, value);
 			lblSamplerAValue[1].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerB[1]:
-		{
+			break;
+		case knbSamplerB[1]: // Sampler B
 			samplerB[1].setAttribute(samplerB[1].Decay, value);
 			lblSamplerBValue[1].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerC[1]:
-		{
+			break;
+		case knbSamplerC[1]: // Sampler C
 			samplerC[1].setAttribute(samplerC[1].Decay, value);
 			lblSamplerCValue[1].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerOther[1]:
-		{
+			break;
+		case knbSamplerOther[1]: // Sampler Other
 			samplerOther[1].setAttribute(samplerOther[1].Decay, value);
 			lblSamplerOtherValue[1].set("text", Math.round(value) + "ms");
-		}
+			break;
 	}
 }
 
@@ -400,26 +370,22 @@ inline function onknbSamplerSustainControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[2]:
-		{
+		case knbSamplerA[2]: // Sampler A
 			samplerA[1].setAttribute(samplerA[1].Sustain, value);
 			lblSamplerAValue[2].set("text", Math.round(value) + "dB");
-		}
-		case knbSamplerB[2]:
-		{
+			break;
+		case knbSamplerB[2]: // Sampler B
 			samplerB[1].setAttribute(samplerB[1].Sustain, value);
 			lblSamplerBValue[2].set("text", Math.round(value) + "dB");
-		}
-		case knbSamplerC[2]:
-		{
+			break;
+		case knbSamplerC[2]: // Sampler C
 			samplerC[1].setAttribute(samplerC[1].Sustain, value);
 			lblSamplerCValue[2].set("text", Math.round(value) + "dB");
-		}
-		case knbSamplerOther[2]:
-		{
+			break;
+		case knbSamplerOther[2]: // Sampler Other
 			samplerOther[1].setAttribute(samplerOther[1].Sustain, value);
 			lblSamplerOtherValue[2].set("text", Math.round(value) + "dB");
-		}
+			break;
 	}
 }
 
@@ -433,26 +399,22 @@ inline function onknbSamplerReleaseControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[3]:
-		{
+		case knbSamplerA[3]: // Sampler A
 			samplerA[1].setAttribute(samplerA[1].Release, value);
 			lblSamplerAValue[3].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerB[3]:
-		{
+			break;
+		case knbSamplerB[3]: // Sampler B
 			samplerB[1].setAttribute(samplerB[1].Release, value);
 			lblSamplerBValue[3].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerC[3]:
-		{
+			break;
+		case knbSamplerC[3]: // Sampler C
 			samplerC[1].setAttribute(samplerC[1].Release, value);
 			lblSamplerCValue[3].set("text", Math.round(value) + "ms");
-		}
-		case knbSamplerOther[3]:
-		{
+			break;
+		case knbSamplerOther[3]: // Sampler Other
 			samplerOther[1].setAttribute(samplerOther[1].Release, value);
 			lblSamplerOtherValue[3].set("text", Math.round(value) + "ms");
-		}
+			break;
 	}
 }
 
@@ -466,26 +428,22 @@ inline function onknbSamplerPitchControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[4]:
-		{
+		case knbSamplerA[4]: // Sampler A
 			samplerA[4].setIntensity(value);
 			lblSamplerAValue[4].set("text", Math.round(value) + "st");
-		}
-		case knbSamplerB[4]:
-		{
+			break;
+		case knbSamplerB[4]: // Sampler B
 			samplerB[4].setIntensity(value);
 			lblSamplerBValue[4].set("text", Math.round(value) + "st");
-		}
-		case knbSamplerC[4]:
-		{
+			break;
+		case knbSamplerC[4]: // Sampler C
 			samplerC[4].setIntensity(value);
 			lblSamplerCValue[4].set("text", Math.round(value) + "st");
-		}
-		case knbSamplerOther[4]:
-		{
+			break;			
+		case knbSamplerOther[4]: // Sampler Other
 			samplerOther[4].setIntensity(value);
 			lblSamplerOtherValue[4].set("text", Math.round(value) + "st");
-		}
+			break;
 	}
 }
 
@@ -499,26 +457,22 @@ inline function onknbSamplerTuneControl(component, value)
 {
 	switch (component)
 	{
-		case knbSamplerA[5]:
-		{
+		case knbSamplerA[5]: // Sampler A
 			samplerA[5].setIntensity(value / 100);
 			lblSamplerAValue[5].set("text", Math.round(value) + "c");
-		}
-		case knbSamplerB[5]:
-		{
+			break;
+		case knbSamplerB[5]: // Sampler B
 			samplerB[5].setIntensity(value / 100);
 			lblSamplerBValue[5].set("text", Math.round(value) + "c");
-		}
-		case knbSamplerC[5]:
-		{
+			break;
+		case knbSamplerC[5]: // Sampler C
 			samplerC[5].setIntensity(value / 100);
 			lblSamplerCValue[5].set("text", Math.round(value) + "c");
-		}
-		case knbSamplerOther[5]:
-		{
+			break;
+		case knbSamplerOther[5]: // Sampler Other
 			samplerOther[5].setIntensity(value / 100);
 			lblSamplerOtherValue[5].set("text", Math.round(value) + "c");
-		}
+			break;
 	}
 }
 
@@ -532,8 +486,7 @@ inline function onknbSamplerPanControl(component, value)
 {
 	switch(component)
 	{
-		case knbSamplerA[6]:
-		{
+		case knbSamplerA[6]: // Sampler A
 			samplerA[7].setAttribute(samplerA[7].Balance, value);		
 			if (value == 0)
 			    lblSamplerAValue[6].set("text", "C");
@@ -541,9 +494,8 @@ inline function onknbSamplerPanControl(component, value)
 			    lblSamplerAValue[6].set("text", Math.round(value) + "L");
 			else
 			    lblSamplerAValue[6].set("text", Math.round(value) + "R");
-		}
-		case knbSamplerB[6]:
-		{
+			break;
+		case knbSamplerB[6]: // Sampler B
 			samplerB[7].setAttribute(samplerB[7].Balance, value);
 			if (value == 0)
 			    lblSamplerBValue[6].set("text", "C");
@@ -551,9 +503,8 @@ inline function onknbSamplerPanControl(component, value)
 			    lblSamplerBValue[6].set("text", Math.round(value) + "L");
 			else
 			    lblSamplerBValue[6].set("text", Math.round(value) + "R");
-		}
-		case knbSamplerC[6]:
-		{
+			break;
+		case knbSamplerC[6]: // Sampler C
 			samplerC[7].setAttribute(samplerC[7].Balance, value);
 			if (value == 0)
 			    lblSamplerCValue[6].set("text", "C");
@@ -561,9 +512,8 @@ inline function onknbSamplerPanControl(component, value)
 			    lblSamplerCValue[6].set("text", Math.round(value) + "L");
 			else
 			    lblSamplerCValue[6].set("text", Math.round(value) + "R");
-		}
-		case knbSamplerOther[6]:
-		{
+			break;
+		case knbSamplerOther[6]: // Sampler Other
 			samplerOther[7].setAttribute(samplerOther[7].Balance, value);
 			if (value == 0)
 			    lblSamplerOtherValue[6].set("text", "C");
@@ -571,7 +521,7 @@ inline function onknbSamplerPanControl(component, value)
 			    lblSamplerOtherValue[6].set("text", Math.round(value) + "L");
 			else
 			    lblSamplerOtherValue[6].set("text", Math.round(value) + "R");
-		}
+			break;
 	}
 }
 
@@ -585,26 +535,22 @@ inline function onknbSamplerGainControl(component, value)
 {
 	switch(component)
 	{
-		case knbSamplerA[7]:
-		{
+		case knbSamplerA[7]: // Sampler A
 			samplerA[7].setAttribute(samplerA[7].Gain, value);
 			lblSamplerAValue[7].set("text", Math.round(value) + "db");
-		}
-		case knbSamplerB[7]:
-		{
+			break;
+		case knbSamplerB[7]: // Sampler B
 			samplerB[7].setAttribute(samplerB[7].Gain, value);
 			lblSamplerBValue[7].set("text", Math.round(value) + "db");
-		}
-		case knbSamplerC[7]:
-		{
+			break;
+		case knbSamplerC[7]: // Sampler C
 			samplerC[7].setAttribute(samplerC[7].Gain, value);
 			lblSamplerCValue[7].set("text", Math.round(value) + "db");
-		}
-		case knbSamplerOther[7]:
-		{
+			break;
+		case knbSamplerOther[7]: // Sampler Other
 			samplerOther[7].setAttribute(samplerOther[7].Gain, value);
 			lblSamplerOtherValue[7].set("text", Math.round(value) + "db");
-		}
+			break;
 	}
 }
 
@@ -613,7 +559,7 @@ knbSamplerB[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerC[7].setControlCallback(onknbSamplerGainControl);
 knbSamplerOther[7].setControlCallback(onknbSamplerGainControl);
 
-// Sampler Extra
+// Hide/Show Sampler Other
 inline function onbtnSamplerOtherControl(component, value)
 {
 	pnlSampler[3].set("visible", value);
@@ -629,45 +575,36 @@ inline function onknbFXBypassControl(component, value)
 	switch (component)
 	{
 		case btnFXBypass[0]: // Filter
-		{
 			filter[0].setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[1]: // Amp
-		{
 			for (fx in amp)
 				fx.setBypassed(1-value);
 			btnAmp[0].setValue(value);
-		}
+			break;
 		case btnFXBypass[2]: // Drive
-		{
 			for (fx in drive)
 				fx.setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[3]: // Degrade
-		{
 			degrade[0].setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[4]: // Utility
-		{
 			utility[0].setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[5]: // Stutter
-		{
 			stutter[0].setBypassed(1-value);	
 			stutter[2].setBypassed(1-value);
-		}				
+			break;
 		case btnFXBypass[6]: // Phaser
-		{
 			phaser[0].setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[7]: // Reverb
-		{
 			reverb[0].setBypassed(1-value);
-		}
+			break;
 		case btnFXBypass[8]: // Delay
-		{
 			delay[0].setBypassed(1-value);
-		}
+			break;
 	}
 }
 
@@ -680,15 +617,13 @@ inline function onknbFilterControl(component, value)
 	switch (component)
 	{
 		case knbFilter[0]: // Freq
-		{
 			filter[0].setAttribute(filter[0].Frequency, value);
 			lblFilter[0].set("text", Math.round(value) + "hz");
-		}
+			break;
 		case knbFilter[1]: // Q
-		{
 			filter[0].setAttribute(filter[0].Q, value);
 			lblFilter[1].set("text", Engine.doubleToString(value, 2));
-		}
+			break;
 	}
 }
 
@@ -700,15 +635,13 @@ inline function onbtnFilterControl(component, value)
 	switch (component)
 	{
 		case btnFilter[0]:
-		{
 			if (value)
 				filter[0].setAttribute(filter[0].Mode, 7);
-		}
+			break;
 		case btnFilter[1]:
-		{
 			if (value)
 				filter[0].setAttribute(filter[0].Mode, 6);
-		}
+			break;
 	}
 }
 
@@ -722,22 +655,19 @@ inline function onknbAmpControl(component, value)
 	switch (component)
 	{
 		case knbAmp[0]: // gain
-		{
 			amp[1].setAttribute(amp[0].Gain, value);
 			lblAmp[0].set("text", Math.round(value) + "dB");
-		}
+			break;
 		case knbAmp[1]: // output
-		{
 			amp[1].setAttribute(amp[1].Output, value);			
 			lblAmp[1].set("text", Math.round(value) + "dB");
-		}
+			break;
 		case knbAmp[2]: // tone
-		{
 			amp[0].setAttribute(2 * amp[0].BandOffset + amp[0].Gain, 1-value); // Low
 			amp[0].setAttribute(4 * amp[0].BandOffset + amp[0].Gain, 1-(value * .5)); // Mid
 			amp[0].setAttribute(3 * amp[0].BandOffset + amp[0].Gain, value); // High
 			lblAmp[2].set("text", Math.round(value) + "dB");
-		}
+			break;
 	}
 }
 
@@ -748,8 +678,7 @@ inline function onbtnAmpControl(component, value)
 {
 	switch (component)
 	{
-		case btnAmp[0]: // cab bypass
-		{
+		case btnAmp[0]: // Cab Bypass
 			if (btnFXBypass[1].getValue())
 				amp[3].setBypassed(1-value);
 			else
@@ -757,11 +686,10 @@ inline function onbtnAmpControl(component, value)
 				amp[3].setBypassed(1);
 				btnAmp[0].setValue(0);
 			}
-		}
-		case btnAmp[1]: // oversampling
-		{
+			break;
+		case btnAmp[1]: // Oversampling
 			amp[1].setAttribute(amp[1].Oversample, value);
-		}
+			break;
 	}
 }
 
@@ -781,9 +709,8 @@ inline function oncmbAmpControl(component, value)
 	switch (component)
 	{
 		case cmbAmp[0]:
-		{
 			amp[3].setFile(cabs[value-1].toString(0));
-		}
+			break;
 	}
 }
 
@@ -795,16 +722,14 @@ inline function onknbDriveControl(component, value)
 {
 	switch (component)
 	{
-		case knbDrive[0]: // WS
-		{
+		case knbDrive[0]: // Waveshaper
 			drive[0].setAttribute(drive[0].Gain, value);
 			lblDrive[0].set("text", Math.round(value) + "dB");
-		}
-		case knbDrive[1]: // tube
-		{
+			break;
+		case knbDrive[1]: // Tube Drive
 			drive[1].setAttribute(drive[1].Gain, value);
 			lblDrive[1].set("text", Math.round(value) + "dB");
-		}
+			break;
 	}
 }
 
@@ -815,17 +740,15 @@ inline function onbtnDriveControl(component, value)
 {
 	switch (component)
 	{
-		case btnDrive[0]: // WS oversampling
-		{
+		case btnDrive[0]: // Waveshaper oversampling
 			if (value)
 				drive[0].setAttribute(drive[0].Oversampling, 2);
 			else
 				drive[0].setAttribute(drive[0].Oversampling, 1);
-		}
-		case btnDrive[1]: // tube oversampling
-		{
+			break;
+		case btnDrive[1]: // Tube Drive Oversampling
 			drive[1].setAttribute(drive[1].Oversample, value);
-		}
+			break;
 	}
 }
 
@@ -839,15 +762,13 @@ inline function onknbUtilityControl(component, value)
 	switch (component)
 	{
 		case knbUtility[0]: // width
-		{
 			utility[0].setAttribute(utility[0].Width, value);
 			lblUtility[0].set("text", Math.round(value) + "%");
-		}
+			break;
 		case knbUtility[1]: // gain
-		{
 			utility[0].setAttribute(utility[0].Gain, value);
 			lblUtility[1].set("text", Math.round(value) + "dB");
-		}
+			break;
 	}
 }
 
@@ -858,8 +779,7 @@ inline function onknbStutterControl(component, value)
 {
 	switch (component)
 	{
-		case knbStutter[0]: // rate
-		{
+		case knbStutter[0]: // Rate
 			stutter[1].setAttribute(stutter[1].Frequency, value);
 			stutter[3].setAttribute(stutter[3].Frequency, value);
 
@@ -867,13 +787,12 @@ inline function onknbStutterControl(component, value)
 				lblStutter[0].set("text", syncTimes[value]);
 			else
 				lblStutter[0].set("text", Engine.doubleToString(value, 1) + "Hz");
-		}
-		case knbStutter[1]: // amount
-		{
+			break;
+		case knbStutter[1]: // Intensity
 			stutter[1].setIntensity(value);
 			stutter[3].setIntensity(value);
 			lblStutter[1].set("text", Math.round(value * 100) + "%");			
-		}
+			break;
 	}
 }
 
@@ -884,14 +803,11 @@ inline function onbtnStutterControl(component, value)
 {
 	switch (component)
 	{
-		case btnStutter[0]: // pre FX
-		{
+		case btnStutter[0]: // Pre-FX
 			stutter[1].setBypassed(1-value);
 			stutter[3].setBypassed(value);
-		}
-		case btnStutter[1]: // sync
-		{
-			// need to set the knb settings here			
+			break;
+		case btnStutter[1]: // Sync
 			if (value)
 			{
 				knbStutter[0].set("min", 0.0);
@@ -912,7 +828,7 @@ inline function onbtnStutterControl(component, value)
 			stutter[1].setAttribute(stutter[1].TempoSync, value);
 			stutter[3].setAttribute(stutter[3].TempoSync, value);
 			knbStutter[0].changed();
-		}
+			break;
 	}
 }
 
@@ -925,16 +841,14 @@ inline function onknbDegradeControl(component, value)
 {
 	switch (component)
 	{
-		case knbDegrade[0]:
-		{
+		case knbDegrade[0]: // Bit Depth
 			degrade[0].setAttribute(degrade[0].BitDepth, value);
 			lblDegrade[0].set("text", Math.round(value));
-		}
-		case knbDegrade[1]:
-		{
+			break;
+		case knbDegrade[1]: // Sample Hold
 			degrade[0].setAttribute(degrade[0].SampleHold, value);
 			lblDegrade[1].set("text", Engine.doubleToString(value, 1));
-		}
+			break;
 	}
 }
 
@@ -948,25 +862,21 @@ inline function onknbPhaserControl(component, value)
 	switch (component)
 	{
 		case knbPhaser[0]: // Rate A
-		{
 			phaser[0].setAttribute(phaser[0].Frequency1, value);
 			lblPhaser[0].set("text", Math.round(value) + "Hz");
-		}
+			break;
 		case knbPhaser[1]: // Rate B
-		{
 			phaser[0].setAttribute(phaser[0].Frequency2, value);
 			lblPhaser[1].set("text", Math.round(value) + "Hz");
-		}
+			break;
 		case knbPhaser[2]: // Feedback
-		{
 			phaser[0].setAttribute(phaser[0].Feedback, value);
 			lblPhaser[2].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 		case knbPhaser[3]: // Mix
-		{
 			phaser[0].setAttribute(phaser[0].Mix, value);
 			lblPhaser[3].set("text", Math.round(value * 100) + "%");
-		}		
+			break;		
 	}
 }
 
@@ -980,25 +890,21 @@ inline function onknbReverbControl(component, value)
 	switch (component)
 	{
 		case knbReverb[0]: // Size
-		{
 			reverb[0].setAttribute(reverb[0].RoomSize, value);
 			lblReverb[0].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 		case knbReverb[1]: // Damping
-		{
 			reverb[0].setAttribute(reverb[0].Damping, value);
 			lblReverb[1].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 		case knbReverb[2]: // Width
-		{
 			reverb[0].setAttribute(reverb[0].Width, value);
 			lblReverb[2].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 		case knbReverb[3]: // Mix
-		{
 			reverb[0].setAttribute(reverb[0].WetLevel, value);
 			lblReverb[3].set("text", Math.round(value * 100) + "%");
-		}		
+			break;
 	}
 }
 
@@ -1013,7 +919,6 @@ inline function onknbDelayControl(component, value)
 	switch (component)
 	{
 		case knbDelay[0]: // Time L
-		{			
 			// Detect Sync
 			if (btnDelay[1].getValue())
 				time = syncTimes[value];
@@ -1030,9 +935,8 @@ inline function onknbDelayControl(component, value)
 				knbDelay[1].setValue(value);
 				lblDelay[1].set("text", time);
 			}			
-		}
+			break;
 		case knbDelay[1]: // Time R
-		{
 			// Detect Sync
 			if (btnDelay[1].getValue())
 				time = syncTimes[value];
@@ -1049,9 +953,8 @@ inline function onknbDelayControl(component, value)
 				knbDelay[0].setValue(value);
 				lblDelay[0].set("text", time);
 			}	
-		}
+			break;
 		case knbDelay[2]: // Feedback L
-		{
 			delay[0].setAttribute(delay[0].FeedbackLeft, value);
 			lblDelay[2].set("text", Math.round(value * 100) + "%");
 			
@@ -1061,9 +964,8 @@ inline function onknbDelayControl(component, value)
 				knbDelay[3].setValue(value);
 				lblDelay[3].set("text", Math.round(value * 100) + "%");
 			}
-		}
+			break;
 		case knbDelay[3]: // Feedback R
-		{
 			delay[0].setAttribute(delay[0].FeedbackRight, value);
 			lblDelay[3].set("text", Math.round(value * 100) + "%");
 			if (btnDelay[0].getValue())
@@ -1072,12 +974,11 @@ inline function onknbDelayControl(component, value)
 				knbDelay[2].setValue(value);
 				lblDelay[2].set("text", Math.round(value * 100) + "%");
 			}
-		}
+			break;
 		case knbDelay[4]: // Mix
-		{
 			delay[0].setAttribute(delay[0].Mix, value);
 			lblDelay[4].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 	}
 }
 
@@ -1089,7 +990,6 @@ inline function onbtnDelayControl(component, value)
 	switch (component)
 	{
 		case btnDelay[0]: // Link LR
-		{
 			if (value);
 			{
 				delay[0].setAttribute(delay[0].DelayTimeRight, knbDelay[0].getValue());
@@ -1103,9 +1003,8 @@ inline function onbtnDelayControl(component, value)
 				lblDelay[3].set("text", Math.round(knbDelay[2].getValue() * 100) + "%");
 				
 			}
-		}
+			break;
 		case btnDelay[1]: // Sync
-		{	
 			delay[0].setAttribute(delay[0].TempoSync, value);							
 			for (i=0; i<2; i++)
 			{
@@ -1135,7 +1034,7 @@ inline function onbtnDelayControl(component, value)
 			}
 			delay[0].setAttribute(delay[0].DelayTimeLeft, knbDelay[0].getValue());
 			delay[0].setAttribute(delay[0].DelayTimeRight, knbDelay[1].getValue());				
-		}
+			break;
 	}
 }
 
@@ -1149,9 +1048,8 @@ inline function onbtnArpBypassControl(component, value)
 	switch (component)
 	{
 		case btnArpBypass[0]:
-		{
 			arp.setBypassed(1-value);
-		}
+			break;
 	}
 }
 
@@ -1163,28 +1061,24 @@ inline function onknbArpControl(component, value)
 	switch (component)
 	{
 		case knbArp[0]: // Steps
-		{
 			arp.setAttribute(arp.NumStepSlider, value);
 			lblArp[0].set("text", Math.round(value));
-		}
+			break;
 		case knbArp[1]: // Speed
-		{
 			arp.setAttribute(arp.SpeedKnob, value);
 			lblArp[1].set("text", syncTimes[value]);
-		}
+			break;
 		case knbArp[2]: // Octave
-		{
 			arp.setAttribute(arp.OctaveRange, value);
 			if (value > 0)
 				lblArp[2].set("text", "+" + Math.round(value));
 			else
 				lblArp[2].set("text", Math.round(value));
-		}
+			break;
 		case knbArp[3]: // Swing
-		{
 			arp.setAttribute(arp.Shuffle, value);
 			lblArp[3].set("text", Math.round(value * 100) + "%");
-		}
+			break;
 	}
 }
 
@@ -1196,9 +1090,8 @@ inline function oncmbArpControl(component, value)
 	switch (component)
 	{
 		case cmbArp[0]:
-		{
 			arp.setAttribute(arp.SequenceComboBox, value);
-		}
+			break;
 	}
 }
 
@@ -1213,38 +1106,32 @@ inline function onbtnArpControl(component, value)
 		switch (component)
 		{
 			case btnArp[0]: // Minor
-			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);					
 				sldrpckArp[0].changed();
-			}
+				break;
 			case btnArp[1]: // Major
-			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);					
 				sldrpckArp[0].changed();
-			}
+				break;
 			case btnArp[2]: // Notes Reset
-			{
 				sldrpckArp[0].setAllValues(0);
 				sldrpckArp[0].changed();			
-			}
+				break;
 			case btnArp[3]: // Notes Invert
-			{
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 					sldrpckArp[0].setSliderAtIndex(s, 0-sldrpckArp[0].getSliderValueAt(s));
 				sldrpckArp[0].changed();
-			}
+				break;
 			case btnArp[4]: // Velocity Reset
-			{
 				sldrpckArp[1].setAllValues(110);
 				sldrpckArp[1].changed();
-			}
+				break;
 			case btnArp[5]: // Length Reset
-			{
 				sldrpckArp[2].setAllValues(80);
 				sldrpckArp[2].changed();
-			}
+				break;
 		}
 }
 
@@ -1258,15 +1145,13 @@ inline function onknbMoveXYControl(component, value)
 	switch (component)
 	{
 		case knbMoveX:
-		{
 			Synth.setMacroControl(1, knbMoveX.getValue() * 1.27);
 			Synth.setMacroControl(2, 127-(knbMoveX.getValue() * 1.27));
-		}
+			break;
 		case knbMoveY:
-		{
 			Synth.setMacroControl(3, knbMoveY.getValue() * 1.27);
 			Synth.setMacroControl(4, 127-(knbMoveY.getValue() * 1.27));
-		}
+			break;
 	}
 	pnlMoveXYPad.repaint();
 }
@@ -1279,53 +1164,38 @@ inline function onknbMoveControl(component, value)
 	switch (component)
 	{
 		case knbMove[0]: // AHDSR A Attack
-		{
 			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Attack, value);
 			lblMove[0].set("text", Math.round(value) + "ms");
-		}
+			break;
 		case knbMove[1]: // AHDSR A Decay
-		{
 			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Decay, value);
 			lblMove[1].set("text", Math.round(value) + "ms");
-		}
+			break;
 		case knbMove[2]: // AHDSR A Sustain
-		{
 			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Sustain, value);
 			lblMove[2].set("text", Math.round(value) + "dB");
-		}
+			break;
 		case knbMove[3]: // AHDSR A Release
-		{
 			Macro5_AHDSR.setAttribute(Macro5_AHDSR.Release, value);
 			lblMove[3].set("text", Math.round(value) + "ms");
-		}
+			break;
 		case knbMove[4]: // AHDSR B Attack
-		{
 			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Attack, value);
 			lblMove[4].set("text", Math.round(value) + "ms");
-		}
+			break;
 		case knbMove[5]: // AHDSR B Decay
-		{
 			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Decay, value);
 			lblMove[5].set("text", Math.round(value) + "ms");
-		}
+			break;
 		case knbMove[6]: // AHDSR B Sustain
-		{
 			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Sustain, value);
 			lblMove[6].set("text", Math.round(value) + "dB");
-		}
+			break;
 		case knbMove[7]: // AHDSR B Release
-		{
 			Macro6_AHDSR.setAttribute(Macro6_AHDSR.Release, value);
 			lblMove[7].set("text", Math.round(value) + "ms");
-		}
-		case knbMove[8]: // Chaos Rate
-		{
-			
-		}
-		case knbMove[9]: // Chaos Intensity
-		{
-			
-		}
+			break;		
+		/* Chaos Rate & Intensity are referenced with .getValue() */
 	}
 }
 
@@ -1337,9 +1207,8 @@ inline function onbtnMoveControl(component, value)
 	switch (component)
 	{
 		case btnMove[0]: // Movement Connection Settings
-		{
 			pnlMoveConnectionSettings.set("visible", value);
-		}
+			break;
 	}
 }
 
@@ -1406,6 +1275,7 @@ inline function onbtnRandomizeControl(component, value)
 					stutter[1].setBypassed(0);
 				else
 					stutter[3].setBypassed(0);	
+				// Add Arp, Move
 				break;
 			
 			case btnRandomizeResetAll: // Reset All
@@ -1436,7 +1306,7 @@ inline function onbtnRandomizeControl(component, value)
 				// add arp, move
 				break;	
 				
-			/* ALL SAMPLERS */
+			/* All Samplers */
 				
 			case btnRandomizeAllSamplers[0]: // All Parameters
 				Random.randomizeComponentList(cmbSampler);
@@ -1476,8 +1346,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeAHDSRSustain(knbSamplerB);
 				Random.randomizeAHDSRSustain(knbSamplerC);
 				Random.randomizeAHDSRSustain(knbSamplerOther);
-				break;
-				
+				break;				
 			case btnRandomizeAllSamplers[7]: // AHDSR Pad
 				Random.randomizeAHDSRPad(knbSamplerA);
 				Random.randomizeAHDSRPad(knbSamplerB);
@@ -1534,8 +1403,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentWithinRange(knbSamplerOther[7], -100, 0);				
 				break;				;
 				
-			/* SAMPLER A */
-				
+			/* Sampler A */				
 			case btnRandomizeSamplerA[0]: // All Parameters
 				Random.randomizeComponent(cmbSampler[0]);
 				Random.randomizeComponent(knbSamplerOffset[0]);
@@ -1590,8 +1458,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentWithinRange(knbSamplerA[7], -100, 0);				
 				break;	
 				
-			/* SAMPLER B */
-				
+			/* Sampler B */				
 			case btnRandomizeSamplerB[0]: // All Parameters
 				Random.randomizeComponent(cmbSampler[1]);
 				Random.randomizeComponent(knbSamplerOffset[1]);
@@ -1646,8 +1513,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentWithinRange(knbSamplerB[7], -100, 0);				
 				break;		
 				
-			/* SAMPLER C */
-				
+			/* Sampler C */				
 			case btnRandomizeSamplerC[0]: // All Parameters
 				Random.randomizeComponent(cmbSampler[2]);
 				Random.randomizeComponent(knbSamplerOffset[2]);
@@ -1702,8 +1568,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentWithinRange(knbSamplerC[7], -100, 0);				
 				break;	
 				
-			/* SAMPLER OTHER */
-				
+			/* Sampler Other */				
 			case btnRandomizeSamplerOther[0]: // All Parameters
 				Random.randomizeComponent(cmbSampler[3]);
 				Random.randomizeComponent(knbSamplerOffset[3]);
@@ -1758,8 +1623,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentWithinRange(knbSamplerOther[7], -100, 0);				
 				break;		
 				
-			/* FX */
-			
+			/* FX */			
 			case btnRandomizeFX[0]: // All Parameters
 				Random.randomizeButtonList(btnFXBypass);
 				Random.randomizeComponentList(knbFilter);
@@ -1846,8 +1710,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeButtonList(btnDelay);
 				break;		
 			
-			/* Arp */					
-			
+			/* Arp */								
 			case btnRandomizeArp[0]: // All Parameters
 				Random.randomizeComponentList(knbArp);
 				Random.randomizeComponentList(cmbArp);

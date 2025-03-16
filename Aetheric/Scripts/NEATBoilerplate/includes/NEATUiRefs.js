@@ -1,5 +1,5 @@
 /*
-    Copyright 2023, 2024 iamlamprey
+    Copyright 2023, 2024, 2025 iamlamprey
 
     This file is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -562,8 +562,7 @@ for (b in btnSamplerBypass)
 for (k in knbSamplerOffset)
 	k.setLocalLookAndFeel(LAFSliderSampleOffset);
 for (b in btnSamplerReverse)
-	b.setLocalLookAndFeel(LAFButtonSamplerReverse);
-	
+	b.setLocalLookAndFeel(LAFButtonSamplerReverse);	
 for (b in btnFXBypass)
 	b.setLocalLookAndFeel(LAFButtonBypass);
 for (b in btnFilter)
@@ -576,9 +575,9 @@ for (b in btnStutter)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
 for (b in btnDelay)
 	b.setLocalLookAndFeel(LAFButtonNEAT);	
-	
 for (b in btnArpBypass)
 	b.setLocalLookAndFeel(LAFButtonBypass);
+	
 btnArp[0].setLocalLookAndFeel(LAFButtonArpMinor);
 btnArp[1].setLocalLookAndFeel(LAFButtonArpMajor);
 btnArp[2].setLocalLookAndFeel(LAFButtonArpReset);
@@ -593,25 +592,18 @@ btnRandomizeResetAll.setLocalLookAndFeel(LAFButtonNEAT);
 
 for (b in btnRandomizeAllSamplers)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
-	
 for (b in btnRandomizeSamplerA)
-	b.setLocalLookAndFeel(LAFButtonNEAT);	
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);		
 for (b in btnRandomizeSamplerB)
-	b.setLocalLookAndFeel(LAFButtonNEAT);		
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
 for (b in btnRandomizeSamplerC)
-	b.setLocalLookAndFeel(LAFButtonNEAT);		
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
 for (b in btnRandomizeSamplerOther)
-	b.setLocalLookAndFeel(LAFButtonNEAT);		
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
 for (b in btnRandomizeFX)
-	b.setLocalLookAndFeel(LAFButtonNEAT);		
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
 for (b in btnRandomizeArp)
-	b.setLocalLookAndFeel(LAFButtonNEAT);		
-	
+	b.setLocalLookAndFeel(LAFButtonNEAT);			
 for (b in btnRandomizeMove)
 	b.setLocalLookAndFeel(LAFButtonNEAT);			
 	
@@ -645,15 +637,13 @@ for (p in pnlSampler)
 		p.setPaintRoutine(function(g)
 		{		
 			g.setColour(clrExtradarkblue);
-			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-			
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);			
 			var noiseData = {
 					"alpha" : .1,
 					"monochromatic" : false,
 					"scaleFactor" : 2,
 					"area" : [0, 0, this.getWidth(), this.getHeight()]		
-				};
-				
+				};				
 			g.addNoise(noiseData);
 		});
 	}
@@ -662,15 +652,13 @@ for (p in pnlSampler)
 		p.setPaintRoutine(function(g)
 		{		
 			g.setColour(clrRhapsodyBlue);
-			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);
-			
+			g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 10.0);			
 			var noiseData = {
 					"alpha" : .1,
 					"monochromatic" : false,
 					"scaleFactor" : 2,
 					"area" : [0, 0, this.getWidth(), this.getHeight()]		
-				};
-				
+				};				
 			g.addNoise(noiseData);
 		});
 	}	
@@ -681,7 +669,6 @@ pnlFX.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
 	var h = this.getHeight();
-
 	g.setColour(clrRhapsodyBlue);
 });
 
@@ -690,18 +677,15 @@ for (p in pnlFXChildren)
 	p.setPaintRoutine(function(g)
 	{
 		var w = this.getWidth();
-		var h = this.getHeight();
-		
+		var h = this.getHeight();		
 		g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
-		g.fillRoundedRectangle([0, 0, w, h], 10.0);
-		
+		g.fillRoundedRectangle([0, 0, w, h], 10.0);		
 		var noiseData = {
 					"alpha" : .1,
 					"monochromatic" : false,
 					"scaleFactor" : 2,
 					"area" : [0, 0, this.getWidth(), this.getHeight()]		
-				};
-				
+				};				
 		g.addNoise(noiseData);
 	});
 }
@@ -710,18 +694,15 @@ for (p in pnlFXChildren)
 pnlArp.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
-	var h = this.getHeight();
-	
+	var h = this.getHeight();	
 	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
 	g.fillRoundedRectangle([0, 0, w, h], 10.0);
-	
 	var noiseData = {
 				"alpha" : .1,
 				"monochromatic" : false,
 				"scaleFactor" : 2,
 				"area" : [0, 0, this.getWidth(), this.getHeight()]		
-			};
-			
+			};			
 	g.addNoise(noiseData);	
 });
 
@@ -729,18 +710,15 @@ pnlArp.setPaintRoutine(function(g)
 pnlMove.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
-	var h = this.getHeight();
-	
+	var h = this.getHeight();	
 	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
-	g.fillRoundedRectangle([0, 0, w, h], 10.0);
-	
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);	
 	var noiseData = {
 				"alpha" : .1,
 				"monochromatic" : false,
 				"scaleFactor" : 2,
 				"area" : [0, 0, this.getWidth(), this.getHeight()]		
-			};
-			
+			};			
 	g.addNoise(noiseData);
 });
 
@@ -748,12 +726,10 @@ pnlMoveXYPad.setPaintRoutine(function(g)
 {
 	xPos = Math.range(knbMoveX.getValue() / 100, 0.03, 0.97); 
 	yPos = Math.range(1-knbMoveY.getValue() / 100, 0.03, 0.97);
-	
 	g.setColour(Colours.withAlpha(clrExtradarkgrey, .35));
 	g.fillRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0);
    	g.setColour(Colours.withAlpha(clrGrey, .2));
-   	g.drawRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0, 1.0);
-	    	
+   	g.drawRoundedRectangle([0, 0, this.getWidth(), this.getHeight()], 8.0, 1.0);	    	
    	//Cursor	
 	g.setColour(clrDarkgrey);
 	g.fillEllipse([this.getWidth() * xPos -5, this.getHeight() * yPos - 5, 10, 10]);
@@ -764,20 +740,17 @@ pnlMoveXYPad.setPaintRoutine(function(g)
 pnlMoveConnectionSettings.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
-	var h = this.getHeight();
-	
+	var h = this.getHeight();	
 	g.setColour(Colours.withAlpha(clrExtradarkgrey, 1.0));
 	g.fillRoundedRectangle([0, 0, w, h], 10.0);
 	g.setColour(Colours.withAlpha(clrLightgrey, .2));
-	g.drawRoundedRectangle([0, 0, w, h], 10.0, 1.0);
-	
+	g.drawRoundedRectangle([0, 0, w, h], 10.0, 1.0);	
 	var noiseData = {
 				"alpha" : .1,
 				"monochromatic" : false,
 				"scaleFactor" : 2,
 				"area" : [0, 0, this.getWidth(), this.getHeight()]		
-			};
-			
+			};			
 	g.addNoise(noiseData);
 });
 
@@ -786,17 +759,14 @@ pnlMoveConnectionSettings.setPaintRoutine(function(g)
 pnlRandom.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
-	var h = this.getHeight();
-	
+	var h = this.getHeight();	
 	g.setColour(Colours.withAlpha(clrRhapsodyBlue, 1.0));
-	g.fillRoundedRectangle([0, 0, w, h], 10.0);
-	
+	g.fillRoundedRectangle([0, 0, w, h], 10.0);	
 	var noiseData = {
 				"alpha" : .1,
 				"monochromatic" : false,
 				"scaleFactor" : 2,
 				"area" : [0, 0, this.getWidth(), this.getHeight()]		
-			};
-			
+			};			
 	g.addNoise(noiseData);
 });

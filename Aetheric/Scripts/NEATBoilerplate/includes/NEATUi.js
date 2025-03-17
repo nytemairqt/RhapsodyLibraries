@@ -1262,6 +1262,9 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentList(knbSamplerB);
 				Random.randomizeComponentList(knbSamplerC);
 				Random.randomizeComponentList(knbSamplerOther);			
+				Random.randomizeComponentList(cmbSampler);
+				Random.randomizeComponentList(knbSamplerOffset);
+				Random.randomizeComponentList(btnSamplerReverse);
 				
 				// FX
 				Random.randomizeButtonList(btnFXBypass);

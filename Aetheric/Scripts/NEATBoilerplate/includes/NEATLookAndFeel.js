@@ -117,6 +117,12 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     g.drawLine(obj.area[2] * .65, obj.area[2] * .83, obj.area[3] * .65, obj.area[3] * .83, 3);     
 });
 
+LAFSliderNEAT.registerFunction("drawPopupMenuBackground", function(g, obj)
+{
+	g.setColour(clrDarkgrey);
+	g.fillRoundedRectangle([0, 0, obj.width, obj.height], 0.0);
+});
+
 // Close Button
 LAFButtonClose.registerFunction("drawToggleButton", function(g, obj)
 {
@@ -203,6 +209,7 @@ LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 	g.drawPath(path, [obj.area[0] + 2, obj.area[1] + 2, obj.area[2] - 4, obj.area[3] - 4], 2);
 	g.drawLine(obj.area[2] / 2, obj.area[2] / 2, 0, obj.area[3] / 2, 2.0);    
 });
+
 
 // ComboBoxes
 
@@ -420,7 +427,6 @@ LAFButtonChaosG.registerFunction("drawToggleButton", function(g, obj)
     g.fillTriangle([12, 12, 8, 8], Math.toRadians(277));
     g.fillTriangle([36, 38, 8, 8], Math.toRadians(100));
 });
-
 
 for (i=0; i<128; i++)
 {

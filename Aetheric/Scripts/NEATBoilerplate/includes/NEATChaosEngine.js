@@ -474,13 +474,13 @@ namespace chaosEngine
 			chaosTimer.stopTimer();
 	};    
 
-	btnMove[1].setControlCallback(onbtnChaosBypassControl);
+	btnMove[2].setControlCallback(onbtnChaosBypassControl);
 
 	// Rate
 	inline function onknbChaosRateControl(component, value)
 	{
 	    chaosRate = value;
-	    if (btnMove[1].getValue())
+	    if (btnMove[2].getValue())
 	        chaosTimer.startTimer(33.3333);
 	    if (value < 5)
 	        lblMove[8].set("text", "Slow");
@@ -498,7 +498,7 @@ namespace chaosEngine
 	inline function onknbChaosIntensityControl(component, value)
 	{	
 	    chaosIntensity = value;
-	    if (btnMove[1].getValue())
+	    if (btnMove[2].getValue())
 	    {
 	        switch (chaosType)
 	        {
@@ -546,37 +546,37 @@ namespace chaosEngine
         {
             switch (component)
             {
-                case btnMove[2]: // Chaos A
+                case btnMove[3]: // Chaos A
                 {
                     chaosType = 1;
                     chaosXTarget = 50 + chaosIntensity;
                 }
-                case btnMove[3]: // Chaos B
+                case btnMove[4]: // Chaos B
                 {
                     chaosType = 2;
                     chaosYTarget = 50 + chaosIntensity; 
                 }
-                case btnMove[4]: // Chaos C
+                case btnMove[5]: // Chaos C
                 {
                     chaosType = 3;
                     chaosXTarget = 50 + chaosIntensity;
                     knbMoveX.setValue(50 - chaosIntensity);
                     knbMoveY.setValue(50 + chaosIntensity);
                 }
-                case btnMove[5]: // Chaos D
+                case btnMove[6]: // Chaos D
                 {
                     chaosType = 4;
                 }
-                case btnMove[6]: // Chaos E
+                case btnMove[7]: // Chaos E
                 {
                     chaosType = 5;
                     chaosStageTwister = 1;                    
                 }   
-                case btnMove[7]: // Chaos F
+                case btnMove[8]: // Chaos F
                 {
                     chaosType = 6;
                 }
-                case btnMove[8]: // Chaos G
+                case btnMove[9]: // Chaos G
                 {
                     chaosType = 7;
                 }
@@ -588,7 +588,7 @@ namespace chaosEngine
     }
 
     // Assign Control Callback
-    for (i=2; i<btnMove.length; i++)
+    for (i=3; i<btnMove.length; i++)
     {
         btnMove[i].setControlCallback(onbtnChaosTypeControl);
     }    

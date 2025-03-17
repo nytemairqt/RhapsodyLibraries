@@ -361,6 +361,7 @@ const lblMove = [Content.getComponent("lblMoveAHDSRAAttackValue"),
 				 Content.getComponent("lblMoveChaosIntensityValue")];
 				 
 const btnMove = [Content.getComponent("btnMoveConnectionSettings"),
+				 Content.getComponent("btnMoveCloseConnectionSettings"),
 				 Content.getComponent("btnMoveChaosBypass"),
 				 Content.getComponent("btnMoveChaosTypeA"),
 				 Content.getComponent("btnMoveChaosTypeB"),
@@ -371,7 +372,7 @@ const btnMove = [Content.getComponent("btnMoveConnectionSettings"),
 				 Content.getComponent("btnMoveChaosTypeG")];
 				 
 const pnlMoveConnectionSettings = Content.getComponent("pnlMoveConnectionSettings");
-const fltMacroControl = Content.getComponent("fltMacroControl");			
+const fltMacroControl = Content.getComponent("fltMacroControl");
 
 /* Random */
 
@@ -535,14 +536,15 @@ for (k in knbMove)
 	k.setLocalLookAndFeel(LAFSliderNEAT);
 knbMoveX.setLocalLookAndFeel(LAFSliderMoveX);
 knbMoveY.setLocalLookAndFeel(LAFSliderMoveY);
-btnMove[1].setLocalLookAndFeel(LAFButtonBypass);
-btnMove[2].setLocalLookAndFeel(LAFButtonChaosA);
-btnMove[3].setLocalLookAndFeel(LAFButtonChaosB);
-btnMove[4].setLocalLookAndFeel(LAFButtonChaosC);
-btnMove[5].setLocalLookAndFeel(LAFButtonChaosD);
-btnMove[6].setLocalLookAndFeel(LAFButtonChaosE);
-btnMove[7].setLocalLookAndFeel(LAFButtonChaosF);
-btnMove[8].setLocalLookAndFeel(LAFButtonChaosG);
+btnMove[1].setLocalLookAndFeel(LAFButtonClose);
+btnMove[2].setLocalLookAndFeel(LAFButtonBypass);
+btnMove[3].setLocalLookAndFeel(LAFButtonChaosA);
+btnMove[4].setLocalLookAndFeel(LAFButtonChaosB);
+btnMove[5].setLocalLookAndFeel(LAFButtonChaosC);
+btnMove[6].setLocalLookAndFeel(LAFButtonChaosD);
+btnMove[7].setLocalLookAndFeel(LAFButtonChaosE);
+btnMove[8].setLocalLookAndFeel(LAFButtonChaosF);
+btnMove[9].setLocalLookAndFeel(LAFButtonChaosG);
 
 // ComboBoxes
 for (c in cmbSampler)

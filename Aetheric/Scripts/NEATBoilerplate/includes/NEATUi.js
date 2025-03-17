@@ -1221,6 +1221,13 @@ inline function onbtnMoveControl(component, value)
 		case btnMove[0]: // Movement Connection Settings
 			pnlMoveConnectionSettings.set("visible", value);
 			break;
+		case btnMove[1]: // Close Movement Connection Settings
+			if (value)
+			{
+				btnMove[0].setValue(0);
+				pnlMoveConnectionSettings.set("visible", false);
+			}
+			break;
 	}
 }
 
@@ -1299,7 +1306,7 @@ inline function onbtnRandomizeControl(component, value)
 				
 				// Move
 				Random.randomizeComponentList(knbMove);
-				chaosTypeRoll = Math.randInt(2, 9);
+				chaosTypeRoll = Math.randInt(3, 10);
 				btnMove[chaosTypeRoll].setValue(1);				
 				btnMove[chaosTypeRoll].changed();
 				Random.randomizeMacroConnectionList(); // Macro Connections
@@ -1341,8 +1348,8 @@ inline function onbtnRandomizeControl(component, value)
 				
 				// Move
 				Random.resetComponentList(knbMove);
-				btnMove[2].setValue(1);
-				btnMove[2].changed();			
+				btnMove[3].setValue(1);
+				btnMove[3].changed();			
 				Random.clearMacroConnections(); // Macro Connections
 				knbMoveX.setValue(50);
 				knbMoveY.setValue(50);
@@ -1800,7 +1807,7 @@ inline function onbtnRandomizeControl(component, value)
 			/* Move */
 			case btnRandomizeMove[0]: // All Parameters
 				Random.randomizeComponentList(knbMove);
-				chaosTypeRoll = Math.randInt(2, 9);
+				chaosTypeRoll = Math.randInt(3, 10);
 				btnMove[chaosTypeRoll].setValue(1);				
 				btnMove[chaosTypeRoll].changed();
 				break;
@@ -1817,7 +1824,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponent(knbMove[7]);				
 				break;
 			case btnRandomizeMove[3]: // Chaos Type
-				chaosTypeRoll = Math.randInt(2, 9);
+				chaosTypeRoll = Math.randInt(3, 10);
 				btnMove[chaosTypeRoll].setValue(1);
 				btnMove[chaosTypeRoll].changed();
 				break;

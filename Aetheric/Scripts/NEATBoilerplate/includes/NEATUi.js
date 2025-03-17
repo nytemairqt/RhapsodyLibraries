@@ -1231,6 +1231,8 @@ pnlMoveXYPad.setMouseCallback(function(event)
 
 inline function onbtnRandomizeControl(component, value)
 {
+	local chaosTypeRoll = 1;
+
 	// this one's gonna hurt
 	if (value)
 		switch (component)
@@ -1275,7 +1277,19 @@ inline function onbtnRandomizeControl(component, value)
 					stutter[1].setBypassed(0);
 				else
 					stutter[3].setBypassed(0);	
-				// Add Arp, Move
+					
+				// Arp
+				Random.randomizeComponentList(knbArp);
+				Random.randomizeComponentList(cmbArp);
+				Random.randomizeSliderpack(sldrpckArp[0], -24, 24);
+				Random.randomizeSliderpack(sldrpckArp[1], 1, 127);
+				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);	
+				
+				// Move
+				Random.randomizeComponentList(knbMove);
+				chaosTypeRoll = Math.randInt(2, 9);
+				btnMove[chaosTypeRoll].setValue(1);				
+				btnMove[chaosTypeRoll].changed();
 				break;
 			
 			case btnRandomizeResetAll: // Reset All
@@ -1302,8 +1316,19 @@ inline function onbtnRandomizeControl(component, value)
 				Random.resetComponentList(knbPhaser);
 				Random.resetComponentList(knbReverb);
 				Random.resetComponentList(knbDelay);
-				Random.resetComponentList(btnDelay);												
-				// add arp, move
+				Random.resetComponentList(btnDelay);
+				
+				// Arp
+				Random.resetComponentList(knbArp);
+				Random.resetComponentList(cmbArp);
+				Random.resetSliderpack(sldrpckArp[0], 0); // Notes
+				Random.resetSliderpack(sldrpckArp[1], 110); // Velocities
+				Random.resetSliderpack(sldrpckArp[2], 80); // Lengths
+				
+				// Move
+				Random.resetComponentList(knbMove);
+				btnMove[0].setValue(1);
+				btnMove[0].changed();
 				break;	
 				
 			/* All Samplers */
@@ -1756,7 +1781,7 @@ inline function onbtnRandomizeControl(component, value)
 			/* Move */
 			case btnRandomizeMove[0]: // All Parameters
 				Random.randomizeComponentList(knbMove);
-				local chaosTypeRoll = Math.randInt(2, 9);
+				chaosTypeRoll = Math.randInt(2, 9);
 				btnMove[chaosTypeRoll].setValue(1);				
 				btnMove[chaosTypeRoll].changed();
 				break;
@@ -1773,7 +1798,7 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponent(knbMove[7]);				
 				break;
 			case btnRandomizeMove[3]: // Chaos Type
-				local chaosTypeRoll = Math.randInt(2, 9);
+				chaosTypeRoll = Math.randInt(2, 9);
 				btnMove[chaosTypeRoll].setValue(1);
 				btnMove[chaosTypeRoll].changed();
 				break;
@@ -1789,8 +1814,8 @@ inline function onbtnRandomizeControl(component, value)
 			case btnRandomizeMove[7]: // Connection Ranges
 				Random.randomizeMacroConnectionValues();
 				break;			
-			case btnRandomizeMove[8]: // Reset Macros
-				Random.resetMacroConnections();
+			case btnRandomizeMove[8]: // Clear Macro Connections
+				Random.clearMacroConnections();
 				break;							
 		}
 }

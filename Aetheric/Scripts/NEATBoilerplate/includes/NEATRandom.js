@@ -19,11 +19,7 @@ include("NEATBoilerplate/includes/NEATMacroAttributes.js");
 
 namespace Random
 {
-	// after ui refs
-	// after ui control
-	
-	reg macroObject;
-	reg randomMacroObject;
+	reg macroObject = [{}];
 	reg json = [];
 
 	// Generic
@@ -123,6 +119,12 @@ namespace Random
 		component.changed();
 	}		
 	
+	inline function resetSliderpack(component, resetValue)
+	{
+		component.setAllValues(resetValue);
+		component.changed();
+	}
+	
 	inline function randomizeMacroConnectionList()
 	{		
 		local obj = {};
@@ -198,9 +200,12 @@ namespace Random
 		macroHandler.setMacroDataFromObject(macroObject);
 	}
 	
-	inline function resetMacroConnections()
+	inline function clearMacroConnections()
 	{
-		randomMacroObject = [{}];
-		macroHandler.setMacroDataFromObject(randomMacroObject);
+		if (isDefined(macroHandler.getMacroDataObject()));
+		{
+			macroObject = [];
+			macroHandler.setMacroDataFromObject(macroObject);
+		}
 	}
 }

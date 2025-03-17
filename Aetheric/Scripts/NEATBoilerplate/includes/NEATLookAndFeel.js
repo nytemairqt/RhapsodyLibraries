@@ -53,7 +53,6 @@ const LAFButtonChaosE = Content.createLocalLookAndFeel();
 const LAFButtonChaosF = Content.createLocalLookAndFeel();
 const LAFButtonChaosG = Content.createLocalLookAndFeel();
 
-
 /* Colours & Path */
 var path = Content.createPath();
 
@@ -72,7 +71,6 @@ const clrWhite = 0xFFFFFFFF;
 const clrLightblue = 0xFFADD8E6;
 const clrBlack = 0xFF000000;  
 const clrKeyPurple = 0xFFCC96FF;
-
 
 /* Utility Functions */
 
@@ -115,12 +113,6 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     // Value line
     g.setColour(Colours.lightgrey);        
     g.drawLine(obj.area[2] * .65, obj.area[2] * .83, obj.area[3] * .65, obj.area[3] * .83, 3);     
-});
-
-LAFSliderNEAT.registerFunction("drawPopupMenuBackground", function(g, obj)
-{
-	g.setColour(clrDarkgrey);
-	g.fillRoundedRectangle([0, 0, obj.width, obj.height], 0.0);
 });
 
 // Close Button
@@ -209,7 +201,6 @@ LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 	g.drawPath(path, [obj.area[0] + 2, obj.area[1] + 2, obj.area[2] - 4, obj.area[3] - 4], 2);
 	g.drawLine(obj.area[2] / 2, obj.area[2] / 2, 0, obj.area[3] / 2, 2.0);    
 });
-
 
 // ComboBoxes
 
@@ -427,6 +418,84 @@ LAFButtonChaosG.registerFunction("drawToggleButton", function(g, obj)
     g.fillTriangle([12, 12, 8, 8], Math.toRadians(277));
     g.fillTriangle([36, 38, 8, 8], Math.toRadians(100));
 });
+
+// Rhapsody Overrides
+
+LookAndFeel.laf.registerFunction("drawNumberTag", function(g, obj)
+{
+	g.setColour(clrDarkgrey);
+	g.fillRoundedRectangle([obj.area[2], obj.area[1], 0, 0], 2.0);
+	g.setColour(clrWhite);
+	g.setFont("bold", 12.0);
+	switch (obj.macroIndex)
+	{
+		case 0:
+			g.drawAlignedText("X", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 1:
+			g.drawAlignedText("X-", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 2:
+			g.drawAlignedText("Y", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 3:
+			g.drawAlignedText("Y-", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 4:
+			g.drawAlignedText("A", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 5:
+			g.drawAlignedText("B", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 6:
+			g.drawAlignedText("V", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;		
+		case 7:
+			g.drawAlignedText("R", [obj.area[2] - 10, obj.area[1], 10, 10], "centred");
+			break;
+	}    
+});
+
+// TEST
+
+LookAndFeel.laf.registerFunction("drawTableHeaderBackground", function(g, obj)
+{
+	// apparently does nothing
+
+	 g.setColour(Colours.cyan);
+	 g.fillRect(obj.area);
+     //g.setColour(Colours.red);
+	 //g.drawAlignedText("Ram", obj.area, "left");
+}); 
+
+LookAndFeel.laf.registerFunction("drawTableBackground", function(g, obj)
+{
+	// apparently does nothing
+
+	 g.setColour(Colours.red);
+	 g.fillRect(obj.area);
+});
+
+
+LookAndFeel.laf.registerFunction("drawTableCell", function(g, obj)
+{
+	 g.setColour(Colours.red);
+	 g.fillRect(obj.area);
+});
+
+/*
+LookAndFeel.laf.registerFunction("drawTableHeaderColumn", function(g, obj)
+{
+	 g.setColour(Colours.pink);
+	 g.fillRect(obj.area);
+});
+
+LookAndFeel.laf.registerFunction("drawTableRowBackground", function(g, obj)
+{
+	 g.setColour(Colours.pink);
+	 g.fillRect(obj.area);
+});
+*/
 
 for (i=0; i<128; i++)
 {

@@ -127,14 +127,14 @@
             <Control type="ScriptComboBox" id="cmbArp" value="1.0"/>
             <Control type="ScriptButton" id="btnCmbArpPrev" value="0.0"/>
             <Control type="ScriptButton" id="btnCmbArpNext" value="0.0"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRAAttack" value="7623.140625"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRADecay" value="162.5275421142578"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRASustain" value="-47.02991485595703"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRARelease" value="2775.716064453125"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRBAttack" value="16146.646484375"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRBDecay" value="4359.8037109375"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRBSustain" value="-91.90399169921875"/>
-            <Control type="ScriptSlider" id="knbMoveAHDSRBRelease" value="10602.6650390625"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRAAttack" value="5.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRADecay" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRASustain" value="0.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRARelease" value="1000.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRBAttack" value="5.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRBDecay" value="1500.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRBSustain" value="0.0"/>
+            <Control type="ScriptSlider" id="knbMoveAHDSRBRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbMoveX" value="50.0"/>
             <Control type="ScriptSlider" id="knbMoveY" value="50.0"/>
             <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0.0"/>
@@ -146,8 +146,8 @@
             <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0"/>
             <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0"/>
             <Control type="ScriptButton" id="btnMoveChaosTypeG" value="1.0"/>
-            <Control type="ScriptSlider" id="knbMoveChaosRate" value="2.188410520553589"/>
-            <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="47.81381988525391"/>
+            <Control type="ScriptSlider" id="knbMoveChaosRate" value="10.0"/>
+            <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="25.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
             <Control type="ScriptSlider" id="knbMasterPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbCoarseDetune" value="0.0"/>
@@ -878,8 +878,8 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="Macro5_AHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="7623.140625" AttackLevel="0.0" Hold="10.0" Decay="162.5275421142578"
-                       Sustain="-47.02991485595703" Release="2775.716064453125" EcoMode="1.0">
+                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                       Release="1000.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>
@@ -904,8 +904,8 @@
           <ChildProcessors>
             <Processor Type="AHDSR" ID="Macro6_AHDSR" Bypassed="0" Monophonic="0.0"
                        Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
-                       Attack="16146.646484375" AttackLevel="0.0" Hold="10.0" Decay="4359.8037109375"
-                       Sustain="-91.90399169921875" Release="10602.6650390625" EcoMode="1.0">
+                       Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
+                       Release="1000.0" EcoMode="1.0">
               <ChildProcessors>
                 <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                   <ChildProcessors/>

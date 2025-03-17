@@ -1290,6 +1290,8 @@ inline function onbtnRandomizeControl(component, value)
 				chaosTypeRoll = Math.randInt(2, 9);
 				btnMove[chaosTypeRoll].setValue(1);				
 				btnMove[chaosTypeRoll].changed();
+				Random.randomizeMacroConnectionList(); // Macro Connections
+				Random.randomizeMacroConnectionValues(); // Ranges
 				break;
 			
 			case btnRandomizeResetAll: // Reset All
@@ -1327,8 +1329,13 @@ inline function onbtnRandomizeControl(component, value)
 				
 				// Move
 				Random.resetComponentList(knbMove);
-				btnMove[0].setValue(1);
-				btnMove[0].changed();
+				btnMove[2].setValue(1);
+				btnMove[2].changed();			
+				Random.clearMacroConnections(); // Macro Connections
+				knbMoveX.setValue(50);
+				knbMoveY.setValue(50);
+				knbMoveX.changed();
+				knbMoveY.changed();
 				break;	
 				
 			/* All Samplers */

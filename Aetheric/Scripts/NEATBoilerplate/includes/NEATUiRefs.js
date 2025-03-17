@@ -39,7 +39,9 @@ const btnCmbNext = [Content.getComponent("btnCmbSamplerANext"),
 					Content.getComponent("btnCmbSamplerCNext"),
 					Content.getComponent("btnCmbSamplerOtherNext"),
 					Content.getComponent("btnCmbAmpCabSelectNext"),
-					Content.getComponent("btnCmbArpNext")];				  
+					Content.getComponent("btnCmbArpNext")];		
+					
+const btnClosePage = Content.getComponent("btnClosePage");
 
 /* Sampler */				  
 
@@ -551,6 +553,7 @@ for (c in cmbArp)
 	c.setLocalLookAndFeel(LAFComboBoxNEAT);
 	
 // Buttons
+btnClosePage.setLocalLookAndFeel(LAFButtonClose);
 for (b in btnPage)
 	b.setLocalLookAndFeel(LAFButtonChangePage);	
 for (b in btnCmbPrev)

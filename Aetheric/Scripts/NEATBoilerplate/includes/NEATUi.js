@@ -207,10 +207,22 @@ inline function onbtnChangePageControl(component, value)
 			pnlRandom.set("visible", value);
 			break;
 	}
+	btnClosePage.set("visible", value);
 }
 
 for (b in btnPage)
 	b.setControlCallback(onbtnChangePageControl);
+	
+inline function onbtnClosePageControl(component, value)
+{
+	if (value)
+	{
+		changePage(-1);
+		btnClosePage.set("visible", false);
+	}	
+}
+
+btnClosePage.setControlCallback(onbtnClosePageControl);
 
 /* Sample Page */
 

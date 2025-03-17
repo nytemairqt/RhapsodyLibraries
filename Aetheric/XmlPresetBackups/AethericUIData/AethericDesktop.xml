@@ -485,7 +485,7 @@
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
                  tooltip="Display Extra Sampler." visible="0"/>
       <Component type="ScriptPanel" id="pnlFX" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
                    height="20.0" width="128.0" text="FX" fontSize="14.0" fontName="bold"
                    editable="0" visible="0"/>
@@ -899,7 +899,7 @@
                    text="ARP" fontName="bold" fontSize="14.0" width="41.0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlMove" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0" visible="0">
+                 width="915.0" height="440.0" visible="0.0">
         <Component type="ScriptLabel" id="lblMove" x="427.0" y="6.0" parentComponent="pnlMove"
                    text="MOVE" fontName="bold" fontSize="14.0" width="60.0"/>
         <Component type="ScriptFloatingTile" id="fltMacroAHDSRA" x="32.0" y="55.0"
@@ -1503,6 +1503,9 @@
                    text="RANDOM" editable="0" fontName="bold" width="68.0" height="28.0"
                    fontSize="14.0"/>
       </Component>
+      <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
+                 width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
+                 isMomentary="1" saveInPreset="0" visible="0.0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

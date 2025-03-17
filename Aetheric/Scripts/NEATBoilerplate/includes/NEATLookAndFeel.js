@@ -21,6 +21,7 @@ include("NEATBoilerplate/includes/NEATPaths.js");
 const LAFButtonChangePage = Content.createLocalLookAndFeel();
 const LAFButtonPrev = Content.createLocalLookAndFeel();
 const LAFButtonNext = Content.createLocalLookAndFeel();
+const LAFButtonClose = Content.createLocalLookAndFeel();
 const LAFButtonNEAT = Content.createLocalLookAndFeel();
 const LAFSliderNEAT = Content.createLocalLookAndFeel();
 const LAFComboBoxNEAT = Content.createLocalLookAndFeel();
@@ -116,7 +117,15 @@ LAFSliderNEAT.registerFunction("drawRotarySlider", function(g, obj)
     g.drawLine(obj.area[2] * .65, obj.area[2] * .83, obj.area[3] * .65, obj.area[3] * .83, 3);     
 });
 
-
+// Close Button
+LAFButtonClose.registerFunction("drawToggleButton", function(g, obj)
+{
+	var w = obj.area[2];
+	var h = obj.area[3];
+	g.setColour(obj.over ? clrWhite : clrLightgrey);
+	g.drawLine(2, w-4, 2, h-4, 2.0);
+	g.drawLine(w-4, 2, 2, h-4, 2.0); 
+});
 
 // Change Page
 LAFButtonChangePage.registerFunction("drawToggleButton", function(g, obj)

@@ -485,7 +485,7 @@
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
                  tooltip="Display Extra Sampler." visible="0"/>
       <Component type="ScriptPanel" id="pnlFX" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0" visible="0">
+                 width="915.0" height="440.0">
         <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
                    height="20.0" width="128.0" text="FX" fontSize="14.0" fontName="bold"
                    editable="0" visible="0"/>
@@ -515,10 +515,10 @@
                      editable="0"/>
           <Component type="ScriptButton" id="btnFilterHPF" x="158.0" y="91.0" width="40.0"
                      height="20.0" parentComponent="pnlFilter" text="HPF" radioGroup="1.0"
-                     tooltip="High Pass Filter."/>
+                     tooltip="High Pass Filter." enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnFilterLPF" x="158.0" y="61.0" width="40.0"
                      height="20.0" parentComponent="pnlFilter" text="LPF" radioGroup="1.0"
-                     tooltip="Low Pass Filter."/>
+                     tooltip="Low Pass Filter." enableMidiLearn="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlAmp" x="230.0" y="0.0" parentComponent="pnlFX"
                    width="225.0" height="285.0">
@@ -558,7 +558,8 @@
                      items="&#10;DestroyerA&#10;DestroyerB&#10;RedPrinceA&#10;RedPrinceB&#10;RedPrinceC&#10;StormbirdA&#10;StormbirdB&#10;StormbirdC&#10;ThaumaturgyA&#10;ThaumaturgyB&#10;WaspA&#10;WaspB&#10;WishfulA&#10;WishfulB"
                      max="14"/>
           <Component type="ScriptButton" id="btnAmpCabBypass" x="26.0" y="236.0" width="40.0"
-                     height="20.0" parentComponent="pnlAmp" text="CAB" tooltip="Bypass Cabinet."/>
+                     height="20.0" parentComponent="pnlAmp" text="CAB" tooltip="Bypass Cabinet."
+                     enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnAmpOversampling" x="130.0" y="162.0"
                      width="40.0" height="20.0" parentComponent="pnlAmp" text="2X"
                      tooltip="Toggle 2x Oversampling."/>
@@ -595,10 +596,10 @@
                      text="0dB" fontSize="12.0" editable="0"/>
           <Component type="ScriptButton" id="btnDriveWaveshaperOversampling" x="145.0"
                      y="45.0" width="60.0" height="20.0" text="2x" parentComponent="pnlDrive"
-                     tooltip="Toggle 2x Oversampling."/>
+                     tooltip="Toggle 2x Oversampling." enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnDriveTubeOversampling" x="145.0" y="100.0"
                      width="60.0" height="20.0" text="2x" parentComponent="pnlDrive"
-                     tooltip="Toggle 2x Oversampling."/>
+                     tooltip="Toggle 2x Oversampling." enableMidiLearn="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlUtility" x="0.0" y="145.0" parentComponent="pnlFX"
                    width="225.0" height="140.0">
@@ -649,10 +650,11 @@
                      parentComponent="pnlStutter" width="80.0" height="20.0" fontName="regular"
                      text="0%" fontSize="12.0" editable="0"/>
           <Component type="ScriptButton" id="btnStutterPreFX" x="150.0" y="67.0" width="60.0"
-                     height="20.0" text="Pre-FX" parentComponent="pnlStutter" tooltip="Toggle Pre or Post FX Stutter."/>
+                     height="20.0" text="Pre-FX" parentComponent="pnlStutter" tooltip="Toggle Pre or Post FX Stutter."
+                     enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnStutterTempoSync" x="150.0" y="97.0"
                      width="60.0" height="20.0" text="Sync" parentComponent="pnlStutter"
-                     tooltip="Toggle Stutter Tempo Sync."/>
+                     tooltip="Toggle Stutter Tempo Sync." enableMidiLearn="0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlDegrade" x="460.0" y="0.0" parentComponent="pnlFX"
                    width="225.0" height="140.0">
@@ -820,10 +822,11 @@
                      width="80.0" height="20.0" fontName="regular" text="20%" fontSize="12.0"
                      editable="0"/>
           <Component type="ScriptButton" id="btnDelayLinkLR" x="77.0" y="130.0" width="60.0"
-                     height="20.0" text="Link LR" parentComponent="pnlDelay" tooltip="Link Left &amp; Right Channels."/>
+                     height="20.0" text="Link LR" parentComponent="pnlDelay" tooltip="Link Left &amp; Right Channels."
+                     enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnDelayTempoSync" x="77.0" y="150.0"
                      width="60.0" height="20.0" text="Sync" parentComponent="pnlDelay"
-                     tooltip="Toggle Delay Tempo Sync."/>
+                     tooltip="Toggle Delay Tempo Sync." enableMidiLearn="0"/>
         </Component>
       </Component>
       <Component type="ScriptPanel" id="pnlArp" x="38.0" y="15.0" parentComponent="pnlBody"
@@ -896,7 +899,7 @@
                    text="ARP" fontName="bold" fontSize="14.0" width="41.0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlMove" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblMove" x="427.0" y="6.0" parentComponent="pnlMove"
                    text="MOVE" fontName="bold" fontSize="14.0" width="60.0"/>
         <Component type="ScriptFloatingTile" id="fltMacroAHDSRA" x="32.0" y="55.0"

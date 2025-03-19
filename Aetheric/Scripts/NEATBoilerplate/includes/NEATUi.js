@@ -16,11 +16,11 @@
 */
 
 /* UI Functionality */
-Engine.loadAudioFilesIntoPool();
 const macroHandler = Engine.createMacroHandler();
 Engine.setFrontendMacros(["X Pos", "X Neg", "Y Pos", "Y Neg", "Env A", "Env B", "Velocity", "Random"]);
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
-const audioFiles = FileSystem.getFolder(FileSystem.AudioFiles);
+
+const audioFiles = Engine.loadAudioFilesIntoPool();
 const majorNotes = [0, 2, 4, 5, 7, 9, 11, 12];
 const minorNotes = [0, 2, 3, 5, 7, 8, 10, 12];
 reg xPos;
@@ -710,18 +710,17 @@ for (b in btnAmp)
 	
 // Populate cmbAmp
 
-var cabs = FileSystem.findFiles(audioFiles, "*.wav", false);
 cmbAmp[0].set("items", "");
 
-for (c in cabs)
-	cmbAmp[0].addItem(c.toString(1));	
+for (a in audioFiles)
+	cmbAmp[0].addItem(a.substring(16, a.length));
 
 inline function oncmbAmpControl(component, value)
 {
 	switch (component)
 	{
 		case cmbAmp[0]:
-			amp[3].setFile(cabs[value-1].toString(0));
+			amp[3].setFile(audioFiles[value-1]);
 			break;
 	}
 }

@@ -518,7 +518,7 @@
                      tooltip="High Pass Filter." enableMidiLearn="0"/>
           <Component type="ScriptButton" id="btnFilterLPF" x="158.0" y="61.0" width="40.0"
                      height="20.0" parentComponent="pnlFilter" text="LPF" radioGroup="1.0"
-                     tooltip="Low Pass Filter." enableMidiLearn="0" defaultValue="1"/>
+                     tooltip="Low Pass Filter." enableMidiLearn="0" defaultValue="1.0"/>
         </Component>
         <Component type="ScriptPanel" id="pnlAmp" x="230.0" y="0.0" parentComponent="pnlFX"
                    width="225.0" height="285.0">
@@ -555,7 +555,7 @@
                      editable="0"/>
           <Component type="ScriptComboBox" id="cmbAmpCabSelect" x="76.0" y="231.0"
                      width="130.0" height="26.0" parentComponent="pnlAmp" tooltip="Select Cabinet."
-                     items="&#10;DestroyerA&#10;DestroyerB&#10;RedPrinceA&#10;RedPrinceB&#10;RedPrinceC&#10;StormbirdA&#10;StormbirdB&#10;StormbirdC&#10;ThaumaturgyA&#10;ThaumaturgyB&#10;WaspA&#10;WaspB&#10;WishfulA&#10;WishfulB"
+                     items="&#10;DestroyerA.wav&#10;DestroyerB.wav&#10;RedPrinceA.wav&#10;RedPrinceB.wav&#10;RedPrinceC.wav&#10;StormbirdA.wav&#10;StormbirdB.wav&#10;StormbirdC.wav&#10;ThaumaturgyA.wav&#10;ThaumaturgyB.wav&#10;WaspA.wav&#10;WaspB.wav&#10;WishfulA.wav&#10;WishfulB.wav"
                      max="14"/>
           <Component type="ScriptButton" id="btnAmpCabBypass" x="26.0" y="236.0" width="40.0"
                      height="20.0" parentComponent="pnlAmp" text="CAB" tooltip="Bypass Cabinet."
@@ -1511,6 +1511,10 @@
       <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
                  width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
                  isMomentary="1" saveInPreset="0"/>
+      <Component type="ScriptLabel" id="Label1" x="55.0" y="480.0" parentComponent="pnlBody"
+                 text="derek" width="60.0"/>
+      <Component type="ScriptButton" id="Button1" x="115.0" y="480.0" parentComponent="pnlBody"
+                 width="60.0" isMomentary="1" saveInPreset="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

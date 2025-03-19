@@ -64,8 +64,6 @@ const macroAttributes = ["knbSamplerAAttack",
 						 "knbReverbDamping",
 						 "knbReverbWidth",
 						 "knbReverbMix",
-						 "knbDelayTimeL",
-						 "knbDelayTimeR",
 						 "knbDelayFeedbackL",
 						 "knbDelayFeedbackR",
 						 "knbDelayMix",];

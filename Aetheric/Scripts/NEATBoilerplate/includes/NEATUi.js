@@ -1770,41 +1770,63 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentList(cmbArp);
 				Random.randomizeSliderpack(sldrpckArp[0], -24, 24);
 				Random.randomizeSliderpack(sldrpckArp[1], 1, 127);
-				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);				
+				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);		
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;			
 			case btnRandomizeArp[1]: // Num Steps				
 				Random.randomizeComponent(knbArp[0]);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[2]: // Speed
 				Random.randomizeComponent(knbArp[1]);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[3]: // Octave
 				Random.randomizeComponent(knbArp[2]);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 			break;
 			case btnRandomizeArp[4]: // Swing
 				Random.randomizeComponent(knbArp[3]);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[5]: // Mode
 				Random.randomizeComponent(cmbArp[0]);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[6]: // Notes
 				Random.randomizeSliderpack(sldrpckArp[0], -24, 24);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[7]: // Notes (Minor)
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 					sldrpckArp[0].setSliderAtIndex(s, minorNotes[Math.randInt(0, minorNotes.length)]);					
 				sldrpckArp[0].changed();
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[8]: // Notes (Major)
 				for (s=0; s<sldrpckArp[0].getNumSliders(); s++)
 					sldrpckArp[0].setSliderAtIndex(s, majorNotes[Math.randInt(0, majorNotes.length)]);					
-				sldrpckArp[0].changed();			
+				sldrpckArp[0].changed();	
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();		
 				break;
 			case btnRandomizeArp[9]: // Velocities
 				Random.randomizeSliderpack(sldrpckArp[1], 1, 127);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;
 			case btnRandomizeArp[10]: // Lengths
 				Random.randomizeSliderpack(sldrpckArp[2], 0, 100);
+				btnArpBypass[0].setValue(1);		
+				btnArpBypass[0].changed();
 				break;				
 				
 			/* Move */

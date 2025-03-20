@@ -457,7 +457,7 @@ LookAndFeel.laf.registerFunction("drawNumberTag", function(g, obj)
 });
 
 // TEST
-
+/*
 LookAndFeel.laf.registerFunction("drawTableHeaderBackground", function(g, obj)
 {
 	// apparently does nothing
@@ -482,6 +482,7 @@ LookAndFeel.laf.registerFunction("drawTableCell", function(g, obj)
 	 g.setColour(Colours.red);
 	 g.fillRect(obj.area);
 });
+*/
 
 /*
 LookAndFeel.laf.registerFunction("drawTableHeaderColumn", function(g, obj)

@@ -713,7 +713,7 @@ for (b in btnAmp)
 cmbAmp[0].set("items", "");
 
 for (a in audioFiles)
-	cmbAmp[0].addItem(a.substring(16, a.length));
+	cmbAmp[0].addItem(a.substring(15, a.length));
 
 inline function oncmbAmpControl(component, value)
 {

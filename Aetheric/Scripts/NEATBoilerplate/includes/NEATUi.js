@@ -19,6 +19,7 @@
 const macroHandler = Engine.createMacroHandler();
 Engine.setFrontendMacros(["X Pos", "X Neg", "Y Pos", "Y Neg", "Env A", "Env B", "Velocity", "Random"]);
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
+const sampleMapList = Sampler.getSampleMapList();
 
 const audioFiles = Engine.loadAudioFilesIntoPool();
 const majorNotes = [0, 2, 4, 5, 7, 9, 11, 12];
@@ -31,6 +32,14 @@ include("NEATBoilerplate/includes/NEATLookAndFeel.js");
 include("NEATBoilerplate/includes/NEATModules.js");
 include("NEATBoilerplate/includes/NEATUiConstructors.js");
 include("NEATBoilerplate/includes/NEATUiRefs.js");
+
+// Populate ComboBoxes
+for (c=0; c<3; c++)
+{
+	cmbSampler[c].set("items", "");
+	for (map in sampleMapList)
+		cmbSampler[c].addItem(map);
+}	
 						 						  									
 // Generic
 
@@ -277,17 +286,17 @@ inline function oncmbSamplerControl(component, value)
 	switch (component)
 	{
 		case cmbSampler[0]: // Sampler A
-			samplerA[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+			samplerA[0].asSampler().loadSampleMap(sampleMapList[value-1]);
 			break;
 		case cmbSampler[1]: // Sampler B
-			samplerB[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+			samplerB[0].asSampler().loadSampleMap(sampleMapList[value-1]);
 			break;
 		case cmbSampler[2]: // Sampler C
-			samplerC[0].asSampler().loadSampleMap("{PROJECT_FOLDER}Aetheric_SampleMap" + Math.round(value));
+			samplerC[0].asSampler().loadSampleMap(sampleMapList[value-1]);
 			break;
 		case cmbSampler[3]: // Sampler Other
 			// Put other sampleMaps here if they exist
-			samplerOther[0].asSampler().loadSampleMap("{PROJECT_FOLDER}AethericAmbiances_SampleMap");
+			samplerOther[0].asSampler().loadSampleMap("z_Ambiences");
 			break;
 	}
 }

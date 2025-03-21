@@ -1,198 +1,396 @@
-<?xml version='1.0' encoding='utf-8'?>
-<samplemap ID="Atlas_SampleMap" RRGroupAmount="16.0" MicPositions=";" SaveMode="2" CrossfadeGamma="1.0"><sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="25" RRGroup="6" FileName="A#3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="1171456" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="26" HiVel="50" RRGroup="6" FileName="A#3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="3153920" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="51" HiVel="100" RRGroup="6" FileName="A#3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="5136384" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="101" HiVel="127" RRGroup="6" FileName="A#3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="7118848" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="25" RRGroup="6" FileName="A#4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="11083776" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="26" HiVel="50" RRGroup="6" FileName="A#4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="13066240" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="51" HiVel="100" RRGroup="6" FileName="A#4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="15048704" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="101" HiVel="127" RRGroup="6" FileName="A#4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="17031168" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="25" RRGroup="6" FileName="A1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="22704128" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="26" HiVel="50" RRGroup="6" FileName="A1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="24686592" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="51" HiVel="100" RRGroup="6" FileName="A1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="26669056" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="101" HiVel="127" RRGroup="6" FileName="A1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="28651520" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="25" RRGroup="6" FileName="A2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="31895552" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="26" HiVel="50" RRGroup="6" FileName="A2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="33878016" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="51" HiVel="100" RRGroup="6" FileName="A2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="35860480" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="101" HiVel="127" RRGroup="6" FileName="A2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="37842944" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="25" RRGroup="6" FileName="A3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="41807872" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="26" HiVel="50" RRGroup="6" FileName="A3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="43790336" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="51" HiVel="100" RRGroup="6" FileName="A3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="45772800" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="101" HiVel="127" RRGroup="6" FileName="A3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="47755264" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="25" RRGroup="6" FileName="A4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="51720192" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="26" HiVel="50" RRGroup="6" FileName="A4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="53702656" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="51" HiVel="100" RRGroup="6" FileName="A4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="55685120" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="101" HiVel="127" RRGroup="6" FileName="A4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="57667584" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="25" RRGroup="6" FileName="B1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="63201280" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="26" HiVel="50" RRGroup="6" FileName="B1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="65183744" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="51" HiVel="100" RRGroup="6" FileName="B1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="67166208" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="101" HiVel="127" RRGroup="6" FileName="B1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="69148672" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="25" RRGroup="6" FileName="B2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="72392704" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="26" HiVel="50" RRGroup="6" FileName="B2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="74375168" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="51" HiVel="100" RRGroup="6" FileName="B2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="76357632" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="101" HiVel="127" RRGroup="6" FileName="B2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="78340096" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="25" RRGroup="6" FileName="B3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="82305024" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="26" HiVel="50" RRGroup="6" FileName="B3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="84287488" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="51" HiVel="100" RRGroup="6" FileName="B3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="86269952" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="101" HiVel="127" RRGroup="6" FileName="B3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="88252416" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="25" RRGroup="6" FileName="B4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="92217344" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="26" HiVel="50" RRGroup="6" FileName="B4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="94199808" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="51" HiVel="100" RRGroup="6" FileName="B4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="96182272" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="101" HiVel="127" RRGroup="6" FileName="B4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="98164736" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="25" RRGroup="6" FileName="C#1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="103211008" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="26" HiVel="50" RRGroup="6" FileName="C#1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="105193472" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="51" HiVel="100" RRGroup="6" FileName="C#1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="107175936" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="101" HiVel="127" RRGroup="6" FileName="C#1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="109158400" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="25" RRGroup="6" FileName="C#2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="112402432" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="26" HiVel="50" RRGroup="6" FileName="C#2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="114384896" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="51" HiVel="100" RRGroup="6" FileName="C#2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="116367360" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="101" HiVel="127" RRGroup="6" FileName="C#2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="118349824" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="25" RRGroup="6" FileName="C#3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="122314752" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="26" HiVel="50" RRGroup="6" FileName="C#3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="124297216" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="51" HiVel="100" RRGroup="6" FileName="C#3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="126279680" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="101" HiVel="127" RRGroup="6" FileName="C#3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="128262144" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="25" RRGroup="6" FileName="C#4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="132227072" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="26" HiVel="50" RRGroup="6" FileName="C#4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="134209536" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="51" HiVel="100" RRGroup="6" FileName="C#4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="136192000" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="101" HiVel="127" RRGroup="6" FileName="C#4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="138174464" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="25" RRGroup="6" FileName="C1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="143941632" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="26" HiVel="50" RRGroup="6" FileName="C1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="145924096" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="51" HiVel="100" RRGroup="6" FileName="C1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="147906560" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="101" HiVel="127" RRGroup="6" FileName="C1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="149889024" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="25" RRGroup="6" FileName="C2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="153133056" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="26" HiVel="50" RRGroup="6" FileName="C2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="155115520" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="51" HiVel="100" RRGroup="6" FileName="C2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="157097984" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="101" HiVel="127" RRGroup="6" FileName="C2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="159080448" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="25" RRGroup="6" FileName="C3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="163041280" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="26" HiVel="50" RRGroup="6" FileName="C3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="165023744" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="51" HiVel="100" RRGroup="6" FileName="C3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="167006208" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="101" HiVel="127" RRGroup="6" FileName="C3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="168988672" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="25" RRGroup="6" FileName="C4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="172953600" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="26" HiVel="50" RRGroup="6" FileName="C4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="174936064" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="51" HiVel="100" RRGroup="6" FileName="C4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="176918528" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="101" HiVel="127" RRGroup="6" FileName="C4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="178900992" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="25" RRGroup="6" FileName="C5_1_DROPLETS.wav" Duplicate="1" MonolithOffset="182865920" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="26" HiVel="50" RRGroup="6" FileName="C5_2_DROPLETS.wav" Duplicate="1" MonolithOffset="184848384" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="51" HiVel="100" RRGroup="6" FileName="C5_3_DROPLETS.wav" Duplicate="1" MonolithOffset="186830848" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="101" HiVel="127" RRGroup="6" FileName="C5_4_DROPLETS.wav" Duplicate="1" MonolithOffset="188813312" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="25" RRGroup="6" FileName="D#1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="192778240" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="26" HiVel="50" RRGroup="6" FileName="D#1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="194760704" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="51" HiVel="100" RRGroup="6" FileName="D#1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="196743168" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="101" HiVel="127" RRGroup="6" FileName="D#1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="198725632" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="25" RRGroup="6" FileName="D#2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="201969664" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="26" HiVel="50" RRGroup="6" FileName="D#2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="203952128" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="51" HiVel="100" RRGroup="6" FileName="D#2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="205934592" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="101" HiVel="127" RRGroup="6" FileName="D#2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="207917056" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="25" RRGroup="6" FileName="D#3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="211881984" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="26" HiVel="50" RRGroup="6" FileName="D#3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="213864448" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="51" HiVel="100" RRGroup="6" FileName="D#3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="215846912" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="101" HiVel="127" RRGroup="6" FileName="D#3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="217829376" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="25" RRGroup="6" FileName="D#4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="221794304" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="26" HiVel="50" RRGroup="6" FileName="D#4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="223776768" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="51" HiVel="100" RRGroup="6" FileName="D#4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="225759232" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="101" HiVel="127" RRGroup="6" FileName="D#4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="227741696" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="25" RRGroup="6" FileName="D1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="233451520" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="26" HiVel="50" RRGroup="6" FileName="D1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="235433984" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="51" HiVel="100" RRGroup="6" FileName="D1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="237416448" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="101" HiVel="127" RRGroup="6" FileName="D1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="239398912" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="25" RRGroup="6" FileName="D2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="242642944" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="26" HiVel="50" RRGroup="6" FileName="D2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="244625408" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="51" HiVel="100" RRGroup="6" FileName="D2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="246607872" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="101" HiVel="127" RRGroup="6" FileName="D2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="248590336" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="25" RRGroup="6" FileName="D3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="252555264" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="26" HiVel="50" RRGroup="6" FileName="D3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="254537728" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="51" HiVel="100" RRGroup="6" FileName="D3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="256520192" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="101" HiVel="127" RRGroup="6" FileName="D3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="258502656" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="25" RRGroup="6" FileName="D4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="262463488" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="26" HiVel="50" RRGroup="6" FileName="D4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="264445952" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="51" HiVel="100" RRGroup="6" FileName="D4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="266428416" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="101" HiVel="127" RRGroup="6" FileName="D4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="268410880" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="25" RRGroup="6" FileName="E1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="274178048" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="26" HiVel="50" RRGroup="6" FileName="E1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="276160512" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="51" HiVel="100" RRGroup="6" FileName="E1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="278142976" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="101" HiVel="127" RRGroup="6" FileName="E1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="280125440" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="25" RRGroup="6" FileName="E2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="283369472" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="26" HiVel="50" RRGroup="6" FileName="E2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="285351936" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="51" HiVel="100" RRGroup="6" FileName="E2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="287334400" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="101" HiVel="127" RRGroup="6" FileName="E2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="289316864" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="25" RRGroup="6" FileName="E3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="293277696" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="26" HiVel="50" RRGroup="6" FileName="E3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="295260160" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="51" HiVel="100" RRGroup="6" FileName="E3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="297242624" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="101" HiVel="127" RRGroup="6" FileName="E3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="299225088" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="25" RRGroup="6" FileName="E4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="303190016" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="26" HiVel="50" RRGroup="6" FileName="E4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="305172480" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="51" HiVel="100" RRGroup="6" FileName="E4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="307154944" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="101" HiVel="127" RRGroup="6" FileName="E4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="309137408" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="25" RRGroup="6" FileName="F#1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="314802176" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="26" HiVel="50" RRGroup="6" FileName="F#1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="316784640" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="51" HiVel="100" RRGroup="6" FileName="F#1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="318767104" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="101" HiVel="127" RRGroup="6" FileName="F#1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="320749568" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="25" RRGroup="6" FileName="F#2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="323993600" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="26" HiVel="50" RRGroup="6" FileName="F#2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="325976064" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="51" HiVel="100" RRGroup="6" FileName="F#2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="327958528" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="101" HiVel="127" RRGroup="6" FileName="F#2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="329940992" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="25" RRGroup="6" FileName="F#3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="333905920" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="26" HiVel="50" RRGroup="6" FileName="F#3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="335888384" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="51" HiVel="100" RRGroup="6" FileName="F#3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="337870848" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="101" HiVel="127" RRGroup="6" FileName="F#3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="339853312" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="25" RRGroup="6" FileName="F#4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="343818240" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="26" HiVel="50" RRGroup="6" FileName="F#4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="345800704" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="51" HiVel="100" RRGroup="6" FileName="F#4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="347783168" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="101" HiVel="127" RRGroup="6" FileName="F#4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="349765632" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="25" RRGroup="6" FileName="F1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="355426304" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="26" HiVel="50" RRGroup="6" FileName="F1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="357408768" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="51" HiVel="100" RRGroup="6" FileName="F1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="359391232" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="101" HiVel="127" RRGroup="6" FileName="F1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="361373696" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="25" RRGroup="6" FileName="F2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="364617728" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="26" HiVel="50" RRGroup="6" FileName="F2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="366600192" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="51" HiVel="100" RRGroup="6" FileName="F2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="368582656" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="101" HiVel="127" RRGroup="6" FileName="F2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="370565120" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="25" RRGroup="6" FileName="F3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="374525952" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="26" HiVel="50" RRGroup="6" FileName="F3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="376508416" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="51" HiVel="100" RRGroup="6" FileName="F3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="378490880" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="101" HiVel="127" RRGroup="6" FileName="F3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="380473344" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="25" RRGroup="6" FileName="F4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="384438272" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="26" HiVel="50" RRGroup="6" FileName="F4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="386420736" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="51" HiVel="100" RRGroup="6" FileName="F4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="388403200" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="101" HiVel="127" RRGroup="6" FileName="F4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="390385664" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="25" RRGroup="6" FileName="G#1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="396038144" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="26" HiVel="50" RRGroup="6" FileName="G#1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="398020608" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="51" HiVel="100" RRGroup="6" FileName="G#1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="400003072" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="101" HiVel="127" RRGroup="6" FileName="G#1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="401985536" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="25" RRGroup="6" FileName="G#2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="405229568" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="26" HiVel="50" RRGroup="6" FileName="G#2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="407212032" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="51" HiVel="100" RRGroup="6" FileName="G#2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="409194496" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="101" HiVel="127" RRGroup="6" FileName="G#2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="411176960" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="25" RRGroup="6" FileName="G#3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="415141888" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="26" HiVel="50" RRGroup="6" FileName="G#3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="417124352" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="51" HiVel="100" RRGroup="6" FileName="G#3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="419106816" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="101" HiVel="127" RRGroup="6" FileName="G#3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="421089280" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="25" RRGroup="6" FileName="G#4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="425054208" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="26" HiVel="50" RRGroup="6" FileName="G#4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="427036672" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="51" HiVel="100" RRGroup="6" FileName="G#4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="429019136" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="101" HiVel="127" RRGroup="6" FileName="G#4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="431001600" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="25" RRGroup="6" FileName="G1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="436621312" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="26" HiVel="50" RRGroup="6" FileName="G1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="438603776" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="51" HiVel="100" RRGroup="6" FileName="G1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="440586240" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="101" HiVel="127" RRGroup="6" FileName="G1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="442568704" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="25" RRGroup="6" FileName="G2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="445812736" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="26" HiVel="50" RRGroup="6" FileName="G2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="447795200" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="51" HiVel="100" RRGroup="6" FileName="G2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="449777664" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="101" HiVel="127" RRGroup="6" FileName="G2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="451760128" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="25" RRGroup="6" FileName="G3_1_DROPLETS.wav" Duplicate="1" MonolithOffset="455725056" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="26" HiVel="50" RRGroup="6" FileName="G3_2_DROPLETS.wav" Duplicate="1" MonolithOffset="457707520" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="51" HiVel="100" RRGroup="6" FileName="G3_3_DROPLETS.wav" Duplicate="1" MonolithOffset="459689984" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="101" HiVel="127" RRGroup="6" FileName="G3_4_DROPLETS.wav" Duplicate="1" MonolithOffset="461672448" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="25" RRGroup="6" FileName="G4_1_DROPLETS.wav" Duplicate="1" MonolithOffset="465637376" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="26" HiVel="50" RRGroup="6" FileName="G4_2_DROPLETS.wav" Duplicate="1" MonolithOffset="467619840" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="51" HiVel="100" RRGroup="6" FileName="G4_3_DROPLETS.wav" Duplicate="1" MonolithOffset="469602304" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="101" HiVel="127" RRGroup="6" FileName="G4_4_DROPLETS.wav" Duplicate="1" MonolithOffset="471584768" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="25" RRGroup="6" FileName="A#1_1_DROPLETS.wav" Duplicate="1" MonolithOffset="477200384" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="26" HiVel="50" RRGroup="6" FileName="A#1_2_DROPLETS.wav" Duplicate="1" MonolithOffset="479182848" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="51" HiVel="100" RRGroup="6" FileName="A#1_3_DROPLETS.wav" Duplicate="1" MonolithOffset="481165312" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="101" HiVel="127" RRGroup="6" FileName="A#1_4_DROPLETS.wav" Duplicate="1" MonolithOffset="483147776" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="25" RRGroup="6" FileName="A#2_1_DROPLETS.wav" Duplicate="1" MonolithOffset="486391808" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="26" HiVel="50" RRGroup="6" FileName="A#2_2_DROPLETS.wav" Duplicate="1" MonolithOffset="488374272" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="51" HiVel="100" RRGroup="6" FileName="A#2_3_DROPLETS.wav" Duplicate="1" MonolithOffset="490356736" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="101" HiVel="127" RRGroup="6" FileName="A#2_4_DROPLETS.wav" Duplicate="1" MonolithOffset="492339200" MonolithLength="180224" SampleRate="44100" SampleStartMod="43700" />
-  </samplemap>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Droplets" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_4_droplets.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_3_droplets.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_2_droplets.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_droplets.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_4_droplets.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_3_droplets.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_2_droplets.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_droplets.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_4_droplets.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_3_droplets.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_2_droplets.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_droplets.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_4_droplets.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_3_droplets.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_2_droplets.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_droplets.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_4_droplets.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_3_droplets.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_2_droplets.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_droplets.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_4_droplets.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_3_droplets.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_2_droplets.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_droplets.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_4_droplets.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_3_droplets.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_2_droplets.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_droplets.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_4_droplets.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_3_droplets.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_2_droplets.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_droplets.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_4_droplets.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_3_droplets.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_2_droplets.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_droplets.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_4_droplets.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_3_droplets.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_2_droplets.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_droplets.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_4_droplets.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_3_droplets.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_2_droplets.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_droplets.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_4_droplets.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_3_droplets.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_2_droplets.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_droplets.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_4_droplets.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_3_droplets.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_2_droplets.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_droplets.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_4_droplets.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_3_droplets.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_2_droplets.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_droplets.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_4_droplets.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_3_droplets.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_2_droplets.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_droplets.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_4_droplets.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_3_droplets.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_2_droplets.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_droplets.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_4_droplets.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_3_droplets.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_2_droplets.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_droplets.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_4_droplets.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_3_droplets.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_2_droplets.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_droplets.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_4_droplets.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_3_droplets.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_2_droplets.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_droplets.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_4_droplets.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_3_droplets.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_2_droplets.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_droplets.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_4_droplets.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_3_droplets.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_2_droplets.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_droplets.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_4_droplets.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_3_droplets.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_2_droplets.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_droplets.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_4_droplets.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_3_droplets.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_2_droplets.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_droplets.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_4_droplets.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_3_droplets.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_2_droplets.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_droplets.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_4_droplets.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_3_droplets.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_2_droplets.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_droplets.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_4_droplets.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_3_droplets.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_2_droplets.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_droplets.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_4_droplets.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_3_droplets.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_2_droplets.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_droplets.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_4_droplets.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_3_droplets.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_2_droplets.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_droplets.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_4_droplets.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_3_droplets.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_2_droplets.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_droplets.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_4_droplets.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_3_droplets.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_2_droplets.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_droplets.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_4_droplets.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_3_droplets.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_2_droplets.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_droplets.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_4_droplets.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_3_droplets.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_2_droplets.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_droplets.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_4_droplets.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_3_droplets.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_2_droplets.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_droplets.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_4_droplets.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_3_droplets.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_2_droplets.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_droplets.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_4_droplets.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_3_droplets.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_2_droplets.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_droplets.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_4_droplets.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_3_droplets.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_2_droplets.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_droplets.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_4_droplets.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_3_droplets.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_2_droplets.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_droplets.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_4_droplets.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_3_droplets.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_2_droplets.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_droplets.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_4_droplets.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_3_droplets.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_2_droplets.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_droplets.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_4_droplets.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_3_droplets.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_2_droplets.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_droplets.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_4_droplets.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_3_droplets.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_2_droplets.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_droplets.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_4_droplets.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_3_droplets.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_2_droplets.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_droplets.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_4_droplets.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_3_droplets.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_2_droplets.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_droplets.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_4_droplets.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_3_droplets.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_2_droplets.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_droplets.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_4_droplets.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_3_droplets.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_2_droplets.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_droplets.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_4_droplets.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_3_droplets.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_2_droplets.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_droplets.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_4_droplets.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_3_droplets.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_2_droplets.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_droplets.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_4_droplets.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_3_droplets.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_2_droplets.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_droplets.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_4_droplets.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_3_droplets.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_2_droplets.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_droplets.wav" Duplicate="1"/>
+</samplemap>

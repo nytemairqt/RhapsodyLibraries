@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Aetheric_SampleMap10" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="2" CrossfadeGamma="1.0">
+           SaveMode="1" CrossfadeGamma="1.0">
   <sample Root="96" LoKey="96" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}C6_HybridStringsA.wav" Duplicate="0"
           LoopEnabled="1" SampleStartMod="705600" LoopStart="84955" LoopEnd="583132"

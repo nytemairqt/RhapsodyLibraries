@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="Aetheric_SampleMap1" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="2" CrossfadeGamma="1.0">
+           SaveMode="1" CrossfadeGamma="1.0">
   <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}B5_AngelicA.wav" Duplicate="0" LoopEnabled="1"
           LoopStart="206453" LoopEnd="583132" LoopXFade="0" SampleStartMod="499147"

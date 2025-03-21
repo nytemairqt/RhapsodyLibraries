@@ -1,51 +1,102 @@
-<?xml version='1.0' encoding='utf-8'?>
-<samplemap ID="Atlas_SampleMap" RRGroupAmount="16.0" MicPositions=";" SaveMode="2" CrossfadeGamma="1.0"><sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="13" FileName="A#2_Science.wav" Duplicate="1" MonolithOffset="270336" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="13" FileName="A#3_Science.wav" Duplicate="1" MonolithOffset="10182656" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="13" FileName="A#4_Science.wav" Duplicate="1" MonolithOffset="20094976" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="13" FileName="A1_Science.wav" Duplicate="1" MonolithOffset="30994432" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="13" FileName="A2_Science.wav" Duplicate="1" MonolithOffset="40906752" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="13" FileName="A3_Science.wav" Duplicate="1" MonolithOffset="50819072" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="13" FileName="A4_Science.wav" Duplicate="1" MonolithOffset="60731392" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="127" RRGroup="13" FileName="B1_Science.wav" Duplicate="1" MonolithOffset="71491584" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="13" FileName="B2_Science.wav" Duplicate="1" MonolithOffset="81403904" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="13" FileName="B3_Science.wav" Duplicate="1" MonolithOffset="91316224" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="13" FileName="B4_Science.wav" Duplicate="1" MonolithOffset="101228544" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="13" FileName="C#1_Science.wav" Duplicate="1" MonolithOffset="111501312" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="13" FileName="C#2_Science.wav" Duplicate="1" MonolithOffset="121413632" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="13" FileName="C#3_Science.wav" Duplicate="1" MonolithOffset="131325952" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="13" FileName="C#4_Science.wav" Duplicate="1" MonolithOffset="141238272" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="13" FileName="C1_Science.wav" Duplicate="1" MonolithOffset="152231936" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="127" RRGroup="13" FileName="C2_Science.wav" Duplicate="1" MonolithOffset="162140160" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="13" FileName="C3_Science.wav" Duplicate="1" MonolithOffset="172052480" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="13" FileName="C4_Science.wav" Duplicate="1" MonolithOffset="181964800" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="127" RRGroup="13" FileName="C5_Science.wav" Duplicate="1" MonolithOffset="191877120" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="13" FileName="D#1_Science.wav" Duplicate="1" MonolithOffset="201068544" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="13" FileName="D#2_Science.wav" Duplicate="1" MonolithOffset="210980864" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="13" FileName="D#3_Science.wav" Duplicate="1" MonolithOffset="220893184" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="13" FileName="D#4_Science.wav" Duplicate="1" MonolithOffset="230805504" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="13" FileName="D1_Science.wav" Duplicate="1" MonolithOffset="241741824" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="13" FileName="D2_Science.wav" Duplicate="1" MonolithOffset="251654144" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="13" FileName="D3_Science.wav" Duplicate="1" MonolithOffset="261562368" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="13" FileName="D4_Science.wav" Duplicate="1" MonolithOffset="271474688" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="13" FileName="E1_Science.wav" Duplicate="1" MonolithOffset="282468352" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="13" FileName="E2_Science.wav" Duplicate="1" MonolithOffset="292376576" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="13" FileName="E3_Science.wav" Duplicate="1" MonolithOffset="302288896" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="13" FileName="E4_Science.wav" Duplicate="1" MonolithOffset="312193024" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="13" FileName="F#1_Science.wav" Duplicate="1" MonolithOffset="323092480" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="13" FileName="F#2_Science.wav" Duplicate="1" MonolithOffset="333004800" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="13" FileName="F#3_Science.wav" Duplicate="1" MonolithOffset="342917120" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="13" FileName="F#4_Science.wav" Duplicate="1" MonolithOffset="352829440" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="127" RRGroup="13" FileName="F1_Science.wav" Duplicate="1" MonolithOffset="363716608" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="13" FileName="F2_Science.wav" Duplicate="1" MonolithOffset="373624832" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="13" FileName="F3_Science.wav" Duplicate="1" MonolithOffset="383537152" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="13" FileName="F4_Science.wav" Duplicate="1" MonolithOffset="393449472" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="13" FileName="G#1_Science.wav" Duplicate="1" MonolithOffset="404328448" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="13" FileName="G#2_Science.wav" Duplicate="1" MonolithOffset="414240768" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="13" FileName="G#3_Science.wav" Duplicate="1" MonolithOffset="424153088" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="13" FileName="G#4_Science.wav" Duplicate="1" MonolithOffset="434065408" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="13" FileName="G1_Science.wav" Duplicate="1" MonolithOffset="444911616" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="13" FileName="G2_Science.wav" Duplicate="1" MonolithOffset="454823936" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="13" FileName="G3_Science.wav" Duplicate="1" MonolithOffset="464736256" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="13" FileName="G4_Science.wav" Duplicate="1" MonolithOffset="474648576" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="127" RRGroup="13" FileName="A#1_Science.wav" Duplicate="1" MonolithOffset="485490688" MonolithLength="180224" SampleRate="44100" SampleStartMod="49426" />
-  </samplemap>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Science" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_science.wav" Duplicate="0"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_science.wav" Duplicate="0"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_science.wav" Duplicate="0"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_science.wav" Duplicate="0"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_science.wav" Duplicate="0"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_science.wav" Duplicate="0"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_science.wav" Duplicate="0"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_science.wav" Duplicate="0"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_science.wav" Duplicate="0"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_science.wav" Duplicate="0"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_science.wav" Duplicate="0"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_science.wav" Duplicate="0"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_science.wav" Duplicate="0"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_science.wav" Duplicate="0"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_science.wav" Duplicate="0"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_science.wav" Duplicate="0"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_science.wav" Duplicate="0"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_science.wav" Duplicate="0"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_science.wav" Duplicate="0"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_science.wav" Duplicate="0"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_science.wav" Duplicate="0"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_science.wav" Duplicate="0"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_science.wav" Duplicate="0"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_science.wav" Duplicate="0"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_science.wav" Duplicate="0"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_science.wav" Duplicate="0"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_science.wav" Duplicate="0"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_science.wav" Duplicate="0"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_science.wav" Duplicate="0"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_science.wav" Duplicate="0"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_science.wav" Duplicate="0"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_science.wav" Duplicate="0"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_science.wav" Duplicate="0"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_science.wav" Duplicate="0"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_science.wav" Duplicate="0"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_science.wav" Duplicate="0"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_science.wav" Duplicate="0"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_science.wav" Duplicate="0"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_science.wav" Duplicate="0"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_science.wav" Duplicate="0"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_science.wav" Duplicate="0"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_science.wav" Duplicate="0"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_science.wav" Duplicate="0"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_science.wav" Duplicate="0"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_science.wav" Duplicate="0"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_science.wav" Duplicate="0"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_science.wav" Duplicate="0"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_science.wav" Duplicate="0"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_science.wav" Duplicate="0"/>
+</samplemap>

@@ -504,10 +504,7 @@ for (i=0; i<128; i++)
 	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
 
 	// Main Keys
-	if (i < 60 || i > 96)
+	if (i < 36 || i > 96)
 		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
 		
-	// Additional Keys
-	if (i >= 48 && i<=54)
-		Engine.setKeyColour(i, Colours.withAlpha(clrKeyPurple, 0.3));
 }

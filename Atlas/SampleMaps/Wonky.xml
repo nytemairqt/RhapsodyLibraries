@@ -1,198 +1,396 @@
-<?xml version='1.0' encoding='utf-8'?>
-<samplemap ID="Atlas_SampleMap" RRGroupAmount="16.0" MicPositions=";" SaveMode="2" CrossfadeGamma="1.0"><sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="25" RRGroup="16" FileName="A#3_1_WONKY.wav" Duplicate="1" MonolithOffset="2252800" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="26" HiVel="50" RRGroup="16" FileName="A#3_2_WONKY.wav" Duplicate="1" MonolithOffset="4235264" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="51" HiVel="100" RRGroup="16" FileName="A#3_3_WONKY.wav" Duplicate="1" MonolithOffset="6217728" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="101" HiVel="127" RRGroup="16" FileName="A#3_4_WONKY.wav" Duplicate="1" MonolithOffset="8200192" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="25" RRGroup="16" FileName="A#4_1_WONKY.wav" Duplicate="1" MonolithOffset="12165120" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="26" HiVel="50" RRGroup="16" FileName="A#4_2_WONKY.wav" Duplicate="1" MonolithOffset="14147584" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="51" HiVel="100" RRGroup="16" FileName="A#4_3_WONKY.wav" Duplicate="1" MonolithOffset="16130048" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="101" HiVel="127" RRGroup="16" FileName="A#4_4_WONKY.wav" Duplicate="1" MonolithOffset="18112512" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="25" RRGroup="16" FileName="A1_1_WONKY.wav" Duplicate="1" MonolithOffset="23785472" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="26" HiVel="50" RRGroup="16" FileName="A1_2_WONKY.wav" Duplicate="1" MonolithOffset="25767936" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="51" HiVel="100" RRGroup="16" FileName="A1_3_WONKY.wav" Duplicate="1" MonolithOffset="27750400" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="101" HiVel="127" RRGroup="16" FileName="A1_4_WONKY.wav" Duplicate="1" MonolithOffset="29732864" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="25" RRGroup="16" FileName="A2_1_WONKY.wav" Duplicate="1" MonolithOffset="32976896" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="26" HiVel="50" RRGroup="16" FileName="A2_2_WONKY.wav" Duplicate="1" MonolithOffset="34959360" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="51" HiVel="100" RRGroup="16" FileName="A2_3_WONKY.wav" Duplicate="1" MonolithOffset="36941824" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="101" HiVel="127" RRGroup="16" FileName="A2_4_WONKY.wav" Duplicate="1" MonolithOffset="38924288" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="25" RRGroup="16" FileName="A3_1_WONKY.wav" Duplicate="1" MonolithOffset="42889216" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="26" HiVel="50" RRGroup="16" FileName="A3_2_WONKY.wav" Duplicate="1" MonolithOffset="44871680" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="51" HiVel="100" RRGroup="16" FileName="A3_3_WONKY.wav" Duplicate="1" MonolithOffset="46854144" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="101" HiVel="127" RRGroup="16" FileName="A3_4_WONKY.wav" Duplicate="1" MonolithOffset="48836608" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="25" RRGroup="16" FileName="A4_1_WONKY.wav" Duplicate="1" MonolithOffset="52801536" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="26" HiVel="50" RRGroup="16" FileName="A4_2_WONKY.wav" Duplicate="1" MonolithOffset="54784000" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="51" HiVel="100" RRGroup="16" FileName="A4_3_WONKY.wav" Duplicate="1" MonolithOffset="56766464" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="101" HiVel="127" RRGroup="16" FileName="A4_4_WONKY.wav" Duplicate="1" MonolithOffset="58748928" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="25" RRGroup="16" FileName="B1_1_WONKY.wav" Duplicate="1" MonolithOffset="64282624" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="26" HiVel="50" RRGroup="16" FileName="B1_2_WONKY.wav" Duplicate="1" MonolithOffset="66265088" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="51" HiVel="100" RRGroup="16" FileName="B1_3_WONKY.wav" Duplicate="1" MonolithOffset="68247552" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="101" HiVel="127" RRGroup="16" FileName="B1_4_WONKY.wav" Duplicate="1" MonolithOffset="70230016" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="25" RRGroup="16" FileName="B2_1_WONKY.wav" Duplicate="1" MonolithOffset="73474048" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="26" HiVel="50" RRGroup="16" FileName="B2_2_WONKY.wav" Duplicate="1" MonolithOffset="75456512" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="51" HiVel="100" RRGroup="16" FileName="B2_3_WONKY.wav" Duplicate="1" MonolithOffset="77438976" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="101" HiVel="127" RRGroup="16" FileName="B2_4_WONKY.wav" Duplicate="1" MonolithOffset="79421440" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="25" RRGroup="16" FileName="B3_1_WONKY.wav" Duplicate="1" MonolithOffset="83386368" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="26" HiVel="50" RRGroup="16" FileName="B3_2_WONKY.wav" Duplicate="1" MonolithOffset="85368832" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="51" HiVel="100" RRGroup="16" FileName="B3_3_WONKY.wav" Duplicate="1" MonolithOffset="87351296" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="101" HiVel="127" RRGroup="16" FileName="B3_4_WONKY.wav" Duplicate="1" MonolithOffset="89333760" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="25" RRGroup="16" FileName="B4_1_WONKY.wav" Duplicate="1" MonolithOffset="93298688" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="26" HiVel="50" RRGroup="16" FileName="B4_2_WONKY.wav" Duplicate="1" MonolithOffset="95281152" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="51" HiVel="100" RRGroup="16" FileName="B4_3_WONKY.wav" Duplicate="1" MonolithOffset="97263616" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="101" HiVel="127" RRGroup="16" FileName="B4_4_WONKY.wav" Duplicate="1" MonolithOffset="99246080" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="25" RRGroup="16" FileName="C#1_1_WONKY.wav" Duplicate="1" MonolithOffset="104292352" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="26" HiVel="50" RRGroup="16" FileName="C#1_2_WONKY.wav" Duplicate="1" MonolithOffset="106274816" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="51" HiVel="100" RRGroup="16" FileName="C#1_3_WONKY.wav" Duplicate="1" MonolithOffset="108257280" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="101" HiVel="127" RRGroup="16" FileName="C#1_4_WONKY.wav" Duplicate="1" MonolithOffset="110239744" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="25" RRGroup="16" FileName="C#2_1_WONKY.wav" Duplicate="1" MonolithOffset="113483776" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="26" HiVel="50" RRGroup="16" FileName="C#2_2_WONKY.wav" Duplicate="1" MonolithOffset="115466240" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="51" HiVel="100" RRGroup="16" FileName="C#2_3_WONKY.wav" Duplicate="1" MonolithOffset="117448704" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="101" HiVel="127" RRGroup="16" FileName="C#2_4_WONKY.wav" Duplicate="1" MonolithOffset="119431168" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="25" RRGroup="16" FileName="C#3_1_WONKY.wav" Duplicate="1" MonolithOffset="123396096" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="26" HiVel="50" RRGroup="16" FileName="C#3_2_WONKY.wav" Duplicate="1" MonolithOffset="125378560" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="51" HiVel="100" RRGroup="16" FileName="C#3_3_WONKY.wav" Duplicate="1" MonolithOffset="127361024" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="101" HiVel="127" RRGroup="16" FileName="C#3_4_WONKY.wav" Duplicate="1" MonolithOffset="129343488" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="25" RRGroup="16" FileName="C#4_1_WONKY.wav" Duplicate="1" MonolithOffset="133308416" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="26" HiVel="50" RRGroup="16" FileName="C#4_2_WONKY.wav" Duplicate="1" MonolithOffset="135290880" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="51" HiVel="100" RRGroup="16" FileName="C#4_3_WONKY.wav" Duplicate="1" MonolithOffset="137273344" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="101" HiVel="127" RRGroup="16" FileName="C#4_4_WONKY.wav" Duplicate="1" MonolithOffset="139255808" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="25" RRGroup="16" FileName="C1_1_WONKY.wav" Duplicate="1" MonolithOffset="145022976" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="26" HiVel="50" RRGroup="16" FileName="C1_2_WONKY.wav" Duplicate="1" MonolithOffset="147005440" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="51" HiVel="100" RRGroup="16" FileName="C1_3_WONKY.wav" Duplicate="1" MonolithOffset="148987904" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="101" HiVel="127" RRGroup="16" FileName="C1_4_WONKY.wav" Duplicate="1" MonolithOffset="150970368" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="25" RRGroup="16" FileName="C2_1_WONKY.wav" Duplicate="1" MonolithOffset="154214400" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="26" HiVel="50" RRGroup="16" FileName="C2_2_WONKY.wav" Duplicate="1" MonolithOffset="156196864" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="51" HiVel="100" RRGroup="16" FileName="C2_3_WONKY.wav" Duplicate="1" MonolithOffset="158179328" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="101" HiVel="127" RRGroup="16" FileName="C2_4_WONKY.wav" Duplicate="1" MonolithOffset="160161792" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="25" RRGroup="16" FileName="C3_1_WONKY.wav" Duplicate="1" MonolithOffset="164122624" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="26" HiVel="50" RRGroup="16" FileName="C3_2_WONKY.wav" Duplicate="1" MonolithOffset="166105088" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="51" HiVel="100" RRGroup="16" FileName="C3_3_WONKY.wav" Duplicate="1" MonolithOffset="168087552" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="101" HiVel="127" RRGroup="16" FileName="C3_4_WONKY.wav" Duplicate="1" MonolithOffset="170070016" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="25" RRGroup="16" FileName="C4_1_WONKY.wav" Duplicate="1" MonolithOffset="174034944" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="26" HiVel="50" RRGroup="16" FileName="C4_2_WONKY.wav" Duplicate="1" MonolithOffset="176017408" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="51" HiVel="100" RRGroup="16" FileName="C4_3_WONKY.wav" Duplicate="1" MonolithOffset="177999872" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="101" HiVel="127" RRGroup="16" FileName="C4_4_WONKY.wav" Duplicate="1" MonolithOffset="179982336" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="25" RRGroup="16" FileName="C5_1_WONKY.wav" Duplicate="1" MonolithOffset="183947264" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="26" HiVel="50" RRGroup="16" FileName="C5_2_WONKY.wav" Duplicate="1" MonolithOffset="185929728" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="51" HiVel="100" RRGroup="16" FileName="C5_3_WONKY.wav" Duplicate="1" MonolithOffset="187912192" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="101" HiVel="127" RRGroup="16" FileName="C5_4_WONKY.wav" Duplicate="1" MonolithOffset="189894656" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="25" RRGroup="16" FileName="D#1_1_WONKY.wav" Duplicate="1" MonolithOffset="193859584" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="26" HiVel="50" RRGroup="16" FileName="D#1_2_WONKY.wav" Duplicate="1" MonolithOffset="195842048" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="51" HiVel="100" RRGroup="16" FileName="D#1_3_WONKY.wav" Duplicate="1" MonolithOffset="197824512" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="101" HiVel="127" RRGroup="16" FileName="D#1_4_WONKY.wav" Duplicate="1" MonolithOffset="199806976" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="25" RRGroup="16" FileName="D#2_1_WONKY.wav" Duplicate="1" MonolithOffset="203051008" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="26" HiVel="50" RRGroup="16" FileName="D#2_2_WONKY.wav" Duplicate="1" MonolithOffset="205033472" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="51" HiVel="100" RRGroup="16" FileName="D#2_3_WONKY.wav" Duplicate="1" MonolithOffset="207015936" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="101" HiVel="127" RRGroup="16" FileName="D#2_4_WONKY.wav" Duplicate="1" MonolithOffset="208998400" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="25" RRGroup="16" FileName="D#3_1_WONKY.wav" Duplicate="1" MonolithOffset="212963328" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="26" HiVel="50" RRGroup="16" FileName="D#3_2_WONKY.wav" Duplicate="1" MonolithOffset="214945792" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="51" HiVel="100" RRGroup="16" FileName="D#3_3_WONKY.wav" Duplicate="1" MonolithOffset="216928256" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="101" HiVel="127" RRGroup="16" FileName="D#3_4_WONKY.wav" Duplicate="1" MonolithOffset="218910720" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="25" RRGroup="16" FileName="D#4_1_WONKY.wav" Duplicate="1" MonolithOffset="222875648" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="26" HiVel="50" RRGroup="16" FileName="D#4_2_WONKY.wav" Duplicate="1" MonolithOffset="224858112" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="51" HiVel="100" RRGroup="16" FileName="D#4_3_WONKY.wav" Duplicate="1" MonolithOffset="226840576" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="101" HiVel="127" RRGroup="16" FileName="D#4_4_WONKY.wav" Duplicate="1" MonolithOffset="228823040" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="25" RRGroup="16" FileName="D1_1_WONKY.wav" Duplicate="1" MonolithOffset="234532864" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="26" HiVel="50" RRGroup="16" FileName="D1_2_WONKY.wav" Duplicate="1" MonolithOffset="236515328" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="51" HiVel="100" RRGroup="16" FileName="D1_3_WONKY.wav" Duplicate="1" MonolithOffset="238497792" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="101" HiVel="127" RRGroup="16" FileName="D1_4_WONKY.wav" Duplicate="1" MonolithOffset="240480256" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="25" RRGroup="16" FileName="D2_1_WONKY.wav" Duplicate="1" MonolithOffset="243724288" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="26" HiVel="50" RRGroup="16" FileName="D2_2_WONKY.wav" Duplicate="1" MonolithOffset="245706752" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="51" HiVel="100" RRGroup="16" FileName="D2_3_WONKY.wav" Duplicate="1" MonolithOffset="247689216" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="101" HiVel="127" RRGroup="16" FileName="D2_4_WONKY.wav" Duplicate="1" MonolithOffset="249671680" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="25" RRGroup="16" FileName="D3_1_WONKY.wav" Duplicate="1" MonolithOffset="253636608" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="26" HiVel="50" RRGroup="16" FileName="D3_2_WONKY.wav" Duplicate="1" MonolithOffset="255619072" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="51" HiVel="100" RRGroup="16" FileName="D3_3_WONKY.wav" Duplicate="1" MonolithOffset="257601536" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="101" HiVel="127" RRGroup="16" FileName="D3_4_WONKY.wav" Duplicate="1" MonolithOffset="259584000" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="25" RRGroup="16" FileName="D4_1_WONKY.wav" Duplicate="1" MonolithOffset="263544832" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="26" HiVel="50" RRGroup="16" FileName="D4_2_WONKY.wav" Duplicate="1" MonolithOffset="265527296" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="51" HiVel="100" RRGroup="16" FileName="D4_3_WONKY.wav" Duplicate="1" MonolithOffset="267509760" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="101" HiVel="127" RRGroup="16" FileName="D4_4_WONKY.wav" Duplicate="1" MonolithOffset="269492224" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="25" RRGroup="16" FileName="E1_1_WONKY.wav" Duplicate="1" MonolithOffset="275259392" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="26" HiVel="50" RRGroup="16" FileName="E1_2_WONKY.wav" Duplicate="1" MonolithOffset="277241856" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="51" HiVel="100" RRGroup="16" FileName="E1_3_WONKY.wav" Duplicate="1" MonolithOffset="279224320" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="101" HiVel="127" RRGroup="16" FileName="E1_4_WONKY.wav" Duplicate="1" MonolithOffset="281206784" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="25" RRGroup="16" FileName="E2_1_WONKY.wav" Duplicate="1" MonolithOffset="284450816" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="26" HiVel="50" RRGroup="16" FileName="E2_2_WONKY.wav" Duplicate="1" MonolithOffset="286433280" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="51" HiVel="100" RRGroup="16" FileName="E2_3_WONKY.wav" Duplicate="1" MonolithOffset="288415744" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="101" HiVel="127" RRGroup="16" FileName="E2_4_WONKY.wav" Duplicate="1" MonolithOffset="290398208" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="25" RRGroup="16" FileName="E3_1_WONKY.wav" Duplicate="1" MonolithOffset="294359040" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="26" HiVel="50" RRGroup="16" FileName="E3_2_WONKY.wav" Duplicate="1" MonolithOffset="296341504" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="51" HiVel="100" RRGroup="16" FileName="E3_3_WONKY.wav" Duplicate="1" MonolithOffset="298323968" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="101" HiVel="127" RRGroup="16" FileName="E3_4_WONKY.wav" Duplicate="1" MonolithOffset="300306432" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="25" RRGroup="16" FileName="E4_1_WONKY.wav" Duplicate="1" MonolithOffset="304271360" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="26" HiVel="50" RRGroup="16" FileName="E4_2_WONKY.wav" Duplicate="1" MonolithOffset="306253824" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="51" HiVel="100" RRGroup="16" FileName="E4_3_WONKY.wav" Duplicate="1" MonolithOffset="308236288" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="101" HiVel="127" RRGroup="16" FileName="E4_4_WONKY.wav" Duplicate="1" MonolithOffset="310218752" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="25" RRGroup="16" FileName="F#1_1_WONKY.wav" Duplicate="1" MonolithOffset="315883520" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="26" HiVel="50" RRGroup="16" FileName="F#1_2_WONKY.wav" Duplicate="1" MonolithOffset="317865984" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="51" HiVel="100" RRGroup="16" FileName="F#1_3_WONKY.wav" Duplicate="1" MonolithOffset="319848448" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="101" HiVel="127" RRGroup="16" FileName="F#1_4_WONKY.wav" Duplicate="1" MonolithOffset="321830912" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="25" RRGroup="16" FileName="F#2_1_WONKY.wav" Duplicate="1" MonolithOffset="325074944" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="26" HiVel="50" RRGroup="16" FileName="F#2_2_WONKY.wav" Duplicate="1" MonolithOffset="327057408" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="51" HiVel="100" RRGroup="16" FileName="F#2_3_WONKY.wav" Duplicate="1" MonolithOffset="329039872" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="101" HiVel="127" RRGroup="16" FileName="F#2_4_WONKY.wav" Duplicate="1" MonolithOffset="331022336" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="25" RRGroup="16" FileName="F#3_1_WONKY.wav" Duplicate="1" MonolithOffset="334987264" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="26" HiVel="50" RRGroup="16" FileName="F#3_2_WONKY.wav" Duplicate="1" MonolithOffset="336969728" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="51" HiVel="100" RRGroup="16" FileName="F#3_3_WONKY.wav" Duplicate="1" MonolithOffset="338952192" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="101" HiVel="127" RRGroup="16" FileName="F#3_4_WONKY.wav" Duplicate="1" MonolithOffset="340934656" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="25" RRGroup="16" FileName="F#4_1_WONKY.wav" Duplicate="1" MonolithOffset="344899584" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="26" HiVel="50" RRGroup="16" FileName="F#4_2_WONKY.wav" Duplicate="1" MonolithOffset="346882048" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="51" HiVel="100" RRGroup="16" FileName="F#4_3_WONKY.wav" Duplicate="1" MonolithOffset="348864512" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="101" HiVel="127" RRGroup="16" FileName="F#4_4_WONKY.wav" Duplicate="1" MonolithOffset="350846976" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="25" RRGroup="16" FileName="F1_1_WONKY.wav" Duplicate="1" MonolithOffset="356507648" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="26" HiVel="50" RRGroup="16" FileName="F1_2_WONKY.wav" Duplicate="1" MonolithOffset="358490112" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="51" HiVel="100" RRGroup="16" FileName="F1_3_WONKY.wav" Duplicate="1" MonolithOffset="360472576" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="101" HiVel="127" RRGroup="16" FileName="F1_4_WONKY.wav" Duplicate="1" MonolithOffset="362455040" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="25" RRGroup="16" FileName="F2_1_WONKY.wav" Duplicate="1" MonolithOffset="365699072" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="26" HiVel="50" RRGroup="16" FileName="F2_2_WONKY.wav" Duplicate="1" MonolithOffset="367681536" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="51" HiVel="100" RRGroup="16" FileName="F2_3_WONKY.wav" Duplicate="1" MonolithOffset="369664000" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="101" HiVel="127" RRGroup="16" FileName="F2_4_WONKY.wav" Duplicate="1" MonolithOffset="371646464" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="25" RRGroup="16" FileName="F3_1_WONKY.wav" Duplicate="1" MonolithOffset="375607296" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="26" HiVel="50" RRGroup="16" FileName="F3_2_WONKY.wav" Duplicate="1" MonolithOffset="377589760" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="51" HiVel="100" RRGroup="16" FileName="F3_3_WONKY.wav" Duplicate="1" MonolithOffset="379572224" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="101" HiVel="127" RRGroup="16" FileName="F3_4_WONKY.wav" Duplicate="1" MonolithOffset="381554688" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="25" RRGroup="16" FileName="F4_1_WONKY.wav" Duplicate="1" MonolithOffset="385519616" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="26" HiVel="50" RRGroup="16" FileName="F4_2_WONKY.wav" Duplicate="1" MonolithOffset="387502080" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="51" HiVel="100" RRGroup="16" FileName="F4_3_WONKY.wav" Duplicate="1" MonolithOffset="389484544" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="101" HiVel="127" RRGroup="16" FileName="F4_4_WONKY.wav" Duplicate="1" MonolithOffset="391467008" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="25" RRGroup="16" FileName="G#1_1_WONKY.wav" Duplicate="1" MonolithOffset="397119488" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="26" HiVel="50" RRGroup="16" FileName="G#1_2_WONKY.wav" Duplicate="1" MonolithOffset="399101952" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="51" HiVel="100" RRGroup="16" FileName="G#1_3_WONKY.wav" Duplicate="1" MonolithOffset="401084416" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="101" HiVel="127" RRGroup="16" FileName="G#1_4_WONKY.wav" Duplicate="1" MonolithOffset="403066880" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="25" RRGroup="16" FileName="G#2_1_WONKY.wav" Duplicate="1" MonolithOffset="406310912" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="26" HiVel="50" RRGroup="16" FileName="G#2_2_WONKY.wav" Duplicate="1" MonolithOffset="408293376" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="51" HiVel="100" RRGroup="16" FileName="G#2_3_WONKY.wav" Duplicate="1" MonolithOffset="410275840" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="101" HiVel="127" RRGroup="16" FileName="G#2_4_WONKY.wav" Duplicate="1" MonolithOffset="412258304" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="25" RRGroup="16" FileName="G#3_1_WONKY.wav" Duplicate="1" MonolithOffset="416223232" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="26" HiVel="50" RRGroup="16" FileName="G#3_2_WONKY.wav" Duplicate="1" MonolithOffset="418205696" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="51" HiVel="100" RRGroup="16" FileName="G#3_3_WONKY.wav" Duplicate="1" MonolithOffset="420188160" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="101" HiVel="127" RRGroup="16" FileName="G#3_4_WONKY.wav" Duplicate="1" MonolithOffset="422170624" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="25" RRGroup="16" FileName="G#4_1_WONKY.wav" Duplicate="1" MonolithOffset="426135552" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="26" HiVel="50" RRGroup="16" FileName="G#4_2_WONKY.wav" Duplicate="1" MonolithOffset="428118016" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="51" HiVel="100" RRGroup="16" FileName="G#4_3_WONKY.wav" Duplicate="1" MonolithOffset="430100480" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="101" HiVel="127" RRGroup="16" FileName="G#4_4_WONKY.wav" Duplicate="1" MonolithOffset="432082944" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="25" RRGroup="16" FileName="G1_1_WONKY.wav" Duplicate="1" MonolithOffset="437702656" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="26" HiVel="50" RRGroup="16" FileName="G1_2_WONKY.wav" Duplicate="1" MonolithOffset="439685120" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="51" HiVel="100" RRGroup="16" FileName="G1_3_WONKY.wav" Duplicate="1" MonolithOffset="441667584" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="101" HiVel="127" RRGroup="16" FileName="G1_4_WONKY.wav" Duplicate="1" MonolithOffset="443650048" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="25" RRGroup="16" FileName="G2_1_WONKY.wav" Duplicate="1" MonolithOffset="446894080" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="26" HiVel="50" RRGroup="16" FileName="G2_2_WONKY.wav" Duplicate="1" MonolithOffset="448876544" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="51" HiVel="100" RRGroup="16" FileName="G2_3_WONKY.wav" Duplicate="1" MonolithOffset="450859008" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="101" HiVel="127" RRGroup="16" FileName="G2_4_WONKY.wav" Duplicate="1" MonolithOffset="452841472" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="25" RRGroup="16" FileName="G3_1_WONKY.wav" Duplicate="1" MonolithOffset="456806400" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="26" HiVel="50" RRGroup="16" FileName="G3_2_WONKY.wav" Duplicate="1" MonolithOffset="458788864" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="51" HiVel="100" RRGroup="16" FileName="G3_3_WONKY.wav" Duplicate="1" MonolithOffset="460771328" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="101" HiVel="127" RRGroup="16" FileName="G3_4_WONKY.wav" Duplicate="1" MonolithOffset="462753792" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="25" RRGroup="16" FileName="G4_1_WONKY.wav" Duplicate="1" MonolithOffset="466718720" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="26" HiVel="50" RRGroup="16" FileName="G4_2_WONKY.wav" Duplicate="1" MonolithOffset="468701184" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="51" HiVel="100" RRGroup="16" FileName="G4_3_WONKY.wav" Duplicate="1" MonolithOffset="470683648" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="101" HiVel="127" RRGroup="16" FileName="G4_4_WONKY.wav" Duplicate="1" MonolithOffset="472666112" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="25" RRGroup="16" FileName="A#1_1_WONKY.wav" Duplicate="1" MonolithOffset="478281728" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="26" HiVel="50" RRGroup="16" FileName="A#1_2_WONKY.wav" Duplicate="1" MonolithOffset="480264192" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="51" HiVel="100" RRGroup="16" FileName="A#1_3_WONKY.wav" Duplicate="1" MonolithOffset="482246656" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="101" HiVel="127" RRGroup="16" FileName="A#1_4_WONKY.wav" Duplicate="1" MonolithOffset="484229120" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="25" RRGroup="16" FileName="A#2_1_WONKY.wav" Duplicate="1" MonolithOffset="487473152" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="26" HiVel="50" RRGroup="16" FileName="A#2_2_WONKY.wav" Duplicate="1" MonolithOffset="489455616" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="51" HiVel="100" RRGroup="16" FileName="A#2_3_WONKY.wav" Duplicate="1" MonolithOffset="491438080" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="101" HiVel="127" RRGroup="16" FileName="A#2_4_WONKY.wav" Duplicate="1" MonolithOffset="493420544" MonolithLength="180224" SampleRate="44100" SampleStartMod="47919" />
-  </samplemap>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Wonky" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_4_wonky.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_3_wonky.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_2_wonky.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_wonky.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_4_wonky.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_3_wonky.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_2_wonky.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_wonky.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_4_wonky.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_3_wonky.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_2_wonky.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_wonky.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_4_wonky.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_3_wonky.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_2_wonky.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_wonky.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_4_wonky.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_3_wonky.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_2_wonky.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_wonky.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_4_wonky.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_3_wonky.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_2_wonky.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_wonky.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_4_wonky.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_3_wonky.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_2_wonky.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_wonky.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_4_wonky.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_3_wonky.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_2_wonky.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_wonky.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_4_wonky.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_3_wonky.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_2_wonky.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_wonky.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_4_wonky.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_3_wonky.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_2_wonky.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_wonky.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_4_wonky.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_3_wonky.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_2_wonky.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_wonky.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_4_wonky.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_3_wonky.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_2_wonky.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_wonky.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_4_wonky.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_3_wonky.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_2_wonky.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_wonky.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_4_wonky.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_3_wonky.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_2_wonky.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_wonky.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_4_wonky.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_3_wonky.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_2_wonky.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_wonky.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_4_wonky.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_3_wonky.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_2_wonky.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_wonky.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_4_wonky.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_3_wonky.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_2_wonky.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_wonky.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_4_wonky.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_3_wonky.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_2_wonky.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_wonky.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_4_wonky.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_3_wonky.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_2_wonky.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_wonky.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_4_wonky.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_3_wonky.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_2_wonky.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_wonky.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_4_wonky.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_3_wonky.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_2_wonky.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_wonky.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_4_wonky.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_3_wonky.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_2_wonky.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_wonky.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_4_wonky.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_3_wonky.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_2_wonky.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_wonky.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_4_wonky.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_3_wonky.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_2_wonky.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_wonky.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_4_wonky.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_3_wonky.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_2_wonky.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_wonky.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_4_wonky.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_3_wonky.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_2_wonky.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_wonky.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_4_wonky.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_3_wonky.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_2_wonky.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_wonky.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_4_wonky.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_3_wonky.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_2_wonky.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_wonky.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_4_wonky.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_3_wonky.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_2_wonky.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_wonky.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_4_wonky.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_3_wonky.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_2_wonky.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_wonky.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_4_wonky.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_3_wonky.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_2_wonky.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_wonky.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_4_wonky.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_3_wonky.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_2_wonky.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_wonky.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_4_wonky.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_3_wonky.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_2_wonky.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_wonky.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_4_wonky.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_3_wonky.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_2_wonky.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_wonky.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_4_wonky.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_3_wonky.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_2_wonky.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_wonky.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_4_wonky.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_3_wonky.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_2_wonky.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_wonky.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_4_wonky.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_3_wonky.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_2_wonky.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_wonky.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_4_wonky.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_3_wonky.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_2_wonky.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_wonky.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_4_wonky.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_3_wonky.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_2_wonky.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_wonky.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_4_wonky.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_3_wonky.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_2_wonky.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_wonky.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_4_wonky.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_3_wonky.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_2_wonky.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_wonky.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_4_wonky.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_3_wonky.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_2_wonky.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_wonky.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_4_wonky.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_3_wonky.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_2_wonky.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_wonky.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_4_wonky.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_3_wonky.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_2_wonky.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_wonky.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_4_wonky.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_3_wonky.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_2_wonky.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_wonky.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_4_wonky.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_3_wonky.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_2_wonky.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_wonky.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_4_wonky.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_3_wonky.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_2_wonky.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_wonky.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_4_wonky.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_3_wonky.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_2_wonky.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_wonky.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_4_wonky.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_3_wonky.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_2_wonky.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_wonky.wav" Duplicate="1"/>
+</samplemap>

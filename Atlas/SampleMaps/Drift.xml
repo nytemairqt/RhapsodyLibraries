@@ -1,198 +1,396 @@
-<?xml version='1.0' encoding='utf-8'?>
-<samplemap ID="Atlas_SampleMap" RRGroupAmount="16.0" MicPositions=";" SaveMode="2" CrossfadeGamma="1.0"><sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="25" RRGroup="5" FileName="A#3_1_DRIFT.wav" Duplicate="1" MonolithOffset="991232" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="26" HiVel="50" RRGroup="5" FileName="A#3_2_DRIFT.wav" Duplicate="1" MonolithOffset="2973696" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="51" HiVel="100" RRGroup="5" FileName="A#3_3_DRIFT.wav" Duplicate="1" MonolithOffset="4956160" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="101" HiVel="127" RRGroup="5" FileName="A#3_4_DRIFT.wav" Duplicate="1" MonolithOffset="6938624" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="25" RRGroup="5" FileName="A#4_1_DRIFT.wav" Duplicate="1" MonolithOffset="10903552" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="26" HiVel="50" RRGroup="5" FileName="A#4_2_DRIFT.wav" Duplicate="1" MonolithOffset="12886016" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="51" HiVel="100" RRGroup="5" FileName="A#4_3_DRIFT.wav" Duplicate="1" MonolithOffset="14868480" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="101" HiVel="127" RRGroup="5" FileName="A#4_4_DRIFT.wav" Duplicate="1" MonolithOffset="16850944" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="25" RRGroup="5" FileName="A1_1_DRIFT.wav" Duplicate="1" MonolithOffset="22523904" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="26" HiVel="50" RRGroup="5" FileName="A1_2_DRIFT.wav" Duplicate="1" MonolithOffset="24506368" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="51" HiVel="100" RRGroup="5" FileName="A1_3_DRIFT.wav" Duplicate="1" MonolithOffset="26488832" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="101" HiVel="127" RRGroup="5" FileName="A1_4_DRIFT.wav" Duplicate="1" MonolithOffset="28471296" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="25" RRGroup="5" FileName="A2_1_DRIFT.wav" Duplicate="1" MonolithOffset="31715328" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="26" HiVel="50" RRGroup="5" FileName="A2_2_DRIFT.wav" Duplicate="1" MonolithOffset="33697792" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="51" HiVel="100" RRGroup="5" FileName="A2_3_DRIFT.wav" Duplicate="1" MonolithOffset="35680256" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="101" HiVel="127" RRGroup="5" FileName="A2_4_DRIFT.wav" Duplicate="1" MonolithOffset="37662720" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="25" RRGroup="5" FileName="A3_1_DRIFT.wav" Duplicate="1" MonolithOffset="41627648" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="26" HiVel="50" RRGroup="5" FileName="A3_2_DRIFT.wav" Duplicate="1" MonolithOffset="43610112" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="51" HiVel="100" RRGroup="5" FileName="A3_3_DRIFT.wav" Duplicate="1" MonolithOffset="45592576" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="101" HiVel="127" RRGroup="5" FileName="A3_4_DRIFT.wav" Duplicate="1" MonolithOffset="47575040" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="25" RRGroup="5" FileName="A4_1_DRIFT.wav" Duplicate="1" MonolithOffset="51539968" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="26" HiVel="50" RRGroup="5" FileName="A4_2_DRIFT.wav" Duplicate="1" MonolithOffset="53522432" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="51" HiVel="100" RRGroup="5" FileName="A4_3_DRIFT.wav" Duplicate="1" MonolithOffset="55504896" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="101" HiVel="127" RRGroup="5" FileName="A4_4_DRIFT.wav" Duplicate="1" MonolithOffset="57487360" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="25" RRGroup="5" FileName="B1_1_DRIFT.wav" Duplicate="1" MonolithOffset="63021056" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="26" HiVel="50" RRGroup="5" FileName="B1_2_DRIFT.wav" Duplicate="1" MonolithOffset="65003520" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="51" HiVel="100" RRGroup="5" FileName="B1_3_DRIFT.wav" Duplicate="1" MonolithOffset="66985984" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="101" HiVel="127" RRGroup="5" FileName="B1_4_DRIFT.wav" Duplicate="1" MonolithOffset="68968448" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="25" RRGroup="5" FileName="B2_1_DRIFT.wav" Duplicate="1" MonolithOffset="72212480" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="26" HiVel="50" RRGroup="5" FileName="B2_2_DRIFT.wav" Duplicate="1" MonolithOffset="74194944" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="51" HiVel="100" RRGroup="5" FileName="B2_3_DRIFT.wav" Duplicate="1" MonolithOffset="76177408" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="101" HiVel="127" RRGroup="5" FileName="B2_4_DRIFT.wav" Duplicate="1" MonolithOffset="78159872" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="25" RRGroup="5" FileName="B3_1_DRIFT.wav" Duplicate="1" MonolithOffset="82124800" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="26" HiVel="50" RRGroup="5" FileName="B3_2_DRIFT.wav" Duplicate="1" MonolithOffset="84107264" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="51" HiVel="100" RRGroup="5" FileName="B3_3_DRIFT.wav" Duplicate="1" MonolithOffset="86089728" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="101" HiVel="127" RRGroup="5" FileName="B3_4_DRIFT.wav" Duplicate="1" MonolithOffset="88072192" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="25" RRGroup="5" FileName="B4_1_DRIFT.wav" Duplicate="1" MonolithOffset="92037120" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="26" HiVel="50" RRGroup="5" FileName="B4_2_DRIFT.wav" Duplicate="1" MonolithOffset="94019584" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="51" HiVel="100" RRGroup="5" FileName="B4_3_DRIFT.wav" Duplicate="1" MonolithOffset="96002048" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="101" HiVel="127" RRGroup="5" FileName="B4_4_DRIFT.wav" Duplicate="1" MonolithOffset="97984512" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="25" RRGroup="5" FileName="C#1_1_DRIFT.wav" Duplicate="1" MonolithOffset="103030784" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="26" HiVel="50" RRGroup="5" FileName="C#1_2_DRIFT.wav" Duplicate="1" MonolithOffset="105013248" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="51" HiVel="100" RRGroup="5" FileName="C#1_3_DRIFT.wav" Duplicate="1" MonolithOffset="106995712" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="101" HiVel="127" RRGroup="5" FileName="C#1_4_DRIFT.wav" Duplicate="1" MonolithOffset="108978176" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="25" RRGroup="5" FileName="C#2_1_DRIFT.wav" Duplicate="1" MonolithOffset="112222208" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="26" HiVel="50" RRGroup="5" FileName="C#2_2_DRIFT.wav" Duplicate="1" MonolithOffset="114204672" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="51" HiVel="100" RRGroup="5" FileName="C#2_3_DRIFT.wav" Duplicate="1" MonolithOffset="116187136" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="101" HiVel="127" RRGroup="5" FileName="C#2_4_DRIFT.wav" Duplicate="1" MonolithOffset="118169600" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="25" RRGroup="5" FileName="C#3_1_DRIFT.wav" Duplicate="1" MonolithOffset="122134528" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="26" HiVel="50" RRGroup="5" FileName="C#3_2_DRIFT.wav" Duplicate="1" MonolithOffset="124116992" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="51" HiVel="100" RRGroup="5" FileName="C#3_3_DRIFT.wav" Duplicate="1" MonolithOffset="126099456" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="101" HiVel="127" RRGroup="5" FileName="C#3_4_DRIFT.wav" Duplicate="1" MonolithOffset="128081920" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="25" RRGroup="5" FileName="C#4_1_DRIFT.wav" Duplicate="1" MonolithOffset="132046848" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="26" HiVel="50" RRGroup="5" FileName="C#4_2_DRIFT.wav" Duplicate="1" MonolithOffset="134029312" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="51" HiVel="100" RRGroup="5" FileName="C#4_3_DRIFT.wav" Duplicate="1" MonolithOffset="136011776" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="101" HiVel="127" RRGroup="5" FileName="C#4_4_DRIFT.wav" Duplicate="1" MonolithOffset="137994240" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="25" RRGroup="5" FileName="C1_1_DRIFT.wav" Duplicate="1" MonolithOffset="143761408" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="26" HiVel="50" RRGroup="5" FileName="C1_2_DRIFT.wav" Duplicate="1" MonolithOffset="145743872" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="51" HiVel="100" RRGroup="5" FileName="C1_3_DRIFT.wav" Duplicate="1" MonolithOffset="147726336" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="101" HiVel="127" RRGroup="5" FileName="C1_4_DRIFT.wav" Duplicate="1" MonolithOffset="149708800" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="25" RRGroup="5" FileName="C2_1_DRIFT.wav" Duplicate="1" MonolithOffset="152952832" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="26" HiVel="50" RRGroup="5" FileName="C2_2_DRIFT.wav" Duplicate="1" MonolithOffset="154935296" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="51" HiVel="100" RRGroup="5" FileName="C2_3_DRIFT.wav" Duplicate="1" MonolithOffset="156917760" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="101" HiVel="127" RRGroup="5" FileName="C2_4_DRIFT.wav" Duplicate="1" MonolithOffset="158900224" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="25" RRGroup="5" FileName="C3_1_DRIFT.wav" Duplicate="1" MonolithOffset="162861056" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="26" HiVel="50" RRGroup="5" FileName="C3_2_DRIFT.wav" Duplicate="1" MonolithOffset="164843520" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="51" HiVel="100" RRGroup="5" FileName="C3_3_DRIFT.wav" Duplicate="1" MonolithOffset="166825984" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="101" HiVel="127" RRGroup="5" FileName="C3_4_DRIFT.wav" Duplicate="1" MonolithOffset="168808448" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="25" RRGroup="5" FileName="C4_1_DRIFT.wav" Duplicate="1" MonolithOffset="172773376" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="26" HiVel="50" RRGroup="5" FileName="C4_2_DRIFT.wav" Duplicate="1" MonolithOffset="174755840" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="51" HiVel="100" RRGroup="5" FileName="C4_3_DRIFT.wav" Duplicate="1" MonolithOffset="176738304" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="101" HiVel="127" RRGroup="5" FileName="C4_4_DRIFT.wav" Duplicate="1" MonolithOffset="178720768" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="25" RRGroup="5" FileName="C5_1_DRIFT.wav" Duplicate="1" MonolithOffset="182685696" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="26" HiVel="50" RRGroup="5" FileName="C5_2_DRIFT.wav" Duplicate="1" MonolithOffset="184668160" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="51" HiVel="100" RRGroup="5" FileName="C5_3_DRIFT.wav" Duplicate="1" MonolithOffset="186650624" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="101" HiVel="127" RRGroup="5" FileName="C5_4_DRIFT.wav" Duplicate="1" MonolithOffset="188633088" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="25" RRGroup="5" FileName="D#1_1_DRIFT.wav" Duplicate="1" MonolithOffset="192598016" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="26" HiVel="50" RRGroup="5" FileName="D#1_2_DRIFT.wav" Duplicate="1" MonolithOffset="194580480" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="51" HiVel="100" RRGroup="5" FileName="D#1_3_DRIFT.wav" Duplicate="1" MonolithOffset="196562944" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="101" HiVel="127" RRGroup="5" FileName="D#1_4_DRIFT.wav" Duplicate="1" MonolithOffset="198545408" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="25" RRGroup="5" FileName="D#2_1_DRIFT.wav" Duplicate="1" MonolithOffset="201789440" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="26" HiVel="50" RRGroup="5" FileName="D#2_2_DRIFT.wav" Duplicate="1" MonolithOffset="203771904" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="51" HiVel="100" RRGroup="5" FileName="D#2_3_DRIFT.wav" Duplicate="1" MonolithOffset="205754368" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="101" HiVel="127" RRGroup="5" FileName="D#2_4_DRIFT.wav" Duplicate="1" MonolithOffset="207736832" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="25" RRGroup="5" FileName="D#3_1_DRIFT.wav" Duplicate="1" MonolithOffset="211701760" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="26" HiVel="50" RRGroup="5" FileName="D#3_2_DRIFT.wav" Duplicate="1" MonolithOffset="213684224" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="51" HiVel="100" RRGroup="5" FileName="D#3_3_DRIFT.wav" Duplicate="1" MonolithOffset="215666688" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="101" HiVel="127" RRGroup="5" FileName="D#3_4_DRIFT.wav" Duplicate="1" MonolithOffset="217649152" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="25" RRGroup="5" FileName="D#4_1_DRIFT.wav" Duplicate="1" MonolithOffset="221614080" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="26" HiVel="50" RRGroup="5" FileName="D#4_2_DRIFT.wav" Duplicate="1" MonolithOffset="223596544" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="51" HiVel="100" RRGroup="5" FileName="D#4_3_DRIFT.wav" Duplicate="1" MonolithOffset="225579008" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="101" HiVel="127" RRGroup="5" FileName="D#4_4_DRIFT.wav" Duplicate="1" MonolithOffset="227561472" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="25" RRGroup="5" FileName="D1_1_DRIFT.wav" Duplicate="1" MonolithOffset="233271296" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="26" HiVel="50" RRGroup="5" FileName="D1_2_DRIFT.wav" Duplicate="1" MonolithOffset="235253760" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="51" HiVel="100" RRGroup="5" FileName="D1_3_DRIFT.wav" Duplicate="1" MonolithOffset="237236224" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="101" HiVel="127" RRGroup="5" FileName="D1_4_DRIFT.wav" Duplicate="1" MonolithOffset="239218688" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="25" RRGroup="5" FileName="D2_1_DRIFT.wav" Duplicate="1" MonolithOffset="242462720" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="26" HiVel="50" RRGroup="5" FileName="D2_2_DRIFT.wav" Duplicate="1" MonolithOffset="244445184" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="51" HiVel="100" RRGroup="5" FileName="D2_3_DRIFT.wav" Duplicate="1" MonolithOffset="246427648" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="101" HiVel="127" RRGroup="5" FileName="D2_4_DRIFT.wav" Duplicate="1" MonolithOffset="248410112" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="25" RRGroup="5" FileName="D3_1_DRIFT.wav" Duplicate="1" MonolithOffset="252375040" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="26" HiVel="50" RRGroup="5" FileName="D3_2_DRIFT.wav" Duplicate="1" MonolithOffset="254357504" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="51" HiVel="100" RRGroup="5" FileName="D3_3_DRIFT.wav" Duplicate="1" MonolithOffset="256339968" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="101" HiVel="127" RRGroup="5" FileName="D3_4_DRIFT.wav" Duplicate="1" MonolithOffset="258322432" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="25" RRGroup="5" FileName="D4_1_DRIFT.wav" Duplicate="1" MonolithOffset="262283264" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="26" HiVel="50" RRGroup="5" FileName="D4_2_DRIFT.wav" Duplicate="1" MonolithOffset="264265728" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="51" HiVel="100" RRGroup="5" FileName="D4_3_DRIFT.wav" Duplicate="1" MonolithOffset="266248192" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="101" HiVel="127" RRGroup="5" FileName="D4_4_DRIFT.wav" Duplicate="1" MonolithOffset="268230656" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="25" RRGroup="5" FileName="E1_1_DRIFT.wav" Duplicate="1" MonolithOffset="273997824" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="26" HiVel="50" RRGroup="5" FileName="E1_2_DRIFT.wav" Duplicate="1" MonolithOffset="275980288" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="51" HiVel="100" RRGroup="5" FileName="E1_3_DRIFT.wav" Duplicate="1" MonolithOffset="277962752" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="101" HiVel="127" RRGroup="5" FileName="E1_4_DRIFT.wav" Duplicate="1" MonolithOffset="279945216" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="25" RRGroup="5" FileName="E2_1_DRIFT.wav" Duplicate="1" MonolithOffset="283189248" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="26" HiVel="50" RRGroup="5" FileName="E2_2_DRIFT.wav" Duplicate="1" MonolithOffset="285171712" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="51" HiVel="100" RRGroup="5" FileName="E2_3_DRIFT.wav" Duplicate="1" MonolithOffset="287154176" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="101" HiVel="127" RRGroup="5" FileName="E2_4_DRIFT.wav" Duplicate="1" MonolithOffset="289136640" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="25" RRGroup="5" FileName="E3_1_DRIFT.wav" Duplicate="1" MonolithOffset="293097472" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="26" HiVel="50" RRGroup="5" FileName="E3_2_DRIFT.wav" Duplicate="1" MonolithOffset="295079936" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="51" HiVel="100" RRGroup="5" FileName="E3_3_DRIFT.wav" Duplicate="1" MonolithOffset="297062400" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="101" HiVel="127" RRGroup="5" FileName="E3_4_DRIFT.wav" Duplicate="1" MonolithOffset="299044864" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="25" RRGroup="5" FileName="E4_1_DRIFT.wav" Duplicate="1" MonolithOffset="303009792" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="26" HiVel="50" RRGroup="5" FileName="E4_2_DRIFT.wav" Duplicate="1" MonolithOffset="304992256" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="51" HiVel="100" RRGroup="5" FileName="E4_3_DRIFT.wav" Duplicate="1" MonolithOffset="306974720" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="101" HiVel="127" RRGroup="5" FileName="E4_4_DRIFT.wav" Duplicate="1" MonolithOffset="308957184" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="25" RRGroup="5" FileName="F#1_1_DRIFT.wav" Duplicate="1" MonolithOffset="314621952" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="26" HiVel="50" RRGroup="5" FileName="F#1_2_DRIFT.wav" Duplicate="1" MonolithOffset="316604416" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="51" HiVel="100" RRGroup="5" FileName="F#1_3_DRIFT.wav" Duplicate="1" MonolithOffset="318586880" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="101" HiVel="127" RRGroup="5" FileName="F#1_4_DRIFT.wav" Duplicate="1" MonolithOffset="320569344" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="25" RRGroup="5" FileName="F#2_1_DRIFT.wav" Duplicate="1" MonolithOffset="323813376" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="26" HiVel="50" RRGroup="5" FileName="F#2_2_DRIFT.wav" Duplicate="1" MonolithOffset="325795840" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="51" HiVel="100" RRGroup="5" FileName="F#2_3_DRIFT.wav" Duplicate="1" MonolithOffset="327778304" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="101" HiVel="127" RRGroup="5" FileName="F#2_4_DRIFT.wav" Duplicate="1" MonolithOffset="329760768" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="25" RRGroup="5" FileName="F#3_1_DRIFT.wav" Duplicate="1" MonolithOffset="333725696" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="26" HiVel="50" RRGroup="5" FileName="F#3_2_DRIFT.wav" Duplicate="1" MonolithOffset="335708160" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="51" HiVel="100" RRGroup="5" FileName="F#3_3_DRIFT.wav" Duplicate="1" MonolithOffset="337690624" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="101" HiVel="127" RRGroup="5" FileName="F#3_4_DRIFT.wav" Duplicate="1" MonolithOffset="339673088" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="25" RRGroup="5" FileName="F#4_1_DRIFT.wav" Duplicate="1" MonolithOffset="343638016" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="26" HiVel="50" RRGroup="5" FileName="F#4_2_DRIFT.wav" Duplicate="1" MonolithOffset="345620480" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="51" HiVel="100" RRGroup="5" FileName="F#4_3_DRIFT.wav" Duplicate="1" MonolithOffset="347602944" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="101" HiVel="127" RRGroup="5" FileName="F#4_4_DRIFT.wav" Duplicate="1" MonolithOffset="349585408" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="25" RRGroup="5" FileName="F1_1_DRIFT.wav" Duplicate="1" MonolithOffset="355246080" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="26" HiVel="50" RRGroup="5" FileName="F1_2_DRIFT.wav" Duplicate="1" MonolithOffset="357228544" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="51" HiVel="100" RRGroup="5" FileName="F1_3_DRIFT.wav" Duplicate="1" MonolithOffset="359211008" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="101" HiVel="127" RRGroup="5" FileName="F1_4_DRIFT.wav" Duplicate="1" MonolithOffset="361193472" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="25" RRGroup="5" FileName="F2_1_DRIFT.wav" Duplicate="1" MonolithOffset="364437504" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="26" HiVel="50" RRGroup="5" FileName="F2_2_DRIFT.wav" Duplicate="1" MonolithOffset="366419968" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="51" HiVel="100" RRGroup="5" FileName="F2_3_DRIFT.wav" Duplicate="1" MonolithOffset="368402432" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="101" HiVel="127" RRGroup="5" FileName="F2_4_DRIFT.wav" Duplicate="1" MonolithOffset="370384896" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="25" RRGroup="5" FileName="F3_1_DRIFT.wav" Duplicate="1" MonolithOffset="374345728" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="26" HiVel="50" RRGroup="5" FileName="F3_2_DRIFT.wav" Duplicate="1" MonolithOffset="376328192" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="51" HiVel="100" RRGroup="5" FileName="F3_3_DRIFT.wav" Duplicate="1" MonolithOffset="378310656" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="101" HiVel="127" RRGroup="5" FileName="F3_4_DRIFT.wav" Duplicate="1" MonolithOffset="380293120" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="25" RRGroup="5" FileName="F4_1_DRIFT.wav" Duplicate="1" MonolithOffset="384258048" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="26" HiVel="50" RRGroup="5" FileName="F4_2_DRIFT.wav" Duplicate="1" MonolithOffset="386240512" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="51" HiVel="100" RRGroup="5" FileName="F4_3_DRIFT.wav" Duplicate="1" MonolithOffset="388222976" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="101" HiVel="127" RRGroup="5" FileName="F4_4_DRIFT.wav" Duplicate="1" MonolithOffset="390205440" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="25" RRGroup="5" FileName="G#1_1_DRIFT.wav" Duplicate="1" MonolithOffset="395857920" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="26" HiVel="50" RRGroup="5" FileName="G#1_2_DRIFT.wav" Duplicate="1" MonolithOffset="397840384" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="51" HiVel="100" RRGroup="5" FileName="G#1_3_DRIFT.wav" Duplicate="1" MonolithOffset="399822848" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="101" HiVel="127" RRGroup="5" FileName="G#1_4_DRIFT.wav" Duplicate="1" MonolithOffset="401805312" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="25" RRGroup="5" FileName="G#2_1_DRIFT.wav" Duplicate="1" MonolithOffset="405049344" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="26" HiVel="50" RRGroup="5" FileName="G#2_2_DRIFT.wav" Duplicate="1" MonolithOffset="407031808" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="51" HiVel="100" RRGroup="5" FileName="G#2_3_DRIFT.wav" Duplicate="1" MonolithOffset="409014272" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="101" HiVel="127" RRGroup="5" FileName="G#2_4_DRIFT.wav" Duplicate="1" MonolithOffset="410996736" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="25" RRGroup="5" FileName="G#3_1_DRIFT.wav" Duplicate="1" MonolithOffset="414961664" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="26" HiVel="50" RRGroup="5" FileName="G#3_2_DRIFT.wav" Duplicate="1" MonolithOffset="416944128" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="51" HiVel="100" RRGroup="5" FileName="G#3_3_DRIFT.wav" Duplicate="1" MonolithOffset="418926592" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="101" HiVel="127" RRGroup="5" FileName="G#3_4_DRIFT.wav" Duplicate="1" MonolithOffset="420909056" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="25" RRGroup="5" FileName="G#4_1_DRIFT.wav" Duplicate="1" MonolithOffset="424873984" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="26" HiVel="50" RRGroup="5" FileName="G#4_2_DRIFT.wav" Duplicate="1" MonolithOffset="426856448" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="51" HiVel="100" RRGroup="5" FileName="G#4_3_DRIFT.wav" Duplicate="1" MonolithOffset="428838912" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="101" HiVel="127" RRGroup="5" FileName="G#4_4_DRIFT.wav" Duplicate="1" MonolithOffset="430821376" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="25" RRGroup="5" FileName="G1_1_DRIFT.wav" Duplicate="1" MonolithOffset="436441088" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="26" HiVel="50" RRGroup="5" FileName="G1_2_DRIFT.wav" Duplicate="1" MonolithOffset="438423552" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="51" HiVel="100" RRGroup="5" FileName="G1_3_DRIFT.wav" Duplicate="1" MonolithOffset="440406016" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="101" HiVel="127" RRGroup="5" FileName="G1_4_DRIFT.wav" Duplicate="1" MonolithOffset="442388480" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="25" RRGroup="5" FileName="G2_1_DRIFT.wav" Duplicate="1" MonolithOffset="445632512" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="26" HiVel="50" RRGroup="5" FileName="G2_2_DRIFT.wav" Duplicate="1" MonolithOffset="447614976" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="51" HiVel="100" RRGroup="5" FileName="G2_3_DRIFT.wav" Duplicate="1" MonolithOffset="449597440" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="101" HiVel="127" RRGroup="5" FileName="G2_4_DRIFT.wav" Duplicate="1" MonolithOffset="451579904" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="25" RRGroup="5" FileName="G3_1_DRIFT.wav" Duplicate="1" MonolithOffset="455544832" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="26" HiVel="50" RRGroup="5" FileName="G3_2_DRIFT.wav" Duplicate="1" MonolithOffset="457527296" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="51" HiVel="100" RRGroup="5" FileName="G3_3_DRIFT.wav" Duplicate="1" MonolithOffset="459509760" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="101" HiVel="127" RRGroup="5" FileName="G3_4_DRIFT.wav" Duplicate="1" MonolithOffset="461492224" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="25" RRGroup="5" FileName="G4_1_DRIFT.wav" Duplicate="1" MonolithOffset="465457152" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="26" HiVel="50" RRGroup="5" FileName="G4_2_DRIFT.wav" Duplicate="1" MonolithOffset="467439616" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="51" HiVel="100" RRGroup="5" FileName="G4_3_DRIFT.wav" Duplicate="1" MonolithOffset="469422080" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="101" HiVel="127" RRGroup="5" FileName="G4_4_DRIFT.wav" Duplicate="1" MonolithOffset="471404544" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="25" RRGroup="5" FileName="A#1_1_DRIFT.wav" Duplicate="1" MonolithOffset="477020160" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="26" HiVel="50" RRGroup="5" FileName="A#1_2_DRIFT.wav" Duplicate="1" MonolithOffset="479002624" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="51" HiVel="100" RRGroup="5" FileName="A#1_3_DRIFT.wav" Duplicate="1" MonolithOffset="480985088" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="101" HiVel="127" RRGroup="5" FileName="A#1_4_DRIFT.wav" Duplicate="1" MonolithOffset="482967552" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="25" RRGroup="5" FileName="A#2_1_DRIFT.wav" Duplicate="1" MonolithOffset="486211584" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="26" HiVel="50" RRGroup="5" FileName="A#2_2_DRIFT.wav" Duplicate="1" MonolithOffset="488194048" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="51" HiVel="100" RRGroup="5" FileName="A#2_3_DRIFT.wav" Duplicate="1" MonolithOffset="490176512" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="101" HiVel="127" RRGroup="5" FileName="A#2_4_DRIFT.wav" Duplicate="1" MonolithOffset="492158976" MonolithLength="180224" SampleRate="44100" SampleStartMod="40686" />
-  </samplemap>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Drift" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_4_drift.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_3_drift.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_2_drift.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_drift.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_4_drift.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_3_drift.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_2_drift.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_drift.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_4_drift.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_3_drift.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_2_drift.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_drift.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_4_drift.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_3_drift.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_2_drift.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_drift.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_4_drift.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_3_drift.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_2_drift.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_drift.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_4_drift.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_3_drift.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_2_drift.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_drift.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_4_drift.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_3_drift.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_2_drift.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_drift.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_4_drift.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_3_drift.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_2_drift.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_drift.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_4_drift.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_3_drift.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_2_drift.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_drift.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_4_drift.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_3_drift.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_2_drift.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_drift.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_4_drift.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_3_drift.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_2_drift.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_drift.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_4_drift.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_3_drift.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_2_drift.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_drift.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_4_drift.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_3_drift.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_2_drift.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_drift.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_4_drift.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_3_drift.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_2_drift.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_drift.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_4_drift.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_3_drift.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_2_drift.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_drift.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_4_drift.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_3_drift.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_2_drift.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_drift.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_4_drift.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_3_drift.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_2_drift.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_drift.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_4_drift.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_3_drift.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_2_drift.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_drift.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_4_drift.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_3_drift.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_2_drift.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_drift.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_4_drift.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_3_drift.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_2_drift.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_drift.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_4_drift.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_3_drift.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_2_drift.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_drift.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_4_drift.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_3_drift.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_2_drift.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_drift.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_4_drift.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_3_drift.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_2_drift.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_drift.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_4_drift.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_3_drift.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_2_drift.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_drift.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_4_drift.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_3_drift.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_2_drift.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_drift.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_4_drift.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_3_drift.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_2_drift.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_drift.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_4_drift.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_3_drift.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_2_drift.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_drift.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_4_drift.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_3_drift.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_2_drift.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_drift.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_4_drift.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_3_drift.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_2_drift.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_drift.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_4_drift.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_3_drift.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_2_drift.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_drift.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_4_drift.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_3_drift.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_2_drift.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_drift.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_4_drift.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_3_drift.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_2_drift.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_drift.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_4_drift.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_3_drift.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_2_drift.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_drift.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_4_drift.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_3_drift.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_2_drift.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_drift.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_4_drift.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_3_drift.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_2_drift.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_drift.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_4_drift.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_3_drift.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_2_drift.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_drift.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_4_drift.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_3_drift.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_2_drift.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_drift.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_4_drift.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_3_drift.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_2_drift.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_drift.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_4_drift.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_3_drift.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_2_drift.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_drift.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_4_drift.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_3_drift.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_2_drift.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_drift.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_4_drift.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_3_drift.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_2_drift.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_drift.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_4_drift.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_3_drift.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_2_drift.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_drift.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_4_drift.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_3_drift.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_2_drift.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_drift.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_4_drift.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_3_drift.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_2_drift.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_drift.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_4_drift.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_3_drift.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_2_drift.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_drift.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_4_drift.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_3_drift.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_2_drift.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_drift.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_4_drift.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_3_drift.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_2_drift.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_drift.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_4_drift.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_3_drift.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_2_drift.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_drift.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_4_drift.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_3_drift.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_2_drift.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_drift.wav" Duplicate="1"/>
+</samplemap>

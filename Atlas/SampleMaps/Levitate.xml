@@ -1,198 +1,396 @@
-<?xml version='1.0' encoding='utf-8'?>
-<samplemap ID="Atlas_SampleMap" RRGroupAmount="16.0" MicPositions=";" SaveMode="2" CrossfadeGamma="1.0"><sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="25" RRGroup="7" FileName="A#3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="1351680" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="26" HiVel="50" RRGroup="7" FileName="A#3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="3334144" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="51" HiVel="100" RRGroup="7" FileName="A#3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="5316608" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="70" LoKey="70" HiKey="70" LoVel="101" HiVel="127" RRGroup="7" FileName="A#3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="7299072" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="25" RRGroup="7" FileName="A#4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="11264000" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="26" HiVel="50" RRGroup="7" FileName="A#4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="13246464" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="51" HiVel="100" RRGroup="7" FileName="A#4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="15228928" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="82" LoKey="82" HiKey="82" LoVel="101" HiVel="127" RRGroup="7" FileName="A#4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="17211392" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="25" RRGroup="7" FileName="A1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="22884352" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="26" HiVel="50" RRGroup="7" FileName="A1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="24866816" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="51" HiVel="100" RRGroup="7" FileName="A1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="26849280" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="45" LoKey="45" HiKey="45" LoVel="101" HiVel="127" RRGroup="7" FileName="A1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="28831744" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="25" RRGroup="7" FileName="A2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="32075776" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="26" HiVel="50" RRGroup="7" FileName="A2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="34058240" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="51" HiVel="100" RRGroup="7" FileName="A2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="36040704" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="57" LoKey="57" HiKey="57" LoVel="101" HiVel="127" RRGroup="7" FileName="A2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="38023168" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="25" RRGroup="7" FileName="A3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="41988096" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="26" HiVel="50" RRGroup="7" FileName="A3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="43970560" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="51" HiVel="100" RRGroup="7" FileName="A3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="45953024" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="69" LoKey="69" HiKey="69" LoVel="101" HiVel="127" RRGroup="7" FileName="A3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="47935488" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="25" RRGroup="7" FileName="A4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="51900416" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="26" HiVel="50" RRGroup="7" FileName="A4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="53882880" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="51" HiVel="100" RRGroup="7" FileName="A4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="55865344" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="81" LoKey="81" HiKey="81" LoVel="101" HiVel="127" RRGroup="7" FileName="A4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="57847808" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="25" RRGroup="7" FileName="B1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="63381504" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="26" HiVel="50" RRGroup="7" FileName="B1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="65363968" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="51" HiVel="100" RRGroup="7" FileName="B1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="67346432" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="47" LoKey="47" HiKey="47" LoVel="101" HiVel="127" RRGroup="7" FileName="B1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="69328896" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="25" RRGroup="7" FileName="B2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="72572928" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="26" HiVel="50" RRGroup="7" FileName="B2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="74555392" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="51" HiVel="100" RRGroup="7" FileName="B2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="76537856" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="59" LoKey="59" HiKey="59" LoVel="101" HiVel="127" RRGroup="7" FileName="B2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="78520320" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="25" RRGroup="7" FileName="B3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="82485248" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="26" HiVel="50" RRGroup="7" FileName="B3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="84467712" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="51" HiVel="100" RRGroup="7" FileName="B3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="86450176" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="71" LoKey="71" HiKey="71" LoVel="101" HiVel="127" RRGroup="7" FileName="B3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="88432640" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="25" RRGroup="7" FileName="B4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="92397568" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="26" HiVel="50" RRGroup="7" FileName="B4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="94380032" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="51" HiVel="100" RRGroup="7" FileName="B4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="96362496" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="83" LoKey="83" HiKey="83" LoVel="101" HiVel="127" RRGroup="7" FileName="B4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="98344960" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="25" RRGroup="7" FileName="C#1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="103391232" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="26" HiVel="50" RRGroup="7" FileName="C#1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="105373696" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="51" HiVel="100" RRGroup="7" FileName="C#1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="107356160" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="37" LoKey="37" HiKey="37" LoVel="101" HiVel="127" RRGroup="7" FileName="C#1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="109338624" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="25" RRGroup="7" FileName="C#2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="112582656" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="26" HiVel="50" RRGroup="7" FileName="C#2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="114565120" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="51" HiVel="100" RRGroup="7" FileName="C#2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="116547584" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="49" LoKey="49" HiKey="49" LoVel="101" HiVel="127" RRGroup="7" FileName="C#2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="118530048" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="25" RRGroup="7" FileName="C#3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="122494976" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="26" HiVel="50" RRGroup="7" FileName="C#3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="124477440" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="51" HiVel="100" RRGroup="7" FileName="C#3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="126459904" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="61" LoKey="61" HiKey="61" LoVel="101" HiVel="127" RRGroup="7" FileName="C#3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="128442368" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="25" RRGroup="7" FileName="C#4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="132407296" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="26" HiVel="50" RRGroup="7" FileName="C#4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="134389760" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="51" HiVel="100" RRGroup="7" FileName="C#4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="136372224" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="73" LoKey="73" HiKey="73" LoVel="101" HiVel="127" RRGroup="7" FileName="C#4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="138354688" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="25" RRGroup="7" FileName="C1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="144121856" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="26" HiVel="50" RRGroup="7" FileName="C1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="146104320" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="51" HiVel="100" RRGroup="7" FileName="C1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="148086784" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="36" LoKey="36" HiKey="36" LoVel="101" HiVel="127" RRGroup="7" FileName="C1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="150069248" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="25" RRGroup="7" FileName="C2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="153313280" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="26" HiVel="50" RRGroup="7" FileName="C2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="155295744" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="51" HiVel="100" RRGroup="7" FileName="C2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="157278208" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="48" LoKey="36" HiKey="48" LoVel="101" HiVel="127" RRGroup="7" FileName="C2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="159260672" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="25" RRGroup="7" FileName="C3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="163221504" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="26" HiVel="50" RRGroup="7" FileName="C3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="165203968" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="51" HiVel="100" RRGroup="7" FileName="C3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="167186432" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="60" LoKey="60" HiKey="60" LoVel="101" HiVel="127" RRGroup="7" FileName="C3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="169168896" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="25" RRGroup="7" FileName="C4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="173133824" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="26" HiVel="50" RRGroup="7" FileName="C4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="175116288" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="51" HiVel="100" RRGroup="7" FileName="C4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="177098752" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="72" LoKey="72" HiKey="72" LoVel="101" HiVel="127" RRGroup="7" FileName="C4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="179081216" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="25" RRGroup="7" FileName="C5_1_LEVITATE.wav" Duplicate="1" MonolithOffset="183046144" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="26" HiVel="50" RRGroup="7" FileName="C5_2_LEVITATE.wav" Duplicate="1" MonolithOffset="185028608" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="51" HiVel="100" RRGroup="7" FileName="C5_3_LEVITATE.wav" Duplicate="1" MonolithOffset="187011072" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="84" LoKey="84" HiKey="96" LoVel="101" HiVel="127" RRGroup="7" FileName="C5_4_LEVITATE.wav" Duplicate="1" MonolithOffset="188993536" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="25" RRGroup="7" FileName="D#1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="192958464" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="26" HiVel="50" RRGroup="7" FileName="D#1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="194940928" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="51" HiVel="100" RRGroup="7" FileName="D#1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="196923392" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="39" LoKey="39" HiKey="39" LoVel="101" HiVel="127" RRGroup="7" FileName="D#1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="198905856" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="25" RRGroup="7" FileName="D#2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="202149888" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="26" HiVel="50" RRGroup="7" FileName="D#2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="204132352" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="51" HiVel="100" RRGroup="7" FileName="D#2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="206114816" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="51" LoKey="51" HiKey="51" LoVel="101" HiVel="127" RRGroup="7" FileName="D#2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="208097280" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="25" RRGroup="7" FileName="D#3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="212062208" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="26" HiVel="50" RRGroup="7" FileName="D#3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="214044672" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="51" HiVel="100" RRGroup="7" FileName="D#3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="216027136" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="63" LoKey="63" HiKey="63" LoVel="101" HiVel="127" RRGroup="7" FileName="D#3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="218009600" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="25" RRGroup="7" FileName="D#4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="221974528" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="26" HiVel="50" RRGroup="7" FileName="D#4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="223956992" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="51" HiVel="100" RRGroup="7" FileName="D#4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="225939456" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="75" LoKey="75" HiKey="75" LoVel="101" HiVel="127" RRGroup="7" FileName="D#4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="227921920" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="25" RRGroup="7" FileName="D1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="233631744" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="26" HiVel="50" RRGroup="7" FileName="D1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="235614208" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="51" HiVel="100" RRGroup="7" FileName="D1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="237596672" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="38" LoKey="38" HiKey="38" LoVel="101" HiVel="127" RRGroup="7" FileName="D1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="239579136" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="25" RRGroup="7" FileName="D2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="242823168" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="26" HiVel="50" RRGroup="7" FileName="D2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="244805632" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="51" HiVel="100" RRGroup="7" FileName="D2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="246788096" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="50" LoKey="50" HiKey="50" LoVel="101" HiVel="127" RRGroup="7" FileName="D2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="248770560" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="25" RRGroup="7" FileName="D3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="252735488" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="26" HiVel="50" RRGroup="7" FileName="D3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="254717952" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="51" HiVel="100" RRGroup="7" FileName="D3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="256700416" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="62" LoKey="62" HiKey="62" LoVel="101" HiVel="127" RRGroup="7" FileName="D3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="258682880" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="25" RRGroup="7" FileName="D4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="262643712" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="26" HiVel="50" RRGroup="7" FileName="D4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="264626176" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="51" HiVel="100" RRGroup="7" FileName="D4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="266608640" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="74" LoKey="74" HiKey="74" LoVel="101" HiVel="127" RRGroup="7" FileName="D4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="268591104" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="25" RRGroup="7" FileName="E1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="274358272" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="26" HiVel="50" RRGroup="7" FileName="E1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="276340736" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="51" HiVel="100" RRGroup="7" FileName="E1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="278323200" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="40" LoKey="40" HiKey="40" LoVel="101" HiVel="127" RRGroup="7" FileName="E1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="280305664" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="25" RRGroup="7" FileName="E2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="283549696" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="26" HiVel="50" RRGroup="7" FileName="E2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="285532160" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="51" HiVel="100" RRGroup="7" FileName="E2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="287514624" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="52" LoKey="52" HiKey="52" LoVel="101" HiVel="127" RRGroup="7" FileName="E2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="289497088" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="25" RRGroup="7" FileName="E3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="293457920" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="26" HiVel="50" RRGroup="7" FileName="E3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="295440384" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="51" HiVel="100" RRGroup="7" FileName="E3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="297422848" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="64" LoKey="64" HiKey="64" LoVel="101" HiVel="127" RRGroup="7" FileName="E3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="299405312" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="25" RRGroup="7" FileName="E4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="303370240" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="26" HiVel="50" RRGroup="7" FileName="E4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="305352704" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="51" HiVel="100" RRGroup="7" FileName="E4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="307335168" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="76" LoKey="76" HiKey="76" LoVel="101" HiVel="127" RRGroup="7" FileName="E4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="309317632" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="25" RRGroup="7" FileName="F#1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="314982400" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="26" HiVel="50" RRGroup="7" FileName="F#1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="316964864" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="51" HiVel="100" RRGroup="7" FileName="F#1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="318947328" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="42" LoKey="42" HiKey="42" LoVel="101" HiVel="127" RRGroup="7" FileName="F#1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="320929792" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="25" RRGroup="7" FileName="F#2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="324173824" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="26" HiVel="50" RRGroup="7" FileName="F#2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="326156288" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="51" HiVel="100" RRGroup="7" FileName="F#2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="328138752" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="54" LoKey="54" HiKey="54" LoVel="101" HiVel="127" RRGroup="7" FileName="F#2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="330121216" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="25" RRGroup="7" FileName="F#3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="334086144" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="26" HiVel="50" RRGroup="7" FileName="F#3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="336068608" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="51" HiVel="100" RRGroup="7" FileName="F#3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="338051072" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="66" LoKey="66" HiKey="66" LoVel="101" HiVel="127" RRGroup="7" FileName="F#3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="340033536" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="25" RRGroup="7" FileName="F#4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="343998464" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="26" HiVel="50" RRGroup="7" FileName="F#4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="345980928" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="51" HiVel="100" RRGroup="7" FileName="F#4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="347963392" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="78" LoKey="78" HiKey="78" LoVel="101" HiVel="127" RRGroup="7" FileName="F#4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="349945856" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="25" RRGroup="7" FileName="F1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="355606528" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="26" HiVel="50" RRGroup="7" FileName="F1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="357588992" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="51" HiVel="100" RRGroup="7" FileName="F1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="359571456" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="41" LoKey="41" HiKey="41" LoVel="101" HiVel="127" RRGroup="7" FileName="F1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="361553920" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="25" RRGroup="7" FileName="F2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="364797952" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="26" HiVel="50" RRGroup="7" FileName="F2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="366780416" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="51" HiVel="100" RRGroup="7" FileName="F2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="368762880" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="53" LoKey="53" HiKey="53" LoVel="101" HiVel="127" RRGroup="7" FileName="F2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="370745344" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="25" RRGroup="7" FileName="F3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="374706176" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="26" HiVel="50" RRGroup="7" FileName="F3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="376688640" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="51" HiVel="100" RRGroup="7" FileName="F3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="378671104" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="65" LoKey="65" HiKey="65" LoVel="101" HiVel="127" RRGroup="7" FileName="F3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="380653568" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="25" RRGroup="7" FileName="F4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="384618496" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="26" HiVel="50" RRGroup="7" FileName="F4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="386600960" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="51" HiVel="100" RRGroup="7" FileName="F4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="388583424" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="77" LoKey="77" HiKey="77" LoVel="101" HiVel="127" RRGroup="7" FileName="F4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="390565888" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="25" RRGroup="7" FileName="G#1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="396218368" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="26" HiVel="50" RRGroup="7" FileName="G#1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="398200832" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="51" HiVel="100" RRGroup="7" FileName="G#1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="400183296" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="44" LoKey="44" HiKey="44" LoVel="101" HiVel="127" RRGroup="7" FileName="G#1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="402165760" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="25" RRGroup="7" FileName="G#2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="405409792" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="26" HiVel="50" RRGroup="7" FileName="G#2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="407392256" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="51" HiVel="100" RRGroup="7" FileName="G#2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="409374720" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="56" LoKey="56" HiKey="56" LoVel="101" HiVel="127" RRGroup="7" FileName="G#2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="411357184" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="25" RRGroup="7" FileName="G#3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="415322112" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="26" HiVel="50" RRGroup="7" FileName="G#3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="417304576" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="51" HiVel="100" RRGroup="7" FileName="G#3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="419287040" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="68" LoKey="68" HiKey="68" LoVel="101" HiVel="127" RRGroup="7" FileName="G#3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="421269504" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="25" RRGroup="7" FileName="G#4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="425234432" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="26" HiVel="50" RRGroup="7" FileName="G#4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="427216896" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="51" HiVel="100" RRGroup="7" FileName="G#4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="429199360" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="80" LoKey="80" HiKey="80" LoVel="101" HiVel="127" RRGroup="7" FileName="G#4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="431181824" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="25" RRGroup="7" FileName="G1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="436801536" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="26" HiVel="50" RRGroup="7" FileName="G1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="438784000" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="51" HiVel="100" RRGroup="7" FileName="G1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="440766464" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="43" LoKey="43" HiKey="43" LoVel="101" HiVel="127" RRGroup="7" FileName="G1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="442748928" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="25" RRGroup="7" FileName="G2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="445992960" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="26" HiVel="50" RRGroup="7" FileName="G2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="447975424" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="51" HiVel="100" RRGroup="7" FileName="G2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="449957888" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="55" LoKey="55" HiKey="55" LoVel="101" HiVel="127" RRGroup="7" FileName="G2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="451940352" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="25" RRGroup="7" FileName="G3_1_LEVITATE.wav" Duplicate="1" MonolithOffset="455905280" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="26" HiVel="50" RRGroup="7" FileName="G3_2_LEVITATE.wav" Duplicate="1" MonolithOffset="457887744" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="51" HiVel="100" RRGroup="7" FileName="G3_3_LEVITATE.wav" Duplicate="1" MonolithOffset="459870208" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="67" LoKey="67" HiKey="67" LoVel="101" HiVel="127" RRGroup="7" FileName="G3_4_LEVITATE.wav" Duplicate="1" MonolithOffset="461852672" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="25" RRGroup="7" FileName="G4_1_LEVITATE.wav" Duplicate="1" MonolithOffset="465817600" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="26" HiVel="50" RRGroup="7" FileName="G4_2_LEVITATE.wav" Duplicate="1" MonolithOffset="467800064" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="51" HiVel="100" RRGroup="7" FileName="G4_3_LEVITATE.wav" Duplicate="1" MonolithOffset="469782528" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="79" LoKey="79" HiKey="79" LoVel="101" HiVel="127" RRGroup="7" FileName="G4_4_LEVITATE.wav" Duplicate="1" MonolithOffset="471764992" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="25" RRGroup="7" FileName="A#1_1_LEVITATE.wav" Duplicate="1" MonolithOffset="477380608" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="26" HiVel="50" RRGroup="7" FileName="A#1_2_LEVITATE.wav" Duplicate="1" MonolithOffset="479363072" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="51" HiVel="100" RRGroup="7" FileName="A#1_3_LEVITATE.wav" Duplicate="1" MonolithOffset="481345536" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="46" LoKey="46" HiKey="46" LoVel="101" HiVel="127" RRGroup="7" FileName="A#1_4_LEVITATE.wav" Duplicate="1" MonolithOffset="483328000" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="25" RRGroup="7" FileName="A#2_1_LEVITATE.wav" Duplicate="1" MonolithOffset="486572032" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="26" HiVel="50" RRGroup="7" FileName="A#2_2_LEVITATE.wav" Duplicate="1" MonolithOffset="488554496" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="51" HiVel="100" RRGroup="7" FileName="A#2_3_LEVITATE.wav" Duplicate="1" MonolithOffset="490536960" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  <sample Root="58" LoKey="58" HiKey="58" LoVel="101" HiVel="127" RRGroup="7" FileName="A#2_4_LEVITATE.wav" Duplicate="1" MonolithOffset="492519424" MonolithLength="180224" SampleRate="44100" SampleStartMod="69920" />
-  </samplemap>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Levitate" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_4_levitate.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_3_levitate.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_2_levitate.wav" Duplicate="1"/>
+  <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_levitate.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_4_levitate.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_3_levitate.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_2_levitate.wav" Duplicate="1"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_levitate.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_4_levitate.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_3_levitate.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_2_levitate.wav" Duplicate="1"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_levitate.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_4_levitate.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_3_levitate.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_2_levitate.wav" Duplicate="1"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_levitate.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_4_levitate.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_3_levitate.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_2_levitate.wav" Duplicate="1"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_levitate.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_4_levitate.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_3_levitate.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_2_levitate.wav" Duplicate="1"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_levitate.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_4_levitate.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_3_levitate.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_2_levitate.wav" Duplicate="1"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_levitate.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_4_levitate.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_3_levitate.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_2_levitate.wav" Duplicate="1"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_levitate.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_4_levitate.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_3_levitate.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_2_levitate.wav" Duplicate="1"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_levitate.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_4_levitate.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_3_levitate.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_2_levitate.wav" Duplicate="1"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_levitate.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_4_levitate.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_3_levitate.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_2_levitate.wav" Duplicate="1"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_levitate.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_4_levitate.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_3_levitate.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_2_levitate.wav" Duplicate="1"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_levitate.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_4_levitate.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_3_levitate.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_2_levitate.wav" Duplicate="1"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_levitate.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_4_levitate.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_3_levitate.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_2_levitate.wav" Duplicate="1"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_levitate.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_4_levitate.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_3_levitate.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_2_levitate.wav" Duplicate="1"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_levitate.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_4_levitate.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_3_levitate.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_2_levitate.wav" Duplicate="1"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_levitate.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_4_levitate.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_3_levitate.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_2_levitate.wav" Duplicate="1"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_levitate.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_4_levitate.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_3_levitate.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_2_levitate.wav" Duplicate="1"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_levitate.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_4_levitate.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_3_levitate.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_2_levitate.wav" Duplicate="1"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_levitate.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_4_levitate.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_3_levitate.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_2_levitate.wav" Duplicate="1"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_levitate.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_4_levitate.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_3_levitate.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_2_levitate.wav" Duplicate="1"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_levitate.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_4_levitate.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_3_levitate.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_2_levitate.wav" Duplicate="1"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_levitate.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_4_levitate.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_3_levitate.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_2_levitate.wav" Duplicate="1"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_levitate.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_4_levitate.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_3_levitate.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_2_levitate.wav" Duplicate="1"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_levitate.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_4_levitate.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_3_levitate.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_2_levitate.wav" Duplicate="1"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_levitate.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_4_levitate.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_3_levitate.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_2_levitate.wav" Duplicate="1"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_levitate.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_4_levitate.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_3_levitate.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_2_levitate.wav" Duplicate="1"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_levitate.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_4_levitate.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_3_levitate.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_2_levitate.wav" Duplicate="1"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_levitate.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_4_levitate.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_3_levitate.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_2_levitate.wav" Duplicate="1"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_levitate.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_4_levitate.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_3_levitate.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_2_levitate.wav" Duplicate="1"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_levitate.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_4_levitate.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_3_levitate.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_2_levitate.wav" Duplicate="1"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_levitate.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_4_levitate.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_3_levitate.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_2_levitate.wav" Duplicate="1"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_levitate.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_4_levitate.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_3_levitate.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_2_levitate.wav" Duplicate="1"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_levitate.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_4_levitate.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_3_levitate.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_2_levitate.wav" Duplicate="1"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_levitate.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_4_levitate.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_3_levitate.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_2_levitate.wav" Duplicate="1"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_levitate.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_4_levitate.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_3_levitate.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_2_levitate.wav" Duplicate="1"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_levitate.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_4_levitate.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_3_levitate.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_2_levitate.wav" Duplicate="1"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_levitate.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_4_levitate.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_3_levitate.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_2_levitate.wav" Duplicate="1"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_levitate.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_4_levitate.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_3_levitate.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_2_levitate.wav" Duplicate="1"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_levitate.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_4_levitate.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_3_levitate.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_2_levitate.wav" Duplicate="1"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_levitate.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_4_levitate.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_3_levitate.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_2_levitate.wav" Duplicate="1"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_levitate.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_4_levitate.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_3_levitate.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_2_levitate.wav" Duplicate="1"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_levitate.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_4_levitate.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_3_levitate.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_2_levitate.wav" Duplicate="1"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_levitate.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_4_levitate.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_3_levitate.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_2_levitate.wav" Duplicate="1"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_levitate.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_4_levitate.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_3_levitate.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_2_levitate.wav" Duplicate="1"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_levitate.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_4_levitate.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_3_levitate.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_2_levitate.wav" Duplicate="1"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_levitate.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_4_levitate.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_3_levitate.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_2_levitate.wav" Duplicate="1"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_levitate.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_4_levitate.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_3_levitate.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_2_levitate.wav" Duplicate="1"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_levitate.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="106" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_4_levitate.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="76" HiVel="105" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_3_levitate.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="75" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_2_levitate.wav" Duplicate="1"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_levitate.wav" Duplicate="1"/>
+</samplemap>

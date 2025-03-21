@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap ID="AethericAmbiances_SampleMap" RRGroupAmount="1" MicPositions=";"
-           SaveMode="2" CrossfadeGamma="1.0">
+           SaveMode="1" CrossfadeGamma="1.0">
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}Ambience01_Rain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="758931" LoopEnd="4259862" LoopXFade="365505"

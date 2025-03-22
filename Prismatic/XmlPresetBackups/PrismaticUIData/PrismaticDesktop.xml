@@ -71,8 +71,8 @@
                    fontSize="14.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerA" x="60.0" y="45.0" parentComponent="pnlSamplerA"
                    height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Apparition&#10;Banshee Bells&#10;Cold Air&#10;Death Becomes&#10;Exhumed&#10;In The Dark&#10;Lost Souls&#10;Lovely Bones&#10;Macabre&#10;Manifest&#10;Necromancy&#10;Necropolis&#10;Remembrance&#10;Sanctuary&#10;Spirit Tap&#10;Undeath"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Attack&#10;Coming To An End&#10;Heartstring&#10;Howler&#10;Lift Off&#10;Outside&#10;Petite&#10;Red Planet&#10;Refract&#10;Ro-Mania&#10;Robot Love&#10;Shimmering&#10;Submission&#10;Wasted&#10;Willow"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerAPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerA" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
@@ -175,8 +175,8 @@
                    fontName="bold" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerB" x="60.0" y="45.0" parentComponent="pnlSamplerB"
                    height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Apparition&#10;Banshee Bells&#10;Cold Air&#10;Death Becomes&#10;Exhumed&#10;In The Dark&#10;Lost Souls&#10;Lovely Bones&#10;Macabre&#10;Manifest&#10;Necromancy&#10;Necropolis&#10;Remembrance&#10;Sanctuary&#10;Spirit Tap&#10;Undeath"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Attack&#10;Coming To An End&#10;Heartstring&#10;Howler&#10;Lift Off&#10;Outside&#10;Petite&#10;Red Planet&#10;Refract&#10;Ro-Mania&#10;Robot Love&#10;Shimmering&#10;Submission&#10;Wasted&#10;Willow"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerBPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerB" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
@@ -279,8 +279,8 @@
                    fontSize="14.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerC" x="60.0" y="45.0" parentComponent="pnlSamplerC"
                    height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Apparition&#10;Banshee Bells&#10;Cold Air&#10;Death Becomes&#10;Exhumed&#10;In The Dark&#10;Lost Souls&#10;Lovely Bones&#10;Macabre&#10;Manifest&#10;Necromancy&#10;Necropolis&#10;Remembrance&#10;Sanctuary&#10;Spirit Tap&#10;Undeath"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Attack&#10;Coming To An End&#10;Heartstring&#10;Howler&#10;Lift Off&#10;Outside&#10;Petite&#10;Red Planet&#10;Refract&#10;Ro-Mania&#10;Robot Love&#10;Shimmering&#10;Submission&#10;Wasted&#10;Willow"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerCPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerC" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>

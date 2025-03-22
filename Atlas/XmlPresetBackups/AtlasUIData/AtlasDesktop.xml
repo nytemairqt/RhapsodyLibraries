@@ -69,14 +69,14 @@
         <Component type="ScriptLabel" id="lblSamplerA" x="86.0" y="6.0" parentComponent="pnlSamplerA"
                    height="20.0" width="128.0" text="SAMPLER A" fontName="bold"
                    fontSize="14.0" editable="0"/>
-        <Component type="ScriptComboBox" id="cmbSamplerA" x="80.0" y="45.0" parentComponent="pnlSamplerA"
-                   height="26.0" width="140.0" bgColour="0" itemColour2="4211081216"
+        <Component type="ScriptComboBox" id="cmbSamplerA" x="60.0" y="45.0" parentComponent="pnlSamplerA"
+                   height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
                    itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Crystal&#10;Dialup&#10;Dirty Vinyl&#10;Discovery&#10;Drift&#10;Droplets&#10;Levitate&#10;Mod Organ&#10;Morning&#10;Ossuary&#10;Phenom&#10;Reliquary&#10;Science&#10;Solstice&#10;Temple&#10;Wonky"
                    max="16"/>
-        <Component type="ScriptButton" id="btnCmbSamplerAPrev" x="200.0" y="50.0"
+        <Component type="ScriptButton" id="btnCmbSamplerAPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerA" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnCmbSamplerANext" x="200.0" y="60.0"
+        <Component type="ScriptButton" id="btnCmbSamplerANext" x="210.0" y="60.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerA" enableMidiLearn="0"
                    isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptAudioWaveform" id="awfSamplerA" x="15.0" y="88.0"
@@ -173,14 +173,14 @@
         <Component type="ScriptLabel" id="lblSamplerB" x="86.0" y="6.0" parentComponent="pnlSamplerB"
                    height="20.0" width="128.0" text="SAMPLER B" fontSize="14.0"
                    fontName="bold" editable="0"/>
-        <Component type="ScriptComboBox" id="cmbSamplerB" x="80.0" y="45.0" parentComponent="pnlSamplerB"
-                   height="26.0" width="140.0" bgColour="0" itemColour2="4211081216"
+        <Component type="ScriptComboBox" id="cmbSamplerB" x="60.0" y="45.0" parentComponent="pnlSamplerB"
+                   height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
                    itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Crystal&#10;Dialup&#10;Dirty Vinyl&#10;Discovery&#10;Drift&#10;Droplets&#10;Levitate&#10;Mod Organ&#10;Morning&#10;Ossuary&#10;Phenom&#10;Reliquary&#10;Science&#10;Solstice&#10;Temple&#10;Wonky"
                    max="16"/>
-        <Component type="ScriptButton" id="btnCmbSamplerBPrev" x="200.0" y="50.0"
+        <Component type="ScriptButton" id="btnCmbSamplerBPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerB" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnCmbSamplerBNext" x="200.0" y="60.0"
+        <Component type="ScriptButton" id="btnCmbSamplerBNext" x="210.0" y="60.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerB" enableMidiLearn="0"
                    isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptAudioWaveform" id="awfSamplerB" x="15.0" y="88.0"
@@ -277,14 +277,14 @@
         <Component type="ScriptLabel" id="lblSamplerC" x="86.0" y="6.0" parentComponent="pnlSamplerC"
                    height="20.0" width="128.0" text="SAMPLER C" fontName="bold"
                    fontSize="14.0" editable="0"/>
-        <Component type="ScriptComboBox" id="cmbSamplerC" x="80.0" y="45.0" parentComponent="pnlSamplerC"
-                   height="26.0" width="140.0" bgColour="0" itemColour2="4211081216"
+        <Component type="ScriptComboBox" id="cmbSamplerC" x="60.0" y="45.0" parentComponent="pnlSamplerC"
+                   height="26.0" width="170.0" bgColour="0" itemColour2="4211081216"
                    itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Crystal&#10;Dialup&#10;Dirty Vinyl&#10;Discovery&#10;Drift&#10;Droplets&#10;Levitate&#10;Mod Organ&#10;Morning&#10;Ossuary&#10;Phenom&#10;Reliquary&#10;Science&#10;Solstice&#10;Temple&#10;Wonky"
                    max="16"/>
-        <Component type="ScriptButton" id="btnCmbSamplerCPrev" x="200.0" y="50.0"
+        <Component type="ScriptButton" id="btnCmbSamplerCPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerC" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnCmbSamplerCNext" x="200.0" y="60.0"
+        <Component type="ScriptButton" id="btnCmbSamplerCNext" x="210.0" y="60.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerC" enableMidiLearn="0"
                    isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptAudioWaveform" id="awfSamplerC" x="15.0" y="88.0"
@@ -381,15 +381,15 @@
         <Component type="ScriptLabel" id="lblSamplerOther" x="86.0" y="6.0" parentComponent="pnlSamplerOther"
                    height="20.0" width="128.0" text="SAMPLER EXTRA" fontName="bold"
                    fontSize="14.0" editable="0"/>
-        <Component type="ScriptComboBox" id="cmbSamplerOther" x="80.0" y="45.0"
-                   parentComponent="pnlSamplerOther" height="26.0" width="140.0"
+        <Component type="ScriptComboBox" id="cmbSamplerOther" x="60.0" y="45.0"
+                   parentComponent="pnlSamplerOther" height="26.0" width="170.0"
                    bgColour="0" itemColour2="4211081216" itemColour="1711276032"
                    tooltip="Select a Sample Map." items="&#10;Crystal&#10;Dialup&#10;Dirty Vinyl&#10;Discovery&#10;Drift&#10;Droplets&#10;Levitate&#10;Mod Organ&#10;Morning&#10;Ossuary&#10;Phenom&#10;Reliquary&#10;Science&#10;Solstice&#10;Temple&#10;Wonky"
                    max="16"/>
-        <Component type="ScriptButton" id="btnCmbSamplerOtherPrev" x="200.0" y="50.0"
+        <Component type="ScriptButton" id="btnCmbSamplerOtherPrev" x="210.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerOther" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
-        <Component type="ScriptButton" id="btnCmbSamplerOtherNext" x="200.0" y="60.0"
+        <Component type="ScriptButton" id="btnCmbSamplerOtherNext" x="210.0" y="60.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerOther" enableMidiLearn="0"
                    isMomentary="1" saveInPreset="0"/>
         <Component type="ScriptAudioWaveform" id="awfSamplerOther" x="15.0" y="88.0"

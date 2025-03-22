@@ -456,48 +456,6 @@ LookAndFeel.laf.registerFunction("drawNumberTag", function(g, obj)
 	}    
 });
 
-// TEST
-/*
-LookAndFeel.laf.registerFunction("drawTableHeaderBackground", function(g, obj)
-{
-	// apparently does nothing
-
-	 g.setColour(Colours.cyan);
-	 g.fillRect(obj.area);
-     //g.setColour(Colours.red);
-	 //g.drawAlignedText("Ram", obj.area, "left");
-}); 
-
-LookAndFeel.laf.registerFunction("drawTableBackground", function(g, obj)
-{
-	// apparently does nothing
-
-	 g.setColour(Colours.red);
-	 g.fillRect(obj.area);
-});
-
-
-LookAndFeel.laf.registerFunction("drawTableCell", function(g, obj)
-{
-	 g.setColour(Colours.red);
-	 g.fillRect(obj.area);
-});
-*/
-
-/*
-LookAndFeel.laf.registerFunction("drawTableHeaderColumn", function(g, obj)
-{
-	 g.setColour(Colours.pink);
-	 g.fillRect(obj.area);
-});
-
-LookAndFeel.laf.registerFunction("drawTableRowBackground", function(g, obj)
-{
-	 g.setColour(Colours.pink);
-	 g.fillRect(obj.area);
-});
-*/
-
 for (i=0; i<128; i++)
 {
 	// Clear Rhapsody Default

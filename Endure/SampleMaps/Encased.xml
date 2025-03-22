@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Encased" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="55" LoKey="55" HiKey="55" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}55_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="43" LoKey="43" HiKey="43" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}43_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}31_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}31_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="31" LoKey="31" HiKey="31" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}31_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="56" LoKey="56" HiKey="56" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}56_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="44" LoKey="44" HiKey="44" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}44_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}32_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}32_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="32" LoKey="32" HiKey="32" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}32_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="53" LoKey="53" HiKey="53" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}53_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="41" LoKey="41" HiKey="41" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}41_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}29_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}29_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="29" LoKey="29" HiKey="29" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}29_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="54" LoKey="54" HiKey="54" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="42" LoKey="42" HiKey="42" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}30_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}30_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="30" LoKey="30" HiKey="30" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}30_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="52" LoKey="52" HiKey="52" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}52_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="40" LoKey="40" HiKey="40" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}40_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}28_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}28_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="28" LoKey="28" HiKey="28" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}28_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="62" LoKey="62" HiKey="62" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="50" LoKey="50" HiKey="50" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}50_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="38" LoKey="38" HiKey="38" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}38_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}26_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}26_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="26" LoKey="26" HiKey="26" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}26_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="51" LoKey="51" HiKey="51" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="39" LoKey="39" HiKey="39" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}27_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}27_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="27" LoKey="27" HiKey="27" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}27_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="60" LoKey="60" HiKey="60" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="48" LoKey="48" HiKey="48" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="36" LoKey="36" HiKey="36" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="24" LoKey="24" HiKey="24" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}24_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="24" LoKey="24" HiKey="24" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}24_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="24" LoKey="24" HiKey="24" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}24_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="61" LoKey="61" HiKey="61" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}61_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="49" LoKey="49" HiKey="49" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}49_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="37" LoKey="37" HiKey="37" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}37_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}25_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}25_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="25" LoKey="25" HiKey="25" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}25_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="59" LoKey="59" HiKey="59" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}59_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="47" LoKey="47" HiKey="47" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}47_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}35_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}35_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="35" LoKey="35" HiKey="35" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}35_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="57" LoKey="57" HiKey="57" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="45" LoKey="45" HiKey="45" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}33_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}33_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="33" LoKey="33" HiKey="33" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}33_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="58" LoKey="58" HiKey="58" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}58_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="46" LoKey="46" HiKey="46" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}46_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}34_1_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="36" HiVel="88" RRGroup="1"
+          FileName="{PROJECT_FOLDER}34_64_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+  <sample Root="34" LoKey="34" HiKey="34" LoVel="89" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}34_127_encased.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
+          SampleStartMod="88200"/>
+</samplemap>

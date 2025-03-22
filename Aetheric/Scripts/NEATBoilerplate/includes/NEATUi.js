@@ -296,7 +296,7 @@ inline function oncmbSamplerControl(component, value)
 			break;
 		case cmbSampler[3]: // Sampler Other
 			// Put other sampleMaps here if they exist
-			samplerOther[0].asSampler().loadSampleMap("z_Ambiences");
+			//samplerOther[0].asSampler().loadSampleMap("z_Ambiences");
 			break;
 	}
 }
@@ -721,8 +721,15 @@ for (b in btnAmp)
 
 cmbAmp[0].set("items", "");
 
+var pfString = "";
+
+if (Engine.isHISE())
+	pfString = "{PROJECT_FOLDER}";
+else
+	pfString = "{EXP::" + Expansions.getCurrentName() + "}";
+
 for (a in audioFiles)
-	cmbAmp[0].addItem(a.substring(15, a.length));
+	cmbAmp[0].addItem(a.substring(pfString.length, a.length));
 
 inline function oncmbAmpControl(component, value)
 {

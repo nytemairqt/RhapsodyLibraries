@@ -1,300 +1,449 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="Reliquary" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Reliquary" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}84_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="0" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}84_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="180224" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}84_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="360448" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}84_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="540672" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}83_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="720896" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}83_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="901120" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}83_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="1081344" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}83_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="1261568" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}82_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="1441792" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}82_3_reliquary.wav" Duplicate="0" SampleEnd="176616"
+          MonolithOffset="1622016" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}82_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="1802240" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}82_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="1982464" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}81_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="2162688" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}81_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="2342912" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}81_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="2523136" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}81_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="2703360" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}80_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="2883584" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}80_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3063808" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}80_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3244032" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}80_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3424256" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}79_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3604480" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}79_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3784704" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}79_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="3964928" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}79_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="4145152" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}78_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="4325376" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}78_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="4505600" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}78_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="4685824" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}78_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="4866048" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}77_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5046272" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}77_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5226496" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}77_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5406720" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}77_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5586944" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}76_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5767168" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}76_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="5947392" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}76_2_reliquary.wav" Duplicate="0" SampleEnd="170888"
+          MonolithOffset="6127616" MonolithLength="172032" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}76_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="6299648" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}75_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="6479872" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}75_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="6660096" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}75_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="6840320" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}75_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7020544" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}74_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7200768" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}74_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7380992" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}74_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7561216" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}74_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7741440" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}73_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="7921664" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}73_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="8101888" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}73_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="8282112" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}73_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="8462336" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}72_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="8642560" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}72_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="8822784" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}72_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9003008" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}72_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9183232" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}71_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9363456" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}71_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9543680" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}71_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9723904" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}71_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="9904128" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}70_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10084352" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}70_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10264576" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}70_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10444800" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}70_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10625024" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}69_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10805248" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}69_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="10985472" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}69_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="11165696" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}69_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="11345920" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}68_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="11526144" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}68_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="11706368" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}68_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="11886592" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}68_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12066816" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}67_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12247040" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}67_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12427264" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}67_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12607488" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}67_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12787712" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}66_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="12967936" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}66_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="13148160" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}66_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="13328384" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}66_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="13508608" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}65_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="13688832" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}65_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="13869056" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}65_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14049280" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}65_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14229504" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}64_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14409728" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}64_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14589952" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}64_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14770176" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}64_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="14950400" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}63_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="15130624" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}63_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="15310848" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}63_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="15491072" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}63_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="15671296" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}62_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="15851520" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}62_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="16031744" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}62_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="16211968" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}62_1_reliquary.wav" Duplicate="0" SampleEnd="175884"
+          MonolithOffset="16392192" MonolithLength="176128" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}61_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="16568320" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}61_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="16748544" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}61_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="16928768" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}61_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="17108992" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}60_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="17289216" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}60_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="17469440" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}60_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="17649664" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}60_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="17829888" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}59_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18010112" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}59_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18190336" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}59_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18370560" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}59_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18550784" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}58_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18731008" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}58_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="18911232" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}58_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19091456" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}58_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19271680" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}57_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19451904" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}57_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19632128" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}57_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19812352" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}57_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="19992576" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}56_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="20172800" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}56_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="20353024" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}56_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="20533248" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}56_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="20713472" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}55_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="20893696" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}55_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21073920" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}55_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21254144" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}55_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21434368" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}54_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21614592" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}54_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21794816" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}54_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="21975040" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}54_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="22155264" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}53_4_reliquary.wav" Duplicate="0" SampleEnd="175378"
+          MonolithOffset="22335488" MonolithLength="176128" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}53_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="22511616" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}53_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="22691840" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}53_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="22872064" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}52_4_reliquary.wav" Duplicate="0" SampleEnd="175787"
+          MonolithOffset="23052288" MonolithLength="176128" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}52_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="23228416" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}52_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="23408640" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}52_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="23588864" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}51_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="23769088" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}51_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="23949312" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}51_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="24129536" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}51_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="24309760" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}50_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="24489984" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}50_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="24670208" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}50_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="24850432" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}50_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25030656" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}49_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25210880" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}49_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25391104" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}49_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25571328" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}49_1_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25751552" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="48" LoKey="36" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_4_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}48_4_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="25931776" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="48" LoKey="36" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_3_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}48_3_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="26112000" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="48" LoKey="36" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_2_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}48_2_reliquary.wav" Duplicate="0" SampleEnd="176400"
+          MonolithOffset="26292224" MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="48" LoKey="36" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_1_reliquary.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}48_1_reliquary.wav" Duplicate="0" SampleEnd="173989"
+          MonolithOffset="26472448" MonolithLength="176128" SampleRate="44100.0"/>
 </samplemap>

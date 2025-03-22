@@ -1,396 +1,789 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="Dirty Vinyl" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Dirty Vinyl" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}84_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="0" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}84_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="180224" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}84_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="360448" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="96" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}84_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="540672" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}83_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="720896" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}83_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="901120" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}83_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1081344" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}83_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1261568" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1441792" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1622016" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1802240" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="1982464" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}81_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="2162688" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}81_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="2342912" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}81_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="2523136" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}81_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="2703360" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}80_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="2883584" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}80_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3063808" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}80_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3244032" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}80_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3424256" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3604480" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3784704" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="3964928" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="4145152" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}78_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="4325376" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}78_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="4505600" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}78_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="4685824" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}78_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="4866048" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}77_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5046272" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}77_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5226496" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}77_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5406720" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}77_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5586944" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5767168" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="5947392" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="6127616" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="6307840" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}75_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="6488064" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}75_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="6668288" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}75_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="6848512" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}75_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7028736" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}74_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7208960" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}74_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7389184" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}74_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7569408" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}74_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7749632" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="7929856" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="8110080" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="8290304" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="8470528" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}72_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="8650752" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}72_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="8830976" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}72_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9011200" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}72_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9191424" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}71_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9371648" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}71_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9551872" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}71_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9732096" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}71_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="9912320" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10092544" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10272768" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10452992" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10633216" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}69_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10813440" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}69_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="10993664" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}69_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="11173888" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}69_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="11354112" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}68_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="11534336" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}68_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="11714560" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}68_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="11894784" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}68_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12075008" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12255232" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12435456" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12615680" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12795904" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}66_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="12976128" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}66_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="13156352" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}66_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="13336576" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}66_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="13516800" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="13697024" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="13877248" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14057472" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14237696" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}64_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14417920" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}64_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14598144" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}64_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14778368" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}64_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="14958592" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}63_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="15138816" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}63_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="15319040" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}63_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="15499264" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}63_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="15679488" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="15859712" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16039936" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16220160" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16400384" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}61_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16580608" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}61_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16760832" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}61_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="16941056" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}61_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="17121280" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="17301504" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="17481728" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="17661952" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="17842176" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}59_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18022400" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}59_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18202624" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}59_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18382848" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}59_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18563072" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}58_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18743296" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}58_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="18923520" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}58_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="19103744" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}58_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="19283968" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="19464192" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="19644416" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="19824640" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20004864" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}56_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20185088" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}56_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20365312" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}56_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20545536" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}56_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20725760" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}55_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="20905984" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}55_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21086208" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}55_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21266432" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}55_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21446656" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}54_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21626880" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}54_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21807104" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}54_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="21987328" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}54_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="22167552" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="22347776" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="22528000" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="22708224" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="22888448" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}52_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23068672" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}52_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23248896" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}52_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23429120" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}52_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23609344" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}51_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23789568" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}51_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="23969792" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}51_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="24150016" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}51_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="24330240" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="24510464" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="24690688" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="24870912" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25051136" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}49_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25231360" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}49_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25411584" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}49_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25591808" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}49_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25772032" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}48_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="25952256" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}48_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="26132480" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}48_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="26312704" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}48_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="26492928" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="26673152" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="26853376" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27033600" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27213824" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}46_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27394048" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}46_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27574272" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}46_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27754496" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}46_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="27934720" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}45_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="28114944" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}45_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="28295168" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}45_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="28475392" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}45_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="28655616" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="28835840" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29016064" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29196288" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29376512" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}43_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29556736" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}43_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29736960" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}43_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="29917184" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}43_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30097408" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}42_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30277632" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}42_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30457856" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}42_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30638080" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}42_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30818304" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="30998528" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="31178752" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="31358976" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="31539200" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}40_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="31719424" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}40_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="31899648" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}40_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32079872" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}40_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32260096" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}39_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32440320" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}39_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32620544" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}39_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32800768" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}39_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="32980992" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}38_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="33161216" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}38_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="33341440" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}38_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="33521664" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}38_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="33701888" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}37_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="33882112" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}37_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34062336" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}37_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34242560" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}37_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34422784" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="106" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_4_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}36_4_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34603008" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="76" HiVel="105" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_3_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}36_3_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34783232" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="75" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_2_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}36_2_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="34963456" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="0" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_1_dirtyvinyl.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}36_1_dirtyvinyl.wav" Duplicate="1"
+          SampleEnd="176400" MonolithOffset="35143680" MonolithLength="180224"
+          SampleRate="44100.0"/>
 </samplemap>

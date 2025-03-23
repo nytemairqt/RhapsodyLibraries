@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="Cloudburst" RRGroupAmount="3.0" MicPositions=";">
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}62_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}62_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}62_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}62_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}62_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}62_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="62" LoKey="60" HiKey="62" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}62_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}63_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}63_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}63_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}63_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}63_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="63" LoKey="63" HiKey="63" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}63_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}64_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}64_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}64_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}64_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}64_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}64_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="64" LoKey="64" HiKey="64" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}64_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}65_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}65_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}65_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}65_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}65_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}65_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="65" LoKey="65" HiKey="65" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}65_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}66_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}66_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}66_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}66_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}66_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="66" LoKey="66" HiKey="66" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}66_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}67_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}67_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}67_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}67_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}67_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}67_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="67" LoKey="67" HiKey="67" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}67_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}68_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}68_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}68_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}68_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}68_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}68_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="68" LoKey="68" HiKey="68" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}68_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}69_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}69_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}69_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}69_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}69_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="69" LoKey="69" HiKey="69" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}69_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}70_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}70_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}70_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}70_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}70_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}70_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="70" LoKey="70" HiKey="70" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}70_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}71_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}71_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}71_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}71_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}71_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}71_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="71" LoKey="71" HiKey="71" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}71_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}72_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}72_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}72_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}72_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}72_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="72" LoKey="72" HiKey="72" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}72_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}73_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}73_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}73_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}73_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}73_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}73_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="73" LoKey="73" HiKey="73" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}73_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}74_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}74_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}74_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}74_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}74_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}74_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="74" LoKey="74" HiKey="74" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}74_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}75_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}75_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}75_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}75_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}75_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="75" LoKey="75" HiKey="75" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}75_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}76_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}76_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}76_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}76_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}76_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}76_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="76" LoKey="76" HiKey="76" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}76_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}77_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}77_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}77_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}77_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}77_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}77_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="77" LoKey="77" HiKey="77" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}77_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}78_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}78_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}78_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}78_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}78_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="78" LoKey="78" HiKey="78" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}78_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}79_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}79_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}79_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}79_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}79_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}79_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="79" LoKey="79" HiKey="79" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}79_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}80_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}80_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}80_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}80_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}80_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}80_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="80" LoKey="80" HiKey="80" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}80_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}81_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}81_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}81_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}81_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}81_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="81" LoKey="81" HiKey="81" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}81_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}82_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}82_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}82_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}82_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}82_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}82_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="82" LoKey="82" HiKey="82" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}82_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}83_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}83_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}83_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}83_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}83_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}83_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="83" LoKey="83" HiKey="83" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}83_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}84_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}84_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}84_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}84_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}84_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="84" LoKey="84" HiKey="84" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}84_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}85_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}85_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}85_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}85_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}85_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}85_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}85_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}85_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="85" LoKey="85" HiKey="85" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}85_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}86_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}86_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}86_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}86_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}86_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}86_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}86_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}86_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="86" LoKey="86" HiKey="86" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}86_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}87_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}87_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}87_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}87_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}87_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="87" LoKey="87" HiKey="87" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}87_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}88_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}88_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}88_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}88_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}88_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}88_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}88_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}88_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="88" LoKey="88" HiKey="88" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}88_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}89_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}89_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}89_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}89_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}89_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}89_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}89_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}89_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="89" LoKey="89" HiKey="89" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}89_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}90_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}90_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}90_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}90_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}90_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="90" LoKey="90" HiKey="90" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}90_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}91_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}91_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}91_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}91_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}91_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}91_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}91_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}91_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="91" LoKey="91" HiKey="91" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}91_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}92_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}92_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}92_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}92_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}92_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}92_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}92_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}92_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="92" LoKey="92" HiKey="92" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}92_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}93_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}93_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}93_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}93_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}93_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="93" LoKey="93" HiKey="93" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}93_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}94_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}94_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}94_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}94_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}94_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}94_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}94_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}94_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="94" LoKey="94" HiKey="94" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}94_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}95_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}95_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}95_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}95_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}95_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}95_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}95_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}95_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="95" LoKey="95" HiKey="95" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}95_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="1" HiVel="41" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_1_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="1" HiVel="41" RRGroup="2"
+          FileName="{PROJECT_FOLDER}96_1_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="1" HiVel="41" RRGroup="3"
+          FileName="{PROJECT_FOLDER}96_1_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="42" HiVel="95" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_64_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="42" HiVel="95" RRGroup="2"
+          FileName="{PROJECT_FOLDER}96_64_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="42" HiVel="95" RRGroup="3"
+          FileName="{PROJECT_FOLDER}96_64_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="96" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_127_1_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="96" HiVel="127" RRGroup="2"
+          FileName="{PROJECT_FOLDER}96_127_2_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+  <sample Root="96" LoKey="96" HiKey="108" LoVel="96" HiVel="127" RRGroup="3"
+          FileName="{PROJECT_FOLDER}96_127_3_cloudburst.wav" Duplicate="1"
+          SampleStartMod="349755"/>
+</samplemap>

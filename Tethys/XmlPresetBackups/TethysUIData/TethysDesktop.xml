@@ -1553,7 +1553,7 @@
                  parentComponent="pnlFooter" isMomentary="1" enableMidiLearn="0"/>
       <Component type="ScriptFloatingTile" id="fltKeyboard" x="72.5" y="10.0"
                  ContentType="Keyboard" width="855.0" height="66.0" bgColour="4284769380"
-                 parentComponent="pnlFooter" Data="{&#10;  &quot;KeyWidth&quot;: 15.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 12,&#10;  &quot;HiKey&quot;: 108,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"/>
+                 parentComponent="pnlFooter" Data="{&#10;  &quot;KeyWidth&quot;: 15.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 12,&#10;  &quot;HiKey&quot;: 120,&#10;  &quot;CustomGraphics&quot;: false,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: false,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"/>
     </Component>
     <Component type="ScriptPanel" id="pnlSettingsContainer" x="0.0" y="0.0"
                text="" width="1000.0" height="710.0" bgColour="2013265920" itemColour="0"

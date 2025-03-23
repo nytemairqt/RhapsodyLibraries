@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<Preset Version="1.0.0">
+<Content Processor="Interface">
+<Control type="ScriptButton" id="btnFilterBypass" value="0.8091095788404346"/>
+<Control type="ScriptButton" id="btnDriveBypass" value="1"/>
+<Control type="ScriptButton" id="btnReverbBypass" value="0.1589687450323254"/>
+<Control type="ScriptButton" id="btnStutterBypass" value="0.0"/>
+<Control type="ScriptButton" id="btnDelayBypass" value="0.06847937987186015"/>
+<Control type="ScriptButton" id="btnPhaserBypass" value="0.8762906289193779"/>
+<Control type="ScriptButton" id="btnDegradeBypass" value="0.6014101058244705"/>
+<Control type="ScriptButton" id="btnAmpBypass" value="1"/>
+<Control type="ScriptButton" id="btnAmpCabBypass" value="1"/>
+<Control type="ScriptButton" id="btnAmpOversampling" value="0.0"/>
+<Control type="ScriptButton" id="btnStutterTempoSync" value="1.0"/>
+<Control type="ScriptButton" id="btnStutterPreFX" value="0.0"/>
+<Control type="ScriptButton" id="btnDelayLinkLR" value="1.0"/>
+<Control type="ScriptButton" id="btnDelayTempoSync" value="1.0"/>
+<Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
+<Control type="ScriptButton" id="btnSamplerBBypass" value="1"/>
+<Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
+<Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
+<Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
+<Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
+<Control type="ScriptButton" id="btnArpBypass" value="0"/>
+<Control type="ScriptComboBox" id="cmbAmpCabSelect" value="9"/>
+<Control type="ScriptComboBox" id="cmbSamplerA" value="1"/>
+<Control type="ScriptComboBox" id="cmbSamplerB" value="1"/>
+<Control type="ScriptComboBox" id="cmbSamplerC" value="1"/>
+<Control type="ScriptSlider" id="knbFilterCutoff" value="13932.0"/>
+<Control type="ScriptSlider" id="knbFilterQ" value="0.4000000059604645"/>
+<Control type="ScriptSlider" id="knbAmpGain" value="2"/>
+<Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>
+<Control type="ScriptSlider" id="knbDriveWaveshaper" value="6"/>
+<Control type="ScriptSlider" id="knbDriveTube" value="3"/>
+<Control type="ScriptSlider" id="knbDegradeBitDepth" value="12"/>
+<Control type="ScriptSlider" id="knbDegradeSampleHold" value="2"/>
+<Control type="ScriptSlider" id="knbUtilityWidth" value="19"/>
+<Control type="ScriptSlider" id="knbUtilityGain" value="0.0"/>
+<Control type="ScriptSlider" id="knbStutterRate" value="3.0"/>
+<Control type="ScriptSlider" id="knbStutterAmount" value="0.5627392274327576"/>
+<Control type="ScriptSlider" id="knbPhaserRateA" value="4161"/>
+<Control type="ScriptSlider" id="knbPhaserRateB" value="1000"/>
+<Control type="ScriptSlider" id="knbPhaserMix" value="0.3100000023841858"/>
+<Control type="ScriptSlider" id="knbPhaserFeedback" value="0.8033451687078923"/>
+<Control type="ScriptSlider" id="knbReverbSize" value="0.9153465353883803"/>
+<Control type="ScriptSlider" id="knbReverbWidth" value="0.4564859243109822"/>
+<Control type="ScriptSlider" id="knbReverbDamping" value="0.08504060748964548"/>
+<Control type="ScriptSlider" id="knbReverbMix" value="0.08590245619416237"/>
+<Control type="ScriptSlider" id="knbDelayFeedbackR" value="0.1323219661135226"/>
+<Control type="ScriptSlider" id="knbDelayFeedbackL" value="0.1323219661135226"/>
+<Control type="ScriptSlider" id="knbDelayMix" value="0.4744773269630969"/>
+<Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerAPan" value="25"/>
+<Control type="ScriptSlider" id="knbSamplerAOffset" value="0.2105954410508275"/>
+<Control type="ScriptSlider" id="knbSamplerAAttack" value="4334.0"/>
+<Control type="ScriptSlider" id="knbSamplerADecay" value="4668"/>
+<Control type="ScriptSlider" id="knbSamplerASustain" value="0"/>
+<Control type="ScriptSlider" id="knbSamplerARelease" value="4004"/>
+<Control type="ScriptSlider" id="knbSamplerAPitch" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerATune" value="3"/>
+<Control type="ScriptSlider" id="knbSamplerBDecay" value="2310"/>
+<Control type="ScriptSlider" id="knbSamplerBAttack" value="3486"/>
+<Control type="ScriptSlider" id="knbSamplerBSustain" value="0"/>
+<Control type="ScriptSlider" id="knbSamplerBRelease" value="5778"/>
+<Control type="ScriptSlider" id="knbSamplerBOffset" value="0.02418715204112232"/>
+<Control type="ScriptSlider" id="knbSamplerBTune" value="-15"/>
+<Control type="ScriptSlider" id="knbSamplerBPitch" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerBPan" value="18.0"/>
+<Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerCAttack" value="14767"/>
+<Control type="ScriptSlider" id="knbSamplerBDecay" value="3566"/>
+<Control type="ScriptSlider" id="knbSamplerCSustain" value="0"/>
+<Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerCRelease" value="9909"/>
+<Control type="ScriptSlider" id="knbSamplerCGain" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerCPan" value="-5"/>
+<Control type="ScriptSlider" id="knbSamplerCPitch" value="0.0"/>
+<Control type="ScriptSlider" id="knbSamplerCTune" value="-11"/>
+<Control type="ScriptSlider" id="knbArpSteps" value="16.0"/>
+<Control type="ScriptSlider" id="knbArpSpeed" value="11.0"/>
+<Control type="ScriptSlider" id="knbArpOctave" value="-2"/>
+<Control type="ScriptSlider" id="knbArpSwing" value="0.0"/>
+<Control type="ScriptSliderPack" id="sldrpckArpVelocity" value="15" data="64....uBA..fED..PlP..fiBA..fDD..fnP..fiBA..zJD...TP..fhBA..nJD..fZP...fAA..5JD..3oP...TAA"/>
+<Control type="ScriptSliderPack" id="sldrpckArpNotes" value="-1.0" data="64......................................................................................."/>
+<Control type="ScriptSliderPack" id="sldrpckArpLength" value="15" data="64....TBA..RJD...fP...3BA..NJD..3qP...cBA..zJD..ntP...CBA..rHD..flP..f2BA..lKD..ftP...mBA"/>
+</Content>
+<Modules/>
+<MidiAutomation/>
+<MPEData Enabled="0"/>
+<macro_controls>
+<macro name="X Pos" value="63.5" midi_cc="-1"/>
+<macro name="X Neg" value="63.5" midi_cc="-1"/>
+<macro name="Y Pos" value="63.5" midi_cc="-1"/>
+<macro name="Y Neg" value="63.5" midi_cc="-1"/>
+<macro name="Env A" value="127.0" midi_cc="-1"/>
+<macro name="Env B" value="127.0" midi_cc="-1"/>
+<macro name="Velocity" value="127.0" midi_cc="-1"/>
+<macro name="Random" value="127.0" midi_cc="-1"/>
+</macro_controls>
+</Preset>

@@ -3,386 +3,386 @@
 <samplemap CrossfadeGamma="1.0" ID="Songbird" RRGroupAmount="4.0" MicPositions=";">
   <sample Root="60" LoKey="36" HiKey="63" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}60_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}60_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}60_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}60_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}60_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}60_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}60_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}60_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="60" LoKey="36" HiKey="63" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}60_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}64_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}64_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="64" LoKey="64" HiKey="66" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}64_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}67_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}67_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="67" LoKey="67" HiKey="70" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}67_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}71_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}71_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="71" LoKey="71" HiKey="73" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}71_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}74_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}74_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="74" LoKey="74" HiKey="76" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}74_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}77_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}77_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="77" LoKey="77" HiKey="78" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}77_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}79_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}79_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="79" LoKey="79" HiKey="82" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}79_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="1" HiVel="40" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_1_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="1" HiVel="40" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_1_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="1" HiVel="40" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_1_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="1" HiVel="40" RRGroup="4"
           FileName="{PROJECT_FOLDER}83_1_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="41" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_41_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="41" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_41_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="41" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_41_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="41" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}83_41_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="81" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_81_rr1_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="81" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_81_rr2_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="81" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_81_rr3_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
   <sample Root="83" LoKey="83" HiKey="96" LoVel="81" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}83_81_rr4_songbird.wav" Duplicate="1"
-          LoopEnabled="1" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
+          LoopEnabled="0" LoopStart="2529" LoopEnd="14902" LoopXFade="1919"
           SampleStartMod="52022"/>
 </samplemap>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="ZephyrA" RRGroupAmount="1.0" MicPositions=";">
+  <sample Root="101" LoKey="101" HiKey="102" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}101_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="98" LoKey="98" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}98_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="86" LoKey="86" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}86_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="96" LoKey="96" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="105" LoKey="105" HiKey="108" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="81" LoKey="72" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="94" LoKey="94" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}94_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+  <sample Root="103" LoKey="103" HiKey="104" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}103_64_1_zephyrmain.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
+          SampleStartMod="823926"/>
+</samplemap>

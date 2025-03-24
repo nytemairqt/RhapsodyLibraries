@@ -38,19 +38,10 @@ include("NEATBoilerplate/includes/NEATStoreButton.js");
 
 /* Portal Specific */
 
-const pnlPortal = Content.getComponent("pnlPortal");
-const btnPortal = [Content.getComponent("btnPortalWriteArpVelocity")];
+const pnlMachineTribes = Content.getComponent("pnlMachineTribes");
+const btnMachineTribes = [Content.getComponent("btnMachineTribesWriteArpVelocity")];
 
-inline function colourPitchKeys()
-{
-    for (i=24; i<49; i++)
-        Engine.setKeyColour(i, Colours.withAlpha(Colours.lime, .5));
-}
-
-colourPitchKeys();
-Engine.setKeyColour(36, Colours.withAlpha(Colours.deepskyblue, 0.5));
-
-pnlPortal.setPaintRoutine(function(g)
+pnlMachineTribes.setPaintRoutine(function(g)
 {
 	var w = this.getWidth();
 	var h = this.getHeight();	
@@ -65,23 +56,25 @@ pnlPortal.setPaintRoutine(function(g)
 	g.addNoise(noiseData);
 });
 
-for (b in btnPortal)
+for (b in btnMachineTribes)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
+
 function onNoteOn()
 {
     local e = Message.getNoteNumber();
     local v = Message.getVelocity();
-
-	if (e >= 24 && e <= 48)
-    {
-        colourPitchKeys();
-        Engine.setKeyColour(e, Colours.withAlpha(Colours.deepskyblue, 0.5));            
-        samplerA[6].setIntensity(e-36);
-        Message.ignoreEvent(e);
-    }
     
-    if (btnPortal[0].getValue())
+    if (btnMachineTribes[0].getValue())
     	sldrpckArp[1].setAllValues(v);
+
+    if (e >= 60 && e <= 95)
+    {
+        local currentRR = arp.getAttribute(arp.CurrentValue);  
+        samplerA[0].asSampler().enableRoundRobin(false);
+        samplerA[0].asSampler().setActiveGroup(1);
+        Message.ignoreEvent(e);
+        Synth.playNote(e, v); 
+    }
 }
  function onNoteOff()
 {
@@ -90,29 +83,18 @@ function onNoteOn()
     local numPressedKeys = Synth.getNumPressedKeys();   
     local activeGroup;
 
-    if (e >= 24 & e <= 48)
+    if (numPressedKeys > 1)
     {
-        Message.ignoreEvent(e);
-        activeGroup = samplerA[0].asSampler().getActiveRRGroup();
         samplerA[0].asSampler().enableRoundRobin(false);
-        samplerA[0].asSampler().setActiveGroup(activeGroup);
-        samplerA[0].asSampler().enableRoundRobin(true);
+        samplerA[0].asSampler().setActiveGroup(samplerA[0].asSampler().getActiveRRGroup());
+        samplerA[0].asSampler().enableRoundRobin(true);          
     }
     else
     {
-        if (numPressedKeys > 1)
-        {
-            samplerA[0].asSampler().enableRoundRobin(false);
-            samplerA[0].asSampler().setActiveGroup(samplerA[0].asSampler().getActiveRRGroup());
-            samplerA[0].asSampler().enableRoundRobin(true);          
-        }
-        else
-        {
-            samplerA[0].asSampler().enableRoundRobin(false);
-            samplerA[0].asSampler().setActiveGroup(0);
-            samplerA[0].asSampler().enableRoundRobin(true);  
-        }
-    } 
+        samplerA[0].asSampler().enableRoundRobin(false);
+        samplerA[0].asSampler().setActiveGroup(0);
+        samplerA[0].asSampler().enableRoundRobin(true);  
+    }
 }
  function onController()
 {

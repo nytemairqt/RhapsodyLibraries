@@ -8,7 +8,7 @@
                height="60.0" bgColour="0" itemColour="0" itemColour2="0" textColour="0"
                parentComponent="pnlContainer" borderSize="0.0" borderRadius="0.0">
       <Component type="ScriptButton" id="btnTitle" x="20.0" y="0.0" text="CLOUDBURST ACOUSTIC"
-                 width="340" height="60" bgColour="0" itemColour="0" itemColour2="0"
+                 width="340.0" height="60.0" bgColour="0" itemColour="0" itemColour2="0"
                  textColour="4293059298" saveInPreset="0" parentComponent="pnlHeader"
                  isMomentary="1" enableMidiLearn="0"/>
       <Component type="ScriptButton" id="btnSettings" x="576.0" y="21.0" text="settings"
@@ -51,9 +51,9 @@
         <Component type="ScriptButton" id="btnCloudburstAcousticNoisePlayer" x="22.0"
                    y="32.0" parentComponent="pnlCloudburstAcoustic" text="Player"
                    defaultValue="1.0" enableMidiLearn="0"/>
-        <Component type="ScriptButton" id="btnCloudburstAcousticNoiseRelease" x="22.0" y="65.0"
-                   parentComponent="pnlCloudburstAcoustic" text="Release" defaultValue="1.0"
-                   enableMidiLearn="0"/>
+        <Component type="ScriptButton" id="btnCloudburstAcousticNoiseRelease" x="22.0"
+                   y="65.0" parentComponent="pnlCloudburstAcoustic" text="Release"
+                   defaultValue="1.0" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblCloudburstAcoustic" x="22.0" y="3.0"
                    parentComponent="pnlCloudburstAcoustic" text="NOISES" fontSize="14.0"
                    fontName="bold" editable="0"/>

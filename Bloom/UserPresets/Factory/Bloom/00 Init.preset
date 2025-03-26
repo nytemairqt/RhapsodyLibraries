@@ -28,7 +28,7 @@
     <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
-    <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
+    <Control type="ScriptButton" id="btnSamplerCBypass" value="0.0"/>
     <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
     <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
     <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>

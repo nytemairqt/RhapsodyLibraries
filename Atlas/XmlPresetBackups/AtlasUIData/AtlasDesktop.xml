@@ -62,7 +62,7 @@
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -166,7 +166,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerB" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -270,7 +270,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -484,9 +484,9 @@
       </Component>
       <Component type="ScriptButton" id="btnSamplerOther" x="314.0" y="22.0" parentComponent="pnlBody"
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
-                 tooltip="Display Extra Sampler." enabled="0" visible="0"/>
+                 tooltip="Display Extra Sampler." enabled="0" visible="0.0"/>
       <Component type="ScriptPanel" id="pnlFX" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
                    height="20.0" width="128.0" text="FX" fontSize="14.0" fontName="bold"
                    editable="0" visible="0"/>
@@ -556,7 +556,7 @@
                      editable="0"/>
           <Component type="ScriptComboBox" id="cmbAmpCabSelect" x="61.0" y="231.0"
                      width="140.0" height="26.0" parentComponent="pnlAmp" tooltip="Select Cabinet."
-                     items="&#10;R}DestroyerA.wav&#10;R}DestroyerB.wav&#10;R}RedPrinceA.wav&#10;R}RedPrinceB.wav&#10;R}RedPrinceC.wav&#10;R}StormbirdA.wav&#10;R}StormbirdB.wav&#10;R}StormbirdC.wav&#10;R}ThaumaturgyA.wav&#10;R}ThaumaturgyB.wav&#10;R}WaspA.wav&#10;R}WaspB.wav&#10;R}WishfulA.wav&#10;R}WishfulB.wav"
+                     items="&#10;DestroyerA.wav&#10;DestroyerB.wav&#10;RedPrinceA.wav&#10;RedPrinceB.wav&#10;RedPrinceC.wav&#10;StormbirdA.wav&#10;StormbirdB.wav&#10;StormbirdC.wav&#10;ThaumaturgyA.wav&#10;ThaumaturgyB.wav&#10;WaspA.wav&#10;WaspB.wav&#10;WishfulA.wav&#10;WishfulB.wav"
                      max="14"/>
           <Component type="ScriptButton" id="btnAmpCabBypass" x="16.0" y="236.0" width="40.0"
                      height="20.0" parentComponent="pnlAmp" text="CAB" tooltip="Bypass Cabinet."
@@ -1511,7 +1511,7 @@
       </Component>
       <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
                  width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
-                 isMomentary="1" saveInPreset="0"/>
+                 isMomentary="1" saveInPreset="0" visible="0.0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

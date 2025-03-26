@@ -10,7 +10,7 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="btnCloudburstAcousticNoisePlayer" value="1.0"/>
-            <Control type="ScriptButton" id="btnGloomNoiseRelease" value="1.0"/>
+            <Control type="ScriptButton" id="btnCloudburstAcousticNoiseRelease" value="1.0"/>
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
@@ -37,8 +37,8 @@
             <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
+            <Control type="ScriptButton" id="btnSamplerCBypass" value="0.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>
@@ -645,7 +645,7 @@
             <channelData enabled="1" level="0.0" suffix=""/>
           </channels>
         </Processor>
-        <Processor Type="StreamingSampler" ID="SamplerC" Bypassed="0" Gain="1.0"
+        <Processor Type="StreamingSampler" ID="SamplerC" Bypassed="1" Gain="1.0"
                    Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
                    PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
                    SamplerRepeatMode="3.0" RRGroupAmount="3.0" PitchTracking="1.0"
@@ -956,8 +956,8 @@
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
     <macro name="Env A" value="127.0" midi_cc="-1"/>
     <macro name="Env B" value="127.0" midi_cc="-1"/>
-    <macro name="Velocity" value="127.0" midi_cc="-1"/>
-    <macro name="Random" value="127.0" midi_cc="-1"/>
+    <macro name="Velocity" value="30.0" midi_cc="-1"/>
+    <macro name="Random" value="63.53701782226562" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

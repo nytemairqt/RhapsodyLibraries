@@ -19,7 +19,7 @@
                  width="350.0" height="36.0" bgColour="4279637529" itemColour="4281216563"
                  itemColour2="0" textColour="0" parentComponent="pnlHeader" borderSize="0.0"
                  borderRadius="5.0">
-        <Component type="ScriptButton" id="btnPresetBrowser" x="5.0" y="0.0" text="Eidolon | 00 Init"
+        <Component type="ScriptButton" id="btnPresetBrowser" x="5.0" y="0.0" text="Oracle2 Pads | 00 Init"
                    width="273.0" height="36.0" bgColour="0" itemColour="0" itemColour2="0"
                    parentComponent="pnlPresetDisplay" enableMidiLearn="0" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnPreset0" x="286.0" y="11.0" text="arrowLeft"
@@ -62,7 +62,7 @@
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
       <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody">
+                 height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -150,7 +150,7 @@
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="670ms"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="1000ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0st"
@@ -166,7 +166,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerB" x="345.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody">
+                 height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerBBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerB" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -254,7 +254,7 @@
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="642ms"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="1000ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0st"
@@ -270,7 +270,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody">
+                 height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"
                    tooltip="Bypass this Sampler."/>
@@ -358,7 +358,7 @@
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0dB"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCReleaseValue" x="219.0" y="290.0"
-                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="412ms"
+                   parentComponent="pnlSamplerC" height="20.0" width="60.0" text="1000ms"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerCPitchValue" x="19.0" y="394.0"
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0st"
@@ -484,7 +484,7 @@
       </Component>
       <Component type="ScriptButton" id="btnSamplerOther" x="314.0" y="22.0" parentComponent="pnlBody"
                  width="16.0" height="16.0" enableMidiLearn="0" saveInPreset="0"
-                 tooltip="Display Extra Sampler." enabled="0"/>
+                 tooltip="Display Extra Sampler." enabled="0" visible="0"/>
       <Component type="ScriptPanel" id="pnlFX" x="38.0" y="15.0" parentComponent="pnlBody"
                  width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblFX" x="391.0" y="6.0" parentComponent="pnlFX"
@@ -1511,7 +1511,7 @@
       </Component>
       <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
                  width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
-                 isMomentary="1" saveInPreset="0"/>
+                 isMomentary="1" saveInPreset="0" visible="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

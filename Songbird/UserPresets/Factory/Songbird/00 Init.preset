@@ -15,8 +15,8 @@
     <Control type="ScriptSlider" id="knbSamplerATune" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
-    <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
-    <Control type="ScriptComboBox" id="cmbSamplerB" value="2.0"/>
+    <Control type="ScriptButton" id="btnSamplerBBypass" value="0.0"/>
+    <Control type="ScriptComboBox" id="cmbSamplerB" value="1.0"/>
     <Control type="ScriptAudioWaveform" id="awfSamplerB" value="0.0"/>
     <Control type="ScriptButton" id="btnSamplerBReverse" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerBOffset" value="0.0"/>
@@ -28,8 +28,8 @@
     <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
-    <Control type="ScriptButton" id="btnSamplerCBypass" value="1.0"/>
-    <Control type="ScriptComboBox" id="cmbSamplerC" value="3.0"/>
+    <Control type="ScriptButton" id="btnSamplerCBypass" value="0.0"/>
+    <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
     <Control type="ScriptAudioWaveform" id="awfSamplerC" value="0.0"/>
     <Control type="ScriptButton" id="btnSamplerCReverse" value="0.0"/>
     <Control type="ScriptSlider" id="knbSamplerCOffset" value="0.0"/>

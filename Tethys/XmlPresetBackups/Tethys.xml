@@ -10,7 +10,7 @@
           <ChildProcessors/>
           <Content>
             <Control type="ScriptButton" id="btnSamplerABypass" value="1.0"/>
-            <Control type="ScriptComboBox" id="cmbSamplerA" value="1.0"/>
+            <Control type="ScriptComboBox" id="cmbSamplerA" value="6.0"/>
             <Control type="ScriptAudioWaveform" id="awfSamplerA" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerAReverse" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAOffset" value="0.0"/>
@@ -550,7 +550,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="">
+                   Group7Table="" SampleMapID="Dreamweaver">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -650,7 +650,7 @@
                    OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
                    NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
                    Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
-                   Group7Table="" SampleMapID="">
+                   Group7Table="" SampleMapID="Empire">
           <ChildProcessors>
             <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
               <ChildProcessors/>
@@ -954,8 +954,8 @@
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
     <macro name="Env A" value="0.0" midi_cc="-1"/>
     <macro name="Env B" value="0.0" midi_cc="-1"/>
-    <macro name="Velocity" value="105.0" midi_cc="-1"/>
-    <macro name="Random" value="51.72413635253906" midi_cc="-1"/>
+    <macro name="Velocity" value="103.0" midi_cc="-1"/>
+    <macro name="Random" value="111.9953536987305" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

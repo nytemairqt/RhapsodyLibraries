@@ -462,7 +462,7 @@ for (i=0; i<128; i++)
 	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
 
 	// Main Keys
-	if (i < 60 || i > 96)
+	if (i < 60 || i > 95)
 		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
 		
 }

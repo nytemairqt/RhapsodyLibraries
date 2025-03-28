@@ -3,53 +3,53 @@
 <samplemap ID="PluckHarmonics" RRGroupAmount="1.0" MicPositions=";" CrossfadeGamma="1.0">
   <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}90_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="260" SampleStart="260"/>
+          LoopXFade="0" LoopStart="260" SampleStart="260" SampleStartMod="352139"/>
   <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}78_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="323" SampleStart="323"/>
+          LoopXFade="0" LoopStart="323" SampleStart="323" SampleStartMod="352139"/>
   <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}66_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="513" SampleStart="513"/>
+          LoopXFade="0" LoopStart="513" SampleStart="513" SampleStartMod="352139"/>
   <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}54_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="368" SampleStart="368"/>
+          LoopXFade="0" LoopStart="368" SampleStart="368" SampleStartMod="352139"/>
   <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}87_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="424" SampleStart="424"/>
+          LoopXFade="0" LoopStart="424" SampleStart="424" SampleStartMod="352139"/>
   <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}75_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="594" SampleStart="594"/>
+          LoopXFade="0" LoopStart="594" SampleStart="594" SampleStartMod="352139"/>
   <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}63_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="337" SampleStart="337"/>
+          LoopXFade="0" LoopStart="337" SampleStart="337" SampleStartMod="352139"/>
   <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}51_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="337" SampleStart="337"/>
+          LoopXFade="0" LoopStart="337" SampleStart="337" SampleStartMod="352139"/>
   <sample Root="96" LoKey="96" HiKey="127" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="240" SampleStart="240"/>
+          LoopXFade="0" LoopStart="240" SampleStart="240" SampleStartMod="352139"/>
   <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="458" SampleStart="458"/>
+          LoopXFade="0" LoopStart="458" SampleStart="458" SampleStartMod="352139"/>
   <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}72_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="322" SampleStart="322"/>
+          LoopXFade="0" LoopStart="322" SampleStart="322" SampleStartMod="352139"/>
   <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="661" SampleStart="661"/>
+          LoopXFade="0" LoopStart="661" SampleStart="661" SampleStartMod="352139"/>
   <sample Root="48" LoKey="0" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}48_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="403" SampleStart="403"/>
+          LoopXFade="0" LoopStart="403" SampleStart="403" SampleStartMod="352139"/>
   <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}93_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="299" SampleStart="299"/>
+          LoopXFade="0" LoopStart="299" SampleStart="299" SampleStartMod="352139"/>
   <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="661" SampleStart="661"/>
+          LoopXFade="0" LoopStart="661" SampleStart="661" SampleStartMod="352139"/>
   <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}69_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="586" SampleStart="495"/>
+          LoopXFade="0" LoopStart="586" SampleStart="495" SampleStartMod="352139"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}57_64_pluckharmonics.wav" Duplicate="0"
-          LoopXFade="0" LoopStart="465" SampleStart="465"/>
+          LoopXFade="0" LoopStart="465" SampleStart="465" SampleStartMod="352139"/>
 </samplemap>

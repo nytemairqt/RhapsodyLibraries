@@ -28,9 +28,9 @@
   <sample Root="94" LoKey="94" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleStart="18753"/>
   <sample Root="103" LoKey="103" HiKey="104" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}103_64_1_zephyrmain.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}103_64_1_zephyrmain.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
           SampleStartMod="823926"/>
 </samplemap>

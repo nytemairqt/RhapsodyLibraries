@@ -75,7 +75,7 @@
             <Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpTone" value="0.0"/>
             <Control type="ScriptComboBox" id="cmbAmpCabSelect" value="1.0"/>
-            <Control type="ScriptButton" id="btnAmpCabBypass" value="0.0"/>
+            <Control type="ScriptButton" id="btnAmpCabBypass" value="0"/>
             <Control type="ScriptButton" id="btnAmpOversampling" value="0.0"/>
             <Control type="ScriptButton" id="btnCmbAmpCabSelectPrev" value="0.0"/>
             <Control type="ScriptButton" id="btnCmbAmpCabSelectNext" value="0.0"/>
@@ -958,8 +958,8 @@
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
     <macro name="Env A" value="127.0" midi_cc="-1"/>
     <macro name="Env B" value="127.0" midi_cc="-1"/>
-    <macro name="Velocity" value="91.0" midi_cc="-1"/>
-    <macro name="Random" value="122.7615356445312" midi_cc="-1"/>
+    <macro name="Velocity" value="127.0" midi_cc="-1"/>
+    <macro name="Random" value="127.0" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

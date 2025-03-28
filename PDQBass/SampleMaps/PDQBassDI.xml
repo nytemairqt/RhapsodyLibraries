@@ -16,19 +16,26 @@
   <sample Root="41" LoKey="41" HiKey="43" LoVel="11" HiVel="20" RRGroup="5"
           FileName="{PROJECT_FOLDER}41_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="77" SampleStart="77"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}41_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="852" SampleStart="852"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}41_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2870" SampleStart="2870"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}41_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1735" SampleStart="1735"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}41_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3255" SampleStart="3255"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="718" SampleStart="718"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}41_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="925" SampleStart="925"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}41_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="53" HiVel="80" RRGroup="4"
@@ -36,59 +43,81 @@
   <sample Root="41" LoKey="41" HiKey="43" LoVel="53" HiVel="80" RRGroup="5"
           FileName="{PROJECT_FOLDER}41_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="81" HiVel="114" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_81_1_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1270" SampleStart="1270"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}41_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1619" SampleStart="1619"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="81" HiVel="114" RRGroup="3"
-          FileName="{PROJECT_FOLDER}41_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_81_3_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1251" SampleStart="1251"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="81" HiVel="114" RRGroup="4"
-          FileName="{PROJECT_FOLDER}41_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_81_4_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="335" SampleStart="335"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="81" HiVel="114" RRGroup="5"
-          FileName="{PROJECT_FOLDER}41_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_81_5_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1225" SampleStart="1225"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="115" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}41_115_1_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="115" HiVel="127" RRGroup="2"
-          FileName="{PROJECT_FOLDER}41_115_2_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_115_2_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="595" SampleStart="595"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="115" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}41_115_3_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="115" HiVel="127" RRGroup="4"
-          FileName="{PROJECT_FOLDER}41_115_4_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_115_4_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="198" SampleStart="198"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}41_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="621" SampleStart="621"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}44_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="451" SampleStart="451"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}44_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="492" SampleStart="492"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}44_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="287" SampleStart="287"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}44_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="533" SampleStart="533"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="328" SampleStart="328"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}44_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="205" SampleStart="205"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}44_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="287" SampleStart="287"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}44_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="287" SampleStart="287"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}44_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="328" SampleStart="328"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="21" HiVel="52" RRGroup="1"
           FileName="{PROJECT_FOLDER}44_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}44_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="746" SampleStart="746"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}44_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2336" SampleStart="2336"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}44_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1537" SampleStart="1537"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}44_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2944" SampleStart="2944"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}44_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}44_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="663" SampleStart="663"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}44_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="53" HiVel="80" RRGroup="4"
@@ -96,17 +125,22 @@
   <sample Root="44" LoKey="44" HiKey="46" LoVel="53" HiVel="80" RRGroup="5"
           FileName="{PROJECT_FOLDER}44_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="81" HiVel="114" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_81_1_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1077" SampleStart="1077"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}44_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1326" SampleStart="1326"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="81" HiVel="114" RRGroup="3"
-          FileName="{PROJECT_FOLDER}44_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_81_3_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="911" SampleStart="911"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="81" HiVel="114" RRGroup="4"
-          FileName="{PROJECT_FOLDER}44_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_81_4_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1839" SampleStart="1839"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="81" HiVel="114" RRGroup="5"
           FileName="{PROJECT_FOLDER}44_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="115" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_115_1_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}44_115_1_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="165" SampleStart="165"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="115" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}44_115_2_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="44" LoKey="44" HiKey="46" LoVel="115" HiVel="127" RRGroup="3"
@@ -116,17 +150,23 @@
   <sample Root="44" LoKey="44" HiKey="46" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}44_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="308" SampleStart="308"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}47_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="331" SampleStart="331"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}47_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="498" SampleStart="498"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}47_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="593" SampleStart="593"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}47_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="784" SampleStart="784"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="332" SampleStart="332"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="11" HiVel="20" RRGroup="2"
           FileName="{PROJECT_FOLDER}47_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="11" HiVel="20" RRGroup="3"
@@ -134,21 +174,26 @@
   <sample Root="47" LoKey="47" HiKey="49" LoVel="11" HiVel="20" RRGroup="4"
           FileName="{PROJECT_FOLDER}47_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}47_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="166" SampleStart="166"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="21" HiVel="52" RRGroup="1"
           FileName="{PROJECT_FOLDER}47_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}47_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}47_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2060" SampleStart="2060"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}47_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="944" SampleStart="944"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}47_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2834" SampleStart="2834"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}47_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}47_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="600" SampleStart="600"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}47_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="53" HiVel="80" RRGroup="4"
@@ -160,13 +205,17 @@
   <sample Root="47" LoKey="47" HiKey="49" LoVel="81" HiVel="114" RRGroup="2"
           FileName="{PROJECT_FOLDER}47_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="81" HiVel="114" RRGroup="3"
-          FileName="{PROJECT_FOLDER}47_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_81_3_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1373" SampleStart="1373"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="81" HiVel="114" RRGroup="4"
-          FileName="{PROJECT_FOLDER}47_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_81_4_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="772" SampleStart="772"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="81" HiVel="114" RRGroup="5"
-          FileName="{PROJECT_FOLDER}47_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_81_5_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1545" SampleStart="1545"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="115" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_115_1_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_115_1_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="343" SampleStart="343"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="115" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}47_115_2_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="115" HiVel="127" RRGroup="3"
@@ -174,55 +223,77 @@
   <sample Root="47" LoKey="47" HiKey="49" LoVel="115" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}47_115_4_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="47" LoKey="47" HiKey="49" LoVel="115" HiVel="127" RRGroup="5"
-          FileName="{PROJECT_FOLDER}47_115_5_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}47_115_5_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="343" SampleStart="343"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1459" SampleStart="1459"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}50_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="858" SampleStart="858"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}50_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1201" SampleStart="1201"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}50_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="429" SampleStart="429"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}50_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2146" SampleStart="2146"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1955" SampleStart="1955"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}50_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2550" SampleStart="2550"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}50_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2385" SampleStart="2385"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}50_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1996" SampleStart="1996"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}50_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1704" SampleStart="1704"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="21" HiVel="52" RRGroup="1"
           FileName="{PROJECT_FOLDER}50_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}50_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="505" SampleStart="505"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="21" HiVel="52" RRGroup="3"
           FileName="{PROJECT_FOLDER}50_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}50_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2968" SampleStart="2968"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}50_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="694" SampleStart="694"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="884" SampleStart="884"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}50_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1010" SampleStart="1010"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="53" HiVel="80" RRGroup="3"
-          FileName="{PROJECT_FOLDER}50_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_53_3_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="820" SampleStart="820"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="53" HiVel="80" RRGroup="4"
-          FileName="{PROJECT_FOLDER}50_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_53_4_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="442" SampleStart="442"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="53" HiVel="80" RRGroup="5"
-          FileName="{PROJECT_FOLDER}50_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_53_5_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="442" SampleStart="442"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="81" HiVel="114" RRGroup="1"
           FileName="{PROJECT_FOLDER}50_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}50_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="505" SampleStart="505"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="81" HiVel="114" RRGroup="3"
-          FileName="{PROJECT_FOLDER}50_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_81_3_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="315" SampleStart="315"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="81" HiVel="114" RRGroup="4"
-          FileName="{PROJECT_FOLDER}50_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}50_81_4_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="378" SampleStart="378"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="81" HiVel="114" RRGroup="5"
           FileName="{PROJECT_FOLDER}50_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="50" LoKey="50" HiKey="52" LoVel="115" HiVel="127" RRGroup="1"
@@ -236,55 +307,77 @@
   <sample Root="50" LoKey="50" HiKey="52" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}50_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1734" SampleStart="1734"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}53_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1328" SampleStart="1328"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}53_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1311" SampleStart="1311"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}53_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="871" SampleStart="871"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}53_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1010" SampleStart="1010"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1346" SampleStart="1346"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}53_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1741" SampleStart="1741"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}53_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1712" SampleStart="1712"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}53_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1225" SampleStart="1225"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}53_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="800" SampleStart="800"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="631" SampleStart="631"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}53_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1050" SampleStart="1050"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}53_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1147" SampleStart="1147"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}53_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3085" SampleStart="3085"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}53_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2182" SampleStart="2182"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="800" SampleStart="800"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}53_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="160" SampleStart="160"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="53" HiVel="80" RRGroup="3"
-          FileName="{PROJECT_FOLDER}53_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_53_3_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="766" SampleStart="766"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="53" HiVel="80" RRGroup="4"
-          FileName="{PROJECT_FOLDER}53_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_53_4_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1566" SampleStart="1566"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="53" HiVel="80" RRGroup="5"
-          FileName="{PROJECT_FOLDER}53_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_53_5_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1295" SampleStart="1295"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="81" HiVel="114" RRGroup="1"
           FileName="{PROJECT_FOLDER}53_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}53_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="225" SampleStart="225"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="81" HiVel="114" RRGroup="3"
           FileName="{PROJECT_FOLDER}53_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="81" HiVel="114" RRGroup="4"
           FileName="{PROJECT_FOLDER}53_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="81" HiVel="114" RRGroup="5"
-          FileName="{PROJECT_FOLDER}53_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}53_81_5_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="202" SampleStart="202"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="115" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}53_115_1_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="53" LoKey="53" HiKey="56" LoVel="115" HiVel="127" RRGroup="2"
@@ -296,55 +389,75 @@
   <sample Root="53" LoKey="53" HiKey="56" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}53_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="773" SampleStart="773"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}57_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1850" SampleStart="1850"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}57_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1100" SampleStart="1100"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}57_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="878" SampleStart="878"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}57_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2413" SampleStart="2413"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1643" SampleStart="1643"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}57_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1500" SampleStart="1500"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}57_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1767" SampleStart="1767"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}57_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1353" SampleStart="1353"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}57_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1578" SampleStart="1578"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="676" SampleStart="676"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}57_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}57_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="380" SampleStart="380"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}57_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="292" SampleStart="292"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}57_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="117" SampleStart="117"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1288" SampleStart="1288"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}57_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1916" SampleStart="1916"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="53" HiVel="80" RRGroup="3"
-          FileName="{PROJECT_FOLDER}57_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_53_3_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2074" SampleStart="2074"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="53" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}57_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="53" HiVel="80" RRGroup="5"
           FileName="{PROJECT_FOLDER}57_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="81" HiVel="114" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_81_1_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="263" SampleStart="263"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}57_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="87" SampleStart="87"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="81" HiVel="114" RRGroup="3"
           FileName="{PROJECT_FOLDER}57_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="81" HiVel="114" RRGroup="4"
           FileName="{PROJECT_FOLDER}57_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="81" HiVel="114" RRGroup="5"
-          FileName="{PROJECT_FOLDER}57_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}57_81_5_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="380" SampleStart="380"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="115" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}57_115_1_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="57" LoKey="57" HiKey="59" LoVel="115" HiVel="127" RRGroup="2"
@@ -356,35 +469,48 @@
   <sample Root="57" LoKey="57" HiKey="59" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}57_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="748" SampleStart="748"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}60_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="751" SampleStart="751"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}60_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1366" SampleStart="1366"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}60_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="956" SampleStart="956"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}60_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="478" SampleStart="478"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2139" SampleStart="2139"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}60_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1563" SampleStart="1563"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}60_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1700" SampleStart="1700"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}60_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1398" SampleStart="1398"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}60_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1289" SampleStart="1289"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="396" SampleStart="396"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}60_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}60_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="339" SampleStart="339"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="21" HiVel="52" RRGroup="4"
           FileName="{PROJECT_FOLDER}60_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}60_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}60_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1755" SampleStart="1755"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="60" LoKey="60" HiKey="61" LoVel="53" HiVel="80" RRGroup="2"
@@ -416,35 +542,50 @@
   <sample Root="60" LoKey="60" HiKey="61" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}60_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2490" SampleStart="1982"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}62_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3624" SampleStart="3624"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}62_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1132" SampleStart="1132"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}62_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1642" SampleStart="1642"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}62_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3511" SampleStart="3511"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="328" SampleStart="328"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}62_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="615" SampleStart="615"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}62_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="662" SampleStart="501"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}62_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="350" SampleStart="350"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}62_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="434" SampleStart="434"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="683" SampleStart="683"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}62_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="292" SampleStart="292"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}62_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1073" SampleStart="1073"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}62_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="634" SampleStart="634"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}62_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}62_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1220" SampleStart="1220"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}62_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="62" LoKey="62" HiKey="64" LoVel="53" HiVel="80" RRGroup="2"
@@ -476,27 +617,38 @@
   <sample Root="62" LoKey="62" HiKey="64" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}62_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="831" SampleStart="831"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}65_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1464" SampleStart="1464"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}65_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1394" SampleStart="1394"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}65_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1046" SampleStart="1046"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}65_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2092" SampleStart="2092"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1094" SampleStart="1094"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}65_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="815" SampleStart="815"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}65_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1127" SampleStart="780"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}65_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="723" SampleStart="723"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}65_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="703" SampleStart="703"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="174" SampleStart="174"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}65_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="21" HiVel="52" RRGroup="3"
@@ -504,7 +656,8 @@
   <sample Root="65" LoKey="65" HiKey="66" LoVel="21" HiVel="52" RRGroup="4"
           FileName="{PROJECT_FOLDER}65_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}65_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}65_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="244" SampleStart="244"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}65_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="65" LoKey="65" HiKey="66" LoVel="53" HiVel="80" RRGroup="2"
@@ -536,31 +689,44 @@
   <sample Root="65" LoKey="65" HiKey="66" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}65_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3909" SampleStart="3909"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}67_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1631" SampleStart="1631"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}67_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3096" SampleStart="3096"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}67_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1882" SampleStart="1882"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}67_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2468" SampleStart="2468"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="777" SampleStart="777"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}67_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1326" SampleStart="1326"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}67_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1153" SampleStart="1153"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}67_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="293" SampleStart="293"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}67_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="342" SampleStart="342"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="334" SampleStart="334"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}67_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="125" SampleStart="125"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}67_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1171" SampleStart="1171"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="21" HiVel="52" RRGroup="4"
           FileName="{PROJECT_FOLDER}67_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="21" HiVel="52" RRGroup="5"
@@ -568,7 +734,8 @@
   <sample Root="67" LoKey="67" HiKey="69" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}67_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}67_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="292" SampleStart="209"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="67" LoKey="67" HiKey="69" LoVel="53" HiVel="80" RRGroup="4"
@@ -596,27 +763,38 @@
   <sample Root="67" LoKey="67" HiKey="69" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}67_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="4637" SampleStart="4637"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}70_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="4533" SampleStart="4533"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}70_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2998" SampleStart="2998"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}70_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3905" SampleStart="3905"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}70_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="5056" SampleStart="5056"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="477" SampleStart="477"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}70_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="344" SampleStart="344"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}70_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="305" SampleStart="305"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}70_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="486" SampleStart="486"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}70_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="425" SampleStart="425"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}70_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="209" SampleStart="209"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}70_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="70" LoKey="70" HiKey="72" LoVel="21" HiVel="52" RRGroup="3"
@@ -656,31 +834,43 @@
   <sample Root="70" LoKey="70" HiKey="72" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}70_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2180" SampleStart="2180"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}73_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2486" SampleStart="2486"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}73_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="711" SampleStart="711"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}73_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1046" SampleStart="1046"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}73_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="795" SampleStart="795"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1512" SampleStart="1512"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}73_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1599" SampleStart="1599"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}73_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1454" SampleStart="1454"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}73_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1545" SampleStart="1545"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}73_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1310" SampleStart="1310"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="251" SampleStart="251"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}73_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}73_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}73_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="209" SampleStart="209"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="21" HiVel="52" RRGroup="4"
           FileName="{PROJECT_FOLDER}73_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="73" LoKey="73" HiKey="75" LoVel="21" HiVel="52" RRGroup="5"
@@ -716,27 +906,38 @@
   <sample Root="73" LoKey="73" HiKey="75" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}73_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="836" SampleStart="836"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}76_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1011" SampleStart="1011"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}76_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1185" SampleStart="1185"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}76_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="732" SampleStart="732"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}76_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1952" SampleStart="1952"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1197" SampleStart="1197"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}76_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="674" SampleStart="674"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}76_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="642" SampleStart="642"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}76_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="668" SampleStart="668"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}76_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="783" SampleStart="783"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="139" SampleStart="139"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="21" HiVel="52" RRGroup="2"
           FileName="{PROJECT_FOLDER}76_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="21" HiVel="52" RRGroup="3"
@@ -748,9 +949,11 @@
   <sample Root="76" LoKey="76" HiKey="78" LoVel="53" HiVel="80" RRGroup="1"
           FileName="{PROJECT_FOLDER}76_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}76_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="418" SampleStart="418"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="53" HiVel="80" RRGroup="3"
-          FileName="{PROJECT_FOLDER}76_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}76_53_3_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="383" SampleStart="383"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="53" HiVel="80" RRGroup="4"
           FileName="{PROJECT_FOLDER}76_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="76" LoKey="76" HiKey="78" LoVel="53" HiVel="80" RRGroup="5"
@@ -776,29 +979,41 @@
   <sample Root="76" LoKey="76" HiKey="78" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}76_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1764" SampleStart="1673"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}79_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1889" SampleStart="1889"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}79_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2960" SampleStart="2960"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}79_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2675" SampleStart="2675"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}79_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1190" SampleStart="1190"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1010" SampleStart="1010"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}79_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="398" SampleStart="398"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}79_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="283" SampleStart="283"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}79_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="557" SampleStart="478"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}79_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="403" SampleStart="403"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="139" SampleStart="139"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}79_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="244" SampleStart="244"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="21" HiVel="52" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="21" HiVel="52" RRGroup="4"
@@ -806,15 +1021,18 @@
   <sample Root="79" LoKey="79" HiKey="81" LoVel="21" HiVel="52" RRGroup="5"
           FileName="{PROJECT_FOLDER}79_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="139" SampleStart="139"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="53" HiVel="80" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="53" HiVel="80" RRGroup="4"
-          FileName="{PROJECT_FOLDER}79_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_53_4_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="523" SampleStart="523"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="53" HiVel="80" RRGroup="5"
-          FileName="{PROJECT_FOLDER}79_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}79_53_5_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="697" SampleStart="697"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="81" HiVel="114" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
   <sample Root="79" LoKey="79" HiKey="81" LoVel="81" HiVel="114" RRGroup="2"
@@ -836,25 +1054,35 @@
   <sample Root="79" LoKey="79" HiKey="81" LoVel="115" HiVel="127" RRGroup="5"
           FileName="{PROJECT_FOLDER}79_115_5_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1673" SampleStart="1673"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}82_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1757" SampleStart="1757"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}82_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2008" SampleStart="2008"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="1" HiVel="10" RRGroup="4"
-          FileName="{PROJECT_FOLDER}82_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_4_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="836" SampleStart="836"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}82_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1255" SampleStart="1255"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1221" SampleStart="1221"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}82_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2081" SampleStart="2081"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}82_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1364" SampleStart="1364"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}82_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1198" SampleStart="1198"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}82_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}82_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2086" SampleStart="2086"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="21" HiVel="52" RRGroup="1"
           FileName="{PROJECT_FOLDER}82_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
   <sample Root="82" LoKey="82" HiKey="84" LoVel="21" HiVel="52" RRGroup="2"
@@ -898,67 +1126,94 @@
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="10" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="223" SampleStart="223"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="10" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="10" RRGroup="4"
           FileName="{PROJECT_FOLDER}85_1_4_pdqbassmutedowndi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="10" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_1_5_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_1_5_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="334" SampleStart="334"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="11" HiVel="20" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_11_1_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_11_1_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1991" SampleStart="1991"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="11" HiVel="20" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_11_2_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_11_2_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1563" SampleStart="1563"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="11" HiVel="20" RRGroup="3"
-          FileName="{PROJECT_FOLDER}85_11_3_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_11_3_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1609" SampleStart="1609"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="11" HiVel="20" RRGroup="4"
-          FileName="{PROJECT_FOLDER}85_11_4_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_11_4_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1159" SampleStart="1159"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="11" HiVel="20" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_11_5_pdqbassmuteupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_11_5_pdqbassmuteupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1619" SampleStart="1619"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="21" HiVel="52" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_21_1_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_21_1_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="167" SampleStart="167"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="21" HiVel="52" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_21_2_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_21_2_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1060" SampleStart="1060"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="21" HiVel="52" RRGroup="3"
-          FileName="{PROJECT_FOLDER}85_21_3_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_21_3_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2956" SampleStart="2956"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="21" HiVel="52" RRGroup="4"
-          FileName="{PROJECT_FOLDER}85_21_4_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_21_4_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1980" SampleStart="1980"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="21" HiVel="52" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_21_5_pdqbassfingerdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_21_5_pdqbassfingerdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="3542" SampleStart="3542"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="53" HiVel="80" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_53_1_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_53_1_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="669" SampleStart="669"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="53" HiVel="80" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_53_2_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_53_2_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1115" SampleStart="1115"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="53" HiVel="80" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_53_3_pdqbasspickdowndi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="53" HiVel="80" RRGroup="4"
-          FileName="{PROJECT_FOLDER}85_53_4_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_53_4_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="111" SampleStart="111"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="53" HiVel="80" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_53_5_pdqbasspickdowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_53_5_pdqbasspickdowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="55" SampleStart="55"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="81" HiVel="114" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_81_1_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_81_1_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1480" SampleStart="1480"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="81" HiVel="114" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_81_2_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_81_2_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1506" SampleStart="1506"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="81" HiVel="114" RRGroup="3"
-          FileName="{PROJECT_FOLDER}85_81_3_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_81_3_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="2120" SampleStart="2120"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="81" HiVel="114" RRGroup="4"
-          FileName="{PROJECT_FOLDER}85_81_4_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_81_4_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1311" SampleStart="1311"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="81" HiVel="114" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_81_5_pdqbasspickupdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_81_5_pdqbasspickupdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="1841" SampleStart="1841"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="115" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_115_1_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_115_1_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="920" SampleStart="920"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="115" HiVel="127" RRGroup="2"
-          FileName="{PROJECT_FOLDER}85_115_2_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_115_2_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="641" SampleStart="641"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="115" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_115_3_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="115" HiVel="127" RRGroup="4"
           FileName="{PROJECT_FOLDER}85_115_4_pdqbassslapdi.wav" Duplicate="1"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="115" HiVel="127" RRGroup="5"
-          FileName="{PROJECT_FOLDER}85_115_5_pdqbassslapdi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}85_115_5_pdqbassslapdi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="167" SampleStart="167"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="1" HiVel="10" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_1_1_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_1_1_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="936" SampleStart="936"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="1" HiVel="10" RRGroup="2"
-          FileName="{PROJECT_FOLDER}41_1_2_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_1_2_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="789" SampleStart="789"/>
   <sample Root="41" LoKey="41" HiKey="43" LoVel="1" HiVel="10" RRGroup="3"
-          FileName="{PROJECT_FOLDER}41_1_3_pdqbassmutedowndi.wav" Duplicate="1"/>
+          FileName="{PROJECT_FOLDER}41_1_3_pdqbassmutedowndi.wav" Duplicate="1"
+          LoopXFade="0" LoopStart="976" SampleStart="976"/>
 </samplemap>

@@ -3842,27 +3842,33 @@
           FileName="{PROJECT_FOLDER}115_05_rr1_gloom.wav" Duplicate="0"
           SampleStartMod="705600"/>
   <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}gloomchair_01_rr01.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_01_rr01.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}gloomchair_02_rr01.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_02_rr01.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}gloomchair_03_rr01.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_03_rr01.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}gloomrelease_04_rr01.wav" Duplicate="0"
-          Volume="-13"/>
+          Volume="-13" SampleStartMod="13255"/>
   <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}gloomrelease_05_rr01.wav" Duplicate="0"
-          Volume="-13"/>
+          Volume="-13" SampleStartMod="13255"/>
   <sample Root="0" LoKey="0" HiKey="0" LoVel="0" HiVel="127" RRGroup="2"
-          FileName="{PROJECT_FOLDER}gloomchair_01_rr02.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_01_rr02.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="2"
-          FileName="{PROJECT_FOLDER}gloomchair_02_rr02.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_02_rr02.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="2"
-          FileName="{PROJECT_FOLDER}gloomchair_03_rr02.wav" Duplicate="0"/>
+          FileName="{PROJECT_FOLDER}gloomchair_03_rr02.wav" Duplicate="0"
+          SampleStartMod="13255"/>
   <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}gloomrelease_04_rr02.wav" Duplicate="0"
-          Volume="-13"/>
+          Volume="-13" SampleStartMod="13255"/>
   <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}gloomrelease_05_rr02.wav" Duplicate="0"
-          Volume="-13"/>
+          Volume="-13" SampleStartMod="13255"/>
 </samplemap>

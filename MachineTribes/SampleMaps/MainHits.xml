@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap CrossfadeGamma="1.0" ID="MainHits" RRGroupAmount="64.0" MicPositions=";"
-           SaveMode="2">
+           SaveMode="1">
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="64"
           FileName="{PROJECT_FOLDER}83_64_64_machinetribesmain.wav" Duplicate="0"
           SampleStartMod="5512" SampleEnd="5512" MonolithOffset="0" MonolithLength="8192"
@@ -9221,145 +9221,145 @@
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}92_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89085" MonolithOffset="18874368" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}91_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88436" MonolithOffset="18964480" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}90_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88758" MonolithOffset="19054592" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}88_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89125" MonolithOffset="19144704" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}89_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88200" MonolithOffset="19234816" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}87_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="90585" MonolithOffset="19324928" MonolithLength="94208"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}119_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="88890" MonolithOffset="19419136" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}118_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89204" MonolithOffset="19509248" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}117_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89455" MonolithOffset="19599360" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}116_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89079" MonolithOffset="19689472" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}115_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="88953" MonolithOffset="19779584" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}114_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89204" MonolithOffset="19869696" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}113_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89204" MonolithOffset="19959808" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}86_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89444" MonolithOffset="20049920" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}112_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89028" MonolithOffset="20140032" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}111_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89034" MonolithOffset="20230144" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}110_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89058" MonolithOffset="20320256" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}109_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89691" MonolithOffset="20410368" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}108_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="88671" MonolithOffset="20500480" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}107_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89024" MonolithOffset="20590592" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}106_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="90008" MonolithOffset="20680704" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}104_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89763" MonolithOffset="20770816" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}105_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89349" MonolithOffset="20860928" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}103_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89254" MonolithOffset="20951040" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89470" MonolithOffset="21041152" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}101_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89518" MonolithOffset="21131264" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}102_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89377" MonolithOffset="21221376" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}99_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88655" MonolithOffset="21311488" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}100_64_1_machinetribesoneshot.wav"
           Duplicate="0" SampleEnd="89165" MonolithOffset="21401600" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}97_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88750" MonolithOffset="21491712" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}98_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89110" MonolithOffset="21581824" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}95_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89289" MonolithOffset="21671936" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89204" MonolithOffset="21762048" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="88778" MonolithOffset="21852160" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}93_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89297" MonolithOffset="21942272" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_64_1_machinetribesoneshot.wav" Duplicate="0"
           SampleEnd="89764" MonolithOffset="22032384" MonolithLength="90112"
-          SampleRate="44100.0"/>
+          SampleRate="44100.0" SampleStartMod="88200"/>
 </samplemap>

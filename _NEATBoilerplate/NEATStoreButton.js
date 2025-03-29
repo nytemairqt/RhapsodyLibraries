@@ -15,7 +15,7 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-const pnlStore = createChildPanel("pnlStore", 516, 21, 18, 18, "pnlHeader");
+const pnlStore = createChildPanel("pnlStore", 546, 21, 18, 18, "pnlHeader");
 
 pnlStore.set("tooltip", "Browse Instruments.");
 pnlStore.set("allowCallbacks", "Clicks & Hover");

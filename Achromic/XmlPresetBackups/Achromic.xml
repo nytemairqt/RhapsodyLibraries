@@ -65,11 +65,11 @@
             <Control type="ScriptSlider" id="knbSamplerOtherTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnFilterBypass" value="1"/>
-            <Control type="ScriptSlider" id="knbFilterCutoff" value="11279.53272158746"/>
-            <Control type="ScriptSlider" id="knbFilterQ" value="1.483504762298069"/>
-            <Control type="ScriptButton" id="btnFilterHPF" value="1"/>
-            <Control type="ScriptButton" id="btnFilterLPF" value="1"/>
+            <Control type="ScriptButton" id="btnFilterBypass" value="1.0"/>
+            <Control type="ScriptSlider" id="knbFilterCutoff" value="11279.533203125"/>
+            <Control type="ScriptSlider" id="knbFilterQ" value="1.483504772186279"/>
+            <Control type="ScriptButton" id="btnFilterHPF" value="0"/>
+            <Control type="ScriptButton" id="btnFilterLPF" value="1.0"/>
             <Control type="ScriptButton" id="btnAmpBypass" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpGain" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>

@@ -36,6 +36,19 @@ include("../../_NEATBoilerplate/NEATChaosEngine.js");
 include("../../_NEATBoilerplate/NEATTooltip.js");
 include("../../_NEATBoilerplate/NEATStoreButton.js");
 
+for (i=0; i<128; i++)
+{
+    // Clear Rhapsody Default
+    Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+    // Main Keys
+    if (i < 60 || i > 96)
+        Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));              
+    // Additional Keys
+    if (i >= 48 && i<=54)
+        Engine.setKeyColour(i, Colours.withAlpha(clrKeyPurple, 0.3));
+}
+
 function onNoteOn()
 {
 	

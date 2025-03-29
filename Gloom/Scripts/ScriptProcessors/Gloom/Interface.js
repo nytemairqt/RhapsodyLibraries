@@ -44,7 +44,6 @@ const randomNoiseKeys = [0, 2];
 const releaseKeys = [3, 4];
 
 const pnlGloom = Content.getComponent("pnlGloom");
-
 const btnGloom = [Content.getComponent("btnGloomNoisePlayer"), Content.getComponent("btnGloomNoiseRelease")];
 
 pnlGloom.setPaintRoutine(function(g)
@@ -64,6 +63,17 @@ pnlGloom.setPaintRoutine(function(g)
 
 for (b in btnGloom)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
+
+for (i=0; i<128; i++)
+{
+	// Clear Rhapsody Default
+	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+	// Main Keys
+	if (i < 36 || i > 120)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));				
+}
+
 function onNoteOn()
 {
 	local e = Message.getNoteNumber();

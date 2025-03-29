@@ -67,6 +67,20 @@ pnlPortal.setPaintRoutine(function(g)
 
 for (b in btnPortal)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
+
+for (i=0; i<128; i++)
+{
+    // Clear Keys
+    Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));      
+        
+    // Portal Specific
+    if (i >= 60 && i < 76)
+        Engine.setKeyColour(i, Colours.withAlpha(Colours.deepskyblue, 0.5));        
+        
+    if (i >= 84 && i < 100)
+        Engine.setKeyColour(i, Colours.withAlpha(Colours.yellow, 0.5));             
+}
+
 function onNoteOn()
 {
     local e = Message.getNoteNumber();

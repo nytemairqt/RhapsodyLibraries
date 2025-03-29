@@ -38,6 +38,16 @@ include("../../_NEATBoilerplate/NEATStoreButton.js");
 
 /* Blackout Specific */
 
+for (i=0; i<128; i++)
+{
+    // Clear Rhapsody Default
+    Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+    // Main Keys
+    if (i < 60 || i > 91)
+        Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8)); 
+}
+
 inline function colourPitchKeys()
 {
     for (i=24; i<49; i++)

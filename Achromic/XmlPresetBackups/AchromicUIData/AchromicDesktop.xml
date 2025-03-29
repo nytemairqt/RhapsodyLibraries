@@ -568,7 +568,7 @@
                      editable="0"/>
           <Component type="ScriptComboBox" id="cmbAmpCabSelect" x="61.0" y="231.0"
                      width="140.0" height="26.0" parentComponent="pnlAmp" tooltip="Select Cabinet."
-                     items="&#10;DestroyerA.wav&#10;DestroyerB.wav&#10;RedPrinceA.wav&#10;RedPrinceB.wav&#10;RedPrinceC.wav&#10;StormbirdA.wav&#10;StormbirdB.wav&#10;StormbirdC.wav&#10;ThaumaturgyA.wav&#10;ThaumaturgyB.wav&#10;WaspA.wav&#10;WaspB.wav&#10;WishfulA.wav&#10;WishfulB.wav"
+                     items="&#10;Cab 1.wav&#10;Cab 10.wav&#10;Cab 11.wav&#10;Cab 12.wav&#10;Cab 13.wav&#10;Cab 14.wav&#10;Cab 2.wav&#10;Cab 3.wav&#10;Cab 4.wav&#10;Cab 5.wav&#10;Cab 6.wav&#10;Cab 7.wav&#10;Cab 8.wav&#10;Cab 9.wav"
                      max="14"/>
           <Component type="ScriptButton" id="btnAmpCabBypass" x="16.0" y="236.0" width="40.0"
                      height="20.0" parentComponent="pnlAmp" text="CAB" tooltip="Bypass Cabinet."

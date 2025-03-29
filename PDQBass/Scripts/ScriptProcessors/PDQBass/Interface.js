@@ -146,6 +146,20 @@ pnlPDQBass.setPaintRoutine(function(g)
 for (b in btnPDQBass)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
 
+for (i=0; i<128; i++)
+{
+	// Clear Rhapsody Default
+	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+	// Main Keys
+	if (i < 41 || i > 85)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
+		
+	// PDQBass Specific
+	if (i == 36)
+		Engine.setKeyColour(i, Colours.withAlpha(0xFFCC96FF, .5));		
+}
+
 function onNoteOn()
 {
 	local e = Message.getNoteNumber();

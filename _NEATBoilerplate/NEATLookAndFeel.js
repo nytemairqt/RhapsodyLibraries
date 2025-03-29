@@ -455,14 +455,3 @@ LookAndFeel.laf.registerFunction("drawNumberTag", function(g, obj)
 			break;
 	}    
 });
-
-for (i=0; i<128; i++)
-{
-	// Clear Rhapsody Default
-	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
-
-	// Main Keys
-	if (i < 60 || i > 96)
-		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
-		
-}

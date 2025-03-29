@@ -38,6 +38,7 @@ include("../../_NEATBoilerplate/NEATStoreButton.js");
 
 /* Achromic Specific */
 
+const AchromicGate = Synth.getEffect("AchromicGate");
 const pnlAchromic = Content.getComponent("pnlAchromic");
 const btnAchromic = [Content.getComponent("btnAchromicAttack"), Content.getComponent("btnAchromicRelease"), Content.getComponent("btnAchromicGate"), Content.getComponent("btnAchromicDownpick")];
 
@@ -77,6 +78,37 @@ pnlAchromic.setPaintRoutine(function(g)
 
 for (b in btnAchromic)
 	b.setLocalLookAndFeel(LAFButtonNEAT);
+	
+inline function onbtnAchromicControl(component, value)
+{
+	switch (component)
+	{
+		case btnAchromic[2]: // Gate
+			AchromicGate.setBypassed(1-value);
+			break;
+	}
+}
+
+for (b in btnAchromic)
+	b.setControlCallback(onbtnAchromicControl);
+
+for (i=0; i<128; i++)
+{
+	// Clear Rhapsody Default
+	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
+
+	// Main Keys
+	if (i < 41 || i > 98)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));		
+		
+	// Achromic Specific
+	if (i == 36)
+		Engine.setKeyColour(i, Colours.withAlpha(0xFFCC96FF, .5));		
+	if (i == 38)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.yellow, .5));
+	if (i >= 108 && i <= 117)
+		Engine.setKeyColour(i, Colours.withAlpha(Colours.lime, .3));
+}
 
 function onNoteOn()
 {

@@ -1302,8 +1302,8 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentList(knbDegrade);
 				Random.randomizeComponentList(knbPhaser);
 				Random.randomizeComponentList(knbReverb);
-				Random.randomizeComponentList(knbDelay);
-				Random.randomizeButtonList(btnDelay);				
+				Random.randomizeButtonList(btnDelay);
+				Random.randomizeComponentList(knbDelay);								
 				Random.randomizeComponent(knbUtility[0]);
 				// Amp Done Seperately for safety reasons
 				Random.randomizeComponentWithinRange(knbAmp[0], 10, 40); // Gain
@@ -1757,8 +1757,8 @@ inline function onbtnRandomizeControl(component, value)
 				Random.randomizeComponentList(knbDegrade);
 				Random.randomizeComponentList(knbPhaser);
 				Random.randomizeComponentList(knbReverb);
-				Random.randomizeComponentList(knbDelay);
-				Random.randomizeButtonList(btnDelay);				
+				Random.randomizeButtonList(btnDelay);	
+				Random.randomizeComponentList(knbDelay);							
 				Random.randomizeComponent(knbUtility[0]);
 				// Amp Done Seperately for safety reasons
 				Random.randomizeComponentWithinRange(knbAmp[0], 10, 40); // Gain
@@ -1838,8 +1838,8 @@ inline function onbtnRandomizeControl(component, value)
 			case btnRandomizeFX[9]: // Delay
 				btnFXBypass[8].setValue(1);
 				btnFXBypass[8].changed();
-				Random.randomizeComponentList(knbDelay);
 				Random.randomizeButtonList(btnDelay);
+				Random.randomizeComponentList(knbDelay);				
 				break;
 			case btnRandomizeFX[10]: // Reset
 				Random.resetComponentList(btnFXBypass);

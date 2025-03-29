@@ -38,6 +38,7 @@ include("../../_NEATBoilerplate/NEATStoreButton.js");
 
 /* PDQ Bass Specific */
 
+const LAFSliderPDQBass = Content.createLocalLookAndFeel();
 const pnlPDQBass = Content.getComponent("pnlPDQBass");
 const btnPDQBass = [Content.getComponent("btnPDQBassForceDownpick")];
 const knbPDQBass = [Content.getComponent("knbPDQBassVelMin"),
@@ -113,12 +114,19 @@ inline function onknbPDQBassControl(component, value)
 	}
 }
 
+LAFSliderPDQBass.registerFunction("drawRotarySlider", function(g, obj)
+{
+    g.fillAll(Colours.white);
+    g.setColour(Colours.black);
+    g.setFont("bold", 13.0);
+    g.drawAlignedText(Math.round(obj.value), obj.area, "centred");
+});
+
 for (k in knbPDQBass)
 {
 	k.setControlCallback(onknbPDQBassControl);
 	k.setLocalLookAndFeel(LAFSliderPDQBass);
-}
-	
+}	
 
 pnlPDQBass.setPaintRoutine(function(g)
 {

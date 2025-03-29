@@ -21,10 +21,10 @@
             <Control type="ScriptSlider" id="knbSamplerAAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerADecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerASustain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerARelease" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerARelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerAPitch" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerATune" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerAPan" value="-100.0"/>
+            <Control type="ScriptSlider" id="knbSamplerAPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerAGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerBBypass" value="1.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerB" value="1.0"/>
@@ -34,10 +34,10 @@
             <Control type="ScriptSlider" id="knbSamplerBAttack" value="5.0"/>
             <Control type="ScriptSlider" id="knbSamplerBDecay" value="1500.0"/>
             <Control type="ScriptSlider" id="knbSamplerBSustain" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBRelease" value="5.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbSamplerBPitch" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBTune" value="0.0"/>
-            <Control type="ScriptSlider" id="knbSamplerBPan" value="100.0"/>
+            <Control type="ScriptSlider" id="knbSamplerBPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerBGain" value="0.0"/>
             <Control type="ScriptButton" id="btnSamplerCBypass" value="0.0"/>
             <Control type="ScriptComboBox" id="cmbSamplerC" value="1.0"/>
@@ -65,11 +65,11 @@
             <Control type="ScriptSlider" id="knbSamplerOtherTune" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherPan" value="0.0"/>
             <Control type="ScriptSlider" id="knbSamplerOtherGain" value="0.0"/>
-            <Control type="ScriptButton" id="btnFilterBypass" value="0.0"/>
-            <Control type="ScriptSlider" id="knbFilterCutoff" value="20000.0"/>
-            <Control type="ScriptSlider" id="knbFilterQ" value="0.4000000059604645"/>
-            <Control type="ScriptButton" id="btnFilterHPF" value="0"/>
-            <Control type="ScriptButton" id="btnFilterLPF" value="1.0"/>
+            <Control type="ScriptButton" id="btnFilterBypass" value="1"/>
+            <Control type="ScriptSlider" id="knbFilterCutoff" value="11279.53272158746"/>
+            <Control type="ScriptSlider" id="knbFilterQ" value="1.483504762298069"/>
+            <Control type="ScriptButton" id="btnFilterHPF" value="1"/>
+            <Control type="ScriptButton" id="btnFilterLPF" value="1"/>
             <Control type="ScriptButton" id="btnAmpBypass" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpGain" value="0.0"/>
             <Control type="ScriptSlider" id="knbAmpOutput" value="0.0"/>
@@ -194,8 +194,8 @@
     </Processor>
     <Processor Type="EffectChain" ID="FX" Bypassed="0">
       <ChildProcessors>
-        <Processor Type="PolyphonicFilter" ID="Filter" Bypassed="1" Gain="0.0" Frequency="20000.0"
-                   Q="0.4000000059604645" Mode="6.0" Quality="1.0" BipolarIntensity="0.0">
+        <Processor Type="PolyphonicFilter" ID="Filter" Bypassed="0" Gain="0.0" Frequency="11279.533203125"
+                   Q="1.483504772186279" Mode="6.0" Quality="1.0" BipolarIntensity="0.0">
           <ChildProcessors>
             <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
                        Intensity="1.0">
@@ -464,7 +464,7 @@
                 <Processor Type="AHDSR" ID="SamplerA_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
                            Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
-                           Release="5.0" EcoMode="1.0">
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -512,7 +512,7 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
                 <Processor Type="SimpleGain" ID="SamplerA_Utility" Bypassed="0" Gain="0.0"
-                           Delay="0.0" Width="100.0" Balance="-100.0" InvertPolarity="0.0">
+                           Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -564,7 +564,7 @@
                 <Processor Type="AHDSR" ID="SamplerB_AHDSR" Bypassed="0" Monophonic="0.0"
                            Retrigger="1.0" Intensity="1.0" AttackCurve="0.0" DecayCurve="0.0"
                            Attack="5.0" AttackLevel="0.0" Hold="10.0" Decay="1500.0" Sustain="0.0"
-                           Release="5.0" EcoMode="1.0">
+                           Release="1000.0" EcoMode="1.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Attack Time" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -612,7 +612,7 @@
             <Processor Type="EffectChain" ID="FX" Bypassed="0">
               <ChildProcessors>
                 <Processor Type="SimpleGain" ID="SamplerB_Utility" Bypassed="0" Gain="0.0"
-                           Delay="0.0" Width="100.0" Balance="100.0" InvertPolarity="0.0">
+                           Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
                   <ChildProcessors>
                     <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
                       <ChildProcessors/>
@@ -958,8 +958,8 @@
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
     <macro name="Env A" value="127.0" midi_cc="-1"/>
     <macro name="Env B" value="127.0" midi_cc="-1"/>
-    <macro name="Velocity" value="127.0" midi_cc="-1"/>
-    <macro name="Random" value="127.0" midi_cc="-1"/>
+    <macro name="Velocity" value="115.0" midi_cc="-1"/>
+    <macro name="Random" value="45.38621520996094" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

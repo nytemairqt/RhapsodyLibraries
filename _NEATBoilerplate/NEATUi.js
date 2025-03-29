@@ -1284,7 +1284,17 @@ inline function onbtnRandomizeControl(component, value)
 				// FX
 				Random.randomizeButtonList(btnFXBypass);
 				Random.randomizeComponentList(knbFilter);
-				Random.randomizeButtonList(btnFilter);	
+				local rollFilterType = Math.random();
+				if (rollFilterType <= .5) // Filter Button Disable Fix
+				{
+					btnFilter[0].setValue(1);
+					btnFilter[0].changed();
+				}
+				else
+				{
+					btnFilter[1].setValue(1);
+					btnFilter[1].changed();
+				}	
 				Random.randomizeComponentList(cmbAmp);
 				Random.randomizeComponentList(knbDrive);
 				Random.randomizeComponentList(knbStutter);
@@ -1729,7 +1739,17 @@ inline function onbtnRandomizeControl(component, value)
 			case btnRandomizeFX[0]: // All Parameters
 				Random.randomizeButtonList(btnFXBypass);
 				Random.randomizeComponentList(knbFilter);
-				Random.randomizeButtonList(btnFilter);	
+				local rollFilterType = Math.random();
+				if (rollFilterType <= .5) // Filter Button Disable Fix
+				{
+					btnFilter[0].setValue(1);
+					btnFilter[0].changed();
+				}
+				else
+				{
+					btnFilter[1].setValue(1);
+					btnFilter[1].changed();
+				}	
 				Random.randomizeComponentList(cmbAmp);
 				Random.randomizeComponentList(knbDrive);
 				Random.randomizeComponentList(knbStutter);
@@ -1762,7 +1782,17 @@ inline function onbtnRandomizeControl(component, value)
 				btnFXBypass[0].setValue(1);
 				btnFXBypass[0].changed();
 				Random.randomizeComponentList(knbFilter);
-				Random.randomizeButtonList(btnFilter);
+				local rollFilterType = Math.random();
+				if (rollFilterType <= .5) // Filter Button Disable Fix
+				{
+					btnFilter[0].setValue(1);
+					btnFilter[0].changed();
+				}
+				else
+				{
+					btnFilter[1].setValue(1);
+					btnFilter[1].changed();
+				}					
 			case btnRandomizeFX[2]: // Utility
 				btnFXBypass[4].setValue(1);
 				btnFXBypass[4].changed();

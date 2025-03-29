@@ -1,592 +1,739 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="Fortified" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Fortified" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}67_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="0" MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}67_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="90112"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}67_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="180224"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}55_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="270336" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}55_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="360448"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}55_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="450560"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}43_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="540672" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}43_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="630784"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="43" LoKey="43" HiKey="43" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}43_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}43_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="720896"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}31_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}31_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="811008" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}31_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}31_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="901120"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="31" LoKey="31" HiKey="31" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}31_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}31_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="991232"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}68_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="1081344" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}68_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1171456"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}68_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1261568"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}56_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="1351680" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}56_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1441792"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}56_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1531904"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}44_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="1622016" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}44_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1712128"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="44" LoKey="44" HiKey="44" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}44_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}44_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1802240"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}32_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}32_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="1892352" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}32_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}32_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="1982464"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="32" LoKey="32" HiKey="32" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}32_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}32_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2072576"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}65_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="2162688" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}65_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2252800"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}65_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2342912"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}53_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="2433024" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}53_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2523136"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}53_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2613248"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}41_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="2703360" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}41_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2793472"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="41" LoKey="41" HiKey="41" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}41_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}41_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="2883584"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}29_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}29_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="2973696" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}29_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}29_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3063808"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="29" LoKey="29" HiKey="29" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}29_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}29_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3153920"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}66_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="3244032" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}66_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3334144"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}66_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3424256"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}54_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="3514368" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}54_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3604480"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}54_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3694592"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}42_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="3784704" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}42_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3874816"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="42" LoKey="42" HiKey="42" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}42_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}42_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="3964928"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}30_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}30_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="4055040" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}30_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}30_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4145152"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="30" LoKey="30" HiKey="30" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}30_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}30_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4235264"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}64_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="4325376" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}64_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4415488"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}64_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4505600"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}52_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="4595712" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}52_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4685824"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="52" LoKey="52" HiKey="52" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}52_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4775936"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}40_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="4866048" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}40_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="4956160"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="40" LoKey="40" HiKey="40" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}40_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}40_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5046272"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}28_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}28_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="5136384" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}28_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}28_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5226496"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="28" LoKey="28" HiKey="28" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}28_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}28_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5316608"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}62_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="5406720" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}62_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5496832"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}62_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5586944"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}50_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="5677056" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}50_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5767168"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="50" LoKey="50" HiKey="50" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}50_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}50_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="5857280"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}38_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="5947392" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}38_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6037504"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="38" LoKey="38" HiKey="38" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}38_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}38_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6127616"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}26_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}26_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="6217728" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}26_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}26_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6307840"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="26" LoKey="26" HiKey="26" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}26_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}26_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6397952"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}63_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="6488064" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}63_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6578176"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}63_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6668288"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}51_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="6758400" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}51_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6848512"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="51" LoKey="51" HiKey="51" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}51_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}51_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="6938624"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}39_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="7028736" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}39_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7118848"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="39" LoKey="39" HiKey="39" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}39_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}39_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7208960"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}27_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}27_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="7299072" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}27_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}27_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7389184"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="27" LoKey="27" HiKey="27" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}27_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}27_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7479296"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}72_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="7569408" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}72_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7659520"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}72_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7749632"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}60_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="7839744" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}60_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="7929856"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}60_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8019968"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}48_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="8110080" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}48_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8200192"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="48" LoKey="48" HiKey="48" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}48_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}48_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8290304"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}36_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="8380416" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}36_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8470528"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="36" LoKey="36" HiKey="36" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}36_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}36_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8560640"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}24_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}24_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="8650752" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}24_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}24_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8740864"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="24" LoKey="24" HiKey="24" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}24_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}24_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="8830976"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}61_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="8921088" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}61_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9011200"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}61_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9101312"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}49_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="9191424" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}49_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9281536"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="49" LoKey="49" HiKey="49" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}49_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}49_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9371648"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}37_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="9461760" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}37_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9551872"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="37" LoKey="37" HiKey="37" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}37_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}37_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9641984"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}25_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}25_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="9732096" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}25_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}25_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9822208"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="25" LoKey="25" HiKey="25" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}25_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}25_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="9912320"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}71_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="10002432" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}71_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10092544"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}71_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10182656"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}59_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="10272768" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}59_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10362880"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}59_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10452992"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}47_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="10543104" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}47_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10633216"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="47" LoKey="47" HiKey="47" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}47_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}47_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10723328"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}35_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}35_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="10813440" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}35_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}35_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10903552"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="35" LoKey="35" HiKey="35" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}35_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}35_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="10993664"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}69_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="11083776" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}69_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11173888"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}69_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11264000"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}57_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="11354112" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}57_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11444224"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}57_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11534336"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}45_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="11624448" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}45_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11714560"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="45" LoKey="45" HiKey="45" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}45_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}45_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11804672"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}33_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}33_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="11894784" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}33_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}33_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="11984896"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="33" LoKey="33" HiKey="33" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}33_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}33_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12075008"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}70_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="12165120" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}70_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12255232"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}70_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12345344"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}58_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="12435456" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}58_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12525568"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}58_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12615680"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}46_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="12705792" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}46_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12795904"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="46" LoKey="46" HiKey="46" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}46_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}46_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="12886016"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="1" HiVel="35" RRGroup="1"
-          FileName="{PROJECT_FOLDER}34_1_fortified.wav" Duplicate="0"
-          LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          FileName="{PROJECT_FOLDER}34_1_fortified.wav" Duplicate="1" LoopEnabled="1"
+          LoopStart="10259" LoopEnd="30421" LoopXFade="7053" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="12976128" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="36" HiVel="88" RRGroup="1"
-          FileName="{PROJECT_FOLDER}34_64_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}34_64_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="13066240"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="34" LoKey="34" HiKey="34" LoVel="89" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}34_127_fortified.wav" Duplicate="0"
+          FileName="{PROJECT_FOLDER}34_127_fortified.wav" Duplicate="1"
           LoopEnabled="1" LoopStart="10259" LoopEnd="30421" LoopXFade="7053"
-          SampleStartMod="88200"/>
+          SampleStartMod="88200" SampleEnd="88200" MonolithOffset="13156352"
+          MonolithLength="90112" SampleRate="44100.0"/>
 </samplemap>

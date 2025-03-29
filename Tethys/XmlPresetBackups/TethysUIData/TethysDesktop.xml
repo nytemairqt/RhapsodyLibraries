@@ -71,8 +71,8 @@
                    fontSize="14.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerA" x="50.0" y="45.0" parentComponent="pnlSamplerA"
                    height="26.0" width="200.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;Paper Lantern&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerAPrev" x="230.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerA" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
@@ -175,8 +175,8 @@
                    fontName="bold" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerB" x="50.0" y="45.0" parentComponent="pnlSamplerB"
                    height="26.0" width="200.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;Paper Lantern&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerBPrev" x="230.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerB" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>
@@ -279,8 +279,8 @@
                    fontSize="14.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbSamplerC" x="50.0" y="45.0" parentComponent="pnlSamplerC"
                    height="26.0" width="200.0" bgColour="0" itemColour2="4211081216"
-                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;Paper Lantern&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
-                   max="16"/>
+                   itemColour="1711276032" tooltip="Select a Sample Map." items="&#10;Autumn Breeze&#10;Dreamweaver&#10;Empire&#10;Faded Feelings&#10;Into The Grey&#10;Nectar&#10;Obsidian&#10;Ouroboros&#10;RetroLead&#10;Robot Legion&#10;Sentimental&#10;SineStack&#10;Sun-Kissed&#10;The Deep End&#10;Toasted"
+                   max="15"/>
         <Component type="ScriptButton" id="btnCmbSamplerCPrev" x="230.0" y="50.0"
                    width="10.0" height="6.0" parentComponent="pnlSamplerC" isMomentary="1"
                    enableMidiLearn="0" saveInPreset="0"/>

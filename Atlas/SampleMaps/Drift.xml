@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <samplemap CrossfadeGamma="1.0" ID="Drift" RRGroupAmount="1.0" MicPositions=";"
-           SaveMode="1">
+           SaveMode="2">
   <sample Root="84" LoKey="84" HiKey="96" LoVel="106" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_4_drift.wav" Duplicate="0" SampleEnd="176400"
           MonolithOffset="0" MonolithLength="180224" SampleRate="44100.0"

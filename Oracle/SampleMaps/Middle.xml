@@ -1,106 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="Middle" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Middle" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="85" LoKey="85" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175638" LoopXFade="0" LoopStart="762" SampleStart="762"/>
+          SampleStartMod="175638" LoopXFade="0" LoopStart="762" SampleStart="762"
+          SampleEnd="176400" MonolithOffset="0" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175570" LoopXFade="0" LoopStart="398" SampleStart="398"/>
+          SampleStartMod="175570" LoopXFade="0" LoopStart="398" SampleStart="398"
+          SampleEnd="175968" MonolithOffset="180224" MonolithLength="176128"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175757" LoopXFade="0" LoopStart="643" SampleStart="643"/>
+          SampleStartMod="175757" LoopXFade="0" LoopStart="643" SampleStart="643"
+          SampleEnd="176400" MonolithOffset="356352" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}82_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175432" LoopXFade="0" LoopStart="968" SampleStart="968"/>
+          SampleStartMod="175432" LoopXFade="0" LoopStart="968" SampleStart="968"
+          SampleEnd="176400" MonolithOffset="536576" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175546" LoopXFade="0" LoopStart="854" SampleStart="854"/>
+          SampleStartMod="175546" LoopXFade="0" LoopStart="854" SampleStart="854"
+          SampleEnd="176400" MonolithOffset="716800" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}80_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174007" LoopXFade="0" LoopStart="2393" SampleStart="2393"/>
+          SampleStartMod="174007" LoopXFade="0" LoopStart="2393" SampleStart="2393"
+          SampleEnd="176400" MonolithOffset="897024" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174059" LoopXFade="0" LoopStart="2341" SampleStart="2128"/>
+          SampleStartMod="174059" LoopXFade="0" LoopStart="2341" SampleStart="2128"
+          SampleEnd="176400" MonolithOffset="1077248" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}78_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174979" LoopXFade="0" LoopStart="1421" SampleStart="1421"/>
+          SampleStartMod="174979" LoopXFade="0" LoopStart="1421" SampleStart="1421"
+          SampleEnd="176400" MonolithOffset="1257472" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174246" LoopXFade="0" LoopStart="2154" SampleStart="2154"/>
+          SampleStartMod="174246" LoopXFade="0" LoopStart="2154" SampleStart="2154"
+          SampleEnd="176400" MonolithOffset="1437696" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}76_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175084" LoopXFade="0" LoopStart="1316" SampleStart="1316"/>
+          SampleStartMod="175084" LoopXFade="0" LoopStart="1316" SampleStart="1316"
+          SampleEnd="176400" MonolithOffset="1617920" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}75_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175313" LoopXFade="0" LoopStart="1087" SampleStart="1087"/>
+          SampleStartMod="175313" LoopXFade="0" LoopStart="1087" SampleStart="1087"
+          SampleEnd="176400" MonolithOffset="1798144" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175552" LoopXFade="0" LoopStart="848" SampleStart="848"/>
+          SampleStartMod="175552" LoopXFade="0" LoopStart="848" SampleStart="848"
+          SampleEnd="176400" MonolithOffset="1978368" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}73_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175102" LoopXFade="0" LoopStart="1298" SampleStart="1298"/>
+          SampleStartMod="175102" LoopXFade="0" LoopStart="1298" SampleStart="1298"
+          SampleEnd="176400" MonolithOffset="2158592" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}72_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174956" LoopXFade="0" LoopStart="1444" SampleStart="1444"/>
+          SampleStartMod="174956" LoopXFade="0" LoopStart="1444" SampleStart="1444"
+          SampleEnd="176400" MonolithOffset="2338816" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="173852" LoopXFade="0" LoopStart="2548" SampleStart="2548"/>
+          SampleStartMod="173852" LoopXFade="0" LoopStart="2548" SampleStart="2548"
+          SampleEnd="176400" MonolithOffset="2519040" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}70_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174022" LoopXFade="0" LoopStart="2378" SampleStart="2378"/>
+          SampleStartMod="174022" LoopXFade="0" LoopStart="2378" SampleStart="2378"
+          SampleEnd="176400" MonolithOffset="2699264" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}69_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175669" LoopXFade="0" LoopStart="731" SampleStart="731"/>
+          SampleStartMod="175669" LoopXFade="0" LoopStart="731" SampleStart="731"
+          SampleEnd="176400" MonolithOffset="2879488" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}68_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174439" LoopXFade="0" LoopStart="1961" SampleStart="1961"/>
+          SampleStartMod="174439" LoopXFade="0" LoopStart="1961" SampleStart="1961"
+          SampleEnd="176400" MonolithOffset="3059712" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174163" LoopXFade="0" LoopStart="2237" SampleStart="2237"/>
+          SampleStartMod="174163" LoopXFade="0" LoopStart="2237" SampleStart="2237"
+          SampleEnd="176400" MonolithOffset="3239936" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}66_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174107" LoopXFade="0" LoopStart="2293" SampleStart="2293"/>
+          SampleStartMod="174107" LoopXFade="0" LoopStart="2293" SampleStart="2293"
+          SampleEnd="176400" MonolithOffset="3420160" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}65_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174898" LoopXFade="0" LoopStart="1502" SampleStart="1502"/>
+          SampleStartMod="174898" LoopXFade="0" LoopStart="1502" SampleStart="1502"
+          SampleEnd="176400" MonolithOffset="3600384" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="174850" LoopXFade="0" LoopStart="1550" SampleStart="1550"/>
+          SampleStartMod="174850" LoopXFade="0" LoopStart="1550" SampleStart="1550"
+          SampleEnd="176400" MonolithOffset="3780608" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}63_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="242" SampleStart="242"/>
+          SampleStartMod="175968" LoopXFade="0" LoopStart="242" SampleStart="242"
+          SampleEnd="176400" MonolithOffset="3960832" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}62_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="266" SampleStart="266"/>
+          SampleStartMod="175968" LoopXFade="0" LoopStart="266" SampleStart="266"
+          SampleEnd="176400" MonolithOffset="4141056" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}61_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968"/>
+          SampleStartMod="175968" SampleEnd="176400" MonolithOffset="4321280"
+          MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}60_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968"/>
+          SampleStartMod="175968" SampleEnd="176400" MonolithOffset="4501504"
+          MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}59_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175861" LoopXFade="0" LoopStart="539" SampleStart="539"/>
+          SampleStartMod="175861" LoopXFade="0" LoopStart="539" SampleStart="539"
+          SampleEnd="176400" MonolithOffset="4681728" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}58_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="258" SampleStart="258"/>
+          SampleStartMod="175968" LoopXFade="0" LoopStart="258" SampleStart="258"
+          SampleEnd="176400" MonolithOffset="4861952" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}57_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175953" LoopXFade="0" LoopStart="447" SampleStart="447"/>
+          SampleStartMod="175953" LoopXFade="0" LoopStart="447" SampleStart="447"
+          SampleEnd="176400" MonolithOffset="5042176" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}56_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="275" SampleStart="275"/>
+          SampleStartMod="175968" LoopXFade="0" LoopStart="275" SampleStart="275"
+          SampleEnd="176400" MonolithOffset="5222400" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}55_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968"/>
+          SampleStartMod="175968" SampleEnd="176400" MonolithOffset="5402624"
+          MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}54_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="393" SampleStart="393"/>
+          SampleStartMod="175968" LoopXFade="0" LoopStart="393" SampleStart="393"
+          SampleEnd="176400" MonolithOffset="5582848" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}53_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175968"/>
+          SampleStartMod="175968" SampleEnd="176400" MonolithOffset="5763072"
+          MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="52" LoKey="36" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}52_64_oraclemiddle.wav" Duplicate="1"
-          SampleStartMod="175265" LoopXFade="0" LoopStart="1135" SampleStart="1135"/>
+          SampleStartMod="175265" LoopXFade="0" LoopStart="1135" SampleStart="1135"
+          SampleEnd="176400" MonolithOffset="5943296" MonolithLength="180224"
+          SampleRate="44100.0"/>
 </samplemap>

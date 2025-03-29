@@ -1,1274 +1,1608 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="CloseMic" RRGroupAmount="3.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Close Mic" RRGroupAmount="3.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="66" LoKey="66" HiKey="66" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}66_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="525" SampleStart="525"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="525" SampleStart="525"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="0"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}65_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="358" SampleStart="358"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="358" SampleStart="358"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="356352"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="416" SampleStart="416"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="416" SampleStart="416"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="712704"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}63_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="287" SampleStart="287"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="287" SampleStart="287"
+          SampleStartMod="344259" SampleEnd="350636" MonolithOffset="1069056"
+          MonolithLength="352256" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}62_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="460" SampleStart="460"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="460" SampleStart="460"
+          SampleStartMod="344259" SampleEnd="350861" MonolithOffset="1421312"
+          MonolithLength="352256" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1260" SampleStart="1260"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1260" SampleStart="1260"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="1773568"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}95_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1302" SampleStart="1169"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1302" SampleStart="1169"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="2129920"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1135" SampleStart="1135"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1135" SampleStart="1135"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="2486272"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}93_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="684" SampleStart="684"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="684" SampleStart="684"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="2842624"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}92_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="585" SampleStart="585"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="585" SampleStart="585"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="3198976"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}91_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="664" SampleStart="664"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="664" SampleStart="664"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="3555328"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}90_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="654" SampleStart="654"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="654" SampleStart="654"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="3911680"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}89_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="220" SampleStart="220"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="220" SampleStart="220"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="4268032"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}88_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="286" SampleStart="286"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="286" SampleStart="286"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="4624384"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}87_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="132" SampleStart="132"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="132" SampleStart="132"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="4980736"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}86_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="110" SampleStart="110"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="110" SampleStart="110"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="5337088"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="662" SampleStart="662"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="662" SampleStart="662"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="5693440"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="884" SampleStart="884"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="884" SampleStart="884"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="6049792"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="794" SampleStart="794"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="794" SampleStart="794"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="6406144"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}82_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="66" SampleStart="66" SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="66" SampleStart="66" SampleStartMod="344259"
+          SampleEnd="352800" MonolithOffset="6762496" MonolithLength="356352"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="44" SampleStart="44" SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="44" SampleStart="44" SampleStartMod="344259"
+          SampleEnd="352800" MonolithOffset="7118848" MonolithLength="356352"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}80_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="2103" SampleStart="2103"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="2103" SampleStart="2103"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="7475200"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="2159" SampleStart="2159"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="2159" SampleStart="2159"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="7831552"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}78_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="284" SampleStart="284"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="284" SampleStart="284"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="8187904"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="275" SampleStart="275"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="275" SampleStart="275"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="8544256"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}76_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="308" SampleStart="308"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="308" SampleStart="308"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="8900608"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}75_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="110" SampleStart="110"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="110" SampleStart="110"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="9256960"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="198" SampleStart="198"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="198" SampleStart="198"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="9613312"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}73_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="198" SampleStart="198"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="198" SampleStart="198"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="9969664"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}72_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="264" SampleStart="264"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="264" SampleStart="264"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="10326016"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="709" SampleStart="709"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="709" SampleStart="709"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="10682368"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}70_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1042" SampleStart="1042"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1042" SampleStart="1042"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="11038720"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}69_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1104" SampleStart="1104"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1104" SampleStart="1104"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="11395072"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}68_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="606" SampleStart="606"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="606" SampleStart="606"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="11751424"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="553" SampleStart="553"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="553" SampleStart="553"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="12107776"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}66_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="220" SampleStart="220"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="220" SampleStart="220"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="12464128"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}65_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="344" SampleStart="344"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="344" SampleStart="344"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="12820480"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="429" SampleStart="429"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="429" SampleStart="429"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="13176832"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}63_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1249" SampleStart="1249"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1249" SampleStart="1249"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="13533184"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="97" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}62_127_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1171" SampleStart="1171"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1171" SampleStart="1171"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="13889536"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}4_64_3_cloudburstacousticcloserelease.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="379" SampleStart="0" SampleStartMod="88200"/>
+          Duplicate="0" LoopXFade="0" LoopStart="379" SampleStart="0" SampleStartMod="88200"
+          SampleEnd="88200" MonolithOffset="14245888" MonolithLength="90112"
+          SampleRate="44100.0"/>
   <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}4_64_2_cloudburstacousticcloserelease.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14336000"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="4" LoKey="4" HiKey="4" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}4_64_1_cloudburstacousticcloserelease.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14426112"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}3_64_3_cloudburstacousticcloserelease.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14516224"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}3_64_2_cloudburstacousticcloserelease.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14606336"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="3" LoKey="3" HiKey="3" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}3_64_1_cloudburstacousticcloserelease.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14696448"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}2_64_3_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14786560"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}2_64_2_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14876672"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="2" LoKey="2" HiKey="2" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}2_64_1_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="14966784"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}1_64_3_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="15056896"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}1_64_2_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="15147008"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="1" LoKey="1" HiKey="1" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}1_64_1_cloudburstacousticclosedeadnote.wav"
-          Duplicate="1" SampleStartMod="88200"/>
+          Duplicate="0" SampleStartMod="88200" SampleEnd="88200" MonolithOffset="15237120"
+          MonolithLength="90112" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}96_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="466" SampleStart="466"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="466" SampleStart="466"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="15327232"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}95_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="544" SampleStart="544"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="544" SampleStart="544"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="15683584"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}94_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="472" SampleStart="472"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="472" SampleStart="472"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="16039936"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}93_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="341" SampleStart="341"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="341" SampleStart="341"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="16396288"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}92_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="363" SampleStart="363"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="363" SampleStart="363"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="16752640"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}91_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="542" SampleStart="542"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="542" SampleStart="542"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="17108992"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}90_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="569" SampleStart="569"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="569" SampleStart="569"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="17465344"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}89_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="568" SampleStart="568"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="568" SampleStart="568"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="17821696"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}88_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="603" SampleStart="603"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="603" SampleStart="603"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="18178048"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}87_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="294" SampleStart="294"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="294" SampleStart="294"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="18534400"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}86_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="303" SampleStart="303"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="303" SampleStart="303"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="18890752"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="313" SampleStart="313"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="313" SampleStart="313"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="19247104"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}84_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="417" SampleStart="417"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="417" SampleStart="417"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="19603456"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="447" SampleStart="447"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="447" SampleStart="447"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="19959808"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}82_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="111" SampleStart="111"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="111" SampleStart="111"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="20316160"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}81_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="264" SampleStart="223"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="264" SampleStart="223"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="20672512"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}80_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="178" SampleStart="178"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="178" SampleStart="178"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="21028864"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="156" SampleStart="156"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="156" SampleStart="156"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="21385216"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}78_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="379" SampleStart="379"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="379" SampleStart="379"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="21741568"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="312" SampleStart="312"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="312" SampleStart="312"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="22097920"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}76_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="717" SampleStart="717"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="717" SampleStart="717"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="22454272"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}75_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="368" SampleStart="368"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="368" SampleStart="368"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="22810624"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="388" SampleStart="388"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="388" SampleStart="388"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="23166976"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}73_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="292" SampleStart="292"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="292" SampleStart="292"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="23523328"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}72_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="245" SampleStart="245"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="245" SampleStart="245"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="23879680"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="853" SampleStart="853"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="853" SampleStart="853"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="24236032"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}70_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="691" SampleStart="691"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="691" SampleStart="691"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="24592384"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}69_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="675" SampleStart="675"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="675" SampleStart="675"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="24948736"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}68_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1148" SampleStart="1148"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1148" SampleStart="1148"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="25305088"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="927" SampleStart="927"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="927" SampleStart="927"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="25661440"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}66_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="459" SampleStart="459"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="459" SampleStart="459"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="26017792"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}65_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="439" SampleStart="439"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="439" SampleStart="439"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="26374144"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="452" SampleStart="452"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="452" SampleStart="452"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="26730496"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}63_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="589" SampleStart="589"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="589" SampleStart="589"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="27086848"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="35" HiVel="96" RRGroup="3"
           FileName="{PROJECT_FOLDER}62_64_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="565" SampleStart="565"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="565" SampleStart="565"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="27443200"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}96_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="740" SampleStart="740"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="740" SampleStart="740"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="27799552"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}95_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="762" SampleStart="762"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="762" SampleStart="762"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="28155904"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}94_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="805" SampleStart="715"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="805" SampleStart="715"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="28512256"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}93_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="250" SampleStart="250"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="250" SampleStart="250"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="28868608"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}92_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="339" SampleStart="339"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="339" SampleStart="339"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="29224960"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}91_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="486" SampleStart="486"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="486" SampleStart="486"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="29581312"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}90_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="446" SampleStart="446"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="446" SampleStart="446"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="29937664"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}89_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="268" SampleStart="268"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="268" SampleStart="268"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="30294016"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}88_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="335" SampleStart="335"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="335" SampleStart="335"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="30650368"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}87_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="67" SampleStart="67" SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="67" SampleStart="67" SampleStartMod="344259"
+          SampleEnd="352800" MonolithOffset="31006720" MonolithLength="356352"
+          SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}86_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="156" SampleStart="156"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="156" SampleStart="156"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="31363072"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}85_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="488" SampleStart="488"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="488" SampleStart="488"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="31719424"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}84_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="290" SampleStart="290"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="290" SampleStart="290"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="32075776"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="312" SampleStart="312"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="312" SampleStart="312"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="32432128"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}82_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="111" SampleStart="111"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="111" SampleStart="111"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="32788480"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}81_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="134" SampleStart="134"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="134" SampleStart="134"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="33144832"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}80_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="89" SampleStart="89" SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="89" SampleStart="89" SampleStartMod="344259"
+          SampleEnd="352800" MonolithOffset="33501184" MonolithLength="356352"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="111" SampleStart="111"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="111" SampleStart="111"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="33857536"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}78_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="335" SampleStart="335"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="335" SampleStart="335"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="34213888"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="446" SampleStart="357"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="446" SampleStart="357"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="34570240"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}76_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="574" SampleStart="574"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="574" SampleStart="574"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="34926592"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}75_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="507" SampleStart="507"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="507" SampleStart="507"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="35282944"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="558" SampleStart="558"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="558" SampleStart="558"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="35639296"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}73_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="296" SampleStart="296"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="296" SampleStart="296"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="35995648"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}72_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="308" SampleStart="308"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="308" SampleStart="308"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="36352000"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="656" SampleStart="656"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="656" SampleStart="656"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="36708352"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}70_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="844" SampleStart="844"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="844" SampleStart="844"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="37064704"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}69_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="845" SampleStart="845"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="845" SampleStart="845"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="37421056"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}68_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="315" SampleStart="315"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="315" SampleStart="315"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="37777408"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="314" SampleStart="314"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="314" SampleStart="314"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="38133760"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}66_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="406" SampleStart="406"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="406" SampleStart="406"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="38490112"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}65_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="451" SampleStart="451"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="451" SampleStart="451"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="38846464"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="581" SampleStart="581"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="581" SampleStart="581"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="39202816"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}63_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="766" SampleStart="766"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="766" SampleStart="766"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="39559168"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="35" HiVel="96" RRGroup="2"
           FileName="{PROJECT_FOLDER}62_64_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="764" SampleStart="764"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="764" SampleStart="764"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="39915520"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="837" SampleStart="837"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="837" SampleStart="837"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="40271872"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}95_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="832" SampleStart="832"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="832" SampleStart="832"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="40628224"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="772" SampleStart="772"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="772" SampleStart="772"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="40984576"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}93_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="452" SampleStart="452"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="452" SampleStart="452"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="41340928"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}92_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="537" SampleStart="537"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="537" SampleStart="537"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="41697280"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}91_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="707" SampleStart="603"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="707" SampleStart="603"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="42053632"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}90_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="581" SampleStart="581"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="581" SampleStart="581"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="42409984"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}89_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="280" SampleStart="280"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="280" SampleStart="280"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="42766336"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}88_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="405" SampleStart="405"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="405" SampleStart="405"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="43122688"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}87_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="172" SampleStart="172"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="172" SampleStart="172"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="43479040"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}86_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="178" SampleStart="178"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="178" SampleStart="178"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="43835392"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="609" SampleStart="609"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="609" SampleStart="609"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="44191744"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="334" SampleStart="334"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="334" SampleStart="334"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="44548096"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="343" SampleStart="343"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="343" SampleStart="343"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="44904448"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}82_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="249" SampleStart="249"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="249" SampleStart="249"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="45260800"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="263" SampleStart="263"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="263" SampleStart="263"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="45617152"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}80_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="537" SampleStart="537"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="537" SampleStart="537"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="45973504"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="583" SampleStart="583"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="583" SampleStart="583"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="46329856"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}78_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="557" SampleStart="557"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="557" SampleStart="557"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="46686208"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="508" SampleStart="508"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="508" SampleStart="508"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="47042560"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}76_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="507" SampleStart="507"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="507" SampleStart="507"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="47398912"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}75_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="674" SampleStart="674"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="674" SampleStart="674"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="47755264"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="483" SampleStart="483"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="483" SampleStart="483"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="48111616"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}73_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="280" SampleStart="280"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="280" SampleStart="280"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="48467968"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}72_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="295" SampleStart="295"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="295" SampleStart="295"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="48824320"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="702" SampleStart="702"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="702" SampleStart="702"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="49180672"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}70_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="300" SampleStart="300"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="300" SampleStart="300"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="49537024"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}69_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="317" SampleStart="317"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="317" SampleStart="317"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="49893376"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}68_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="471" SampleStart="379"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="471" SampleStart="379"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="50249728"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="394" SampleStart="394"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="394" SampleStart="394"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="50606080"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}66_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="763" SampleStart="763"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="763" SampleStart="763"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="50962432"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}65_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="260" SampleStart="260"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="260" SampleStart="260"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="51318784"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="345" SampleStart="345"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="345" SampleStart="345"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="51675136"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}63_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="767" SampleStart="767"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="767" SampleStart="767"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="52031488"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="35" HiVel="96" RRGroup="1"
           FileName="{PROJECT_FOLDER}62_64_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="754" SampleStart="754"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="754" SampleStart="754"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="52387840"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}96_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="614" SampleStart="614"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="614" SampleStart="614"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="52744192"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}95_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="714" SampleStart="714"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="714" SampleStart="714"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="53100544"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}94_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="644" SampleStart="644"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="644" SampleStart="644"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="53456896"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}93_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="359" SampleStart="359"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="359" SampleStart="359"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="53813248"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}92_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="333" SampleStart="333"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="333" SampleStart="333"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="54169600"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}91_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="557" SampleStart="557"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="557" SampleStart="557"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="54525952"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}90_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="565" SampleStart="565"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="565" SampleStart="565"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="54882304"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}89_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="402" SampleStart="402"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="402" SampleStart="402"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="55238656"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}88_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="469" SampleStart="469"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="469" SampleStart="469"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="55595008"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}87_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="573" SampleStart="573"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="573" SampleStart="573"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="55951360"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}86_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="553" SampleStart="553"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="553" SampleStart="553"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="56307712"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1255" SampleStart="1255"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1255" SampleStart="1255"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="56664064"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}84_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="366" SampleStart="366"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="366" SampleStart="366"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="57020416"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="286" SampleStart="286"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="286" SampleStart="286"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="57376768"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}82_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="631" SampleStart="631"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="631" SampleStart="631"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="57733120"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}81_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="612" SampleStart="612"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="612" SampleStart="612"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="58089472"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}80_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="393" SampleStart="393"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="393" SampleStart="393"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="58445824"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="492" SampleStart="492"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="492" SampleStart="492"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="58802176"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}78_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="500" SampleStart="500"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="500" SampleStart="500"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="59158528"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="523" SampleStart="523"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="523" SampleStart="523"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="59514880"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}76_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="728" SampleStart="728"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="728" SampleStart="728"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="59871232"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}75_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="443" SampleStart="443"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="443" SampleStart="443"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="60227584"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="471" SampleStart="471"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="471" SampleStart="471"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="60583936"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}73_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="608" SampleStart="608"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="608" SampleStart="608"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="60940288"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}72_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="580" SampleStart="580"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="580" SampleStart="580"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="61296640"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="671" SampleStart="671"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="671" SampleStart="671"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="61652992"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}70_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="369" SampleStart="369"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="369" SampleStart="369"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="62009344"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}69_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="389" SampleStart="389"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="389" SampleStart="389"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="62365696"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}68_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="504" SampleStart="504"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="504" SampleStart="504"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="62722048"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="440" SampleStart="440"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="440" SampleStart="440"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="63078400"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}66_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="411" SampleStart="411"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="411" SampleStart="411"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="63434752"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}65_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="3736" SampleStart="3736"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="3736" SampleStart="3736"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="63791104"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="348888" MonolithOffset="64147456"
+          MonolithLength="352256" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}63_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="344532" MonolithOffset="64499712"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="34" RRGroup="3"
           FileName="{PROJECT_FOLDER}62_1_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="392" SampleStart="392"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="392" SampleStart="392"
+          SampleStartMod="344259" SampleEnd="344824" MonolithOffset="64847872"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}96_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="364" SampleStart="364"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="364" SampleStart="364"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="65196032"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}95_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="464" SampleStart="464"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="464" SampleStart="464"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="65552384"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}94_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="495" SampleStart="495"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="495" SampleStart="495"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="65908736"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}93_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="872" SampleStart="872"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="872" SampleStart="872"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="66265088"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}92_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="847" SampleStart="847"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="847" SampleStart="847"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="66621440"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}91_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="767" SampleStart="767"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="767" SampleStart="767"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="66977792"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}90_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="694" SampleStart="694"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="694" SampleStart="694"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="67334144"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}89_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="349" SampleStart="349"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="349" SampleStart="349"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="67690496"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}88_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="465" SampleStart="465"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="465" SampleStart="465"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="68046848"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}87_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="338" SampleStart="338"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="338" SampleStart="338"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="68403200"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}86_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="306" SampleStart="306"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="306" SampleStart="306"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="68759552"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}85_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="474" SampleStart="474"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="474" SampleStart="474"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="69115904"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}84_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="884" SampleStart="884"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="884" SampleStart="884"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="69472256"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="829" SampleStart="829"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="829" SampleStart="829"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="69828608"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}82_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="879" SampleStart="879"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="879" SampleStart="879"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="70184960"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}81_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="778" SampleStart="778"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="778" SampleStart="778"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="70541312"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}80_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="2940" SampleStart="2940"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="2940" SampleStart="2940"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="70897664"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="2814" SampleStart="2814"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="2814" SampleStart="2814"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="71254016"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}78_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="357" SampleStart="357"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="357" SampleStart="357"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="71610368"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="429" SampleStart="429"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="429" SampleStart="429"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="71966720"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}76_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="674" SampleStart="674"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="674" SampleStart="674"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="72323072"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}75_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="592" SampleStart="592"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="592" SampleStart="592"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="72679424"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="541" SampleStart="541"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="541" SampleStart="541"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="73035776"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}73_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="265" SampleStart="265"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="265" SampleStart="265"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="73392128"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}72_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="291" SampleStart="291"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="291" SampleStart="291"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="73748480"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="74104832"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}70_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="328" SampleStart="328"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="328" SampleStart="328"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="74461184"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}69_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="345" SampleStart="345"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="345" SampleStart="345"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="74817536"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}68_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="716" SampleStart="716"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="716" SampleStart="716"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="75173888"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="715" SampleStart="715"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="715" SampleStart="715"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="75530240"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}66_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="798" SampleStart="798"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="798" SampleStart="798"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="75886592"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}65_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="3642" SampleStart="3642"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="3642" SampleStart="3642"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="76242944"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}64_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="4080" SampleStart="4080"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="4080" SampleStart="4080"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="76599296"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}63_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="344478" MonolithOffset="76955648"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="34" RRGroup="2"
           FileName="{PROJECT_FOLDER}62_1_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="617" SampleStart="617"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="617" SampleStart="617"
+          SampleStartMod="344259" SampleEnd="344876" MonolithOffset="77303808"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="522" SampleStart="522"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="522" SampleStart="522"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="77651968"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}95_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="447" SampleStart="447"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="447" SampleStart="447"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="78008320"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="381" SampleStart="381"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="381" SampleStart="381"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="78364672"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}93_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1902" SampleStart="1902"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1902" SampleStart="1902"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="78721024"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}92_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1737" SampleStart="1737"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1737" SampleStart="1737"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="79077376"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}91_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="522" SampleStart="522"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="522" SampleStart="522"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="79433728"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}90_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="668" SampleStart="668"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="668" SampleStart="668"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="79790080"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}89_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="238" SampleStart="238"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="238" SampleStart="238"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="80146432"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}88_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="480" SampleStart="480"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="480" SampleStart="480"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="80502784"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}87_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="787" SampleStart="787"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="787" SampleStart="787"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="80859136"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}86_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="858" SampleStart="858"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="858" SampleStart="858"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="81215488"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}85_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="81571840"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}84_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="581" SampleStart="581"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="581" SampleStart="581"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="81928192"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}83_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="606" SampleStart="606"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="606" SampleStart="606"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="82284544"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}82_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="379" SampleStart="379"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="379" SampleStart="379"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="82640896"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="82997248"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}80_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="724" SampleStart="724"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="724" SampleStart="724"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="83353600"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}79_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="667" SampleStart="667"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="667" SampleStart="667"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="83709952"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}78_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="516" SampleStart="516"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="516" SampleStart="516"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="84066304"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}77_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="392" SampleStart="392"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="392" SampleStart="392"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="84422656"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}76_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="677" SampleStart="677"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="677" SampleStart="677"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="84779008"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}75_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="292" SampleStart="292"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="292" SampleStart="292"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="85135360"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}74_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="85491712"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}73_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="521" SampleStart="521"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="521" SampleStart="521"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="85848064"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}72_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="364" SampleStart="364"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="364" SampleStart="364"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="86204416"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}71_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1016" SampleStart="1016"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1016" SampleStart="1016"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="86560768"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}70_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="499" SampleStart="499"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="499" SampleStart="499"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="86917120"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}69_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="423" SampleStart="423"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="423" SampleStart="423"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="87273472"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}68_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="87629824"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}67_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="234" SampleStart="234"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="234" SampleStart="234"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="87986176"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}66_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="525" SampleStart="525"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="525" SampleStart="525"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="88342528"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}65_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="627" SampleStart="627"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="627" SampleStart="627"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="88698880"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}64_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="611" SampleStart="611"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="611" SampleStart="611"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="89055232"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}63_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1591" SampleStart="1591"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1591" SampleStart="1591"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="89411584"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="1" HiVel="34" RRGroup="1"
           FileName="{PROJECT_FOLDER}62_1_1_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="300" SampleStart="300"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="300" SampleStart="300"
+          SampleStartMod="344259" SampleEnd="351496" MonolithOffset="89767936"
+          MonolithLength="352256" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}96_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="253" SampleStart="253"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="253" SampleStart="253"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="90120192"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}95_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="134" SampleStart="134"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="134" SampleStart="134"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="90476544"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}94_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="201" SampleStart="201"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="201" SampleStart="201"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="90832896"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}93_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="301" SampleStart="301"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="301" SampleStart="301"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="91189248"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}92_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="335" SampleStart="335"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="335" SampleStart="335"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="91545600"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}91_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="111" SampleStart="111"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="111" SampleStart="111"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="91901952"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}90_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="67" SampleStart="67" SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="67" SampleStart="67" SampleStartMod="344259"
+          SampleEnd="352800" MonolithOffset="92258304" MonolithLength="356352"
+          SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}89_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="92614656"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}88_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="92971008"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}87_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="93327360"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}86_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="93683712"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}85_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="294" SampleStart="294"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="294" SampleStart="294"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="94040064"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}84_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="333" SampleStart="333"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="333" SampleStart="333"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="94396416"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}83_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="290" SampleStart="290"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="290" SampleStart="290"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="94752768"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}82_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="95109120"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}81_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="95465472"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}80_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="197" SampleStart="197"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="197" SampleStart="197"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="95821824"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}79_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="278" SampleStart="278"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="278" SampleStart="278"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="96178176"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}78_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="96534528"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}77_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="96890880"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}76_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="97247232"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}75_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="737" SampleStart="737"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="737" SampleStart="737"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="97603584"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}74_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="739" SampleStart="739"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="739" SampleStart="739"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="97959936"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}73_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="262" SampleStart="262"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="262" SampleStart="262"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="98316288"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}72_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="284" SampleStart="284"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="284" SampleStart="284"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="98672640"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}71_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="312" SampleStart="312"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="312" SampleStart="312"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="99028992"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}70_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="245" SampleStart="245"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="245" SampleStart="245"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="99385344"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}69_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="335" SampleStart="335"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="335" SampleStart="335"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="99741696"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}68_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="482" SampleStart="482"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="482" SampleStart="482"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="100098048"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}67_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="457" SampleStart="457"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="457" SampleStart="457"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="100454400"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}66_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="625" SampleStart="625"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="625" SampleStart="625"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="100810752"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}65_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="438" SampleStart="438"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="438" SampleStart="438"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="101167104"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}64_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352406" MonolithOffset="101523456"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}63_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="499" SampleStart="499"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="499" SampleStart="499"
+          SampleStartMod="344259" SampleEnd="346686" MonolithOffset="101879808"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="62" LoKey="60" HiKey="62" LoVel="97" HiVel="127" RRGroup="3"
           FileName="{PROJECT_FOLDER}62_127_3_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="354" SampleStart="354"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="354" SampleStart="354"
+          SampleStartMod="344259" SampleEnd="346599" MonolithOffset="102227968"
+          MonolithLength="348160" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="96" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}96_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1109" SampleStart="1109"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1109" SampleStart="1109"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="102576128"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="95" LoKey="95" HiKey="95" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}95_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1107" SampleStart="1107"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1107" SampleStart="1107"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="102932480"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="94" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}94_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1148" SampleStart="1148"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1148" SampleStart="1148"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="103288832"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="93" LoKey="93" HiKey="93" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}93_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="527" SampleStart="527"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="527" SampleStart="527"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="103645184"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="92" LoKey="92" HiKey="92" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}92_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="542" SampleStart="542"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="542" SampleStart="542"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="104001536"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="91" LoKey="91" HiKey="91" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}91_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="272" SampleStart="272"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="272" SampleStart="272"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="104357888"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="90" LoKey="90" HiKey="90" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}90_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="214" SampleStart="214"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="214" SampleStart="214"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="104714240"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="89" LoKey="89" HiKey="89" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}89_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="105070592"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="88" LoKey="88" HiKey="88" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}88_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="105426944"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="87" LoKey="87" HiKey="87" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}87_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="178" SampleStart="178"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="178" SampleStart="178"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="105783296"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="86" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}86_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" SampleStartMod="344259"/>
+          Duplicate="0" SampleStartMod="344259" SampleEnd="352800" MonolithOffset="106139648"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="85" LoKey="85" HiKey="85" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}85_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="581" SampleStart="581"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="581" SampleStart="581"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="106496000"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}84_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="403" SampleStart="403"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="403" SampleStart="403"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="106852352"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}83_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="397" SampleStart="397"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="397" SampleStart="397"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="107208704"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}82_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="521" SampleStart="521"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="521" SampleStart="521"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="107565056"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}81_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="540" SampleStart="540"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="540" SampleStart="540"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="107921408"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}80_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="437" SampleStart="437"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="437" SampleStart="437"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="108277760"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}79_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="499" SampleStart="499"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="499" SampleStart="499"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="108634112"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}78_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="232" SampleStart="232"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="232" SampleStart="232"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="108990464"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}77_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="333" SampleStart="333"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="333" SampleStart="333"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="109346816"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}76_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="473" SampleStart="473"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="473" SampleStart="473"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="109703168"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}75_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1273" SampleStart="1273"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1273" SampleStart="1273"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="110059520"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}74_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="1320" SampleStart="1320"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="1320" SampleStart="1320"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="110415872"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}73_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="608" SampleStart="608"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="608" SampleStart="608"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="110772224"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}72_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="605" SampleStart="605"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="605" SampleStart="605"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="111128576"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}71_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="335" SampleStart="335"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="335" SampleStart="335"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="111484928"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}70_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="576" SampleStart="576"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="576" SampleStart="576"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="111841280"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}69_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="603" SampleStart="603"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="603" SampleStart="603"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="112197632"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}68_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="663" SampleStart="663"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="663" SampleStart="663"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="112553984"
+          MonolithLength="356352" SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="97" HiVel="127" RRGroup="2"
           FileName="{PROJECT_FOLDER}67_127_2_cloudbustacousticclose.wav"
-          Duplicate="1" LoopXFade="0" LoopStart="537" SampleStart="537"
-          SampleStartMod="344259"/>
+          Duplicate="0" LoopXFade="0" LoopStart="537" SampleStart="537"
+          SampleStartMod="344259" SampleEnd="352800" MonolithOffset="112910336"
+          MonolithLength="356352" SampleRate="44100.0"/>
 </samplemap>

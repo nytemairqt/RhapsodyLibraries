@@ -1,106 +1,174 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="Bridge" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="Bridge" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="85" LoKey="85" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}85_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175395" LoopXFade="0" LoopStart="1005" SampleStart="1005"/>
+          FileName="{PROJECT_FOLDER}85_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175395" LoopXFade="0" LoopStart="1005" SampleStart="1005"
+          SampleEnd="176400" MonolithOffset="0" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="84" LoKey="84" HiKey="84" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}84_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175702" LoopXFade="0" LoopStart="266" SampleStart="266"/>
+          FileName="{PROJECT_FOLDER}84_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175702" LoopXFade="0" LoopStart="266" SampleStart="266"
+          SampleEnd="175968" MonolithOffset="180224" MonolithLength="176128"
+          SampleRate="44100.0"/>
   <sample Root="83" LoKey="83" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}83_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175605" LoopXFade="0" LoopStart="795" SampleStart="795"/>
+          FileName="{PROJECT_FOLDER}83_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175605" LoopXFade="0" LoopStart="795" SampleStart="795"
+          SampleEnd="176400" MonolithOffset="356352" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="82" LoKey="82" HiKey="82" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}82_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175641" LoopXFade="0" LoopStart="759" SampleStart="759"/>
+          FileName="{PROJECT_FOLDER}82_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175641" LoopXFade="0" LoopStart="759" SampleStart="759"
+          SampleEnd="176400" MonolithOffset="536576" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="81" LoKey="81" HiKey="81" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}81_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175337" LoopXFade="0" LoopStart="1063" SampleStart="1063"/>
+          FileName="{PROJECT_FOLDER}81_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175337" LoopXFade="0" LoopStart="1063" SampleStart="1063"
+          SampleEnd="176400" MonolithOffset="716800" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="80" LoKey="80" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}80_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175483" LoopXFade="0" LoopStart="917" SampleStart="917"/>
+          FileName="{PROJECT_FOLDER}80_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175483" LoopXFade="0" LoopStart="917" SampleStart="917"
+          SampleEnd="176400" MonolithOffset="897024" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="79" LoKey="79" HiKey="79" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}79_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175804" LoopXFade="0" LoopStart="596" SampleStart="596"/>
+          FileName="{PROJECT_FOLDER}79_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175804" LoopXFade="0" LoopStart="596" SampleStart="596"
+          SampleEnd="176400" MonolithOffset="1077248" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="78" LoKey="78" HiKey="78" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}78_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174066" LoopXFade="0" LoopStart="2334" SampleStart="2334"/>
+          FileName="{PROJECT_FOLDER}78_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174066" LoopXFade="0" LoopStart="2334" SampleStart="2334"
+          SampleEnd="176400" MonolithOffset="1257472" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="77" LoKey="77" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}77_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174529" LoopXFade="0" LoopStart="1871" SampleStart="1871"/>
+          FileName="{PROJECT_FOLDER}77_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174529" LoopXFade="0" LoopStart="1871" SampleStart="1871"
+          SampleEnd="176400" MonolithOffset="1437696" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="76" LoKey="76" HiKey="76" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}76_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="173869" LoopXFade="0" LoopStart="2531" SampleStart="2531"/>
+          FileName="{PROJECT_FOLDER}76_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="173869" LoopXFade="0" LoopStart="2531" SampleStart="2531"
+          SampleEnd="176400" MonolithOffset="1617920" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="75" LoKey="75" HiKey="75" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}75_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174454" LoopXFade="0" LoopStart="1946" SampleStart="1946"/>
+          FileName="{PROJECT_FOLDER}75_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174454" LoopXFade="0" LoopStart="1946" SampleStart="1946"
+          SampleEnd="176400" MonolithOffset="1798144" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="74" LoKey="74" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}74_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="173909" LoopXFade="0" LoopStart="2491" SampleStart="2491"/>
+          FileName="{PROJECT_FOLDER}74_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="173909" LoopXFade="0" LoopStart="2491" SampleStart="2491"
+          SampleEnd="176400" MonolithOffset="1978368" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="73" LoKey="73" HiKey="73" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}73_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174303" LoopXFade="0" LoopStart="2097" SampleStart="2097"/>
+          FileName="{PROJECT_FOLDER}73_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174303" LoopXFade="0" LoopStart="2097" SampleStart="2097"
+          SampleEnd="176400" MonolithOffset="2158592" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="72" LoKey="72" HiKey="72" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}72_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174212" LoopXFade="0" LoopStart="2188" SampleStart="2188"/>
+          FileName="{PROJECT_FOLDER}72_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174212" LoopXFade="0" LoopStart="2188" SampleStart="2188"
+          SampleEnd="176400" MonolithOffset="2338816" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="71" LoKey="71" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}71_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175044" LoopXFade="0" LoopStart="1356" SampleStart="1356"/>
+          FileName="{PROJECT_FOLDER}71_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175044" LoopXFade="0" LoopStart="1356" SampleStart="1356"
+          SampleEnd="176400" MonolithOffset="2519040" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="70" LoKey="70" HiKey="70" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}70_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175117" LoopXFade="0" LoopStart="1283" SampleStart="1283"/>
+          FileName="{PROJECT_FOLDER}70_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175117" LoopXFade="0" LoopStart="1283" SampleStart="1283"
+          SampleEnd="176400" MonolithOffset="2699264" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="69" LoKey="69" HiKey="69" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}69_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174255" LoopXFade="0" LoopStart="2145" SampleStart="2145"/>
+          FileName="{PROJECT_FOLDER}69_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174255" LoopXFade="0" LoopStart="2145" SampleStart="2145"
+          SampleEnd="176400" MonolithOffset="2879488" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="68" LoKey="68" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}68_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174761" LoopXFade="0" LoopStart="1639" SampleStart="1639"/>
+          FileName="{PROJECT_FOLDER}68_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174761" LoopXFade="0" LoopStart="1639" SampleStart="1639"
+          SampleEnd="176400" MonolithOffset="3059712" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="67" LoKey="67" HiKey="67" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}67_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175105" LoopXFade="0" LoopStart="1295" SampleStart="1104"/>
+          FileName="{PROJECT_FOLDER}67_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175105" LoopXFade="0" LoopStart="1295" SampleStart="1104"
+          SampleEnd="176400" MonolithOffset="3239936" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="66" LoKey="66" HiKey="66" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}66_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174498" LoopXFade="0" LoopStart="1902" SampleStart="1902"/>
+          FileName="{PROJECT_FOLDER}66_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174498" LoopXFade="0" LoopStart="1902" SampleStart="1902"
+          SampleEnd="176400" MonolithOffset="3420160" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="65" LoKey="65" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}65_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174392" LoopXFade="0" LoopStart="2008" SampleStart="2008"/>
+          FileName="{PROJECT_FOLDER}65_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174392" LoopXFade="0" LoopStart="2008" SampleStart="2008"
+          SampleEnd="176400" MonolithOffset="3600384" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="64" LoKey="64" HiKey="64" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}64_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="173892" LoopXFade="0" LoopStart="2508" SampleStart="2508"/>
+          FileName="{PROJECT_FOLDER}64_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="173892" LoopXFade="0" LoopStart="2508" SampleStart="2508"
+          SampleEnd="176400" MonolithOffset="3780608" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="63" LoKey="63" HiKey="63" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}63_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175225" LoopXFade="0" LoopStart="1175" SampleStart="1175"/>
+          FileName="{PROJECT_FOLDER}63_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175225" LoopXFade="0" LoopStart="1175" SampleStart="1175"
+          SampleEnd="176400" MonolithOffset="3960832" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="62" LoKey="62" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}62_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175968"/>
+          FileName="{PROJECT_FOLDER}62_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175968" SampleEnd="176400" MonolithOffset="4141056"
+          MonolithLength="180224" SampleRate="44100.0"/>
   <sample Root="61" LoKey="61" HiKey="61" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}61_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="390" SampleStart="390"/>
+          FileName="{PROJECT_FOLDER}61_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175968" LoopXFade="0" LoopStart="390" SampleStart="390"
+          SampleEnd="176400" MonolithOffset="4321280" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="60" LoKey="60" HiKey="60" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}60_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174983" LoopXFade="0" LoopStart="1417" SampleStart="1417"/>
+          FileName="{PROJECT_FOLDER}60_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174983" LoopXFade="0" LoopStart="1417" SampleStart="1417"
+          SampleEnd="176400" MonolithOffset="4501504" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="59" LoKey="59" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}59_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174825" LoopXFade="0" LoopStart="1575" SampleStart="1575"/>
+          FileName="{PROJECT_FOLDER}59_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174825" LoopXFade="0" LoopStart="1575" SampleStart="1575"
+          SampleEnd="176400" MonolithOffset="4681728" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="58" LoKey="58" HiKey="58" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}58_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="173575" LoopXFade="0" LoopStart="2825" SampleStart="2825"/>
+          FileName="{PROJECT_FOLDER}58_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="173575" LoopXFade="0" LoopStart="2825" SampleStart="2825"
+          SampleEnd="176400" MonolithOffset="4861952" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="57" LoKey="57" HiKey="57" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}57_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175535" LoopXFade="0" LoopStart="865" SampleStart="865"/>
+          FileName="{PROJECT_FOLDER}57_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175535" LoopXFade="0" LoopStart="865" SampleStart="865"
+          SampleEnd="176400" MonolithOffset="5042176" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="56" LoKey="56" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}56_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="175968" LoopXFade="0" LoopStart="338" SampleStart="338"/>
+          FileName="{PROJECT_FOLDER}56_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="175968" LoopXFade="0" LoopStart="338" SampleStart="338"
+          SampleEnd="176400" MonolithOffset="5222400" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="55" LoKey="55" HiKey="55" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}55_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174933" LoopXFade="0" LoopStart="1467" SampleStart="1467"/>
+          FileName="{PROJECT_FOLDER}55_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174933" LoopXFade="0" LoopStart="1467" SampleStart="1467"
+          SampleEnd="176400" MonolithOffset="5402624" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="54" LoKey="54" HiKey="54" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}54_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="173715" LoopXFade="0" LoopStart="2685" SampleStart="2685"/>
+          FileName="{PROJECT_FOLDER}54_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="173715" LoopXFade="0" LoopStart="2685" SampleStart="2685"
+          SampleEnd="176400" MonolithOffset="5582848" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="53" LoKey="53" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}53_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174649" LoopXFade="0" LoopStart="1751" SampleStart="1751"/>
+          FileName="{PROJECT_FOLDER}53_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174649" LoopXFade="0" LoopStart="1751" SampleStart="1751"
+          SampleEnd="176400" MonolithOffset="5763072" MonolithLength="180224"
+          SampleRate="44100.0"/>
   <sample Root="52" LoKey="36" HiKey="52" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}52_64_oraclebridge.wav" Duplicate="1"
-          SampleStartMod="174729" LoopXFade="0" LoopStart="1671" SampleStart="1671"/>
+          FileName="{PROJECT_FOLDER}52_64_oraclebridge.wav" Duplicate="0"
+          SampleStartMod="174729" LoopXFade="0" LoopStart="1671" SampleStart="1671"
+          SampleEnd="176400" MonolithOffset="5943296" MonolithLength="180224"
+          SampleRate="44100.0"/>
 </samplemap>

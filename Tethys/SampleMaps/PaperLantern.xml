@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="PaperLantern" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="78" LoKey="78" HiKey="80" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="0"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="68" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="356352"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="712704"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="44" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="1069056"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="99" LoKey="99" HiKey="101" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}99_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="1425408"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="87" LoKey="87" HiKey="89" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="1781760"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="77" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="2138112"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="65" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="2494464"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="53" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="2850816"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="41" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="3207168"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="108" LoKey="108" HiKey="108" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_64_paperlanter.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="3563520"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="96" LoKey="96" HiKey="98" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="3919872"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="86" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="4276224"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="74" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="4632576"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="62" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="4988928"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="50" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="5345280"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="38" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="5701632"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="107" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="6057984"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="95" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="6414336"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="6770688"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="7127040"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="7483392"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="47" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="7839744"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="102" LoKey="102" HiKey="104" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="8196096"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="90" LoKey="90" HiKey="92" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="8552448"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="78" LoKey="78" HiKey="80" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="8908800"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="68" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="9265152"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="9621504"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="44" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="9977856"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="99" LoKey="99" HiKey="101" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}99_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="10334208"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="87" LoKey="87" HiKey="89" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="10690560"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="77" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="11046912"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="65" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="11403264"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="53" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="11759616"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="41" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="12115968"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="108" LoKey="108" HiKey="108" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_127_paperlanter.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="12472320"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="96" LoKey="96" HiKey="98" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="12828672"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="86" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="13185024"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="74" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="13541376"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="62" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="13897728"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="50" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="14254080"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="38" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="14610432"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="107" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="14966784"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="95" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="15323136"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="15679488"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="16035840"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="16392192"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="47" LoVel="91" HiVel="127" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_127_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="16748544"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="102" LoKey="102" HiKey="104" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="17104896"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="90" LoKey="90" HiKey="92" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="17461248"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="78" LoKey="78" HiKey="80" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}78_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="17817600"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="66" LoKey="66" HiKey="68" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}66_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="18173952"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}54_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="18530304"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="42" LoKey="42" HiKey="44" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}42_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="18886656"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="99" LoKey="99" HiKey="101" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}99_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="19243008"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="87" LoKey="87" HiKey="89" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}87_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="19599360"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="75" LoKey="75" HiKey="77" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}75_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="19955712"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="63" LoKey="63" HiKey="65" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}63_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="20312064"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="51" LoKey="51" HiKey="53" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}51_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="20668416"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="39" LoKey="39" HiKey="41" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}39_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="21024768"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="108" LoKey="108" HiKey="108" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}108_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="21381120"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="96" LoKey="96" HiKey="98" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}96_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="21737472"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="84" LoKey="84" HiKey="86" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}84_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="22093824"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="72" LoKey="72" HiKey="74" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}72_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="22450176"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="60" LoKey="60" HiKey="62" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}60_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="22806528"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="48" LoKey="48" HiKey="50" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}48_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="23162880"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="36" LoKey="36" HiKey="38" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}36_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="23519232"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="105" LoKey="105" HiKey="107" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}105_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="23875584"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="93" LoKey="93" HiKey="95" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}93_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="24231936"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}81_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="24588288"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}69_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="24944640"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}57_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="25300992"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="45" LoKey="45" HiKey="47" LoVel="1" HiVel="35" RRGroup="1"
+          FileName="{PROJECT_FOLDER}45_1_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="25657344"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="102" LoKey="102" HiKey="104" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}102_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="26013696"
+          MonolithLength="356352" SampleRate="44100.0"/>
+  <sample Root="90" LoKey="90" HiKey="92" LoVel="36" HiVel="90" RRGroup="1"
+          FileName="{PROJECT_FOLDER}90_64_paperlantern.wav" Duplicate="0"
+          LoopEnabled="1" LoopStart="86975" LoopEnd="277114" LoopXFade="49829"
+          SampleStartMod="352800" SampleEnd="352800" MonolithOffset="26370048"
+          MonolithLength="356352" SampleRate="44100.0"/>
+</samplemap>

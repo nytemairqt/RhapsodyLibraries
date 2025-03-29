@@ -1,36 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<samplemap CrossfadeGamma="1.0" ID="ZephyrA" RRGroupAmount="1.0" MicPositions=";">
+<samplemap CrossfadeGamma="1.0" ID="ZephyrA" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
   <sample Root="101" LoKey="101" HiKey="102" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}101_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="823926" MonolithOffset="0"
+          MonolithLength="827392" SampleRate="44100.0"/>
   <sample Root="98" LoKey="98" HiKey="100" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}98_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="975122" MonolithOffset="827392"
+          MonolithLength="978944" SampleRate="44100.0"/>
   <sample Root="86" LoKey="86" HiKey="93" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}86_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="854875" MonolithOffset="1806336"
+          MonolithLength="856064" SampleRate="44100.0"/>
   <sample Root="96" LoKey="96" HiKey="97" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}96_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="874073" MonolithOffset="2662400"
+          MonolithLength="876544" SampleRate="44100.0"/>
   <sample Root="105" LoKey="105" HiKey="108" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}105_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="876013" MonolithOffset="3538944"
+          MonolithLength="876544" SampleRate="44100.0"/>
   <sample Root="81" LoKey="72" HiKey="85" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}81_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="987753" MonolithOffset="4415488"
+          MonolithLength="991232" SampleRate="44100.0"/>
   <sample Root="94" LoKey="94" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
           FileName="{PROJECT_FOLDER}94_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926" SampleStart="18753"/>
+          SampleStartMod="823926" SampleStart="18753" SampleEnd="1025647"
+          MonolithOffset="5406720" MonolithLength="1028096" SampleRate="44100.0"/>
   <sample Root="103" LoKey="103" HiKey="104" LoVel="0" HiVel="127" RRGroup="1"
-          FileName="{PROJECT_FOLDER}103_64_1_zephyrmain.wav" Duplicate="1"
+          FileName="{PROJECT_FOLDER}103_64_1_zephyrmain.wav" Duplicate="0"
           LoopEnabled="1" LoopStart="200260" LoopEnd="653934" LoopXFade="147066"
-          SampleStartMod="823926"/>
+          SampleStartMod="823926" SampleEnd="825505" MonolithOffset="6434816"
+          MonolithLength="827392" SampleRate="44100.0"/>
 </samplemap>

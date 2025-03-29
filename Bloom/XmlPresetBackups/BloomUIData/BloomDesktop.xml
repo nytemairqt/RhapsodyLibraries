@@ -61,7 +61,7 @@
       <Component type="ScriptButton" id="btnRandomPage" x="665.0" y="480.0" width="80.0"
                  height="20.0" text="RANDOM" saveInPreset="0" parentComponent="pnlBody"
                  tooltip="Open the Randomization panel." enableMidiLearn="0"/>
-      <Component type="ScriptPanel" id="pnlSamplerA" x="40.0" y="15.0" width="300.0"
+      <Component type="ScriptPanel" id="pnlSamplerA" x="38.0" y="15.0" width="300.0"
                  height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerABypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerA" width="16.0" height="16.0" enableMidiLearn="0"
@@ -269,7 +269,7 @@
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
-      <Component type="ScriptPanel" id="pnlSamplerC" x="651.0" y="15.0" width="300.0"
+      <Component type="ScriptPanel" id="pnlSamplerC" x="653.0" y="15.0" width="300.0"
                  height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerCBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerC" width="16.0" height="16.0" enableMidiLearn="0"
@@ -373,7 +373,7 @@
                    parentComponent="pnlSamplerC" height="20.0" width="60.0" text="0db"
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
-      <Component type="ScriptPanel" id="pnlSamplerOther" x="40.0" y="15.0" width="300.0"
+      <Component type="ScriptPanel" id="pnlSamplerOther" x="38.0" y="15.0" width="300.0"
                  height="440.0" parentComponent="pnlBody" visible="0">
         <Component type="ScriptButton" id="btnSamplerOtherBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerOther" width="16.0" height="16.0"

@@ -173,7 +173,7 @@
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0c"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAPanValue" x="152.0" y="394.0"
-                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="C"
+                   parentComponent="pnlSamplerA" height="20.0" width="60.0" text="-100L"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerAGainValue" x="219.0" y="394.0"
                    parentComponent="pnlSamplerA" height="20.0" width="60.0" text="0db"
@@ -276,7 +276,7 @@
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0c"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBPanValue" x="152.0" y="394.0"
-                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="C"
+                   parentComponent="pnlSamplerB" height="20.0" width="60.0" text="100R"
                    fontName="regular" fontSize="12.0" editable="0"/>
         <Component type="ScriptLabel" id="lblSamplerBGainValue" x="219.0" y="394.0"
                    parentComponent="pnlSamplerB" height="20.0" width="60.0" text="0db"
@@ -1057,7 +1057,7 @@
                    fontName="bold" text="Rate"/>
         <Component type="ScriptLabel" id="lblMoveChaosRateValue" x="717.0" y="405.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="Medium"/>
+                   fontName="regular" text="10.00"/>
         <Component type="ScriptLabel" id="lblMoveChaosIntensity" x="807.0" y="385.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
                    fontName="bold" text="Intensity"/>
@@ -1083,7 +1083,7 @@
                    text="CHAOS" fontName="bold" fontSize="14.0" width="60.0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlRandom" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0" visible="0.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblRandomSamplerAll" x="10.0" y="38.0"
                    parentComponent="pnlRandom" text="ALL" editable="0" fontName="bold"
                    width="100.0" height="24.0"/>
@@ -1552,7 +1552,7 @@
       </Component>
       <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
                  width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
-                 isMomentary="1" saveInPreset="0" visible="0.0"/>
+                 isMomentary="1" saveInPreset="0" visible="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

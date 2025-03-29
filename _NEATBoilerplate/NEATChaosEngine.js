@@ -482,14 +482,7 @@ namespace chaosEngine
 	    chaosRate = value;
 	    if (btnMove[2].getValue())
 	        chaosTimer.startTimer(33.3333);
-	    if (value < 5)
-	        lblMove[8].set("text", "Slow");
-	    else if (value >=5 && value < 11)
-	        lblMove[8].set("text", "Medium");
-	    else if (value >= 11 && value < 15)
-	        lblMove[8].set("text", "Fast");
-	    else
-	        lblMove[8].set("text", "Very Fast");
+	    lblMove[8].set("text", Engine.doubleToString(value, 2));
 	};
 
 	knbMove[8].setControlCallback(onknbChaosRateControl);

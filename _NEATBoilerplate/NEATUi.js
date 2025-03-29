@@ -28,10 +28,10 @@ reg xPos;
 reg yPos;
 
 // Includes
-include("../../_NEATBoilerplate/NEATLookAndFeel.js");
-include("../../_NEATBoilerplate/NEATModules.js");
-include("../../_NEATBoilerplate/NEATUiConstructors.js");
-include("../../_NEATBoilerplate/NEATUiRefs.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATLookAndFeel.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATModules.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATUiConstructors.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATUiRefs.js");
 
 // Populate ComboBoxes
 for (c=0; c<3; c++)

@@ -15,7 +15,7 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-include("../../_NEATBoilerplate/NEATMacroAttributes.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATMacroAttributes.js");
 
 namespace Random
 {

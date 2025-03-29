@@ -15,7 +15,7 @@
     along with This file. If not, see <http://www.gnu.org/licenses/>.
 */
 
-include("../../_NEATBoilerplate/NEATPaths.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATPaths.js");
 
 /* Generic */
 const LAFButtonChangePage = Content.createLocalLookAndFeel();

@@ -29,12 +29,13 @@ include("RhapsodyBoilerplate/includes/UserSettings.js");
 include("RhapsodyBoilerplate/includes/ZoomHandler.js");
 
 /* NEAT Includes */
-include("../../_NEATBoilerplate/NEATRhapsodyRefs.js");
-include("../../_NEATBoilerplate/NEATRandom.js");
-include("../../_NEATBoilerplate/NEATUi.js");
-include("../../_NEATBoilerplate/NEATChaosEngine.js");
-include("../../_NEATBoilerplate/NEATTooltip.js");
-include("../../_NEATBoilerplate/NEATStoreButton.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATRhapsodyRefs.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATRandom.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATUi.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATChaosEngine.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATTooltip.js");
+include("{GLOBAL_SCRIPT_FOLDER}NEATStoreButton.js");
+
 
 for (i=0; i<128; i++)
 {

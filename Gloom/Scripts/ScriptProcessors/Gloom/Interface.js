@@ -90,8 +90,7 @@ function onNoteOn()
 		}
 		else
 			randomNoiseCounter += 1;
-	}
-	
+	}	
 }
  function onNoteOff()
 {

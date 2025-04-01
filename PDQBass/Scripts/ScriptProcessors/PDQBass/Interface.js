@@ -160,6 +160,8 @@ for (i=0; i<128; i++)
 		Engine.setKeyColour(i, Colours.withAlpha(0xFFCC96FF, .5));		
 }
 
+ 
+
 function onNoteOn()
 {
 	local e = Message.getNoteNumber();
@@ -193,7 +195,7 @@ function onNoteOn()
  	if (v >= velMinPM && v <= velMaxPM) 
 	{
 		velNew = isUpPick ? 20 : 10;		
-		Message.setVelocity(velNew);
+		//Message.setVelocity(velNew);
 		
 		if (isUpPick)
 			isUpPick = 0;
@@ -203,7 +205,7 @@ function onNoteOn()
 	
 	// Finger
  	if (v >= velMinFinger && v <= velMaxFinger) 
-	 	Message.setVelocity(52); 	
+	 	Message.setVelocity(52); 		 	
 	 	
 	// Alt. Pick
 	if (v >= velMinAltPick && v <= velMaxAltPick) 
@@ -227,9 +229,7 @@ function onNoteOn()
 }
  function onNoteOff()
 {
-	local e = Message.getNoteNumber();    
-    local v = Message.getVelocity();
-    local numPressedKeys = Synth.getNumPressedKeys();             	
+	
 }
  function onController()
 {

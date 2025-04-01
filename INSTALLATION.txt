@@ -1,0 +1,23 @@
+To install this Library:
+
+1. Download & Install free Rhapsody Player: https://librewave.com/rhapsody/
+2. Extract the contents of this .zip but do NOT unzip the .lwz files.
+3. Make sure the data.lwz and all relevant samples.lwz files are in the same directory.
+4. Open Rhapsody, click Add Product -> Manual Install.
+5. Select any of the downloaded .lwz files, Rhapsody will automatically link the others.
+
+To uninstall a Library:
+
+1. Open Rhapsody home screen.
+2. Click the 3 dots for the Library.
+3. Click Uninstall.
+4. (Optional) Remove user presets.
+
+If images or samples are missing / don't install correctly:
+
+1. Uninstall the Library.
+2. Restart Rhapsody.
+3. Reinstall the Library.
+4. (Optional) Try running Rhapsody as administrator.
+
+If all else fails, use the contact form at https://iamlamprey.com to reach out.

@@ -19,7 +19,7 @@
                  width="350.0" height="36.0" bgColour="4279637529" itemColour="4281216563"
                  itemColour2="0" textColour="0" parentComponent="pnlHeader" borderSize="0.0"
                  borderRadius="5.0">
-        <Component type="ScriptButton" id="btnPresetBrowser" x="5.0" y="0.0" text="Eidolon | 00 Init"
+        <Component type="ScriptButton" id="btnPresetBrowser" x="5.0" y="0.0" text="Endure | 00 Init"
                    width="273.0" height="36.0" bgColour="0" itemColour="0" itemColour2="0"
                    parentComponent="pnlPresetDisplay" enableMidiLearn="0" saveInPreset="0"/>
         <Component type="ScriptButton" id="btnPreset0" x="286.0" y="11.0" text="arrowLeft"

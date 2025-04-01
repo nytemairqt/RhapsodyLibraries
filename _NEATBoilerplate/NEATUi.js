@@ -16,6 +16,7 @@
 */
 
 /* UI Functionality */
+Synth.deferCallbacks(true);
 const macroHandler = Engine.createMacroHandler();
 Engine.setFrontendMacros(["X Pos", "X Neg", "Y Pos", "Y Neg", "Env A", "Env B", "Velocity", "Random"]);
 const syncTimes = ["1/1", "1/2D", "1/2", "1/2T", "1/4D", "1/4", "1/4T", "1/8D", "1/8", "1/8T", "1/16D", "1/16", "1/16T", "1/32D", "1/32", "1/32T", "1/64D", "1/64", "1/64T"];
@@ -1265,7 +1266,7 @@ pnlMoveXYPad.setMouseCallback(function(event)
 
 inline function onbtnRandomizeControl(component, value)
 {
-	local chaosTypeRoll = 1;
+	//local chaosTypeRoll = 1;
 
 	// this one's gonna hurt
 	if (value)
@@ -1338,7 +1339,7 @@ inline function onbtnRandomizeControl(component, value)
 				btnMove[chaosTypeRoll].setValue(1);				
 				btnMove[chaosTypeRoll].changed();
 				Random.randomizeMacroConnectionList(); // Macro Connections
-				Random.randomizeMacroConnectionValues(); // Ranges
+				Random.randomizeMacroConnectionValues(); // Ranges				
 				break;
 			
 			case btnRandomizeResetAll: // Reset All

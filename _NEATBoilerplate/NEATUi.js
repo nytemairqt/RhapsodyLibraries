@@ -721,16 +721,13 @@ for (b in btnAmp)
 // Populate cmbAmp
 
 cmbAmp[0].set("items", "");
-
-var pfString = "";
-
-if (Engine.isHISE())
-	pfString = "{PROJECT_FOLDER}";
-else
-	pfString = "{EXP::" + Expansions.getCurrentName() + "}";
-
 for (a in audioFiles)
-	cmbAmp[0].addItem(a.substring(pfString.length, a.length));
+{
+	var name = a.substring(a.indexOf("}") + 1, a.length);
+	cmbAmp[0].addItem(name);
+}
+	
+	//cmbAmp[0].addItem(a.substring(pfString.length, a.length));
 
 inline function oncmbAmpControl(component, value)
 {

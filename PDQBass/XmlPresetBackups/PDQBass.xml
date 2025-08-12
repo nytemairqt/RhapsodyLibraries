@@ -438,6 +438,7 @@
         </Processor>
       </ChildProcessors>
       <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <MatrixData/>
     </Processor>
     <Processor Type="SynthChain" ID="Container0" Bypassed="0" Gain="1.0" Balance="0.0"
                VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0">
@@ -963,10 +964,10 @@
     <macro name="X Neg" value="63.5" midi_cc="-1"/>
     <macro name="Y Pos" value="63.5" midi_cc="-1"/>
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
-    <macro name="Env A" value="0.0" midi_cc="-1"/>
-    <macro name="Env B" value="0.0" midi_cc="-1"/>
-    <macro name="Velocity" value="74.0" midi_cc="-1"/>
-    <macro name="Random" value="90.45320129394531" midi_cc="-1"/>
+    <macro name="Env A" value="127.0" midi_cc="-1"/>
+    <macro name="Env B" value="127.0" midi_cc="-1"/>
+    <macro name="Velocity" value="127.0" midi_cc="-1"/>
+    <macro name="Random" value="127.0" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>

@@ -50,7 +50,7 @@ for (i=0; i<128; i++)
 
 function onNoteOn()
 {
-
+	
 }
  function onNoteOff()
 {

@@ -371,7 +371,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerOther" x="38.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerOtherBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerOther" width="16.0" height="16.0"
                    enableMidiLearn="0" tooltip="Bypass this Sampler."/>
@@ -872,22 +872,22 @@
                    parentComponent="pnlArp" width="24.0" height="24.0" enableMidiLearn="0"
                    isMomentary="1" tooltip="Reset Arp Note Lengths."/>
         <Component type="ScriptLabel" id="lblArpSteps" x="89.0" y="55.0" parentComponent="pnlArp"
-                   text="Steps" fontName="bold" fontSize="12.0" width="64.0"/>
+                   text="Steps" fontName="bold" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpStepsValue" x="89.0" y="75.0" parentComponent="pnlArp"
-                   text="16" fontName="regular" fontSize="12.0" width="64.0"/>
-        <Component type="ScriptLabel" id="lblArpSteps1" x="89.0" y="128.0" parentComponent="pnlArp"
-                   text="Speed" fontName="bold" fontSize="12.0" width="64.0"/>
+                   text="16" fontName="regular" fontSize="12.0" width="64.0" editable="0"/>
+        <Component type="ScriptLabel" id="lblArpSpeed" x="89.0" y="128.0" parentComponent="pnlArp"
+                   text="Speed" fontName="bold" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpSpeedValue" x="89.0" y="148.0" parentComponent="pnlArp"
-                   text="1/16" fontName="regular" fontSize="12.0" width="64.0"/>
+                   text="1/16" fontName="regular" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpOctave" x="89.0" y="201.0" parentComponent="pnlArp"
-                   text="Octave" fontName="bold" fontSize="12.0" width="64.0"/>
+                   text="Octave" fontName="bold" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpOctaveValue" x="89.0" y="221.0"
                    parentComponent="pnlArp" text="0" fontName="regular" fontSize="12.0"
-                   width="64.0"/>
+                   width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpSwing" x="89.0" y="275.0" parentComponent="pnlArp"
-                   text="Swing" fontName="bold" fontSize="12.0" width="64.0"/>
+                   text="Swing" fontName="bold" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptLabel" id="lblArpSwingValue" x="89.0" y="295.0" parentComponent="pnlArp"
-                   text="0%" fontName="regular" fontSize="12.0" width="64.0"/>
+                   text="0%" fontName="regular" fontSize="12.0" width="64.0" editable="0"/>
         <Component type="ScriptComboBox" id="cmbArp" x="29.0" y="355.0" max="6"
                    parentComponent="pnlArp" items="Up&#10;Down&#10;Up-Down&#10;Down-Up&#10;Random&#10;Chords"
                    text="Mode" tooltip="Adjust Arp Mode."/>
@@ -896,12 +896,12 @@
         <Component type="ScriptButton" id="btnCmbArpNext" x="137.0" y="372.0" width="10.0"
                    height="6.0" parentComponent="pnlArp" isMomentary="1" enableMidiLearn="0"/>
         <Component type="ScriptLabel" id="lblArp" x="437.0" y="6.0" parentComponent="pnlArp"
-                   text="ARP" fontName="bold" fontSize="14.0" width="41.0"/>
+                   text="ARP" fontName="bold" fontSize="14.0" width="41.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlMove" x="38.0" y="15.0" parentComponent="pnlBody"
                  width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblMove" x="427.0" y="6.0" parentComponent="pnlMove"
-                   text="MOVE" fontName="bold" fontSize="14.0" width="60.0"/>
+                   text="MOVE" fontName="bold" fontSize="14.0" width="60.0" editable="0"/>
         <Component type="ScriptFloatingTile" id="fltMacroAHDSRA" x="32.0" y="55.0"
                    parentComponent="pnlMove" ContentType="AHDSRGraph" bgColour="0"
                    itemColour="452984831" itemColour2="2164260863" textColour="0"
@@ -946,52 +946,52 @@
                    enableMidiLearn="0" tooltip="Adjust the Modulator Release."/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAAttack" x="23.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Attack"/>
+                   fontName="bold" text="Attack" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAAttackValue" x="23.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="5ms"/>
+                   fontName="regular" text="5ms" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRADecay" x="73.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Decay"/>
+                   fontName="bold" text="Decay" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRADecayValue" x="73.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1500ms"/>
+                   fontName="regular" text="1500ms" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRASustain" x="123.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Sustain"/>
+                   fontName="bold" text="Sustain" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRASustainValue" x="123.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="0dB"/>
+                   fontName="regular" text="0dB" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRARelease" x="173.0" y="189.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Release"/>
+                   fontName="bold" text="Release" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRAReleaseValue" x="173.0" y="209.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1000ms"/>
+                   fontName="regular" text="1000ms" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBAttack" x="23.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Attack"/>
+                   fontName="bold" text="Attack" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBAttackValue" x="23.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="5ms"/>
+                   fontName="regular" text="5ms" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBDecay" x="73.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Decay"/>
+                   fontName="bold" text="Decay" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBDecayValue" x="73.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1500ms"/>
+                   fontName="regular" text="1500ms" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBSustain" x="123.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Sustain"/>
+                   fontName="bold" text="Sustain" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBSustainValue" x="123.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="0dB"/>
+                   fontName="regular" text="0dB" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBRelease" x="173.0" y="381.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Release"/>
+                   fontName="bold" text="Release" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveAHDSRBReleaseValue" x="173.0" y="401.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="1000ms"/>
+                   fontName="regular" text="1000ms" editable="0"/>
         <Component type="ScriptPanel" id="pnlMoveXYPad" x="276.0" y="60.0" parentComponent="pnlMove"
                    width="397.0" height="298.0" allowCallbacks="Clicks, Hover &amp; Dragging"
                    tooltip="Controls connected parameters via XY modulation."/>
@@ -1039,36 +1039,36 @@
                    tooltip="Adjust Modulation Intensity."/>
         <Component type="ScriptLabel" id="lblMoveChaosRate" x="717.0" y="385.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Rate"/>
+                   fontName="bold" text="Rate" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveChaosRateValue" x="717.0" y="405.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="regular" text="10.00"/>
+                   fontName="regular" text="10.00" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveChaosIntensity" x="807.0" y="385.0"
                    parentComponent="pnlMove" width="60.0" height="20.0" fontSize="12.0"
-                   fontName="bold" text="Intensity"/>
+                   fontName="bold" text="Intensity" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveChaosIntensityValue" x="807.0"
                    y="405.0" parentComponent="pnlMove" width="60.0" height="20.0"
-                   fontSize="12.0" fontName="regular" text="50%"/>
+                   fontSize="12.0" fontName="regular" text="50%" editable="0"/>
         <Component type="ScriptPanel" id="pnlMoveConnectionSettings" x="60.0" y="40.0"
-                   parentComponent="pnlMove" width="795.0" height="350.0" visible="0.0">
+                   parentComponent="pnlMove" width="795.0" height="350.0" visible="0">
           <Component type="ScriptFloatingTile" id="fltMacroControl" x="10.0" y="30.0"
                      parentComponent="pnlMoveConnectionSettings" ContentType="FrontendMacroPanel"
                      bgColour="0" itemColour="2164260863" itemColour2="2164260863"
                      textColour="2164260863" width="775.0" height="290.0"/>
           <Component type="ScriptLabel" id="lblMoveConnectionSettings" x="0.0" y="0.0"
                      parentComponent="pnlMoveConnectionSettings" fontSize="14.0" fontName="bold"
-                     text="CONNECTION SETTINGS" width="795.0"/>
+                     text="CONNECTION SETTINGS" width="795.0" editable="0"/>
           <Component type="ScriptButton" id="btnMoveCloseConnectionSettings" x="779.0"
                      y="5.0" width="13.0" height="13.0" saveInPreset="0" enableMidiLearn="0"
                      isMomentary="1" parentComponent="pnlMoveConnectionSettings" tooltip="Close this window."/>
         </Component>
         <Component type="ScriptLabel" id="lblMoveEnv" x="110.0" y="6.0" parentComponent="pnlMove"
-                   text="ENV" fontName="bold" fontSize="14.0" width="45.0"/>
+                   text="ENV" fontName="bold" fontSize="14.0" width="45.0" editable="0"/>
         <Component type="ScriptLabel" id="lblMoveChaos" x="767.0" y="6.0" parentComponent="pnlMove"
-                   text="CHAOS" fontName="bold" fontSize="14.0" width="60.0"/>
+                   text="CHAOS" fontName="bold" fontSize="14.0" width="60.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlRandom" x="38.0" y="15.0" parentComponent="pnlBody"
-                 width="915.0" height="440.0" visible="0.0">
+                 width="915.0" height="440.0" visible="0">
         <Component type="ScriptLabel" id="lblRandomSamplerAll" x="10.0" y="38.0"
                    parentComponent="pnlRandom" text="ALL" editable="0" fontName="bold"
                    width="100.0" height="24.0"/>
@@ -1537,7 +1537,7 @@
       </Component>
       <Component type="ScriptButton" id="btnClosePage" x="937.0" y="19.0" parentComponent="pnlBody"
                  width="13.0" height="13.0" tooltip="Close this window." enableMidiLearn="0"
-                 isMomentary="1" saveInPreset="0" visible="0.0"/>
+                 isMomentary="1" saveInPreset="0" visible="0"/>
     </Component>
     <Component type="ScriptPanel" id="pnlStatusBar" x="5.0" y="585.0" text=""
                width="990.0" height="39.0" bgColour="0" itemColour="4281282356"

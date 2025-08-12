@@ -137,15 +137,15 @@
             <Control type="ScriptSlider" id="knbMoveAHDSRBRelease" value="1000.0"/>
             <Control type="ScriptSlider" id="knbMoveX" value="50.0"/>
             <Control type="ScriptSlider" id="knbMoveY" value="50.0"/>
-            <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0"/>
+            <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosBypass" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosTypeA" value="1.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0"/>
             <Control type="ScriptSlider" id="knbMoveChaosRate" value="10.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="25.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>

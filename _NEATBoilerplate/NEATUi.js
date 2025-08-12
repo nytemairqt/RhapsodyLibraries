@@ -1262,7 +1262,7 @@ pnlMoveXYPad.setMouseCallback(function(event)
 
 inline function onbtnRandomizeControl(component, value)
 {
-	//local chaosTypeRoll = 1;
+	local chaosTypeRoll = 1;
 
 	// this one's gonna hurt
 	if (value)

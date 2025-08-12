@@ -29,6 +29,7 @@ const LAFButtonBypass = Content.createLocalLookAndFeel();
 const LAFKeyboard = Content.createLocalLookAndFeel();
 
 /* Sampler */
+const LAFAudioWaveformScaled = Content.createLocalLookAndFeel();
 const LAFSliderSampleOffset = Content.createLocalLookAndFeel();
 const LAFButtonSamplerOther = Content.createLocalLookAndFeel();
 const LAFButtonSamplerReverse = Content.createLocalLookAndFeel();
@@ -203,7 +204,6 @@ LAFButtonBypass.registerFunction("drawToggleButton", function(g, obj)
 });
 
 // ComboBoxes
-
 LAFComboBoxNEAT.registerFunction("drawComboBox", function(g, obj)
 {
     g.setColour(obj.hover ? Colours.withAlpha(clrWhite, .1) : Colours.withAlpha(clrWhite, .05));
@@ -217,8 +217,14 @@ LAFComboBoxNEAT.registerFunction("drawComboBox", function(g, obj)
 
 });
 
-// Sample Start Offset
+// Audio Waveform (Scaled)
+LAFAudioWaveformScaled.registerFunction("drawThumbnailPath", function(g, obj)
+{
+    // Possibly add LAF later.
+});
 
+
+// Sample Start Offset
 LAFSliderSampleOffset.registerFunction("drawRotarySlider", function(g, obj)
 {
     g.setColour(clrLightblue);
@@ -235,7 +241,6 @@ LAFSliderSampleOffset.registerFunction("drawRotarySlider", function(g, obj)
 });
 
 // Arp Buttons & Sliderpacks
-
 LAFButtonArpReset.registerFunction("drawToggleButton", function(g, obj)
 {
     path.clear();
@@ -307,7 +312,6 @@ LAFSliderpackArpOther.registerFunction("drawLinearSlider", function(g, obj)
 });
 
 // Move Sliders & Buttons
-
 LAFSliderMoveX.registerFunction("drawRotarySlider", function(g, obj)
 {
     var w = obj.area[2];
@@ -420,7 +424,6 @@ LAFButtonChaosG.registerFunction("drawToggleButton", function(g, obj)
 });
 
 // Rhapsody Overrides
-
 LookAndFeel.laf.registerFunction("drawNumberTag", function(g, obj)
 {
 	g.setColour(clrDarkgrey);

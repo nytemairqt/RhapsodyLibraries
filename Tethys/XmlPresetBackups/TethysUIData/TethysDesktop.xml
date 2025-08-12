@@ -82,7 +82,7 @@
         <Component type="ScriptAudioWaveform" id="awfSamplerA" x="15.0" y="88.0"
                    parentComponent="pnlSamplerA" width="270.0" processorId="SamplerA"
                    bgColour="4278782217" itemColour="0" itemColour2="4292072403"
-                   showFileName="0" enableRange="0" height="110.0"/>
+                   showFileName="0" enableRange="0" height="110.0" sampleIndex="10"/>
         <Component type="ScriptButton" id="btnSamplerAReverse" x="245.0" y="198.0"
                    enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerA"
                    tooltip="Reverse Sample playback."/>
@@ -186,7 +186,7 @@
         <Component type="ScriptAudioWaveform" id="awfSamplerB" x="15.0" y="88.0"
                    parentComponent="pnlSamplerB" width="270.0" processorId="SamplerB"
                    showFileName="0" bgColour="4278782217" enableRange="0" itemColour="0"
-                   itemColour2="4292072403" height="110.0"/>
+                   itemColour2="4292072403" height="110.0" sampleIndex="10"/>
         <Component type="ScriptButton" id="btnSamplerBReverse" x="245.0" y="198.0"
                    enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerB"
                    tooltip="Reverse Sample playback."/>
@@ -290,7 +290,7 @@
         <Component type="ScriptAudioWaveform" id="awfSamplerC" x="15.0" y="88.0"
                    parentComponent="pnlSamplerC" width="270.0" processorId="SamplerC"
                    showFileName="0" enableRange="0" bgColour="4278782217" itemColour="0"
-                   itemColour2="4292072403" height="110.0"/>
+                   itemColour2="4292072403" height="110.0" sampleIndex="10"/>
         <Component type="ScriptButton" id="btnSamplerCReverse" x="245.0" y="198.0"
                    enableMidiLearn="0" width="40.0" height="18.0" parentComponent="pnlSamplerC"
                    tooltip="Reverse Sample playback."/>
@@ -374,7 +374,7 @@
                    fontName="regular" fontSize="12.0" editable="0"/>
       </Component>
       <Component type="ScriptPanel" id="pnlSamplerOther" x="38.0" y="15.0" width="300.0"
-                 height="440.0" parentComponent="pnlBody" visible="0">
+                 height="440.0" parentComponent="pnlBody" visible="0.0">
         <Component type="ScriptButton" id="btnSamplerOtherBypass" x="10.0" y="10.0"
                    parentComponent="pnlSamplerOther" width="16.0" height="16.0"
                    enableMidiLearn="0" tooltip="Bypass this Sampler."/>

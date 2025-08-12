@@ -70,7 +70,7 @@ for (i=0; i<128; i++)
 	Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
 
 	// Main Keys
-	if (i < 36 || i > 120)
+	if (i < 36 || i > 115)
 		Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));				
 }
 

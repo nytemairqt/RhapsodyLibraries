@@ -42,7 +42,7 @@ for (i=0; i<128; i++)
     Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.1));
 
     // Main Keys
-    if (i < 24 || i > 108)
+    if (i < 24 || i > 113)
         Engine.setKeyColour(i, Colours.withAlpha(Colours.black, 0.8));              
 }
 

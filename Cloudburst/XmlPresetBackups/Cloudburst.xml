@@ -140,12 +140,12 @@
             <Control type="ScriptButton" id="btnMoveConnectionSettings" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosBypass" value="0.0"/>
             <Control type="ScriptButton" id="btnMoveChaosTypeA" value="1.0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0"/>
-            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeB" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeC" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeD" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeE" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeF" value="0.0"/>
+            <Control type="ScriptButton" id="btnMoveChaosTypeG" value="0.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosRate" value="10.0"/>
             <Control type="ScriptSlider" id="knbMoveChaosIntensity" value="25.0"/>
             <Control type="ScriptSlider" id="knbMasterGain" value="-6.0"/>
@@ -953,10 +953,10 @@
     <macro name="X Neg" value="63.5" midi_cc="-1"/>
     <macro name="Y Pos" value="63.5" midi_cc="-1"/>
     <macro name="Y Neg" value="63.5" midi_cc="-1"/>
-    <macro name="Env A" value="127.0" midi_cc="-1"/>
-    <macro name="Env B" value="127.0" midi_cc="-1"/>
-    <macro name="Velocity" value="127.0" midi_cc="-1"/>
-    <macro name="Random" value="127.0" midi_cc="-1"/>
+    <macro name="Env A" value="0.0" midi_cc="-1"/>
+    <macro name="Env B" value="0.0" midi_cc="-1"/>
+    <macro name="Velocity" value="93.0" midi_cc="-1"/>
+    <macro name="Random" value="22.48054695129395" midi_cc="-1"/>
   </macro_controls>
   <MidiAutomation/>
   <MPEData Enabled="0"/>
